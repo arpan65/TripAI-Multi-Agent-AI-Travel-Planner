@@ -1,6 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const API_BASE = import.meta.env.VITE_API_URL || "";
+
+const toSafeString = (value) => {
+  if (typeof value === "string") return value;
+  if (value == null) return "";
+  try {
+    return JSON.stringify(value, null, 2);
+  } catch {
+    return String(value);
+  }
+};
 
 function App() {
   const [messages, setMessages] = useState([]);
@@ -8,6 +18,13 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [sessionId, setSessionId] = useState(null);
   const [error, setError] = useState("");
+  const chatListRef = useRef(null);
+
+  useEffect(() => {
+    const container = chatListRef.current;
+    if (!container) return;
+    container.scrollTop = container.scrollHeight;
+  }, [messages, loading, error]);
 
   const sendMessage = async () => {
     const trimmed = input.trim();
@@ -35,9 +52,12 @@ function App() {
 
       const data = await res.json();
       setSessionId(data.session_id);
-      setMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
+      setMessages((prev) => [
+        ...prev,
+        { role: "assistant", content: toSafeString(data.reply) || "No response from backend." }
+      ]);
     } catch (err) {
-      setError(err.message || "Unexpected error occurred");
+      setError(toSafeString(err?.message ?? err) || "Unexpected error occurred");
     } finally {
       setLoading(false);
     }
@@ -96,22 +116,48 @@ function App() {
           <p>Real-time web-connected intelligence via Model Context Protocol</p>
         </header>
 
-        <section className="chat-list">
-          {messages.length === 0 ? (
+        <section className="chat-list" ref={chatListRef}>
+          {messages.length === 0 && !loading ? (
             <div className="empty-state">
               Ask for live data, news, stock prices, or browser-assisted tasks.
             </div>
           ) : (
-            messages.map((message, idx) => (
-              <article key={`${message.role}-${idx}`} className={`bubble ${message.role}`}>
-                <div className="bubble-role">{message.role === "user" ? "You" : "Assistant"}</div>
-                <div className="bubble-content">{message.content}</div>
-              </article>
-            ))
+            <>
+              {messages.map((message, idx) => (
+                <article
+                  key={`${message?.role === "assistant" ? "assistant" : "user"}-${idx}`}
+                  className={`bubble-row ${message?.role === "assistant" ? "assistant" : "user"}`}
+                >
+                  <div className={`bubble ${message?.role === "assistant" ? "assistant" : "user"}`}>
+                    <div className="bubble-role">
+                      {message?.role === "assistant" ? "Assistant" : "You"}
+                    </div>
+                    <div className="bubble-content">
+                      {toSafeString(message?.content)}
+                    </div>
+                  </div>
+                </article>
+              ))}
+              {loading ? (
+                <article className="bubble-row assistant">
+                  <div className="bubble assistant thinking-bubble">
+                    <div className="bubble-role">Assistant</div>
+                    <div className="thinking-row">
+                      <span>Thinking</span>
+                      <span className="thinking-dots" aria-hidden="true">
+                        <i />
+                        <i />
+                        <i />
+                      </span>
+                    </div>
+                  </div>
+                </article>
+              ) : null}
+            </>
           )}
         </section>
 
-        {error ? <div className="error-box">{error}</div> : null}
+        {error ? <div className="error-box">{toSafeString(error)}</div> : null}
 
         <form className="input-row" onSubmit={handleSubmit}>
           <input
@@ -128,5 +174,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

@@ -1,6 +1,7 @@
 import asyncio
 import os
 from contextlib import AsyncExitStack
+from typing import Any
 from anthropic import Anthropic
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
@@ -92,16 +93,43 @@ class MCPAgent:
                 session = self.sessions[session_idx]
 
                 print(f"[*] {tool_def['server_name']} action: {tool_call.name}")
-                result = await session.call_tool(tool_call.name, tool_call.input)
-                
+                try:
+                    result = await session.call_tool(tool_call.name, tool_call.input)
+                    tool_output = self._format_tool_result(result)
+                except Exception as e:
+                    # Keep the conversation alive even when a tool fails.
+                    tool_output = f"Tool execution failed: {e}"
+
                 self.history.append({
                     "role": "user",
-                    "content": [{"type": "tool_result", "tool_use_id": tool_call.id, "content": result.content[0].text}]
+                    "content": [{"type": "tool_result", "tool_use_id": tool_call.id, "content": tool_output}]
                 })
 
     async def disconnect(self):
         if self.stack:
             print("[*] Shutting down MCP servers...")
-            await self.stack.aclose()
+            try:
+                await self.stack.aclose()
+            except Exception as e:
+                # AnyIO/MCP can raise task-bound cancel-scope errors during uvicorn reload.
+                # We log and continue so server reload/shutdown does not fail hard.
+                print(f"[!] MCP shutdown warning: {e}")
             self.sessions = []
             self.stack = None
+
+    def _format_tool_result(self, result: Any) -> str:
+        content = getattr(result, "content", None)
+        if not content:
+            return "Tool returned no content."
+
+        chunks = []
+        for item in content:
+            text = getattr(item, "text", None)
+            if text:
+                chunks.append(str(text))
+                continue
+
+            # Fallback for non-text content blocks.
+            chunks.append(str(item))
+
+        return "\n".join(chunks).strip() or "Tool returned empty content."
