@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - button "Explore " [ref=e18] [cursor=pointer]
+        - listitem [ref=e19]:
+          - button "Check my bus " [ref=e20] [cursor=pointer]
+        - listitem [ref=e21]:
+          - link "Help" [ref=e22] [cursor=pointer]:
+            - /url: /help
+        - listitem [ref=e23]:
+          - link "Change trip" [ref=e24] [cursor=pointer]:
+            - /url: /journey-planner/manage-booking
+        - listitem [ref=e25]:
+          - link "Log in/Sign up" [ref=e26] [cursor=pointer]:
+            - /url: /account-management/login
+        - listitem [ref=e27]:
+          - button "Change location & language" [ref=e28] [cursor=pointer]: 
+      - link " 0" [ref=e33] [cursor=pointer]:
+        - /url: /journey-planner/basket
+        - text: 
+        - generic [ref=e34]: "0"
+  - main

@@ -1,0 +1,11 @@
+[     478ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.viarail.ca/en/fares-and-packages/train-fares:0
+[    1351ms] [INFO] Booting Vue.Js paragraph app @ https://www.viarail.ca/sites/all/files/js/js_4Mc0rs0ymHDmf5_rmBCihfJSelTin3wgNwmZiZS8jWk.js?scope=footer&delta=0&language=en&theme=viarail&include=eJxLrSjJyczL1k8pKi1IzNFLhXB1yjITixIzc_STSvNSclJ1CxLTU3VNDEx0U_OwScUXAIXSixILMuCyWcW6afn5JalFyCIZqYkpAIUcKoc:567
+[    1525ms] TypeError: Cannot read properties of null (reading 'includes')
+    at https://www.viarail.ca/sites/all/files/js/js_4Mc0rs0ymHDmf5_rmBCihfJSelTin3wgNwmZiZS8jWk.js?scope=footer&delta=0&language=en&theme=viarail&include=eJxLrSjJyczL1k8pKi1IzNFLhXB1yjITixIzc_STSvNSclJ1CxLTU3VNDEx0U_OwScUXAIXSixILMuCyWcW6afn5JalFyCIZqYkpAIUcKoc:571:960469
+    at Generator.next (<anonymous>)
+    at a (https://www.viarail.ca/sites/all/files/js/js_4Mc0rs0ymHDmf5_rmBCihfJSelTin3wgNwmZiZS8jWk.js?scope=footer&delta=0&language=en&theme=viarail&include=eJxLrSjJyczL1k8pKi1IzNFLhXB1yjITixIzc_STSvNSclJ1CxLTU3VNDEx0U_OwScUXAIXSixILMuCyWcW6afn5JalFyCIZqYkpAIUcKoc:571:594808)
+    at s (https://www.viarail.ca/sites/all/files/js/js_4Mc0rs0ymHDmf5_rmBCihfJSelTin3wgNwmZiZS8jWk.js?scope=footer&delta=0&language=en&theme=viarail&include=eJxLrSjJyczL1k8pKi1IzNFLhXB1yjITixIzc_STSvNSclJ1CxLTU3VNDEx0U_OwScUXAIXSixILMuCyWcW6afn5JalFyCIZqYkpAIUcKoc:571:595010)
+[    3131ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.viarail.ca/en/fares-and-packages/train-fares:0
+[    5126ms] TypeError: Cannot read properties of null (reading 'id')
+    at https://www.viarail.ca/sites/all/files/js/js_4Mc0rs0ymHDmf5_rmBCihfJSelTin3wgNwmZiZS8jWk.js?scope=footer&delta=0&language=en&theme=viarail&include=eJxLrSjJyczL1k8pKi1IzNFLhXB1yjITixIzc_STSvNSclJ1CxLTU3VNDEx0U_OwScUXAIXSixILMuCyWcW6afn5JalFyCIZqYkpAIUcKoc:571:283750
+    at https://www.viarail.ca/sites/all/files/js/js_4Mc0rs0ymHDmf5_rmBCihfJSelTin3wgNwmZiZS8jWk.js?scope=footer&delta=0&language=en&theme=viarail&include=eJxLrSjJyczL1k8pKi1IzNFLhXB1yjITixIzc_STSvNSclJ1CxLTU3VNDEx0U_OwScUXAIXSixILMuCyWcW6afn5JalFyCIZqYkpAIUcKoc:571:283910

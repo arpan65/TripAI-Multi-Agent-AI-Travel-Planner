@@ -1,0 +1,209 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph
+    - button "Close" [ref=e5] [cursor=pointer]: 
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e20]:
+        - listitem [ref=e21]:
+          - button "Explore " [ref=e22] [cursor=pointer]
+        - listitem [ref=e23]:
+          - button "Check my bus " [ref=e24] [cursor=pointer]
+        - listitem [ref=e25]:
+          - link "Help" [ref=e26] [cursor=pointer]:
+            - /url: /help
+        - listitem [ref=e27]:
+          - link "Change trip" [ref=e28] [cursor=pointer]:
+            - /url: /journey-planner/manage-booking
+        - listitem [ref=e29]:
+          - link "Log in/Sign up" [ref=e30] [cursor=pointer]:
+            - /url: /account-management/login
+        - listitem [ref=e31]:
+          - button "Change location & language" [ref=e32] [cursor=pointer]: 
+      - generic [ref=e36]:
+        - 'link "Basket: 0" [ref=e37] [cursor=pointer]':
+          - /url: "#miniBasket"
+          - text: 
+          - generic [ref=e38]: "0"
+        - generic:
+          - generic: 
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "Express bus service in Canada" [level=1] [ref=e47]
+        - generic [ref=e61]:
+          - generic [ref=e63]:
+            - heading "Book now" [level=2] [ref=e64]
+            - group "Trip type" [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - radio "One way" [ref=e68]
+                  - generic [ref=e69] [cursor=pointer]: One way
+                - generic [ref=e70]:
+                  - radio "Round trip" [checked] [ref=e71]
+                  - generic [ref=e72] [cursor=pointer]: Round trip
+          - generic [ref=e73]:
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: From
+                - generic [ref=e79]:
+                  - textbox "From" [ref=e80]:
+                    - /placeholder: Enter a town or city
+                  - text: 
+              - generic [ref=e81]:
+                - generic [ref=e82]: To
+                - generic [ref=e84]:
+                  - textbox "To" [ref=e85]:
+                    - /placeholder: Enter a town or city
+                  - text: 
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: Leaving
+                - generic "Departure date" [ref=e90]:
+                  - textbox "Pick a date" [ref=e96]
+              - generic [ref=e98]:
+                - generic [ref=e99]: Returning
+                - generic "Return date" [ref=e100]:
+                  - textbox "Pick a date" [ref=e106]
+          - generic [ref=e108]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: How many travelers?
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - button [disabled]:
+                    - generic: 
+                - spinbutton "How many travelers?" [ref=e117]: "1"
+                - button [ref=e119] [cursor=pointer]:
+                  - generic [ref=e120]: 
+            - button "Find tickets" [ref=e125] [cursor=pointer]
+      - img "Sid" [ref=e129]
+    - generic [ref=e130]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Explore Megabus" [level=3] [ref=e137]
+          - text: Begin your trip and explore the most iconic cities in North America. Bus service across Canada has never been easier.
+        - generic [ref=e138]:
+          - text:  
+          - link "Experience Niagara Falls Let us take you to the Niagara Region and connect with WEGO to visit the sites and breathtaking falls!" [ref=e144] [cursor=pointer]:
+            - /url: /niagara-falls
+            - generic [ref=e146]:
+              - heading "Experience Niagara Falls" [level=2] [ref=e147]
+              - paragraph [ref=e148]: Let us take you to the Niagara Region and connect with WEGO to visit the sites and breathtaking falls!
+      - generic [ref=e152]:
+        - link "About megabus The Megabus Experience Learn more about how we aim to make your trip safe, convenient and affordable." [ref=e157] [cursor=pointer]:
+          - /url: https://us.megabus.com/about-us
+          - img "About megabus" [ref=e159]
+          - generic [ref=e160]:
+            - heading "The Megabus Experience" [level=2] [ref=e161]
+            - paragraph [ref=e162]: Learn more about how we aim to make your trip safe, convenient and affordable.
+        - link "megabus app android Download the Megabus App Tap here to book bus tickets on our brand-new mobile app." [ref=e167] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.megabus.app
+          - img "megabus app android" [ref=e169]
+          - generic [ref=e170]:
+            - heading "Download the Megabus App" [level=2] [ref=e171]
+            - paragraph [ref=e172]: Tap here to book bus tickets on our brand-new mobile app.
+        - link "Toronto-Montreal Schedule Changes Effective May 6, 2026 Click or tap here to see our updated schedules!" [ref=e177] [cursor=pointer]:
+          - /url: /toronto-montreal-schedule-change
+          - generic [ref=e179]:
+            - heading "Toronto-Montreal Schedule Changes Effective May 6, 2026" [level=2] [ref=e180]
+            - paragraph [ref=e181]: Click or tap here to see our updated schedules!
+    - paragraph [ref=e183]: All transactions will incur a $4.99 booking fee plus associated fees and applicable taxes.
+  - contentinfo [ref=e185]:
+    - generic [ref=e189]:
+      - link "WorldPay" [ref=e191] [cursor=pointer]:
+        - /url: ""
+        - img "WorldPay" [ref=e192]
+      - link "MasterCard" [ref=e194] [cursor=pointer]:
+        - /url: ""
+        - img "MasterCard" [ref=e195]
+      - link "Visa" [ref=e197] [cursor=pointer]:
+        - /url: ""
+        - img "Visa" [ref=e198]
+      - link "Discover" [ref=e200] [cursor=pointer]:
+        - /url: ""
+        - img "Discover" [ref=e201]
+      - link "Diners Club" [ref=e203] [cursor=pointer]:
+        - /url: ""
+        - img "Diners Club" [ref=e204]
+      - link "Google Pay" [ref=e206] [cursor=pointer]:
+        - /url: ""
+        - img "Google Pay" [ref=e207]
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - heading "Explore Megabus" [level=4]:
+            - button "Explore Megabus"
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "About Megabus" [ref=e214] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=e215]:
+              - link "Media" [ref=e216] [cursor=pointer]:
+                - /url: /media-contacts
+            - listitem [ref=e217]:
+              - link "Top routes" [ref=e218] [cursor=pointer]:
+                - /url: /route-guides
+            - listitem [ref=e219]:
+              - link "City guides" [ref=e220] [cursor=pointer]:
+                - /url: /city-guides
+            - listitem [ref=e221]:
+              - link "Employment" [ref=e222] [cursor=pointer]:
+                - /url: /employment
+            - listitem [ref=e223]:
+              - link "FAQs" [ref=e224] [cursor=pointer]:
+                - /url: /help
+        - generic [ref=e225]:
+          - heading "Accessibility" [level=4]:
+            - button "Accessibility"
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "Contact Us" [ref=e228] [cursor=pointer]:
+                - /url: /contact-us
+            - listitem [ref=e229]:
+              - link "Customers with disabilities" [ref=e230] [cursor=pointer]:
+                - /url: /passengers-with-disabilities
+            - listitem [ref=e231]:
+              - link "Privacy policy" [ref=e232] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e233]:
+              - link "Using this website" [ref=e234] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e235]:
+              - link "Terms and conditions" [ref=e236] [cursor=pointer]:
+                - /url: /terms
+        - generic [ref=e237]:
+          - heading "Coach USA in North America" [level=4]:
+            - button "Coach USA in North America"
+          - list [ref=e238]:
+            - listitem [ref=e239]:
+              - link "Coach Canada" [ref=e240] [cursor=pointer]:
+                - /url: http://www.coachcanada.com/
+            - listitem [ref=e241]:
+              - link "Coach USA" [ref=e242] [cursor=pointer]:
+                - /url: https://www.coachusa.com/
+            - listitem [ref=e243]:
+              - link "Mexico Mexico" [ref=e244] [cursor=pointer]:
+                - /url: https://www.megabus.mx/en-us
+        - generic [ref=e246]:
+          - generic [ref=e248]:
+            - link "facebook" [ref=e250] [cursor=pointer]:
+              - /url: https://www.facebook.com/megabus.officialpage
+              - img "facebook" [ref=e251]
+            - link "twitter" [ref=e253] [cursor=pointer]:
+              - /url: https://twitter.com/megabus
+              - img "twitter" [ref=e254]
+            - link "instagram" [ref=e256] [cursor=pointer]:
+              - /url: https://www.instagram.com/megabus
+              - img "instagram" [ref=e257]
+          - generic [ref=e258]:
+            - link "megaubs app" [ref=e260] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/megabus/id6743745019
+              - img "megaubs app" [ref=e261]
+            - link "megabus app android" [ref=e263] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.megabus.app&pli=1
+              - img "megabus app android" [ref=e264]
+      - generic [ref=e266]: © 2026 Coach USA

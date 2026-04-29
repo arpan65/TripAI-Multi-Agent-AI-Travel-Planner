@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e35]:
+    - generic [ref=e37]:
+      - paragraph
+    - button "Close" [ref=e38] [cursor=pointer]: 
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - button "Explore " [ref=e18] [cursor=pointer]
+        - listitem [ref=e19]:
+          - button "Check my bus " [ref=e20] [cursor=pointer]
+        - listitem [ref=e21]:
+          - link "Help" [ref=e22] [cursor=pointer]:
+            - /url: /help
+        - listitem [ref=e23]:
+          - link "Change trip" [ref=e24] [cursor=pointer]:
+            - /url: /journey-planner/manage-booking
+        - listitem [ref=e25]:
+          - link "Log in/Sign up" [ref=e26] [cursor=pointer]:
+            - /url: /account-management/login
+        - listitem [ref=e27]:
+          - button "Change location & language" [ref=e28] [cursor=pointer]: 
+      - generic [ref=e39]:
+        - 'link "Basket: 0" [ref=e40] [cursor=pointer]':
+          - /url: "#miniBasket"
+          - text: 
+          - generic [ref=e41]: "0"
+        - generic:
+          - generic: 
+  - main [ref=e42]:
+    - generic [ref=e45]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - heading "Book now" [level=2] [ref=e58]
+          - group "Trip type" [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - radio "One way" [checked] [ref=e62]
+                - generic [ref=e63] [cursor=pointer]: One way
+              - generic [ref=e64]:
+                - radio "Round trip" [ref=e65]
+                - generic [ref=e66] [cursor=pointer]: Round trip
+        - generic [ref=e67]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: From
+              - generic "Toronto Airport(YYZ), ON" [ref=e72]:
+                - generic [ref=e73]:
+                  - textbox "From" [ref=e74]:
+                    - /placeholder: Enter a town or city
+                    - text: Toronto Airport(YYZ), ON
+                  - button "" [ref=e75] [cursor=pointer]:
+                    - generic [ref=e76]: 
+            - generic [ref=e77]:
+              - generic [ref=e78]: To
+              - generic [ref=e80]:
+                - textbox "To" [ref=e81]:
+                  - /placeholder: Enter a town or city
+                - text: 
+          - generic [ref=e84]:
+            - generic [ref=e85]: Leaving
+            - generic "Departure date" [ref=e86]:
+              - textbox "Pick a date" [ref=e92]
+        - generic [ref=e94]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: How many travelers?
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - button [disabled]:
+                  - generic: 
+              - spinbutton "How many travelers?" [ref=e103]: "1"
+              - button [ref=e105] [cursor=pointer]:
+                - generic [ref=e106]: 
+          - button "Find tickets" [ref=e111] [cursor=pointer]: Update search
+      - generic [ref=e113]:
+        - generic: 

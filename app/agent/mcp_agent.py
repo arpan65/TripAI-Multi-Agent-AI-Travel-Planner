@@ -112,19 +112,9 @@ def build_server_configs(pw_browsers_path: Optional[str]) -> dict:
 
     configs = {
         "browser": StdioServerParameters(
-            command="npx",
-            args=[
-                "-y",
-                "@playwright/mcp@latest",
-                "--headless",
-                "--browser", "chromium",
-                "--viewport-size", "1920,1080",   # wider = more content visible
-                "--user-agent",
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36",
-            ],
-            env=env,
+        command="npx",
+        args=["-y", "@playwright/mcp@latest"],
+        env={**os.environ, "PLAYWRIGHT_HEADLESS": "true"}
         ),
         "financial_quant": StdioServerParameters(
             command="uvx",
@@ -271,6 +261,12 @@ Output structured Markdown:
 
 ## ⚠️ Issues
 (blocked pages, captchas, empty results)
+
+IMPORTANT:
+- Process up to 3 URLs per turn
+- Do NOT loop endlessly
+- Extract everything in one pass per URL
+- If you get results from one URL, stop and return the results
 """,
 
 # ── PRICER ──────────────────────────────────────────────────────────
