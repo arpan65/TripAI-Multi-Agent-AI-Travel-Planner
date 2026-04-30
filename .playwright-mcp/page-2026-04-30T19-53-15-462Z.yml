@@ -1,0 +1,96 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e4]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - link "Viator" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e13]:
+            - img "Viator logo" [ref=e14]
+            - generic [ref=e18]: a Tripadvisor company
+        - search [ref=e20]:
+          - generic [ref=e22]:
+            - log [ref=e24]
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e29]:
+                - generic [ref=e30]: Search for a place or activity
+                - combobox "Search for a place or activity" [ref=e32]
+      - generic [ref=e33]:
+        - button "Language and Currency" [ref=e34] [cursor=pointer]:
+          - img [ref=e35]
+        - link "Viator Rewards" [ref=e37] [cursor=pointer]:
+          - /url: /rewards
+          - img [ref=e39]
+        - button "profile" [ref=e43] [cursor=pointer]:
+          - img [ref=e44]
+          - img [ref=e49]
+    - main [ref=e57]:
+      - generic [ref=e60]:
+        - img "Page not found 404 sign" [ref=e63]
+        - generic [ref=e66]:
+          - heading "Oops..." [level=1] [ref=e67]
+          - paragraph [ref=e68]: We can't find that page!
+          - link "Take me home" [ref=e69] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e70]: Take me home
+    - contentinfo [ref=e71]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - link "Facebook" [ref=e78] [cursor=pointer]:
+            - /url: https://www.facebook.com/viatortravel/
+            - img [ref=e79]
+          - link "X" [ref=e81] [cursor=pointer]:
+            - /url: https://x.com/ViatorTravel
+            - img [ref=e82]
+          - link "Pinterest" [ref=e84] [cursor=pointer]:
+            - /url: https://www.pinterest.com/viator/
+            - img [ref=e85]
+          - link "Instagram" [ref=e87] [cursor=pointer]:
+            - /url: https://www.instagram.com/viator
+            - img [ref=e88]
+          - link "YouTube" [ref=e90] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/ViatorTravel
+            - img [ref=e91]
+          - link "TikTok" [ref=e93] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@viator
+            - img [ref=e94]
+        - generic [ref=e96]:
+          - button "Help Center" [ref=e97] [cursor=pointer]
+          - link "Privacy and Cookies Statement" [ref=e98] [cursor=pointer]:
+            - /url: /support/privacyPolicy
+          - link "About Viator" [ref=e99] [cursor=pointer]:
+            - /url: /support/about
+          - link "Careers" [ref=e100] [cursor=pointer]:
+            - /url: /careers
+          - link "Sitemap" [ref=e101] [cursor=pointer]:
+            - /url: /sitemap
+          - link "Supplier Sign Up" [ref=e102] [cursor=pointer]:
+            - /url: https://supplier.viator.com/sign-up-info?m=62034
+          - link "Travel Agents" [ref=e103] [cursor=pointer]:
+            - /url: https://travelagents.viator.com/
+          - link "Become an Affiliate" [ref=e104] [cursor=pointer]:
+            - /url: https://partnerresources.viator.com/?utm_source=viator&utm_medium=referral&utm_campaign=distribution-partners
+          - link "News" [ref=e105] [cursor=pointer]:
+            - /url: /news
+          - link "Viator blog" [ref=e106] [cursor=pointer]:
+            - /url: /blog
+          - link "Accessibility" [ref=e107] [cursor=pointer]:
+            - /url: /support/accessibility
+        - separator [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - link "Download the Viator app from the Google Play store" [ref=e112] [cursor=pointer]:
+              - /url: https://my-viator.onelink.me/biAM/ftbseoand
+              - img "Download the Viator app from the Google Play store" [ref=e113]
+            - link "Download the Viator app from the Apple App Store" [ref=e115] [cursor=pointer]:
+              - /url: https://my-viator.onelink.me/biAM/ftbseoios
+              - img "Download the Viator app from the Apple App Store" [ref=e116]
+          - generic [ref=e117]:
+            - generic [ref=e118]: © 1997-2026 Viator, Inc.
+            - generic [ref=e119]:
+              - link "Terms & Conditions" [ref=e120] [cursor=pointer]:
+                - /url: /support/termsAndConditions
+              - link "How Viator works" [ref=e121] [cursor=pointer]:
+                - /url: /support/siteoperation

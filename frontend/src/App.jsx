@@ -127,7 +127,15 @@ export default function App() {
             const idx = PHASES.findIndex((p) => data.phase.includes(p.icon));
             if (idx >= 0) setPhaseIdx(idx);
           }
-          else if (data.type === "result") setResult(toSafeString(data.reply) || "No response from backend.");
+          else if (data.type === "result") {
+            try {
+              const parsed = JSON.parse(data.reply);
+              if (parsed.error) throw new Error(parsed.error);
+              setResult(parsed);
+            } catch {
+              throw new Error("Failed to parse travel data from agent");
+            }
+          }
           else if (data.type === "error") throw new Error(data.message || "Agent error");
         }
       }
@@ -312,7 +320,7 @@ export default function App() {
             <span className="results-badge">{form.pax} traveller{form.pax !== 1 ? "s" : ""}</span>
           </div>
           <ResultBoundary>
-            <TripResult markdown={result} />
+            <TripResult data={result} />
           </ResultBoundary>
         </section>
       )}

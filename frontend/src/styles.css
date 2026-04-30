@@ -470,32 +470,47 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Intro block ──────────────────────────────────────────── */
-.trip-intro {
+/* ── Trip header ──────────────────────────────────────────── */
+.trip-header {
   padding: 4px 0 8px;
 }
 
-.trip-intro h1 {
-  font-size: 1.55rem;
+.trip-route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.trip-origin, .trip-dest {
+  font-size: 1.35rem;
   font-weight: 800;
   color: var(--text);
   letter-spacing: -0.02em;
-  margin: 0 0 6px;
-  line-height: 1.2;
 }
 
-.trip-intro p {
+.trip-arrow {
+  font-size: 1.1rem;
   color: var(--text-soft);
-  font-size: 0.95rem;
-  margin: 0 0 4px;
-  line-height: 1.5;
 }
 
-.trip-intro strong { color: var(--text); font-weight: 700; }
-.trip-intro hr { display: none; }
+.trip-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.trip-meta-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  background: rgba(0,0,0,0.05);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
 
 /* ── Section cards ────────────────────────────────────────── */
-.trip-section {
+.trip-card {
   background: #fff;
   border: 1px solid var(--sbr);
   border-radius: 14px;
@@ -503,13 +518,18 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-.section-hdr {
+.trip-card-hdr {
   padding: 10px 20px;
   background: var(--sb);
   border-bottom: 1px solid var(--sbr);
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.section-hdr-title {
+.card-icon { font-size: 1rem; line-height: 1; }
+
+.card-title {
   font-size: 0.72rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -517,96 +537,68 @@ body {
   color: var(--sc);
 }
 
-.section-body {
+.trip-card-body {
   padding: 20px 24px;
-  font-size: 0.92rem;
-  line-height: 1.6;
-  color: var(--text);
 }
 
-/* Paragraphs */
-.section-body p { margin: 0 0 8px; }
-.section-body p:last-child { margin-bottom: 0; }
-.section-body strong { font-weight: 700; color: var(--text); }
-.section-body em { color: var(--text-soft); font-style: italic; }
-.section-body a { color: var(--sc, var(--accent)); text-decoration: none; }
-.section-body a:hover { text-decoration: underline; }
-.section-body hr { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
-.section-body ul, .section-body ol { padding-left: 20px; margin: 4px 0 8px; }
-.section-body li { margin-bottom: 3px; }
-.section-body blockquote {
-  border-left: 3px solid var(--sc, var(--accent));
-  margin: 8px 0;
-  padding: 4px 0 4px 14px;
-  color: var(--text-soft);
-}
-.section-body code {
-  background: #f3f4f6;
-  border-radius: 4px;
-  padding: 1px 5px;
-  font-size: 0.83em;
-  font-family: ui-monospace, monospace;
+/* ── Data tables ──────────────────────────────────────────── */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-/* Sub-headings within sections */
-.section-body h3 {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--sc);
-  margin: 18px 0 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid var(--sbr);
-  letter-spacing: -0.01em;
-}
-.section-body h3:first-child { margin-top: 0; }
-
-.section-body h4 {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text);
-  margin: 12px 0 5px;
-}
-
-/* Tables */
-.section-body table {
+.data-table {
   border-collapse: collapse;
   width: 100%;
   font-size: 0.85rem;
-  display: block;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 6px 0;
+  white-space: nowrap;
 }
 
-.section-body thead th {
+.data-table thead th {
   padding: 8px 12px;
   text-align: left;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-soft);
   border-bottom: 2px solid var(--border);
-  white-space: nowrap;
 }
 
-.section-body tbody td {
+.data-table tbody td {
   padding: 10px 12px;
   border-bottom: 1px solid #f3f4f6;
-  vertical-align: top;
+  vertical-align: middle;
   color: var(--text);
+  white-space: normal;
 }
 
-.section-body tbody tr:last-child td { border-bottom: none; }
-.section-body tbody tr:hover td { background: var(--surface2); }
+.data-table tbody tr:last-child td { border-bottom: none; }
+.data-table tbody tr:hover td { background: var(--surface2); }
 
-/* ── Itinerary: day cards ─────────────────────────────────── */
-.trip-section--itinerary .section-body h3 {
-  background: var(--sb);
-  border: 1px solid var(--sbr);
-  border-radius: 8px;
-  padding: 7px 14px;
-  margin: 14px 0 8px;
+.cell-strong { font-weight: 600; color: var(--text); }
+.cell-price  { font-weight: 600; color: var(--sc, var(--text)); white-space: nowrap; }
+.no-val      { color: var(--text-xsoft); }
+
+.stars { color: #f59e0b; font-size: 0.82rem; letter-spacing: -1px; }
+
+.book-link {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--sc, var(--accent));
+  text-decoration: none;
+  white-space: nowrap;
+}
+.book-link:hover { text-decoration: underline; }
+
+.subtable-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--sc);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
 }
 
 /* ── Budget tier grid ─────────────────────────────────────── */
@@ -649,7 +641,6 @@ body {
   color: var(--text-soft);
   padding: 0 14px 10px;
 }
-
 .tier-pp span { font-size: 0.7rem; }
 
 .tier-items {
@@ -666,7 +657,6 @@ body {
   border-bottom: 1px solid #f3f4f6;
   gap: 8px;
 }
-
 .tier-item:last-child { border-bottom: none; }
 
 .tier-item-label {
@@ -686,14 +676,104 @@ body {
   white-space: nowrap;
 }
 
-.budget-notes {
-  border-top: 1px solid var(--border);
-  padding-top: 14px;
-  margin-top: 6px;
-  font-size: 0.83rem;
+.budget-note {
+  margin-top: 12px;
+  font-size: 0.8rem;
   color: var(--text-soft);
-  line-height: 1.55;
+  font-style: italic;
+  line-height: 1.5;
 }
+
+/* ── Itinerary ────────────────────────────────────────────── */
+.day-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.day-card {
+  border: 1px solid var(--sbr);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.day-hdr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  background: var(--sb);
+  border-bottom: 1px solid var(--sbr);
+}
+
+.day-number {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--sc);
+}
+
+.day-date {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.day-label {
+  font-size: 0.75rem;
+  color: var(--text-soft);
+  margin-left: auto;
+  font-style: italic;
+}
+
+.day-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-slot {
+  display: flex;
+  gap: 10px;
+  padding: 9px 14px;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 0.87rem;
+}
+.time-slot:last-child { border-bottom: none; }
+
+.time-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-soft);
+  white-space: nowrap;
+  min-width: 80px;
+  padding-top: 1px;
+}
+
+.time-text {
+  color: var(--text);
+  line-height: 1.5;
+  flex: 1;
+}
+
+/* ── Data notes ───────────────────────────────────────────── */
+.notes-list {
+  padding-left: 18px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.note-item {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-soft);
+}
+
+.note-item--failed  { color: #b91c1c; }
+.note-item--estimate { color: var(--text-soft); }
+.note-item--missing  { color: #92400e; }
 
 /* ── FOOTER ───────────────────────────────────────────────── */
 .footer {
@@ -747,6 +827,8 @@ body {
   .step-label { font-size: 0.65rem; max-width: 60px; }
 
   .results-section { padding: 0 16px; }
-  .section-body { padding: 16px; }
+  .trip-card-body { padding: 16px; }
   .tier-grid { grid-template-columns: 1fr; gap: 10px; }
+  .day-hdr { flex-wrap: wrap; }
+  .day-label { margin-left: 0; }
 }

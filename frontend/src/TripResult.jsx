@@ -1,206 +1,301 @@
-import React, { useMemo } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import React from "react";
 
-const LINK = ({ node, ...props }) => (
-  <a {...props} target="_blank" rel="noopener noreferrer" />
-);
-const MD = { a: LINK };
+// ─── Trip Header ──────────────────────────────────────────────────────────────
 
-// ─── Section metadata ────────────────────────────────────────────────────────
-
-const SECTION_STYLES = {
-  transport:     { color: "#3b82f6", bg: "#eff6ff", border: "#bfdbfe" },
-  accommodation: { color: "#f97316", bg: "#fff7ed", border: "#fed7aa" },
-  budget:        { color: "#10b981", bg: "#ecfdf5", border: "#a7f3d0" },
-  itinerary:     { color: "#8b5cf6", bg: "#f5f3ff", border: "#ddd6fe" },
-  around:        { color: "#0ea5e9", bg: "#f0f9ff", border: "#bae6fd" },
-  quality:       { color: "#ef4444", bg: "#fef2f2", border: "#fecaca" },
-  default:       { color: "#6b7280", bg: "#f9fafb", border: "#e5e7eb" },
-};
-
-function detectType(title) {
-  const t = title.toLowerCase();
-  if (/travel|flight|bus|train|outbound|return/.test(t)) return "transport";
-  if (/accommodation|hotel|hostel|stay/.test(t)) return "accommodation";
-  if (/budget|cost|summary/.test(t)) return "budget";
-  if (/itinerary|day \d|schedule/.test(t)) return "itinerary";
-  if (/getting around|local transport|transit/.test(t)) return "around";
-  if (/data quality|notes|⚠/.test(t)) return "quality";
-  return "default";
+function fmtDate(d) {
+  if (!d) return "—";
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const [, m, day] = d.split("-");
+  return `${months[+m - 1]} ${+day}`;
 }
 
-// ─── Markdown table parser ────────────────────────────────────────────────────
-
-function findTableBlocks(content) {
-  const lines = content.split("\n");
-  const blocks = [];
-  let start = -1;
-  for (let i = 0; i <= lines.length; i++) {
-    const isRow = i < lines.length && /^\s*\|/.test(lines[i]);
-    if (isRow && start === -1) start = i;
-    else if (!isRow && start !== -1) {
-      blocks.push(lines.slice(start, i).join("\n"));
-      start = -1;
-    }
-  }
-  return blocks;
+function TripHeader({ trip }) {
+  return (
+    <div className="trip-header">
+      <div className="trip-route">
+        <span className="trip-origin">{trip.origin}</span>
+        <span className="trip-arrow">→</span>
+        <span className="trip-dest">{trip.destination}</span>
+      </div>
+      <div className="trip-meta-row">
+        <span className="trip-meta-pill">{fmtDate(trip.depart_date)} – {fmtDate(trip.return_date)}</span>
+        <span className="trip-meta-pill">{trip.nights} night{trip.nights !== 1 ? "s" : ""}</span>
+        <span className="trip-meta-pill">{trip.travellers} traveller{trip.travellers !== 1 ? "s" : ""}</span>
+        <span className="trip-meta-pill">{trip.currency}</span>
+      </div>
+    </div>
+  );
 }
 
-function parseTable(block) {
-  const lines = block.trim().split("\n").filter(l => /^\s*\|/.test(l));
-  if (lines.length < 3) return null;
-  const row = l => l.replace(/^\s*\||\|\s*$/g, "").split("|").map(c => c.trim());
-  return { headers: row(lines[0]), rows: lines.slice(2).map(row) };
+// ─── Generic card wrapper ─────────────────────────────────────────────────────
+
+function Card({ icon, title, color, bg, border, children }) {
+  return (
+    <div className="trip-card" style={{ "--sc": color, "--sb": bg, "--sbr": border }}>
+      <div className="trip-card-hdr">
+        <span className="card-icon">{icon}</span>
+        <span className="card-title">{title}</span>
+      </div>
+      <div className="trip-card-body">
+        {children}
+      </div>
+    </div>
+  );
 }
 
-// ─── Budget tier renderer ─────────────────────────────────────────────────────
+// ─── Data table ───────────────────────────────────────────────────────────────
 
-const TIER_COLORS = [
-  { color: "#3b82f6", bg: "#eff6ff", border: "#bfdbfe" },
-  { color: "#f59e0b", bg: "#fffbeb", border: "#fde68a" },
-  { color: "#8b5cf6", bg: "#f5f3ff", border: "#ddd6fe" },
+function DataTable({ headers, rows }) {
+  return (
+    <div className="table-scroll">
+      <table className="data-table">
+        <thead>
+          <tr>{headers.map((h, i) => <th key={i}>{h}</th>)}</tr>
+        </thead>
+        <tbody>
+          {rows.map((row, i) => (
+            <tr key={i}>
+              {row.map((cell, j) => <td key={j}>{cell ?? "—"}</td>)}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+// ─── Transport ────────────────────────────────────────────────────────────────
+
+function TransportRows({ rows }) {
+  if (!rows || rows.length === 0) return null;
+  return rows.map((r, i) => (
+    <tr key={i}>
+      <td className="cell-strong">{r.operator}</td>
+      <td>{r.depart}</td>
+      <td>{r.arrive}</td>
+      <td>{r.duration}</td>
+      <td className="cell-price">{r.price_per_person}</td>
+      <td>
+        {r.url
+          ? <a href={r.url} className="book-link" target="_blank" rel="noopener noreferrer">Book →</a>
+          : "—"}
+      </td>
+    </tr>
+  ));
+}
+
+function TransportSection({ transport, trip }) {
+  if (!transport) return null;
+  const headers = ["Operator", "Depart", "Arrive", "Duration", "Price/person", "Book"];
+  return (
+    <Card icon={transport.emoji || "✈️"} title="Travel Options" color="#3b82f6" bg="#eff6ff" border="#bfdbfe">
+      {transport.outbound?.length > 0 && (
+        <>
+          <div className="subtable-label">Outbound · {fmtDate(trip?.depart_date)}</div>
+          <div className="table-scroll">
+            <table className="data-table">
+              <thead><tr>{headers.map((h, i) => <th key={i}>{h}</th>)}</tr></thead>
+              <tbody><TransportRows rows={transport.outbound} /></tbody>
+            </table>
+          </div>
+        </>
+      )}
+      {transport.return_trips?.length > 0 && (
+        <>
+          <div className="subtable-label" style={{ marginTop: 16 }}>Return · {fmtDate(trip?.return_date)}</div>
+          <div className="table-scroll">
+            <table className="data-table">
+              <thead><tr>{headers.map((h, i) => <th key={i}>{h}</th>)}</tr></thead>
+              <tbody><TransportRows rows={transport.return_trips} /></tbody>
+            </table>
+          </div>
+        </>
+      )}
+    </Card>
+  );
+}
+
+// ─── Accommodation ────────────────────────────────────────────────────────────
+
+function Stars({ n }) {
+  if (!n) return <span className="no-val">—</span>;
+  return <span className="stars">{"★".repeat(n)}{"☆".repeat(Math.max(0, 5 - n))}</span>;
+}
+
+function AccommodationSection({ items }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <Card icon="🏨" title="Accommodation" color="#f97316" bg="#fff7ed" border="#fed7aa">
+      <div className="table-scroll">
+        <table className="data-table">
+          <thead>
+            <tr>
+              <th>Property</th><th>Type</th><th>Area</th><th>Stars</th>
+              <th>Per night</th><th>Stay total</th><th>Book</th>
+            </tr>
+          </thead>
+          <tbody>
+            {items.map((h, i) => (
+              <tr key={i}>
+                <td className="cell-strong">{h.name}</td>
+                <td>{h.type}</td>
+                <td>{h.neighbourhood || "—"}</td>
+                <td><Stars n={h.stars} /></td>
+                <td className="cell-price">{h.price_per_night}</td>
+                <td className="cell-price">{h.total_stay}</td>
+                <td>
+                  {h.url
+                    ? <a href={h.url} className="book-link" target="_blank" rel="noopener noreferrer">Book →</a>
+                    : "—"}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </Card>
+  );
+}
+
+// ─── Budget ───────────────────────────────────────────────────────────────────
+
+const TIER_CFG = [
+  { key: "economy",   label: "Economy",   color: "#3b82f6", bg: "#eff6ff", border: "#bfdbfe" },
+  { key: "mid_range", label: "Mid-Range", color: "#f59e0b", bg: "#fffbeb", border: "#fde68a" },
+  { key: "comfort",   label: "Comfort",   color: "#8b5cf6", bg: "#f5f3ff", border: "#ddd6fe" },
 ];
 
-function BudgetTiers({ content }) {
-  const blocks = findTableBlocks(content);
-  const table = blocks.map(parseTable).find(t => t && t.headers.length >= 4);
+const BUDGET_ROWS = [
+  { key: "transport",     label: "Transport" },
+  { key: "accommodation", label: "Accommodation" },
+  { key: "meals",         label: "Meals" },
+  { key: "activities",    label: "Activities" },
+];
 
-  if (!table) {
-    return <ReactMarkdown remarkPlugins={[remarkGfm]} components={MD}>{content}</ReactMarkdown>;
-  }
-
-  const tierNames = table.headers.slice(1, 4);
-  const totalRow = table.rows.find(r => /\bTOTAL\b/i.test(r[0]));
-  const ppRow = table.rows.find(r => /per.?person/i.test(r[0]));
-  const lineRows = table.rows.filter(r => r !== totalRow && r !== ppRow && r[0].trim());
-
-  const tiers = tierNames.map((name, i) => ({
-    name,
-    total: totalRow?.[i + 1] || "—",
-    pp: ppRow?.[i + 1] || null,
-    items: lineRows.map(r => ({ label: r[0].replace(/^[^\w$€£¥]*/u, ""), value: r[i + 1] || "—" })),
-    ...TIER_COLORS[i],
-  }));
-
-  const tableText = blocks.find(b => parseTable(b)?.headers.length >= 4) || "";
-  const restContent = content.replace(tableText, "").replace(/^[\s\-*]+/, "").trim();
-
+function BudgetSection({ budget, trip }) {
+  if (!budget) return null;
   return (
-    <>
+    <Card
+      icon="💰"
+      title={`Budget · ${trip?.travellers ?? ""} traveller${trip?.travellers !== 1 ? "s" : ""} · ${trip?.nights ?? ""} nights`}
+      color="#10b981" bg="#ecfdf5" border="#a7f3d0"
+    >
       <div className="tier-grid">
-        {tiers.map(tier => (
-          <div
-            key={tier.name}
-            className="tier-card"
-            style={{ "--tc": tier.color, "--tb": tier.bg, "--tbr": tier.border }}
-          >
-            <div className="tier-name">{tier.name}</div>
-            <div className="tier-total">{tier.total}</div>
-            {tier.pp && <div className="tier-pp">{tier.pp}<span> / person</span></div>}
-            <div className="tier-items">
-              {tier.items.map((item, j) => (
-                <div key={j} className="tier-item">
-                  <span className="tier-item-label">{item.label}</span>
-                  <span className="tier-item-val">{item.value}</span>
-                </div>
-              ))}
+        {TIER_CFG.map(({ key, label, color, bg, border }) => {
+          const tier = budget[key];
+          if (!tier) return null;
+          return (
+            <div key={key} className="tier-card" style={{ "--tc": color, "--tb": bg, "--tbr": border }}>
+              <div className="tier-name">{label}</div>
+              <div className="tier-total">{tier.total}</div>
+              {tier.per_person && (
+                <div className="tier-pp">{tier.per_person}<span> / person</span></div>
+              )}
+              <div className="tier-items">
+                {BUDGET_ROWS.map(({ key: rk, label: rl }) => (
+                  <div key={rk} className="tier-item">
+                    <span className="tier-item-label">{rl}</span>
+                    <span className="tier-item-val">{tier[rk] || "—"}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      {budget.notes && <p className="budget-note">{budget.notes}</p>}
+    </Card>
+  );
+}
+
+// ─── Itinerary ────────────────────────────────────────────────────────────────
+
+function TimeSlot({ icon, label, text }) {
+  if (!text) return null;
+  return (
+    <div className="time-slot">
+      <div className="time-label">{icon} {label}</div>
+      <div className="time-text">{text}</div>
+    </div>
+  );
+}
+
+function ItinerarySection({ days }) {
+  if (!days || days.length === 0) return null;
+  return (
+    <Card icon="📅" title="Itinerary" color="#8b5cf6" bg="#f5f3ff" border="#ddd6fe">
+      <div className="day-list">
+        {days.map((d, i) => (
+          <div key={i} className="day-card">
+            <div className="day-hdr">
+              <span className="day-number">Day {d.day}</span>
+              <span className="day-date">{d.date}</span>
+              {d.label && <span className="day-label">{d.label}</span>}
+            </div>
+            <div className="day-body">
+              <TimeSlot icon="🌅" label="Morning" text={d.morning} />
+              <TimeSlot icon="☀️" label="Afternoon" text={d.afternoon} />
+              <TimeSlot icon="🌙" label="Evening" text={d.evening} />
             </div>
           </div>
         ))}
       </div>
-      {restContent && (
-        <div className="budget-notes">
-          <ReactMarkdown remarkPlugins={[remarkGfm]} components={MD}>{restContent}</ReactMarkdown>
-        </div>
-      )}
-    </>
+    </Card>
   );
 }
 
-// ─── Section parser ───────────────────────────────────────────────────────────
+// ─── Getting Around ───────────────────────────────────────────────────────────
 
-function parseSections(md) {
-  if (!md) return [];
-  const lines = md.split("\n");
-  const sections = [];
-  let introLines = [];
-  let title = null;
-  let bodyLines = [];
-  let pastIntro = false;
-
-  const flush = () => {
-    if (!pastIntro) {
-      const txt = introLines.join("\n").trim();
-      if (txt) sections.push({ type: "intro", title: "", content: txt });
-      pastIntro = true;
-    } else if (title !== null) {
-      const txt = bodyLines.join("\n").trim().replace(/^(-{3,})\s*/, "");
-      if (txt) sections.push({ type: detectType(title), title, content: txt });
-    }
-  };
-
-  for (const line of lines) {
-    if (line.startsWith("## ")) {
-      flush();
-      title = line.slice(3).trim();
-      bodyLines = [];
-    } else if (!pastIntro) {
-      introLines.push(line);
-    } else {
-      bodyLines.push(line);
-    }
-  }
-  flush();
-  return sections;
-}
-
-// ─── Section card ─────────────────────────────────────────────────────────────
-
-function SectionCard({ section }) {
-  const s = SECTION_STYLES[section.type] || SECTION_STYLES.default;
+function GettingAroundSection({ items }) {
+  if (!items || items.length === 0) return null;
   return (
-    <div
-      className={`trip-section trip-section--${section.type}`}
-      style={{ "--sc": s.color, "--sb": s.bg, "--sbr": s.border }}
-    >
-      {section.title && (
-        <div className="section-hdr">
-          <span className="section-hdr-title">{section.title}</span>
-        </div>
-      )}
-      <div className="section-body">
-        {section.type === "budget" ? (
-          <BudgetTiers content={section.content} />
-        ) : (
-          <ReactMarkdown remarkPlugins={[remarkGfm]} components={MD}>{section.content}</ReactMarkdown>
-        )}
-      </div>
-    </div>
+    <Card icon="🚇" title="Getting Around" color="#0ea5e9" bg="#f0f9ff" border="#bae6fd">
+      <DataTable
+        headers={["Option", "Cost", "Notes"]}
+        rows={items.map(r => [
+          <span className="cell-strong">{r.option}</span>,
+          <span className="cell-price">{r.cost}</span>,
+          r.notes,
+        ])}
+      />
+    </Card>
   );
 }
 
-// ─── Intro card ───────────────────────────────────────────────────────────────
+// ─── Data Notes ───────────────────────────────────────────────────────────────
 
-function IntroCard({ section }) {
+function DataNotesSection({ notes }) {
+  const items = [
+    ...(notes.fetch_failed || []).map(s => ({ type: "failed",   text: s })),
+    ...(notes.estimates    || []).map(s => ({ type: "estimate", text: s })),
+    ...(notes.missing      || []).map(s => ({ type: "missing",  text: s })),
+  ];
+  if (items.length === 0) return null;
   return (
-    <div className="trip-intro">
-      <ReactMarkdown remarkPlugins={[remarkGfm]} components={MD}>{section.content}</ReactMarkdown>
-    </div>
+    <Card icon="⚠️" title="Data Quality Notes" color="#ef4444" bg="#fef2f2" border="#fecaca">
+      <ul className="notes-list">
+        {items.map((n, i) => (
+          <li key={i} className={`note-item note-item--${n.type}`}>{n.text}</li>
+        ))}
+      </ul>
+    </Card>
   );
 }
 
-// ─── Main export ──────────────────────────────────────────────────────────────
+// ─── Main Export ──────────────────────────────────────────────────────────────
 
-export default function TripResult({ markdown }) {
-  const sections = useMemo(() => parseSections(markdown), [markdown]);
+export default function TripResult({ data }) {
+  if (!data) return null;
+  const { trip, transport, accommodation, budget, itinerary, getting_around, data_notes } = data;
   return (
     <div className="trip-result">
-      {sections.map((section, i) =>
-        section.type === "intro"
-          ? <IntroCard key={i} section={section} />
-          : <SectionCard key={i} section={section} />
-      )}
+      {trip && <TripHeader trip={trip} />}
+      <TransportSection transport={transport} trip={trip} />
+      <AccommodationSection items={accommodation} />
+      <BudgetSection budget={budget} trip={trip} />
+      <ItinerarySection days={itinerary} />
+      <GettingAroundSection items={getting_around} />
+      {data_notes && <DataNotesSection notes={data_notes} />}
     </div>
   );
 }

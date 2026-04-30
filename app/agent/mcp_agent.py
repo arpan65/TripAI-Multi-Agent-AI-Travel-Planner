@@ -307,80 +307,97 @@ Required output:
 """,
 
 # ── AGGREGATOR ──────────────────────────────────────────────────────
-"aggregator": """You are the AGGREGATOR agent — Senior Travel Editor.
+"aggregator": """You are the AGGREGATOR agent — Travel Data Compiler.
 
-RULES:
-- Zero filler or pleasantries
-- Zero invented data — write N/A if genuinely missing
-- All Markdown tables must have correct column alignment
-- Pick the right transport emoji: ✈️ flight | 🚆 train | 🚌 bus | ⛴️ ferry
+Your ONLY job: combine trip context, scout data, and budget calculations into ONE valid JSON object.
+Output raw JSON only — no markdown fences, no code blocks, no explanation, nothing before or after.
 
-REQUIRED OUTPUT STRUCTURE:
+Required JSON structure (fill in all values from the data you received):
+{
+  "trip": {
+    "origin": "<city, country>",
+    "destination": "<city, country>",
+    "depart_date": "<YYYY-MM-DD>",
+    "return_date": "<YYYY-MM-DD or null>",
+    "nights": <integer>,
+    "travellers": <integer>,
+    "currency": "<ISO code e.g. CAD>"
+  },
+  "transport": {
+    "mode": "<bus|train|flight|ferry>",
+    "emoji": "<one of: bus=🚌 train=🚆 flight=✈️ ferry=⛴️>",
+    "outbound": [
+      {
+        "operator": "<name>",
+        "depart": "<HH:MM or N/A>",
+        "arrive": "<HH:MM or N/A>",
+        "duration": "<e.g. 5h 30m or N/A>",
+        "price_per_person": "<e.g. CAD 55 or N/A>",
+        "url": null
+      }
+    ],
+    "return_trips": []
+  },
+  "accommodation": [
+    {
+      "name": "<property name>",
+      "type": "<Hotel|Hostel|Airbnb|Guesthouse>",
+      "neighbourhood": "<area or N/A>",
+      "stars": <1-5 or null>,
+      "price_per_night": "<e.g. CAD 120 or N/A>",
+      "total_stay": "<e.g. CAD 360 or N/A>",
+      "url": null
+    }
+  ],
+  "budget": {
+    "notes": "<one sentence on meal and activity estimate assumptions>",
+    "economy": {
+      "transport": "<e.g. CAD 110>",
+      "accommodation": "<e.g. CAD 300>",
+      "meals": "<e.g. CAD 150>",
+      "activities": "<e.g. CAD 60>",
+      "total": "<e.g. CAD 620>",
+      "per_person": "<e.g. CAD 310>"
+    },
+    "mid_range": {
+      "transport": "...", "accommodation": "...", "meals": "...",
+      "activities": "...", "total": "...", "per_person": "..."
+    },
+    "comfort": {
+      "transport": "...", "accommodation": "...", "meals": "...",
+      "activities": "...", "total": "...", "per_person": "..."
+    }
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "<e.g. May 15, 2026>",
+      "label": "<e.g. Arrival Day>",
+      "morning": "<brief activity description or null>",
+      "afternoon": "<brief activity description or null>",
+      "evening": "<brief activity description or null>"
+    }
+  ],
+  "getting_around": [
+    {
+      "option": "<e.g. Metro>",
+      "cost": "<e.g. CAD 3.50/ride or Free>",
+      "notes": "<brief note>"
+    }
+  ],
+  "data_notes": {
+    "fetch_failed": ["<item: URL if applicable>"],
+    "estimates": ["<what was estimated and the assumption used>"],
+    "missing": ["<what data was unavailable>"]
+  }
+}
 
-# 🗺️ [Destination] Trip Dossier
-**[Origin] → [Destination] · [Depart Date] – [Return Date] · [N] travellers**
-
----
-
-## [transport emoji] TRAVEL OPTIONS
-
-### Outbound ([depart date])
-| Operator | Depart | Arrive | Duration | Price/person [currency] | Book |
-|----------|--------|--------|----------|--------------------------|------|
-
-### Return ([return date])
-| Operator | Depart | Arrive | Duration | Price/person [currency] | Book |
-|----------|--------|--------|----------|--------------------------|------|
-
----
-
-## 🏨 ACCOMMODATION OPTIONS
-| Property | Type | Neighbourhood | Stars | Price/night [cur] | [N]-night total | Book |
-|----------|------|---------------|-------|-------------------|-----------------|------|
-
----
-
-## 💰 BUDGET SUMMARY
-*For [N] travellers · [N] nights · all prices in [currency]*
-
-| Category | Economy | Mid-Range | Comfort |
-|----------|---------|-----------|---------|
-| 🚌 Transport — round trip total | | | |
-| 🏨 Accommodation — [N] nights | | | |
-| 🍽️ Meals — [N] days *(ESTIMATE)* | | | |
-| 🎭 Activities — [N] days *(ESTIMATE)* | | | |
-| **TOTAL** | | | |
-| **Per person** | | | |
-
-*Meal estimates: [low]/[mid]/[high] per person/day. Activity estimates: [low]/[mid]/[high] per person/day.*
-
----
-
-## 📅 ITINERARY
-
-### Day 1 — [date] · Arrival
-**Morning:** ...
-**Afternoon:** ...
-**Evening:** ...
-
-### Day 2 — [date]
-(repeat)
-
-### Day [N] — [date] · Departure
-...
-
----
-
-## 🚇 GETTING AROUND [Destination]
-| Option | Cost | Notes |
-|--------|------|-------|
-
----
-
-## ⚠️ DATA QUALITY NOTES
-- [ ] list every FETCH_FAILED item with the URL
-- [ ] list every ESTIMATE with what was assumed
-- [ ] list every N/A with what data was missing
+Rules:
+- Use "N/A" for unknown strings, null for missing optional fields
+- Every money amount must include the currency code (e.g. "CAD 415" not "$415")
+- Budget must have all 3 tiers (economy, mid_range, comfort) each with all 6 fields
+- Itinerary needs one entry per day (nights + 1 entries total, from depart to return)
+- Output ONLY the JSON — nothing before or after it
 """,
 }
 
@@ -774,7 +791,7 @@ class MCPAgent:
         manifest = self._parse_manifest(plan_raw)
         if not manifest or "trip" not in manifest:
             return (
-                "❌ Planning failed — could not parse trip manifest.\n"
+                "Planning failed — could not parse trip manifest.\n"
                 "Please include: origin, destination, dates, number of travellers."
             )
 
@@ -841,15 +858,23 @@ class MCPAgent:
         # ── PHASE 4: AGGREGATION ────────────────────────────────────── #
         self._log_phase("PHASE 4: AGGREGATION")
         await _progress("📋 Finalising your travel dossier...")
-        final = await self._run_agent(
+        raw_final = await self._run_agent(
             "aggregator",
             f"{ctx}\n\n"
             f"--- SCOUT DATA ---\n{scout_data[:5000]}\n\n"
             f"--- BUDGET ---\n{budget}\n\n"
-            f"Produce the complete travel dossier now.",
+            f"Output the complete JSON travel dossier now.",
             max_turns=3,
         )
-        return final
+
+        # Parse and normalise the JSON output from the aggregator
+        try:
+            clean = re.sub(r"```(?:json)?", "", raw_final).strip().strip("`").strip()
+            parsed = json.loads(clean)
+            return json.dumps(parsed)
+        except json.JSONDecodeError as e:
+            logger.error(f"Aggregator JSON parse error: {e}\nRaw:\n{raw_final[:500]}")
+            return json.dumps({"error": f"Could not parse result: {str(e)}", "raw": raw_final[:500]})
 
     @staticmethod
     def _log_phase(label: str):
