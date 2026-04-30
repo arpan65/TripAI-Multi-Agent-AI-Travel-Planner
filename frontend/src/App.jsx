@@ -53,6 +53,15 @@ const addDays = (base, n) => {
   return d.toISOString().split("T")[0];
 };
 
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const DOW    = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const fmtDate = (iso) => {
+  if (!iso) return { main: "—", sub: "" };
+  const [y, m, d] = iso.split("-").map(Number);
+  const dow = DOW[new Date(y, m - 1, d).getDay()];
+  return { main: `${MONTHS[m - 1]} ${d}`, sub: `${dow} · ${y}` };
+};
+
 export default function App() {
   const [form, setForm] = useState({
     from: "",
@@ -70,6 +79,8 @@ export default function App() {
   const [sessionId, setSessionId] = useState(null);
   const [testMode, setTestMode] = useState(false);
   const resultsRef = useRef(null);
+  const departRef  = useRef(null);
+  const returnRef  = useRef(null);
 
   useEffect(() => {
     if (!loading) return;
@@ -203,11 +214,27 @@ export default function App() {
           <span className="nav-logo">✈️</span>
           <span className="nav-title">TripAI</span>
         </div>
-        {result && (
-          <button className="btn-ghost" onClick={handleNewSearch}>
-            + New Search
-          </button>
-        )}
+        <div className="nav-right">
+          <label className="toggle-label">
+            <input
+              type="checkbox"
+              className="toggle-input"
+              checked={testMode}
+              onChange={(e) => handleTestModeToggle(e.target.checked)}
+              disabled={loading}
+            />
+            <span className="toggle-switch" />
+            <span className="toggle-text">Test Mode</span>
+          </label>
+          {testMode && (
+            <span className="test-mode-badge">No API calls</span>
+          )}
+          {result && (
+            <button className="btn-ghost" onClick={handleNewSearch}>
+              + New Search
+            </button>
+          )}
+        </div>
       </nav>
 
       {/* ── HERO ── */}
@@ -219,6 +246,22 @@ export default function App() {
           </p>
 
           {/* ── SEARCH CARD ── */}
+          <datalist id="cities">
+            <option value="Toronto" />
+            <option value="Montreal" />
+            <option value="Vancouver" />
+            <option value="Ottawa" />
+            <option value="Calgary" />
+            <option value="New York" />
+            <option value="London" />
+            <option value="Paris" />
+            <option value="Tokyo" />
+            <option value="Sydney" />
+            <option value="Miami" />
+            <option value="Chicago" />
+            <option value="Los Angeles" />
+            <option value="Amsterdam" />
+          </datalist>
           <form className="search-card" onSubmit={handleSearch}>
             <div className="search-fields">
 
@@ -226,6 +269,7 @@ export default function App() {
                 <label>From</label>
                 <input
                   type="text"
+                  list="cities"
                   placeholder="Toronto"
                   value={form.from}
                   onChange={set("from")}
@@ -240,6 +284,7 @@ export default function App() {
                 <label>To</label>
                 <input
                   type="text"
+                  list="cities"
                   placeholder="Montreal"
                   value={form.to}
                   onChange={set("to")}
@@ -250,10 +295,19 @@ export default function App() {
 
               <div className="divider" />
 
-              <div className="field-group">
+              <div
+                className="field-group date-field"
+                onClick={() => !loading && departRef.current?.showPicker()}
+              >
                 <label>Depart</label>
+                <div className="date-display">
+                  <span className="date-main">{fmtDate(form.depart).main}</span>
+                  <span className="date-sub">{fmtDate(form.depart).sub}</span>
+                </div>
                 <input
+                  ref={departRef}
                   type="date"
+                  className="date-hidden"
                   value={form.depart}
                   min={today()}
                   onChange={set("depart")}
@@ -263,10 +317,19 @@ export default function App() {
 
               <div className="divider" />
 
-              <div className="field-group">
+              <div
+                className="field-group date-field"
+                onClick={() => !loading && returnRef.current?.showPicker()}
+              >
                 <label>Return</label>
+                <div className="date-display">
+                  <span className="date-main">{fmtDate(form.returnDate).main}</span>
+                  <span className="date-sub">{fmtDate(form.returnDate).sub}</span>
+                </div>
                 <input
+                  ref={returnRef}
                   type="date"
+                  className="date-hidden"
                   value={form.returnDate}
                   min={form.depart}
                   onChange={set("returnDate")}
@@ -317,23 +380,6 @@ export default function App() {
                 </select>
               </div>
 
-            </div>
-
-            <div className="search-card-footer">
-              <label className="toggle-label">
-                <input
-                  type="checkbox"
-                  className="toggle-input"
-                  checked={testMode}
-                  onChange={(e) => handleTestModeToggle(e.target.checked)}
-                  disabled={loading}
-                />
-                <span className="toggle-switch" />
-                <span className="toggle-text">Test Mode</span>
-              </label>
-              {testMode && (
-                <span className="test-mode-badge">Uses last stored result — no API calls</span>
-              )}
             </div>
 
             <button

@@ -11,7 +11,17 @@
       "Bash(uv pip *)",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('exports:', list\\(d.get\\('exports',{}\\).keys\\(\\)\\)[:5]\\); print\\('main:', d.get\\('main',''\\)\\); print\\('module:', d.get\\('module',''\\)\\)\")",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('peerDependencies',{}\\), indent=2\\)\\)\")",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(sqlite3 travel_runs.db \"SELECT id, input_message, status, created_at FROM runs ORDER BY created_at DESC LIMIT 3;\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT id, phase, status, input_tokens, output_tokens, tool_calls_count FROM agent_calls WHERE run_id='d3a41270-6f7e-4661-9db6-e56377439b0f' ORDER BY rowid;\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT tool_name, input_json, output_text, duration_ms, success FROM tool_calls WHERE run_id='d3a41270-6f7e-4661-9db6-e56377439b0f' AND agent_call_id='6771b851-4767-428e-9993-9ef3f1aeca46' ORDER BY rowid;\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT tool_name, input_json, substr\\(output_text, 1, 600\\) as output_preview FROM tool_calls WHERE run_id='d3a41270-6f7e-4661-9db6-e56377439b0f' AND agent_call_id='6771b851-4767-428e-9993-9ef3f1aeca46' ORDER BY rowid;\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT tool_name, input_json, output_text FROM tool_calls WHERE run_id='d3a41270-6f7e-4661-9db6-e56377439b0f' AND agent_call_id='6771b851-4767-428e-9993-9ef3f1aeca46' ORDER BY rowid;\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT output_text FROM agent_calls WHERE id='54772b4b-442c-497b-a945-b079de68c25f';\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT output_text FROM agent_calls WHERE id='6771b851-4767-428e-9993-9ef3f1aeca46';\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT result_json FROM runs WHERE id='d3a41270-6f7e-4661-9db6-e56377439b0f';\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('transport',[]\\), indent=2\\)\\)\")",
+      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\('/Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/app/agent/mcp_agent.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")"
     ]
   }
 }

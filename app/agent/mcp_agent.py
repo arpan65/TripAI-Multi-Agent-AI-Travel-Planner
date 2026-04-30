@@ -300,6 +300,7 @@ STRICT RULES:
 - Flag every FETCH_FAILED / ESTIMATE / INTERACTIVE_REQUIRED item
 - Three tiers (Economy / Mid-Range / Comfort) from real price data
 - If fewer than 3 price points exist, reuse values and note it
+- PRICE RANGE RULE: When source data gives a wide range (e.g. "$10–110"), do NOT use the absolute floor as the Economy price — the floor is typically a rare promo/flash-sale fare. Instead use the low-typical price (roughly 25th percentile of the range). For example, if bus is "$10–110", the realistic economy price is ~$35–45, not $10. Note the floor as "promo from $X" in Data Gaps.
 
 Required output:
 
@@ -310,7 +311,7 @@ Required output:
 ## 📊 Budget Calculations
 
 ### Economy Tier
-**Transport** (cheapest option found):
+**Transport** (cheapest realistic option — not flash-sale minimums):
 - Per person one-way: [value]
 - × [N] people × [1 or 2] trips = [use calculator]
 
@@ -361,7 +362,7 @@ Required JSON structure (fill in all values from the data you received):
         "depart": "<HH:MM if known, else 'Multiple daily'>",
         "arrive": "<HH:MM if known, else 'See operator site'>",
         "duration": "<e.g. 5h 30m if known, else 'approx Xh'>",
-        "price_per_person": "<e.g. CAD 55 — always include even if estimated>",
+        "price_per_person": "<full range if source gave one e.g. 'CAD 10–110', or point value e.g. 'CAD 65'>",
         "url": "<booking URL from transport_urls in the context, or null>"
       }
     ],
@@ -425,7 +426,8 @@ Rules:
 - Use "Multiple daily" for unknown depart times, "See operator site" for unknown arrive times
 - Use "approx Xh" for unknown durations when the route distance makes an estimate reasonable
 - Use "N/A" only as a true last resort for string fields; null for missing optional numeric fields
-- Always use budget-calculated prices for transport/accommodation even when schedule data is missing
+- For transport `price_per_person`, show the full range from source data (e.g. "CAD 10–110") not just the floor — the floor is often a rare promo fare
+- Always use budget-calculated totals for the `budget` tiers; for individual transport entries use the source range
 - Always include booking URLs from the transport_urls and hotel_urls provided in the trip context
 - Every money amount must include the currency code (e.g. "CAD 415" not "$415")
 - Budget must have all 3 tiers (economy, mid_range, comfort) each with all 6 fields

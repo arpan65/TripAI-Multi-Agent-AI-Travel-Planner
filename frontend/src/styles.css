@@ -79,6 +79,12 @@ body {
   color: var(--accent);
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .btn-ghost {
   border: 1px solid var(--border);
   background: none;
@@ -100,13 +106,15 @@ body {
 .hero {
   background:
     linear-gradient(
-      160deg,
-      #0f1f4a 0%,
-      #1a3a6e 25%,
-      #1e5fa0 50%,
-      #2a7fb8 70%,
-      #3a9abf 85%,
-      #4db8c8 100%
+      165deg,
+      #05101e 0%,
+      #0b2040 16%,
+      #0c3c7a 32%,
+      #0e5aa0 48%,
+      #1478bc 63%,
+      #2797cc 77%,
+      #50bcd4 90%,
+      #7dd4e0 100%
     );
   min-height: calc(100vh - 72px);
   display: flex;
@@ -121,8 +129,19 @@ body {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 60% 40%, rgba(255,255,255,0.06) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 40% at 20% 80%, rgba(74,210,230,0.12) 0%, transparent 60%);
+    radial-gradient(ellipse 80% 55% at 68% 18%, rgba(255,255,255,0.07) 0%, transparent 68%),
+    radial-gradient(ellipse 75% 45% at 30% 100%, rgba(255,170,50,0.11) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 70% at 4%  58%, rgba(30,210,220,0.08) 0%, transparent 62%),
+    radial-gradient(ellipse 40% 35% at 95% 8%,  rgba(120,180,255,0.07) 0%, transparent 58%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.055) 1px, transparent 1px);
+  background-size: 34px 34px;
   pointer-events: none;
 }
 
@@ -218,7 +237,7 @@ body {
 
 .field-group input::placeholder { color: var(--text-xsoft); font-weight: 400; }
 
-.field-group input[type="date"] { color-scheme: light; cursor: pointer; }
+.field-group input[type="date"] { color-scheme: light; }
 
 .field-group select {
   border: none;
@@ -833,14 +852,41 @@ body {
   .day-label { margin-left: 0; }
 }
 
-/* ── SEARCH CARD FOOTER (test mode toggle row) ────────────────────── */
-.search-card-footer {
+/* ── DATE FIELD — styled display + invisible native overlay ──────── */
+.date-field {
+  position: relative;
+  cursor: pointer;
+}
+
+.date-display {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 20px 8px;
-  border-top: 1px solid var(--border);
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2px;
+  pointer-events: none;
+}
+
+.date-main {
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.date-sub {
+  font-size: 0.7rem;
+  color: var(--text-xsoft);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.date-hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border: none;
+  padding: 0;
+  pointer-events: none;
 }
 
 /* ── TOGGLE SWITCH ────────────────────────────────────────────────── */

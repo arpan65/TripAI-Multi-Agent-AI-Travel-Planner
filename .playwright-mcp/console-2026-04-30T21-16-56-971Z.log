@@ -1,0 +1,28 @@
+[     326ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.tripadvisor.com/Attractions-g293860-Activities-India.html:0
+[    2444ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ao (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:24098)
+    at https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:105064
+    at i6 (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:108381)
+    at i2 (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:100155)
+    at https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:99939
+    at i1 (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:99947)
+    at iH (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:95332)
+    at sE (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:118589)
+    at sv (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:116811)
+    at sk (https://static.tacdn.com/assets/vsnlqs41zd6r-c.js:263:117155)
+[    3115ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.tripadvisor.com/assets/s/b2f8c708.html?gtmParams=&parentDomain=https%3A%2F%2Fwww.tripadvisor.com&gclid=undefined&gbraid=undefined&wbraid=undefined&targetingConsent=granted&analyticsConsent=granted:0
+[    3237ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://micro.rubiconproject.com/prebid/dynamic/13406.js:23
+[    3408ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[    3412ms] [ERROR] Not signed in with the identity provider. @ https://www.tripadvisor.com/Attractions-g293860-Activities-India.html:0
+[    3705ms] [WARNING] [GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604270101/pubads_impl.js:18
+[    4807ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604270101/pubads_impl.js:18
+[    5123ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    5227ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.tripadvisor.com/Attractions-g293860-Activities-India.html:0
+[    5292ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.tripadvisor.com/Attractions-g293860-Activities-India.html:0
+[    5397ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://static.tacdn.com/assets/8cre3h.gxuh19I.js:0
+[    5464ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    8487ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[    8682ms] [INFO] [Braze] Message received didn't match any condition: {"scaInfoOriginatorASID":"846eb329-66ae-3530-27ca-0b3bb28a9be7","cache":{"mvn":{"output":"ZnNjPTEzLHNkPTMsbm89OCxhc3A9MQ--"},"sd":{"output":"MTcuNi40djEwMDh8fDE3MTB8fDF8fDF8fDMwfHwxMTA3fHwwfHwwfHwxfHxsYW5kc2NhcGUtcHJpbWFyeXx8MzB8fHx8fHwxfHwxNzEw"},"no":{"output":"MTcuNi40dk1vemlsbGF8fE5ldHNjYXBlfHxufHxufHwwfHxufHxNYWNJbnRlbHx8R2Vja298fDIwMDMwMTA3fHwyNDB8fE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xNDcuMC4wLjAgU2FmYXJpLzUzNy4zNnx8MXx8MXx8R29vZ2xlIEluYy58fG4-"},"ch":{"output":"n"},"fsc":{"output":"17.6.4v222222220002222202222222220222222222202222222220222202000022000220222222220000222202002222202222222220222222220000020022222200022222220200000222200022220002022022022222202002220222022222022220000220200000022220222220222222222222202222222222222222222222222222222222222200000022022020020000002022202022022022222222000000000020222202022022222000000020000000000000000000020220202220000022200222202220022200200222022202220022220222200202222020002200002222022222202222000002002002222222202220022202200222002220222202"},"asp":{"output":"1777583822446||26e97dc59f266af2f8b3b23bfc3cce17||562dfcd5b68c64c48b5e26801777ec72||4f3b9f6f734d4c765b2b131503908be2||39d8872b291dbc8c15704cb002905740||1ff0ce782d8b8027e72faa18be6c5eff||3619122b6fc45a8635235cb6f4b95da3||2ca5e600aa0cb0b98b9d32e5e4d64e0f||1715618633"}},"sentTime":1777583825650} @ about:srcdoc:216
+[    8789ms] [INFO] [Braze] Loading interstitial... @ about:srcdoc:202
+[    9024ms] [INFO] [Braze] Displaying interstitial... @ about:srcdoc:149

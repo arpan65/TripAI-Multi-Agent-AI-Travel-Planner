@@ -1,0 +1,726 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Rome2Rio" [ref=e3] [cursor=pointer]:
+      - /url: https://www.rome2rio.com/
+      - generic [ref=e4]: Rome2Rio
+      - img [ref=e5]
+  - region "How to get from Toronto to Kolkata by plane" [ref=e8]:
+    - generic [ref=e10]:
+      - heading "How to get from Toronto to Kolkata by plane" [level=1] [ref=e11]:
+        - generic [ref=e12]: How to get from
+        - generic [ref=e13]: Toronto to Kolkata
+        - generic [ref=e14]: by plane
+      - generic [ref=e15]:
+        - generic "Find Transport to Kolkata" [ref=e16]:
+          - heading "Find Transport to Kolkata" [level=2] [ref=e17]
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - generic [ref=e20]:
+                - generic [ref=e21]: Travel from
+                - combobox "Travel from" [ref=e22]: Toronto, ON, Canada
+              - generic [ref=e23]:
+                - generic [ref=e24]: To
+                - combobox "To" [ref=e25]: Kolkata, India
+              - button "Swap from and to" [ref=e26]:
+                - img [ref=e28]
+            - button "See all options" [ref=e31] [cursor=pointer]:
+              - img [ref=e33]
+              - generic [ref=e35]: See all options
+        - generic [ref=e36]:
+          - checkbox "Search accommodation with Booking.com" [checked] [ref=e37] [cursor=pointer]
+          - generic [ref=e38] [cursor=pointer]: Search accommodation with Booking.com
+    - img [ref=e39]
+  - navigation [ref=e44]:
+    - list [ref=e45]:
+      - listitem [ref=e46]:
+        - link "Search" [ref=e47] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e48]:
+        - link "Transport" [ref=e49] [cursor=pointer]:
+          - /url: "#trip-title"
+      - listitem [ref=e50]:
+        - link "FAQs" [ref=e51] [cursor=pointer]:
+          - /url: "#question-answer"
+      - listitem [ref=e52]:
+        - link "Map" [ref=e53] [cursor=pointer]:
+          - /url: "#trip-map"
+      - listitem [ref=e54]:
+        - link "Operators" [ref=e55] [cursor=pointer]:
+          - /url: "#route-operators"
+    - link "Explore" [ref=e56] [cursor=pointer]:
+      - /url: /map/Toronto/Kolkata
+      - text: Explore
+      - img [ref=e58]
+  - generic [ref=e60]:
+    - main [ref=e61]:
+      - article [ref=e62]:
+        - article "There are 2 ways to get from Toronto to Kolkata by plane" [ref=e63]:
+          - heading "There are 2 ways to get from Toronto to Kolkata by plane" [level=2] [ref=e64]
+          - paragraph [ref=e65]: Select an option below to see step-by-step directions and to compare ticket prices and travel times in Rome2Rio's travel planner.
+          - list [ref=e66]:
+            - listitem [ref=e67]:
+              - link "Fly from Toronto Island Airport" [ref=e68] [cursor=pointer]:
+                - /url: /map/Toronto/Kolkata?route=Fly-from-Toronto
+                - heading "Fly from Toronto Island Airport" [level=3] [ref=e69]
+                - generic [ref=e71]: best
+                - list [ref=e73]:
+                  - listitem "Fly from Toronto Island Airport (YTZ) to Netaji Subhas Chandra Bose International Airport (CCU)" [ref=e74]:
+                    - generic [ref=e75]: Fly from Toronto Island Airport (YTZ) to Netaji Subhas Chandra Bose International Airport (CCU)
+                    - generic [ref=e77]:
+                      - generic [ref=e78]: plane
+                      - img "plane" [ref=e79]
+                    - generic [ref=e82]: YTZ - CCU
+                - generic [ref=e84]: 20h 35m
+                - generic [ref=e86]:
+                  - generic [ref=e87]: $582–1,367
+                  - img [ref=e88]
+            - listitem [ref=e90]:
+              - link "Fly from Toronto Pearson International Airport" [ref=e91] [cursor=pointer]:
+                - /url: /map/Toronto/Kolkata?route=Fly-from-Toronto-route-2
+                - heading "Fly from Toronto Pearson International Airport" [level=3] [ref=e92]
+                - list [ref=e94]:
+                  - listitem "Fly from Toronto Pearson International Airport (YYZ) to Netaji Subhas Chandra Bose International Airport (CCU)" [ref=e95]:
+                    - generic [ref=e96]: Fly from Toronto Pearson International Airport (YYZ) to Netaji Subhas Chandra Bose International Airport (CCU)
+                    - generic [ref=e98]:
+                      - generic [ref=e99]: plane
+                      - img "plane" [ref=e100]
+                    - generic [ref=e103]: YYZ - CCU
+                - generic [ref=e105]: 21h 38m
+                - generic [ref=e107]:
+                  - generic [ref=e108]: $979–6,630
+                  - img [ref=e109]
+        - generic [ref=e111]:
+          - heading "Toronto Island Airport (YTZ) to Netaji Subhas Chandra Bose International Airport (CCU) flights" [level=2] [ref=e112]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "Calendar" [ref=e116]
+              - generic [ref=e119]: "32"
+              - generic [ref=e120]: Weekly Planes
+            - generic [ref=e121]:
+              - img "Duration" [ref=e123]
+              - generic [ref=e125]: 23h 38m
+              - generic [ref=e126]: Average Duration
+            - generic [ref=e127]:
+              - img "Ticket" [ref=e129]
+              - generic [ref=e131]: $580
+              - generic [ref=e132]: Cheapest Price
+            - link "See schedules" [ref=e133] [cursor=pointer]:
+              - /url: /map/Toronto/Kolkata?route=Fly-from-Toronto
+              - text: See schedules
+              - img [ref=e134]
+        - region "Questions & Answers" [ref=e136]:
+          - heading "Questions & Answers" [level=3] [ref=e137]
+          - generic [ref=e138]:
+            - region [ref=e139]:
+              - button "What is the cheapest way to get from Toronto to Kolkata?" [ref=e141]:
+                - text: What is the cheapest way to get from Toronto to Kolkata?
+                - img [ref=e143]
+            - region [ref=e145]:
+              - button "What is the fastest way to get from Toronto to Kolkata?" [ref=e147]:
+                - text: What is the fastest way to get from Toronto to Kolkata?
+                - img [ref=e149]
+            - region [ref=e151]:
+              - button "How far is it from Toronto to Kolkata?" [ref=e153]:
+                - text: How far is it from Toronto to Kolkata?
+                - img [ref=e155]
+            - region [ref=e157]:
+              - button "How long does it take to get from Toronto to Kolkata?" [ref=e159]:
+                - text: How long does it take to get from Toronto to Kolkata?
+                - img [ref=e161]
+            - region [ref=e163]:
+              - button "What is the time difference between Toronto and Kolkata?" [ref=e165]:
+                - text: What is the time difference between Toronto and Kolkata?
+                - img [ref=e167]
+            - region [ref=e169]:
+              - button "Where can I stay near Kolkata?" [ref=e171]:
+                - text: Where can I stay near Kolkata?
+                - img [ref=e173]
+        - generic "Map of how to get from Toronto to Kolkata. Expand Launch map view" [ref=e176]:
+          - 'link "Map of how to get from Toronto to Kolkata. Expand Launch map view Distance: 12,556.9 km Duration: 20h 35m" [ref=e177] [cursor=pointer]':
+            - /url: /map/Toronto/Kolkata
+            - generic [ref=e178]:
+              - img "Map of how to get from Toronto to Kolkata." [ref=e179]
+              - generic [ref=e180]:
+                - img "Expand" [ref=e181]
+                - text: Launch map view
+            - list [ref=e183]:
+              - listitem [ref=e184]: "Distance: 12,556.9 km"
+              - listitem [ref=e185]: "Duration: 20h 35m"
+        - region "What companies run services between Toronto, ON, Canada and Kolkata, India?" [ref=e186]:
+          - heading "What companies run services between Toronto, ON, Canada and Kolkata, India?" [level=3] [ref=e187]
+          - paragraph [ref=e188]: Air Canada, Emirates, and four other airlines fly from Toronto Island Airport (YTZ) to Netaji Subhas Chandra Bose International Airport (CCU) 5 times a day.
+          - generic "Airlines" [ref=e189]:
+            - generic [ref=e190]: Airlines
+            - generic [ref=e191]:
+              - region [ref=e193]:
+                - button "Emirates logo Emirates" [ref=e195]:
+                  - generic [ref=e196]:
+                    - img "Emirates logo" [ref=e197]
+                    - text: Emirates
+                  - img [ref=e199]
+              - region [ref=e202]:
+                - button "Qatar Airways logo Qatar Airways" [ref=e204]:
+                  - generic [ref=e205]:
+                    - img "Qatar Airways logo" [ref=e206]
+                    - text: Qatar Airways
+                  - img [ref=e208]
+              - region [ref=e211]:
+                - button "Air India Limited logo Air India Limited" [ref=e213]:
+                  - generic [ref=e214]:
+                    - img "Air India Limited logo" [ref=e215]
+                    - text: Air India Limited
+                  - img [ref=e217]
+              - region [ref=e220]:
+                - button "Etihad logo Etihad" [ref=e222]:
+                  - generic [ref=e223]:
+                    - img "Etihad logo" [ref=e224]
+                    - text: Etihad
+                  - img [ref=e226]
+              - region [ref=e229]:
+                - button "IndiGo Airlines logo IndiGo Airlines" [ref=e231]:
+                  - generic [ref=e232]:
+                    - img "IndiGo Airlines logo" [ref=e233]
+                    - text: IndiGo Airlines
+                  - img [ref=e235]
+            - button "Show more operators" [ref=e237]:
+              - text: Show more
+              - generic [ref=e238]: operators
+              - img [ref=e239]
+        - region "Want to know more about travelling around the world?" [ref=e241]:
+          - heading "Want to know more about travelling around the world?" [level=3] [ref=e242]
+          - paragraph [ref=e243]:
+            - text: Rome2Rio's
+            - link "Travel Guide series" [ref=e244] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/travel-guides/?utm_source=r2r_product&utm_medium=LandingPage
+            - text: provide vital information for the global traveller. Read our range of informative guides on popular transport routes and companies - including
+            - 'link "Need to know: Eurostar" [ref=e245] [cursor=pointer]':
+              - /url: https://www.rome2rio.com/guides/guide-to-eurostar/
+            - text: ","
+            - link "4 of the smartest ways to explore Australia" [ref=e246] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/guides/how-to-travel-around-australia/
+            - text: ", and"
+            - link "Flying into Beijing?" [ref=e247] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/guides/beijing-airport-to-central-beijing/
+            - text: "- to help you get the most out of your next trip."
+    - complementary [ref=e248]:
+      - region "Flag of India Kolkata (opens in a new window) , India (opens in a new window)" [ref=e250]:
+        - heading "Flag of India Kolkata (opens in a new window) , India (opens in a new window)" [level=3] [ref=e251]:
+          - img "Flag of India" [ref=e252]
+          - link "Kolkata (opens in a new window)" [ref=e253] [cursor=pointer]:
+            - /url: /s/Kolkata
+            - text: Kolkata
+            - generic [ref=e254]: (opens in a new window)
+          - generic [ref=e255]: ","
+          - link "India (opens in a new window)" [ref=e256] [cursor=pointer]:
+            - /url: /s/India
+            - text: India
+            - generic [ref=e257]: (opens in a new window)
+        - paragraph [ref=e258]:
+          - text: Kolkata is the capital and largest city of the Indian state of West Bengal. It lies on the eastern bank of the Hooghly River, west of the border with Bangladesh. It is the primary financial and commercial center of eastern and northeastern India. Kolkata is the seventh most populous city of India with an estimated city proper population of
+          - button "Read more" [ref=e259]: ...
+        - generic [ref=e260]:
+          - heading "Things to do in Kolkata" [level=4] [ref=e261]
+          - generic [ref=e262]:
+            - article [ref=e263]:
+              - img "Eden Gardens" [ref=e264]
+              - heading "Eden Gardens (Opens in a new window)" [level=5] [ref=e265]:
+                - link "Eden Gardens (Opens in a new window)" [ref=e266] [cursor=pointer]:
+                  - /url: https://www.rome2rio.com/redirects/attractions/?destinationUrl=http://en.wikipedia.org/wiki/Eden_Gardens&provider=Wikipedia&language=en&currency=CAD&requestId=019de040-c524-74f1-a6d5-91fe5f8bc5ac&uid=CATor20260430202603494uzdd&label=ep01:f:a:m:d
+                  - text: Eden Gardens
+                  - generic [ref=e267]: (Opens in a new window)
+              - paragraph [ref=e268]: "Eden Gardens (Bengali: ইডেন গার্ডেন্স) is a cricket ground in Kolkata, India established in 1864. It is the home venue of the Bengal cricket team and the IPL franchise cricket team Kolkata Knight Riders, and is also a venue for Test, ODI and T20I matches of the India national cricket team. With a seating capacity of 66,349, it is the largest cricket stadium in India, and the second-largest cricket stadium in the world."
+            - article [ref=e269]:
+              - img "Maidan" [ref=e270]
+              - heading "Maidan (Opens in a new window)" [level=5] [ref=e271]:
+                - link "Maidan (Opens in a new window)" [ref=e272] [cursor=pointer]:
+                  - /url: https://www.rome2rio.com/redirects/attractions/?destinationUrl=http://en.wikipedia.org/wiki/Maidan_(Kolkata)&provider=Wikipedia&language=en&currency=CAD&requestId=019de040-c524-74f1-a6d5-91fe5f8bc5ac&uid=CATor20260430202603494uzdd&label=ep01:f:a:m:d
+                  - text: Maidan
+                  - generic [ref=e273]: (Opens in a new window)
+              - paragraph [ref=e274]: The Maidan (literally open field) also referred as Brigade Parade Ground is the largest urban park in Kolkata in the Indian state of West Bengal. It is a vast stretch of field and home to numerous play grounds, including the famous cricketing venue Eden Gardens, several football stadia, and Kolkata Race Course. The Maidan is dotted with statues and pieces of architecture, most notable being the Victoria Memorial. Due to the freshness and greenery it provides to the metropolis, it has been referred to as the "lungs of Kolkata". The Maidan is a property of the Indian Army and hosts the Eastern zone high command of the Indian Army in Fort William. The Maidan stretches from as far north as the Raj Bhavan building in Esplanade and as far south as the National Library on Belvedere Rd. in Alipore. The wide field stretches from the Hoogly River on the west to the Victoria Memorial on the east. It is a historical and cultural center of Kolkata as well as a center of leisure and entertainment for Calcuttans.
+            - article [ref=e275]:
+              - img "South Park Street Cemetery" [ref=e276]
+              - heading "South Park Street Cemetery (Opens in a new window)" [level=5] [ref=e277]:
+                - link "South Park Street Cemetery (Opens in a new window)" [ref=e278] [cursor=pointer]:
+                  - /url: https://www.rome2rio.com/redirects/attractions/?destinationUrl=http://en.wikipedia.org/wiki/South_Park_Street_Cemetery&provider=Wikipedia&language=en&currency=CAD&requestId=019de040-c524-74f1-a6d5-91fe5f8bc5ac&uid=CATor20260430202603494uzdd&label=ep01:f:a:m:d
+                  - text: South Park Street Cemetery
+                  - generic [ref=e279]: (Opens in a new window)
+              - paragraph [ref=e280]: South Park Street Cemetery is located on Mother Teresa Sarani, Kolkata, India. The road used to be called Park Street, and prior to that Burial Ground Road.
+        - generic [ref=e281]:
+          - heading "Places to stay in Kolkata" [level=4] [ref=e282]
+          - generic [ref=e283]:
+            - article [ref=e284]:
+              - img "The Lalit Great Eastern Kolkata" [ref=e285]
+              - heading "The Lalit Great Eastern Kolkata (Opens in a new window)" [level=5] [ref=e286]:
+                - link "The Lalit Great Eastern Kolkata (Opens in a new window)" [ref=e287] [cursor=pointer]:
+                  - /url: https://www.booking.com/hotel/in/the-lalit-great-eastern-kolkata.html?aid=2097750&aid=2429868&lang=en&selected_currency=CAD&label=r2r07--019de040-c52e-7112-967f-37ea57901e54&checkin_year_month=2026-5&checkin_monthday=1&checkout_year_month=2026-5&checkout_monthday=2
+                  - text: The Lalit Great Eastern Kolkata
+                  - generic [ref=e288]: (Opens in a new window)
+              - paragraph [ref=e289]: 8.3Very Good
+            - article [ref=e290]:
+              - img "The Elgin Fairlawn, Kolkata" [ref=e291]
+              - heading "The Elgin Fairlawn, Kolkata (Opens in a new window)" [level=5] [ref=e292]:
+                - link "The Elgin Fairlawn, Kolkata (Opens in a new window)" [ref=e293] [cursor=pointer]:
+                  - /url: https://www.booking.com/hotel/in/fairlawn-pvt-ltd.html?aid=2097750&aid=2429868&lang=en&selected_currency=CAD&label=r2r07--019de040-c52e-7112-967f-37ea57901e54&checkin_year_month=2026-5&checkin_monthday=1&checkout_year_month=2026-5&checkout_monthday=2
+                  - text: The Elgin Fairlawn, Kolkata
+                  - generic [ref=e294]: (Opens in a new window)
+              - paragraph [ref=e295]: 8.4Very Good
+            - article [ref=e296]:
+              - img "Kenilworth Hotel, Kolkata" [ref=e297]
+              - heading "Kenilworth Hotel, Kolkata (Opens in a new window)" [level=5] [ref=e298]:
+                - link "Kenilworth Hotel, Kolkata (Opens in a new window)" [ref=e299] [cursor=pointer]:
+                  - /url: https://www.booking.com/hotel/in/new-kenilworth.html?aid=2097750&aid=2429868&lang=en&selected_currency=CAD&label=r2r07--019de040-c52e-7112-967f-37ea57901e54&checkin_year_month=2026-5&checkin_monthday=1&checkout_year_month=2026-5&checkout_monthday=2
+                  - text: Kenilworth Hotel, Kolkata
+                  - generic [ref=e300]: (Opens in a new window)
+              - paragraph [ref=e301]: 8.6Fabulous
+      - region "Rome2Rio makes travelling from Toronto to Kolkata easy." [ref=e302]:
+        - paragraph [ref=e303]: Rome2Rio makes travelling from Toronto to Kolkata easy.
+        - paragraph [ref=e304]:
+          - generic [ref=e305]:
+            - link "Rome2Rio" [ref=e306] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/
+            - text: is a door-to-door travel information and booking engine, helping you get to and from any location in the world. Find all the transport options for your trip from Toronto to Kolkata right here. Rome2Rio displays up to date schedules, route maps, journey times and estimated fares from relevant transport operators, ensuring you can make an informed decision about which option will suit you best. Rome2Rio also offers online bookings for selected operators, making reservations easy and straightforward.
+  - region "Related trips" [ref=e308]:
+    - region "Where to next?" [ref=e309]:
+      - heading "Where to next?" [level=3] [ref=e310]:
+        - text: Where to next?
+        - separator [ref=e311]
+      - list [ref=e312]:
+        - listitem [ref=e313]:
+          - link "Kolkata to Arunāchal Pradesh" [ref=e314] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Arun%C4%81chal-Pradesh
+        - listitem [ref=e315]:
+          - link "Kolkata to Bakkhali" [ref=e316] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Bakkhali
+        - listitem [ref=e317]:
+          - link "Darjeeling Itinerary" [ref=e318] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Darjeeling
+        - listitem [ref=e319]:
+          - link "Kolkata to Darjeeling" [ref=e320] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Darjeeling
+        - listitem [ref=e321]:
+          - link "Kolkata to Gangasagar" [ref=e322] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Gangasagar
+        - listitem [ref=e323]:
+          - link "Gangtok Itinerary" [ref=e324] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Gangtok
+        - listitem [ref=e325]:
+          - link "Kolkata to Gangtok" [ref=e326] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Gangtok
+        - listitem [ref=e327]:
+          - link "Kathmandu Itinerary" [ref=e328] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kathmandu
+        - listitem [ref=e329]:
+          - link "Kolkata to Kathmandu" [ref=e330] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Kathmandu
+        - listitem [ref=e331]:
+          - link "Kolkata to Mandarmani" [ref=e332] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Mandarmani
+        - listitem [ref=e333]:
+          - link "Kolkata to Meghālaya" [ref=e334] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Megh%C4%81laya
+        - listitem [ref=e335]:
+          - link "Nepal Itinerary" [ref=e336] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Nepal
+        - listitem [ref=e337]:
+          - link "Kolkata to Nepal" [ref=e338] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Nepal
+        - listitem [ref=e339]:
+          - link "Kolkata to Rameswaram" [ref=e340] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kolkata/Rameswaram
+    - region "Trips from Toronto" [ref=e341]:
+      - heading "Trips from Toronto" [level=3] [ref=e342]:
+        - text: Trips from Toronto
+        - separator [ref=e343]
+      - list [ref=e344]:
+        - listitem [ref=e345]:
+          - link "Toronto to Banff National Park" [ref=e346] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Banff-National-Park
+        - listitem [ref=e347]:
+          - link "Toronto to Vaughan Mills" [ref=e348] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Vaughan-Mills
+        - listitem [ref=e349]:
+          - link "Toronto to University of Waterloo" [ref=e350] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/University-of-Waterloo
+        - listitem [ref=e351]:
+          - link "Toronto to Scarborough ON Canada" [ref=e352] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Scarborough-ON-Canada
+        - listitem [ref=e353]:
+          - link "Toronto to Penetanguishene" [ref=e354] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Penetanguishene
+        - listitem [ref=e355]:
+          - link "Toronto to Crete Greece" [ref=e356] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Crete-Greece
+        - listitem [ref=e357]:
+          - link "Toronto to Kingsville ON Canada" [ref=e358] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Kingsville-ON-Canada
+        - listitem [ref=e359]:
+          - link "Toronto to Liberty Village" [ref=e360] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Liberty-Village
+        - listitem [ref=e361]:
+          - link "Toronto to Woodville ON Canada" [ref=e362] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Woodville-ON-Canada
+        - listitem [ref=e363]:
+          - link "Toronto to Fresno" [ref=e364] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Fresno
+        - listitem [ref=e365]:
+          - link "Toronto to Puglia Tuscany Italy" [ref=e366] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Puglia-Tuscany-Italy
+        - listitem [ref=e367]:
+          - link "Toronto to Fire Island" [ref=e368] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Fire-Island
+        - listitem [ref=e369]:
+          - link "Toronto to Montebello Park" [ref=e370] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Montebello-Park
+        - listitem [ref=e371]:
+          - link "Toronto to Angus Glen" [ref=e372] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Angus-Glen
+        - listitem [ref=e373]:
+          - link "Toronto to Bay City MI USA" [ref=e374] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Bay-City-MI-USA
+        - listitem [ref=e375]:
+          - link "Toronto to Carlisle" [ref=e376] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Carlisle
+        - listitem [ref=e377]:
+          - link "Toronto to Middletown Butler County OH USA" [ref=e378] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Middletown-Butler-County-OH-USA
+        - listitem [ref=e379]:
+          - link "Toronto to Northville" [ref=e380] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Northville
+        - listitem [ref=e381]:
+          - link "Toronto to Plano" [ref=e382] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Plano
+        - listitem [ref=e383]:
+          - link "Toronto to Rabat" [ref=e384] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Rabat
+        - listitem [ref=e385]:
+          - link "Toronto to Stoney Lake ON Canada" [ref=e386] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Stoney-Lake-ON-Canada
+        - listitem [ref=e387]:
+          - link "Toronto to Waterloo QC Canada" [ref=e388] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Waterloo-QC-Canada
+        - listitem [ref=e389]:
+          - link "Toronto to Bleecker St" [ref=e390] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Bleecker-St
+        - listitem [ref=e391]:
+          - link "Toronto to Deauville" [ref=e392] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Deauville
+        - listitem [ref=e393]:
+          - link "Toronto to Fitz Roy" [ref=e394] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Fitz-Roy
+        - listitem [ref=e395]:
+          - link "Toronto to Graham Island" [ref=e396] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Graham-Island
+        - listitem [ref=e397]:
+          - link "Toronto to Kearns ON Canada" [ref=e398] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Kearns-ON-Canada
+        - listitem [ref=e399]:
+          - link "Toronto to Manama" [ref=e400] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Manama
+        - listitem [ref=e401]:
+          - link "Toronto to Marblehead" [ref=e402] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Marblehead
+        - listitem [ref=e403]:
+          - link "Toronto to Rogers" [ref=e404] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Toronto/Rogers
+    - region "Trips to Kolkata" [ref=e405]:
+      - heading "Trips to Kolkata" [level=3] [ref=e406]:
+        - text: Trips to Kolkata
+        - separator [ref=e407]
+      - list [ref=e408]:
+        - listitem [ref=e409]:
+          - link "Goa India to Kolkata" [ref=e410] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Goa-India/Kolkata
+        - listitem [ref=e411]:
+          - link "Assam to Kolkata" [ref=e412] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Assam/Kolkata
+        - listitem [ref=e413]:
+          - link "Madhyamgram to Kolkata" [ref=e414] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Madhyamgram/Kolkata
+        - listitem [ref=e415]:
+          - link "Puri to Kolkata" [ref=e416] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Puri/Kolkata
+        - listitem [ref=e417]:
+          - link "Ranchi to Kolkata" [ref=e418] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Ranchi/Kolkata
+        - listitem [ref=e419]:
+          - link "Budge Budge to Kolkata" [ref=e420] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Budge-Budge/Kolkata
+        - listitem [ref=e421]:
+          - link "Kotulpur to Kolkata" [ref=e422] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kotulpur/Kolkata
+        - listitem [ref=e423]:
+          - link "Barishal to Kolkata" [ref=e424] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Barishal/Kolkata
+        - listitem [ref=e425]:
+          - link "Sangli to Kolkata" [ref=e426] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Sangli/Kolkata
+        - listitem [ref=e427]:
+          - link "Ambika Kalna to Kolkata" [ref=e428] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Ambika-Kalna/Kolkata
+        - listitem [ref=e429]:
+          - link "Gobārdānga to Kolkata" [ref=e430] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Gob%C4%81rd%C4%81nga/Kolkata
+        - listitem [ref=e431]:
+          - link "Naharlagun to Kolkata" [ref=e432] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Naharlagun/Kolkata
+        - listitem [ref=e433]:
+          - link "Batanagar to Kolkata" [ref=e434] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Batanagar/Kolkata
+        - listitem [ref=e435]:
+          - link "Ekachakra to Kolkata" [ref=e436] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Ekachakra/Kolkata
+        - listitem [ref=e437]:
+          - link "North Lakhimpur to Kolkata" [ref=e438] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/North-Lakhimpur/Kolkata
+        - listitem [ref=e439]:
+          - link "Dalsinghsarai to Kolkata" [ref=e440] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Dalsinghsarai/Kolkata
+        - listitem [ref=e441]:
+          - link "Jeddah to Kolkata" [ref=e442] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Jeddah/Kolkata
+        - listitem [ref=e443]:
+          - link "Nischintapur to Kolkata" [ref=e444] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Nischintapur/Kolkata
+        - listitem [ref=e445]:
+          - link "Betla National Park to Kolkata" [ref=e446] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Betla-National-Park/Kolkata
+        - listitem [ref=e447]:
+          - link "Bijnor to Kolkata" [ref=e448] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Bijnor/Kolkata
+        - listitem [ref=e449]:
+          - link "Ghazīpur to Kolkata" [ref=e450] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Ghaz%C4%ABpur/Kolkata
+        - listitem [ref=e451]:
+          - link "Laos to Kolkata" [ref=e452] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Laos/Kolkata
+        - listitem [ref=e453]:
+          - link "Mahabaleshwar to Kolkata" [ref=e454] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Mahabaleshwar/Kolkata
+        - listitem [ref=e455]:
+          - link "Yuksom to Kolkata" [ref=e456] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Yuksom/Kolkata
+        - listitem [ref=e457]:
+          - link "Apartment in Kolkata Joka Diamond Park to Kolkata" [ref=e458] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Apartment-in-Kolkata-Joka-Diamond-Park/Kolkata
+        - listitem [ref=e459]:
+          - link "Gachibowli to Kolkata" [ref=e460] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Gachibowli/Kolkata
+        - listitem [ref=e461]:
+          - link "Haveli Kharagpur to Kolkata" [ref=e462] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Haveli-Kharagpur/Kolkata
+        - listitem [ref=e463]:
+          - link "Kulberia to Kolkata" [ref=e464] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Kulberia/Kolkata
+        - listitem [ref=e465]:
+          - link "Philadelphia to Kolkata" [ref=e466] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Philadelphia/Kolkata
+        - listitem [ref=e467]:
+          - link "Tianjin to Kolkata" [ref=e468] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Tianjin/Kolkata
+    - region "Popular routes" [ref=e469]:
+      - heading "Popular routes" [level=3] [ref=e470]:
+        - text: Popular routes
+        - separator [ref=e471]
+      - list [ref=e472]:
+        - listitem [ref=e473]:
+          - link "London to Paris" [ref=e474] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/London/Paris
+        - listitem [ref=e475]:
+          - link "Amsterdam to Paris" [ref=e476] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Amsterdam/Paris
+        - listitem [ref=e477]:
+          - link "Barcelona to Madrid" [ref=e478] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Barcelona/Madrid
+        - listitem [ref=e479]:
+          - link "Barcelona to Seville" [ref=e480] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Barcelona/Seville
+        - listitem [ref=e481]:
+          - link "Berlin to Prague" [ref=e482] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Berlin/Prague
+        - listitem [ref=e483]:
+          - link "Chicago to London" [ref=e484] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Chicago/London
+        - listitem [ref=e485]:
+          - link "London to Edinburgh" [ref=e486] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/London/Edinburgh
+        - listitem [ref=e487]:
+          - link "London to Dublin" [ref=e488] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/London/Dublin
+        - listitem [ref=e489]:
+          - link "Madrid to Barcelona" [ref=e490] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/s/Madrid/Barcelona
+  - contentinfo [ref=e491]:
+    - generic [ref=e492]:
+      - generic [ref=e493]:
+        - generic [ref=e495]:
+          - generic [ref=e496]:
+            - generic [ref=e497]: Select a currency
+            - combobox "Select a currency" [ref=e498]:
+              - option "Euro (EUR)"
+              - option "US Dollar (USD)"
+              - option "British Pound (GBP)"
+              - option "Australian Dollar (AUD)"
+              - option "Canadian Dollar (CAD)" [selected]
+              - option "-------------------" [disabled]
+              - option "Argentine Peso (ARS)"
+              - option "Brazilian Real (BRL)"
+              - option "Chilean Peso (CLP)"
+              - option "Chinese Yuan (CNY)"
+              - option "Colombian Peso (COP)"
+              - option "Czech Koruna (CZK)"
+              - option "Danish Krone (DKK)"
+              - option "Hong Kong Dollar (HKD)"
+              - option "Hungarian Forint (HUF)"
+              - option "Indian Rupee (INR)"
+              - option "Indonesian Rupiah (IDR)"
+              - option "Israeli New Shekel (ILS)"
+              - option "Japanese Yen (JPY)"
+              - option "Malaysian Ringgit (MYR)"
+              - option "Mexican Peso (MXN)"
+              - option "Moroccan Dirham (MAD)"
+              - option "Nepalese Rupee (NPR)"
+              - option "New Zealand Dollar (NZD)"
+              - option "New Taiwan Dollar (TWD)"
+              - option "Norwegian Krone (NOK)"
+              - option "Pakistani Rupee (PKR)"
+              - option "Philippine Peso (PHP)"
+              - option "Polish Zloty (PLN)"
+              - option "Romanian Leu (RON)"
+              - option "Russian Ruble (RUB)"
+              - option "Saudi Riyal (SAR)"
+              - option "Serbian Dinar (RSD)"
+              - option "Singapore Dollar (SGD)"
+              - option "South African Rand (ZAR)"
+              - option "South Korean Won (KRW)"
+              - option "Sri Lankan Rupee (LKR)"
+              - option "Swedish Krona (SEK)"
+              - option "Swiss Franc (CHF)"
+              - option "Thai Baht (THB)"
+              - option "Turkish Lira (TRY)"
+              - option "United Arab Emirates Dirham (AED)"
+              - option "Ukrainian Hryvnia (UAH)"
+          - generic [ref=e499]:
+            - generic [ref=e500]: Select a language
+            - combobox "Select a language" [ref=e501]:
+              - option "Dansk"
+              - option "Deutsch"
+              - option "English" [selected]
+              - option "Español"
+              - option "Français"
+              - option "Italiano"
+              - option "日本語"
+              - option "한글"
+              - option "Nederlands"
+              - option "Norsk"
+              - option "Polski"
+              - option "Português"
+              - option "Русский"
+              - option "Svenska"
+              - option "ไทย"
+              - option "中文简体"
+              - option "Românește"
+              - option "Bahasa Melayu"
+              - option "čeština"
+              - option "Magyar"
+              - option "Ελληνικά"
+              - option "Suomen kieli"
+              - option "Slovenčina"
+              - option "Hrvatski"
+        - generic [ref=e502]:
+          - heading "Discover" [level=4] [ref=e503]
+          - list [ref=e504]:
+            - listitem [ref=e505]:
+              - link "Hotels" [ref=e506] [cursor=pointer]:
+                - /url: /hotels/Kolkata?origin=Hotels-Near
+            - listitem [ref=e507]:
+              - link "Rental Cars" [ref=e508] [cursor=pointer]:
+                - /url: /redirects/cars?label=fe1%3Alp%3Arfcta%3Apo%3Ana&location=Kolkata&uid=CATor20260430202603494uzdd&aqid=CATor20260430202603494uzdd&requestId=019de040-c524-74f1-a6d5-91fe5f8bc5ac
+            - listitem [ref=e509]:
+              - link "Travel Guides" [ref=e510] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/travel-guides/?utm_source=r2r_product&amp;utm_medium=Footer
+            - listitem [ref=e511]:
+              - link "Blog" [ref=e512] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/blog/
+        - generic [ref=e513]:
+          - heading "Rome2Rio" [level=4] [ref=e514]
+          - list [ref=e515]:
+            - listitem [ref=e516]:
+              - link "About Us" [ref=e517] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/about/
+            - listitem [ref=e518]:
+              - link "Press" [ref=e519] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/press/
+            - listitem [ref=e520]:
+              - link "Careers" [ref=e521] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/careers/
+            - listitem [ref=e522]:
+              - link "Advertise" [ref=e523] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/advertise
+            - listitem [ref=e524]:
+              - link "Help" [ref=e525] [cursor=pointer]:
+                - /url: https://help.rome2rio.com/en/support/home
+            - listitem [ref=e526]:
+              - link "Contact Us" [ref=e527] [cursor=pointer]:
+                - /url: https://help.rome2rio.com/en/support/tickets/new
+        - generic [ref=e528]:
+          - heading "Apps" [level=4] [ref=e529]
+          - list [ref=e530]:
+            - listitem [ref=e531]:
+              - link "iOS App" [ref=e532] [cursor=pointer]:
+                - /url: https://itunes.apple.com/us/app/rome2rio-find-out-how-to-get/id569793256?mt=8
+                - img [ref=e533]
+                - text: iOS App
+            - listitem [ref=e535]:
+              - link "Android App" [ref=e536] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.rome2rio.www.rome2rio
+                - img [ref=e537]
+                - text: Android App
+          - list [ref=e539]:
+            - listitem [ref=e540]:
+              - link "Photo Credits" [ref=e541] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/legal/photocredits
+            - listitem [ref=e542]:
+              - link "Data Sources" [ref=e543] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/legal/data-sources/
+            - listitem
+            - listitem
+      - generic [ref=e544]:
+        - generic [ref=e545]:
+          - link "Rome2Rio" [ref=e546] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/
+            - generic [ref=e547]: Rome2Rio
+            - img [ref=e548]
+          - generic [ref=e551]:
+            - text: © 2026 Rome2Rio Pty Ltd •
+            - link "Company Disclosure" [ref=e552] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/company-disclosure/
+        - generic [ref=e553]:
+          - link "Privacy" [ref=e554] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/privacy-policy/
+          - link "Terms" [ref=e555] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/terms-of-use/
+          - link "Facebook" [ref=e556] [cursor=pointer]:
+            - /url: https://www.facebook.com/rome2rio
+            - img [ref=e558]
+            - generic [ref=e560]: Facebook
+          - link "Linkedin" [ref=e561] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/rome2rio-pty-ltd
+            - img [ref=e563]
+            - generic [ref=e565]: Linkedin
+          - link "Twitter" [ref=e566] [cursor=pointer]:
+            - /url: https://www.twitter.com/rome2rio
+            - img [ref=e568]
+            - generic [ref=e570]: Twitter
+  - generic [ref=e572]:
+    - button "User preferences" [ref=e573]:
+      - img "User preferences" [ref=e574]
+    - dialog "Cookie consent banner" [ref=e576]:
+      - generic [ref=e577]:
+        - paragraph [ref=e578]:
+          - text: Rome2Rio uses cookies to help personalize content and show you personalised ads. By proceeding, you accept the use of cookies in accordance with our
+          - link "privacy policy" [ref=e579] [cursor=pointer]:
+            - /url: https://www.rome2rio.com/privacy-policy/
+          - text: .You may
+          - button "opt out of personalised ads" [ref=e580]
+          - text: at any time.
+        - button "OK" [ref=e581]
