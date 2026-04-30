@@ -1,0 +1,4 @@
+[     219ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.busbud.com/en-ca/bus/toronto/ottawa/2026-05-15?pax=2:0
+[    1439ms] [LOG] Monkey Patching tiktok to improve INP @ :0
+[    1439ms] [LOG] Monkey Patching tiktok to improve INP @ :0
+[   57054ms] [ERROR] Not signed in with the identity provider. @ https://sp.booking.com/searchresults.html?aid=2265814&checkin=2026-05-15&checkout=2026-05-16&dest_id=-570760&dest_type=city&lang=en-ca&selected_currency=CAD&label=device_id%3D&group_adults=1:0

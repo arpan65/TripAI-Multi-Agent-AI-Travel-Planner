@@ -1,0 +1,232 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "busbud logo" [ref=e8] [cursor=pointer]:
+          - /url: /en-ca
+          - img "busbud logo" [ref=e10]
+        - generic [ref=e12]: Error 404
+    - generic [ref=e14]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e24]:
+            - combobox "Origin" [ref=e25]: Toronto
+            - generic: Origin
+          - button "Swap locations" [ref=e27] [cursor=pointer]:
+            - img [ref=e28]
+          - generic [ref=e35]:
+            - combobox "Destination" [ref=e36]: Ottawa, ON
+            - generic: Destination
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - generic [ref=e43]:
+                  - textbox "Date" [ref=e44]:
+                    - /placeholder: " "
+                    - text: Fri, May 15
+                  - generic: Date
+                - generic [ref=e426]:
+                  - generic [ref=e427]:
+                    - generic [ref=e428]:
+                      - button "Previous month" [ref=e429] [cursor=pointer]:
+                        - img [ref=e430]
+                      - generic [ref=e432]: May 2026
+                      - button "Next month" [ref=e433] [cursor=pointer]:
+                        - img [ref=e434]
+                    - generic [ref=e436]:
+                      - generic [ref=e437]: Su
+                      - generic [ref=e438]: Mo
+                      - generic [ref=e439]: Tu
+                      - generic [ref=e440]: We
+                      - generic [ref=e441]: Th
+                      - generic [ref=e442]: Fr
+                      - generic [ref=e443]: Sa
+                    - grid "May 2026" [ref=e444]:
+                      - row "2026-04-26 2026-04-27 2026-04-28 2026-04-29 2026-04-30 2026-05-01 2026-05-02" [ref=e551]:
+                        - gridcell "2026-04-26" [disabled] [ref=e446]
+                        - gridcell "2026-04-27" [disabled] [ref=e447]
+                        - gridcell "2026-04-28" [disabled] [ref=e448]
+                        - gridcell "2026-04-29" [disabled] [ref=e449]
+                        - gridcell "2026-04-30" [disabled] [ref=e450]
+                        - gridcell "2026-05-01" [ref=e552] [cursor=pointer]:
+                          - generic [ref=e452]: "1"
+                        - gridcell "2026-05-02" [ref=e453] [cursor=pointer]:
+                          - generic [ref=e454]: "2"
+                      - row "2026-05-03 2026-05-04 2026-05-05 2026-05-06 2026-05-07 2026-05-08 2026-05-09" [ref=e455]:
+                        - gridcell "2026-05-03" [ref=e456] [cursor=pointer]:
+                          - generic [ref=e457]: "3"
+                        - gridcell "2026-05-04" [ref=e458] [cursor=pointer]:
+                          - generic [ref=e459]: "4"
+                        - gridcell "2026-05-05" [ref=e460] [cursor=pointer]:
+                          - generic [ref=e461]: "5"
+                        - gridcell "2026-05-06" [ref=e462] [cursor=pointer]:
+                          - generic [ref=e463]: "6"
+                        - gridcell "2026-05-07" [ref=e464] [cursor=pointer]:
+                          - generic [ref=e465]: "7"
+                        - gridcell "2026-05-08" [ref=e466] [cursor=pointer]:
+                          - generic [ref=e467]: "8"
+                        - gridcell "2026-05-09" [ref=e468] [cursor=pointer]:
+                          - generic [ref=e469]: "9"
+                      - row "2026-05-10 2026-05-11 2026-05-12 2026-05-13 2026-05-14 2026-05-15 Selected 2026-05-16" [ref=e553]:
+                        - gridcell "2026-05-10" [ref=e471] [cursor=pointer]:
+                          - generic [ref=e472]: "10"
+                        - gridcell "2026-05-11" [ref=e473] [cursor=pointer]:
+                          - generic [ref=e474]: "11"
+                        - gridcell "2026-05-12" [ref=e475] [cursor=pointer]:
+                          - generic [ref=e476]: "12"
+                        - gridcell "2026-05-13" [ref=e477] [cursor=pointer]:
+                          - generic [ref=e478]: "13"
+                        - gridcell "2026-05-14" [ref=e479] [cursor=pointer]:
+                          - generic [ref=e480]: "14"
+                        - gridcell "2026-05-15 Selected" [active] [selected] [ref=e554] [cursor=pointer]:
+                          - generic [ref=e482]: "15"
+                        - gridcell "2026-05-16" [ref=e483] [cursor=pointer]:
+                          - generic [ref=e484]: "16"
+                      - row "2026-05-17 2026-05-18 2026-05-19 2026-05-20 2026-05-21 2026-05-22 2026-05-23" [ref=e485]:
+                        - gridcell "2026-05-17" [ref=e486] [cursor=pointer]:
+                          - generic [ref=e487]: "17"
+                        - gridcell "2026-05-18" [ref=e488] [cursor=pointer]:
+                          - generic [ref=e489]: "18"
+                        - gridcell "2026-05-19" [ref=e490] [cursor=pointer]:
+                          - generic [ref=e491]: "19"
+                        - gridcell "2026-05-20" [ref=e492] [cursor=pointer]:
+                          - generic [ref=e493]: "20"
+                        - gridcell "2026-05-21" [ref=e494] [cursor=pointer]:
+                          - generic [ref=e495]: "21"
+                        - gridcell "2026-05-22" [ref=e496] [cursor=pointer]:
+                          - generic [ref=e497]: "22"
+                        - gridcell "2026-05-23" [ref=e498] [cursor=pointer]:
+                          - generic [ref=e499]: "23"
+                      - row "2026-05-24 2026-05-25 2026-05-26 2026-05-27 2026-05-28 2026-05-29 2026-05-30" [ref=e500]:
+                        - gridcell "2026-05-24" [ref=e501] [cursor=pointer]:
+                          - generic [ref=e502]: "24"
+                        - gridcell "2026-05-25" [ref=e503] [cursor=pointer]:
+                          - generic [ref=e504]: "25"
+                        - gridcell "2026-05-26" [ref=e505] [cursor=pointer]:
+                          - generic [ref=e506]: "26"
+                        - gridcell "2026-05-27" [ref=e507] [cursor=pointer]:
+                          - generic [ref=e508]: "27"
+                        - gridcell "2026-05-28" [ref=e509] [cursor=pointer]:
+                          - generic [ref=e510]: "28"
+                        - gridcell "2026-05-29" [ref=e511] [cursor=pointer]:
+                          - generic [ref=e512]: "29"
+                        - gridcell "2026-05-30" [ref=e513] [cursor=pointer]:
+                          - generic [ref=e514]: "30"
+                      - row "2026-05-31 2026-06-01 2026-06-02 2026-06-03 2026-06-04 2026-06-05 2026-06-06" [ref=e515]:
+                        - gridcell "2026-05-31" [ref=e516] [cursor=pointer]:
+                          - generic [ref=e517]: "31"
+                        - gridcell "2026-06-01" [disabled] [ref=e518]
+                        - gridcell "2026-06-02" [disabled] [ref=e519]
+                        - gridcell "2026-06-03" [disabled] [ref=e520]
+                        - gridcell "2026-06-04" [disabled] [ref=e521]
+                        - gridcell "2026-06-05" [disabled] [ref=e522]
+                        - gridcell "2026-06-06" [disabled] [ref=e523]
+                  - generic [ref=e524]:
+                    - generic [ref=e525]:
+                      - button "Before 6 a.m." [ref=e526] [cursor=pointer]:
+                        - img [ref=e528]
+                        - generic [ref=e530]: Before 6 a.m.
+                      - button "6 a.m. - 11 a.m." [ref=e531] [cursor=pointer]:
+                        - img [ref=e533]
+                        - generic [ref=e535]: 6 a.m. - 11 a.m.
+                      - button "11 a.m. - 5 p.m." [ref=e536] [cursor=pointer]:
+                        - img [ref=e538]
+                        - generic [ref=e540]: 11 a.m. - 5 p.m.
+                      - button "After 5 p.m." [ref=e541] [cursor=pointer]:
+                        - img [ref=e543]
+                        - generic [ref=e545]: After 5 p.m.
+                    - button "Anytime" [ref=e546] [cursor=pointer]:
+                      - img [ref=e548]
+                      - generic [ref=e550]: Anytime
+              - generic [ref=e48]:
+                - textbox "Return Date" [ref=e49]:
+                  - /placeholder: Optional
+                - generic: Return Date
+            - generic [ref=e53]:
+              - textbox "1 passenger" [ref=e54]
+              - generic: Passengers
+          - button "Search" [ref=e57] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e61]: Search
+      - generic [ref=e62]:
+        - generic [ref=e64]:
+          - heading "Lost? Let's get you back on the right path!" [level=1] [ref=e65]:
+            - generic [ref=e66]: Lost?
+            - generic [ref=e67]: Let's get you back on the right path!
+          - link "Back to home" [ref=e68] [cursor=pointer]:
+            - /url: /en-ca
+            - generic [ref=e69]: Back to home
+        - img [ref=e72]
+    - img [ref=e129]
+  - contentinfo [ref=e131]:
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - link "busbud logo" [ref=e135] [cursor=pointer]:
+          - /url: /en-ca
+          - img "busbud logo" [ref=e136]
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - link "Instagram" [ref=e139] [cursor=pointer]:
+              - /url: https://www.instagram.com/busbud/
+              - generic [ref=e140]:
+                - img [ref=e142]
+                - generic [ref=e144]: Instagram
+          - listitem [ref=e145]:
+            - link "Facebook" [ref=e146] [cursor=pointer]:
+              - /url: https://www.facebook.com/Busbud
+              - generic [ref=e147]:
+                - img [ref=e149]
+                - generic [ref=e151]: Facebook
+      - generic [ref=e152]:
+        - paragraph [ref=e153]: Company
+        - list [ref=e154]:
+          - listitem [ref=e155]:
+            - link "About" [ref=e156] [cursor=pointer]:
+              - /url: /en-ca/about
+              - generic [ref=e157]: About
+          - listitem [ref=e158]:
+            - link "Careers" [ref=e159] [cursor=pointer]:
+              - /url: https://www.busbud.com/en-ca/careers/
+              - generic [ref=e160]: Careers
+          - listitem [ref=e161]:
+            - link "Press" [ref=e162] [cursor=pointer]:
+              - /url: /en-ca/about/press
+              - generic [ref=e163]: Press
+          - listitem [ref=e164]:
+            - link "Blog" [ref=e165] [cursor=pointer]:
+              - /url: https://www.busbud.com/blog/
+              - generic [ref=e166]: Blog
+          - listitem [ref=e167]:
+            - link "Partner with Busbud" [ref=e168] [cursor=pointer]:
+              - /url: /partner/supply/
+              - generic [ref=e169]: Partner with Busbud
+          - listitem [ref=e170]:
+            - link "Contact" [ref=e171] [cursor=pointer]:
+              - /url: https://help.busbud.com/hc/en-us
+              - generic [ref=e172]: Contact
+      - generic [ref=e173]:
+        - paragraph
+        - list
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: Support
+        - list [ref=e176]:
+          - listitem [ref=e177]:
+            - link "Help centre" [ref=e178] [cursor=pointer]:
+              - /url: https://help.busbud.com/hc/en-us
+              - generic [ref=e179]: Help centre
+    - generic [ref=e183]:
+      - paragraph [ref=e185]: © 2026 Busbud Inc., All rights reserved
+      - list [ref=e187]:
+        - listitem [ref=e188]:
+          - link "Terms of Use •" [ref=e189] [cursor=pointer]:
+            - /url: https://www.busbud.com/en-ca/terms-of-use/
+            - generic [ref=e190]: Terms of Use •
+        - listitem [ref=e191]:
+          - link "Privacy •" [ref=e192] [cursor=pointer]:
+            - /url: https://www.busbud.com/en-ca/privacy-policy/
+            - generic [ref=e193]: Privacy •
+        - listitem [ref=e194]:
+          - link "Refund policy" [ref=e195] [cursor=pointer]:
+            - /url: https://www.busbud.com/en-ca/refund-policy/
+            - generic [ref=e196]: Refund policy

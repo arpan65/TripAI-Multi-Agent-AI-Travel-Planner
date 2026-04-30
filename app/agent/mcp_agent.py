@@ -42,9 +42,13 @@ import logging
 import os
 import re
 import sys
+import time
+import uuid
 from contextlib import AsyncExitStack
 from datetime import datetime
 from typing import Callable, Optional
+
+from app import db
 
 from anthropic import AsyncAnthropic
 from mcp import ClientSession, StdioServerParameters
@@ -173,77 +177,102 @@ Required JSON structure:
   }
 }
 
-URL CONSTRUCTION RULES — these must be real, navigable URLs:
+URL CONSTRUCTION RULES — these must be real, navigable URLs that show results without JS interaction.
 
-Bus (Canada/US):
-  Busbud:   https://www.busbud.com/en-ca/bus/{origin-slug}/{dest-slug}/yyyy-mm-dd?pax=N
-            e.g. https://www.busbud.com/en-ca/bus/toronto/montreal/2026-05-15?pax=2
-  Wanderu:  https://www.wanderu.com/en/depart/{Origin-City,-ST}/{Dest-City,-ST}/yyyy-mm-dd/
-            e.g. https://www.wanderu.com/en/depart/Toronto,-ON/Montr%C3%A9al,-QC/2026-05-15/
-  Megabus:  https://ca.megabus.com/  (homepage — can't deep-link dates)
-  FlixBus:  https://www.flixbus.ca/bus/{origin}-{destination}
-            e.g. https://www.flixbus.ca/bus/toronto-montreal
+TRANSPORT URL PRIORITY — always include these in order:
 
-Bus (Europe):
-  FlixBus:  https://www.flixbus.com/bus/{origin}-{destination}
-  Busbud:   https://www.busbud.com/en/bus/{origin}/{destination}/yyyy-mm-dd
+1. Rome2Rio (ALWAYS include as first transport URL — no login, no JS, shows all modes + prices):
+   https://www.rome2rio.com/s/{Origin}/{Destination}
+   e.g. https://www.rome2rio.com/s/Toronto/Ottawa
+   e.g. https://www.rome2rio.com/s/London/Paris
 
-Train (UK):
-  Trainline: https://www.thetrainline.com/train-times/{origin}-to-{destination}
-  National Rail: https://www.nationalrail.co.uk/
+2. Bus (Canada/US):
+   Wanderu:  https://www.wanderu.com/en/depart/{Origin-City,-ST}/{Dest-City,-ST}/{yyyy-mm-dd}/
+             e.g. https://www.wanderu.com/en/depart/Toronto,-ON/Ottawa,-ON/2026-05-15/
+   FlixBus:  https://www.flixbus.ca/bus/{origin}-to-{destination}
+             e.g. https://www.flixbus.ca/bus/toronto-to-montreal
+   Busbud:   https://www.busbud.com/en-ca/bus/{origin}/{destination}/{yyyy-mm-dd}?adults={N}
+             NOTE: Busbud often blocks headless browsers — use as last resort
 
-Train (Europe):
-  Omio:     https://www.omio.com/
-  Trainline: https://www.thetrainline.com/
+3. Train (Canada):
+   VIA Rail schedule: https://www.viarail.ca/en/destinations/trains/{origin-slug}-to-{destination-slug}
+                      e.g. https://www.viarail.ca/en/destinations/trains/toronto-to-ottawa
+   VIA Rail fares:    https://www.viarail.ca/en/fares-and-packages/train-fares
 
-Train (Canada):
-  VIA Rail: https://www.viarail.ca/en/fares-and-packages/train-fares
+4. Train (UK):
+   Trainline: https://www.thetrainline.com/train-times/{origin}-to-{destination}
+   National Rail: https://www.nationalrail.co.uk/
 
-Flight:
-  Google Flights: https://www.google.com/travel/flights/search?tfs=...
-  Skyscanner: https://www.skyscanner.net/transport/flights/{from}/{to}/{depart-yyyymmdd}/{return-yyyymmdd}/
-  Kayak: https://www.kayak.com/flights/{IATA1}-{IATA2}/{yyyy-mm-dd}/{yyyy-mm-dd}/{N}adults
+5. Train (Europe):
+   Omio:      https://www.omio.com/
+   Trainline: https://www.thetrainline.com/
 
-Accommodation (always include dates and guest count):
+6. Bus (Europe):
+   FlixBus:  https://www.flixbus.com/bus/{origin}-to-{destination}
+   Busbud:   https://www.busbud.com/en/bus/{origin}/{destination}/{yyyy-mm-dd}
+
+7. Flight:
+   Skyscanner: https://www.skyscanner.net/transport/flights/{from-iata}/{to-iata}/{depart-yyyymmdd}/{return-yyyymmdd}/
+   Kayak:      https://www.kayak.com/flights/{IATA1}-{IATA2}/{yyyy-mm-dd}/{yyyy-mm-dd}/{N}adults
+
+ACCOMMODATION (always include dates and guest count):
   Booking.com: https://www.booking.com/searchresults/en-gb.html?ss={Destination}&checkin={YYYY-MM-DD}&checkout={YYYY-MM-DD}&group_adults={N}&no_rooms=1
   Hostelworld: https://www.hostelworld.com/findabed.php/ChosenCity.{Destination}/ChosenCountry.{Country}/DateFrom.{dd-Mon-yyyy}/DateTo.{dd-Mon-yyyy}/guests.{N}
-  Airbnb: https://www.airbnb.com/s/{Destination}/homes?checkin={YYYY-MM-DD}&checkout={YYYY-MM-DD}&adults={N}
+  Airbnb:      https://www.airbnb.com/s/{Destination}/homes?checkin={YYYY-MM-DD}&checkout={YYYY-MM-DD}&adults={N}
 
-Activities:
+ACTIVITIES:
   TripAdvisor: https://www.tripadvisor.com/{Destination}-Attractions
-  Viator: https://www.viator.com/en-CA/{Destination}/d{id}-ttd (use city name)
-  Timeout: https://www.timeout.com/{destination-slug}/things-to-do
+  Viator:      https://www.viator.com/en-CA/{Destination}-tours/d{cityid}-ttd
+  Timeout:     https://www.timeout.com/{destination-slug}/things-to-do
 
-Provide 3-4 transport URLs, 3 accommodation URLs, 2 activity URLs.
+Provide exactly 3 transport URLs (Rome2Rio first, then 2 others), 3 accommodation URLs, 2 activity URLs.
 Output ONLY the JSON object.
 """,
 
 # ── SCOUT (merged researcher + pricer) ──────────────────────────────
 "scout": """You are the SCOUT agent — Travel Data Extractor.
 
-You have Playwright browser tools. Work through the URL list CATEGORY BY CATEGORY.
-Stop a category as soon as ONE site in it yields usable prices — do NOT visit remaining URLs for that category.
+## HARD EFFICIENCY RULES — OVERRIDE EVERYTHING ELSE
+You have 20 turns for ALL URLs. That is roughly 2 turns per URL.
 
-Tools (use in order per URL):
-  browser_navigate → browser_snapshot → interact only if no results visible (one more snapshot) → STOP this category if prices found
+STRICT per-URL protocol — exactly 2 tool calls:
+  1. browser_navigate to the URL
+  2. browser_snapshot — read whatever is there
 
-For EACH URL:
-1. browser_navigate to the URL
-2. browser_snapshot — read results immediately
-3. Only if a search form is shown with no results: fill dates/locations with browser_type,
-   browser_click to submit, then one more browser_snapshot
-4. If prices are visible → record them and move to the next CATEGORY (skip remaining URLs in current category)
-5. If blocked/CAPTCHA/empty → note it and try next URL in same category
+NEVER do any of the following:
+- Fill forms, click buttons, interact with page elements
+- Wait for JS to load (browser_wait_for)
+- Retry a URL that showed an error, CAPTCHA, or blank results
+- Spend more than 2 tool calls on any single URL
 
-What to record:
-- Transport: operator, depart time, arrive time, duration, price/person (lowest + mid + high)
-- Hotels: name, stars, neighbourhood, price/night, total for stay
-- Activities: name, price
-- Any CAPTCHA / block: note and skip
+IMMEDIATELY skip to the next URL if the snapshot shows:
+- Any error message ("Something went wrong", "Oops", "404", "403")
+- A CAPTCHA or bot-detection page
+- A blank page or login wall
+- A search form with no results yet loaded (do NOT fill it)
 
-Stop entirely once you have transport prices AND hotel prices (one source each is enough).
+## WORKFLOW
+Work CATEGORY BY CATEGORY through the URLs given to you.
 
-Output compact Markdown:
+For each URL:
+1. browser_navigate
+2. browser_snapshot
+3. Prices found → record them, mark category DONE, skip remaining URLs in that category
+4. No prices / error → note the block, move immediately to the next URL
+
+Stop as soon as you have transport data AND accommodation data (one working source each).
+
+## What to extract
+Transport (record ALL of these if available):
+  operator, earliest depart time, latest depart time, arrive time, journey duration, price/person (economy + standard)
+
+Accommodation (record ALL of these if available):
+  property name, star rating, neighbourhood/area, price per night, total for stay length
+
+Activities: name, price per person
+
+## Output — compact Markdown only
+Write nothing before or after these tables.
 
 ## 🚌 Transport
 | Operator | Depart | Arrive | Duration | Price/person | Notes |
@@ -258,7 +287,7 @@ Output compact Markdown:
 |------|-------|-------|
 
 ## ⚠️ Issues
-(CAPTCHAs, blocks, empty results — one line each)
+(one line per blocked/failed URL — e.g. "busbud.com: error page, skipped")
 """,
 
 # ── BUDGET ──────────────────────────────────────────────────────────
@@ -324,19 +353,19 @@ Required JSON structure (fill in all values from the data you received):
     "currency": "<ISO code e.g. CAD>"
   },
   "transport": {
-    "mode": "<bus|train|flight|ferry>",
-    "emoji": "<one of: bus=🚌 train=🚆 flight=✈️ ferry=⛴️>",
+    "mode": "<bus|train|flight|ferry|mixed>",
+    "emoji": "<one of: bus=🚌 train=🚆 flight=✈️ ferry=⛴️ mixed=🗺️>",
     "outbound": [
       {
         "operator": "<name>",
-        "depart": "<HH:MM or N/A>",
-        "arrive": "<HH:MM or N/A>",
-        "duration": "<e.g. 5h 30m or N/A>",
-        "price_per_person": "<e.g. CAD 55 or N/A>",
-        "url": null
+        "depart": "<HH:MM if known, else 'Multiple daily'>",
+        "arrive": "<HH:MM if known, else 'See operator site'>",
+        "duration": "<e.g. 5h 30m if known, else 'approx Xh'>",
+        "price_per_person": "<e.g. CAD 55 — always include even if estimated>",
+        "url": "<booking URL from transport_urls in the context, or null>"
       }
     ],
-    "return_trips": []
+    "return_trips": "<same structure as outbound, or [] if one-way>"
   },
   "accommodation": [
     {
@@ -393,7 +422,11 @@ Required JSON structure (fill in all values from the data you received):
 }
 
 Rules:
-- Use "N/A" for unknown strings, null for missing optional fields
+- Use "Multiple daily" for unknown depart times, "See operator site" for unknown arrive times
+- Use "approx Xh" for unknown durations when the route distance makes an estimate reasonable
+- Use "N/A" only as a true last resort for string fields; null for missing optional numeric fields
+- Always use budget-calculated prices for transport/accommodation even when schedule data is missing
+- Always include booking URLs from the transport_urls and hotel_urls provided in the trip context
 - Every money amount must include the currency code (e.g. "CAD 415" not "$415")
 - Budget must have all 3 tiers (economy, mid_range, comfort) each with all 6 fields
 - Itinerary needs one entry per day (nights + 1 entries total, from depart to return)
@@ -567,7 +600,15 @@ class MCPAgent:
         return [t for t in self.tools if t["server_name"] in permitted]
 
     # ── TOOL EXECUTION ────────────────────────────────────────────── #
-    async def _execute_tool(self, tool_call, agent_role: str) -> str:
+    _PRICE_SIGNALS = ("$", "€", "£", "¥", "₹", "CAD", "USD", "EUR", "GBP", "AUD", "NZD")
+
+    async def _execute_tool(
+        self,
+        tool_call,
+        agent_role: str,
+        agent_call_id: Optional[str] = None,
+        run_id: Optional[str] = None,
+    ) -> str:
         tool_def = next(
             (t for t in self.tools if t["name"] == tool_call.name), None
         )
@@ -579,6 +620,14 @@ class MCPAgent:
         args_log = json.dumps(tool_call.input)[:200]
         logger.info(f"[{agent_role}] → {tool_call.name} | {args_log}")
 
+        # Scout: log navigation targets for price-fetch observability
+        if agent_role == "scout" and tool_call.name == "browser_navigate":
+            nav_url = tool_call.input.get("url", "?") if isinstance(tool_call.input, dict) else "?"
+            logger.info("Scout → navigating to %s", nav_url)
+
+        tool_start = time.monotonic()
+        success = True
+        result_text = ""
         try:
             result = await asyncio.wait_for(
                 session.call_tool(tool_call.name, tool_call.input),
@@ -593,23 +642,53 @@ class MCPAgent:
             is_calculator = tool_def.get("server_name") == "financial_quant"
             if not text:
                 logger.warning(f"[{agent_role}] ⚠️  Empty result from {tool_call.name}")
-                return "EMPTY_RESULT: 0 chars returned."
+                result_text = "EMPTY_RESULT: 0 chars returned."
+                return result_text
             if not is_calculator and len(text) < 20:
                 logger.warning(
                     f"[{agent_role}] ⚠️  Thin result ({len(text)} chars) "
                     f"from {tool_call.name}"
                 )
-                return f"EMPTY_RESULT: {len(text)} chars returned."
+                result_text = f"EMPTY_RESULT: {len(text)} chars returned."
+                return result_text
 
             logger.info(f"[{agent_role}] ← {tool_call.name}: {len(text)} chars")
-            return text[:8_000]  # cap to avoid token overload
+
+            # Scout: log whether live price data was captured from this snapshot
+            if agent_role == "scout" and tool_call.name == "browser_snapshot":
+                has_price = any(sig in text for sig in self._PRICE_SIGNALS)
+                if has_price:
+                    logger.info("Scout: price signal detected in snapshot (%d chars)", len(text))
+                else:
+                    logger.warning("Scout: no price signal in snapshot (%d chars)", len(text))
+
+            result_text = text[:8_000]
+            return result_text
 
         except asyncio.TimeoutError:
             logger.error(f"[{agent_role}] ⏱️  {tool_call.name} timed out (45s)")
-            return "FETCH_FAILED: MCP tool timeout after 45s"
+            success = False
+            result_text = "FETCH_FAILED: MCP tool timeout after 45s"
+            return result_text
         except Exception as e:
             logger.error(f"[{agent_role}] ❌ {tool_call.name}: {e}")
-            return f"FETCH_FAILED: {e}"
+            success = False
+            result_text = f"FETCH_FAILED: {e}"
+            return result_text
+        finally:
+            duration_ms = int((time.monotonic() - tool_start) * 1000)
+            try:
+                db.record_tool_call(
+                    agent_call_id or "",
+                    run_id or "",
+                    tool_call.name,
+                    json.dumps(tool_call.input) if tool_call.input else "",
+                    result_text[:5_000],
+                    duration_ms,
+                    success,
+                )
+            except Exception:
+                pass
 
     # ── CORE AGENT RUNNER ─────────────────────────────────────────── #
     async def _run_agent(
@@ -617,7 +696,17 @@ class MCPAgent:
         role: str,
         user_message: str,
         max_turns: int = 16,
+        run_id: Optional[str] = None,
+        agent_call_id: Optional[str] = None,
     ) -> str:
+        model = MODEL_PER_ROLE.get(role, "claude-sonnet-4-6")
+        call_start = time.monotonic()
+
+        try:
+            db.create_agent_call(agent_call_id or "", run_id or "", role, model)
+        except Exception:
+            pass
+
         system_text = AGENT_SYSTEM_PROMPTS[role]
         # Wrap system prompt with cache_control so the first turn writes it to
         # the prompt cache and subsequent turns read it at ~10% of input cost.
@@ -644,8 +733,14 @@ class MCPAgent:
             for t in available
         ]
 
-        model = MODEL_PER_ROLE.get(role, "claude-sonnet-4-6")
         max_tokens = MAX_TOKENS_PER_ROLE.get(role, 4096)
+
+        total_input_tokens = 0
+        total_output_tokens = 0
+        total_cache_read = 0
+        total_cache_write = 0
+        tool_calls_count = 0
+        final_text = ""
 
         for turn in range(max_turns):
             kwargs: dict = dict(
@@ -659,10 +754,14 @@ class MCPAgent:
 
             response = await self.client.messages.create(**kwargs)
 
-            # Log cache usage when available (helps validate caching is working)
+            # Accumulate token usage across all turns for DB tracing
             usage = getattr(response, "usage", None)
             if usage:
-                cache_read = getattr(usage, "cache_read_input_tokens", 0)
+                total_input_tokens  += getattr(usage, "input_tokens", 0)
+                total_output_tokens += getattr(usage, "output_tokens", 0)
+                total_cache_read    += getattr(usage, "cache_read_input_tokens", 0)
+                total_cache_write   += getattr(usage, "cache_creation_input_tokens", 0)
+                cache_read  = getattr(usage, "cache_read_input_tokens", 0)
                 cache_write = getattr(usage, "cache_creation_input_tokens", 0)
                 if cache_read or cache_write:
                     logger.info(
@@ -674,19 +773,43 @@ class MCPAgent:
             history.append({"role": "assistant", "content": response.content})
 
             if response.stop_reason != "tool_use":
-                return "\n".join(
+                final_text = "\n".join(
                     b.text for b in response.content if hasattr(b, "text")
                 ).strip()
+                duration_ms = int((time.monotonic() - call_start) * 1000)
+                try:
+                    db.complete_agent_call(
+                        agent_call_id or "", duration_ms,
+                        total_input_tokens, total_output_tokens,
+                        total_cache_read, total_cache_write,
+                        tool_calls_count, final_text,
+                    )
+                except Exception:
+                    pass
+                return final_text
 
+            turn_tool_calls = [b for b in response.content if b.type == "tool_use"]
+            tool_calls_count += len(turn_tool_calls)
             tool_results = []
-            for tc in [b for b in response.content if b.type == "tool_use"]:
-                result = await self._execute_tool(tc, role)
+            for tc in turn_tool_calls:
+                result = await self._execute_tool(tc, role, agent_call_id, run_id)
                 tool_results.append(
                     {"type": "tool_result", "tool_use_id": tc.id, "content": result}
                 )
             history.append({"role": "user", "content": tool_results})
 
-        return "⚠️ Agent reached turn limit — returning partial data."
+        final_text = "⚠️ Agent reached turn limit — returning partial data."
+        duration_ms = int((time.monotonic() - call_start) * 1000)
+        try:
+            db.complete_agent_call(
+                agent_call_id or "", duration_ms,
+                total_input_tokens, total_output_tokens,
+                total_cache_read, total_cache_write,
+                tool_calls_count, final_text,
+            )
+        except Exception:
+            pass
+        return final_text
 
     # ── FALLBACK FETCHER: used when MCP browser isn't connected ───── #
     async def _fallback_fetch_urls(
@@ -770,9 +893,23 @@ class MCPAgent:
         self,
         user_input: str,
         progress_callback: Optional[Callable] = None,
+        session_id: Optional[str] = None,
+        transport_mode: str = "any",
     ) -> str:
         if not self.sessions:
             await self.connect()
+
+        run_id = str(uuid.uuid4())
+        run_start = time.monotonic()
+
+        # Prepend transport preference so the planner picks the right URLs
+        if transport_mode and transport_mode.lower() != "any":
+            user_input = f"Preferred transport: {transport_mode}. {user_input}"
+
+        try:
+            db.create_run(run_id, user_input, session_id)
+        except Exception:
+            pass
 
         async def _progress(msg: str) -> None:
             if progress_callback:
@@ -780,101 +917,151 @@ class MCPAgent:
 
         now = datetime.now().strftime("%B %d, %Y")
 
-        # ── PHASE 1: PLANNING ──────────────────────────────────────── #
-        self._log_phase("PHASE 1: PLANNING")
-        await _progress("🗺️ Planning your route...")
-        plan_raw = await self._run_agent(
-            "planner",
-            f"Today is {now}.\n\nUser travel request:\n{user_input}",
-            max_turns=2,
-        )
-        manifest = self._parse_manifest(plan_raw)
-        if not manifest or "trip" not in manifest:
-            return (
-                "Planning failed — could not parse trip manifest.\n"
-                "Please include: origin, destination, dates, number of travellers."
-            )
-
-        trip = manifest["trip"]
-        nights = self._calculate_nights(trip.get("depart_date"), trip.get("return_date"))
-        ctx = self._build_trip_context(trip, nights)
-        transport_urls, hotel_urls, activity_urls = self._flatten_booking_urls(manifest)
-        operators = manifest.get("transport_operators", [])
-        all_urls = transport_urls + hotel_urls + activity_urls
-
-        logger.info(f"Manifest OK:\n{ctx}")
-        logger.info(
-            f"URLs from manifest: {len(transport_urls)} transport, "
-            f"{len(hotel_urls)} hotel, {len(activity_urls)} activity"
-        )
-
-        # ── PHASE 2: SCOUT (single-pass research + pricing) ────────── #
-        self._log_phase("PHASE 2: SCOUT (research + pricing)")
-        await _progress("🔍 Scouting prices and travel options...")
-
-        if self._mcp_browser_connected:
-            # Limit to 2 per category — first success stops the category
-            t_urls = transport_urls[:2]
-            h_urls = hotel_urls[:2]
-            a_urls = activity_urls[:1]
-            scout_prompt = (
-                f"{ctx}\n\n"
-                f"Operators to look for: {', '.join(operators)}\n"
-                f"Travel dates: {trip.get('depart_date')} → {trip.get('return_date')}, "
-                f"{trip.get('travellers', 1)} traveller(s)\n\n"
-                f"Work category by category. Within each category, stop at the first URL that yields prices "
-                f"— do NOT visit the remaining URLs for that category.\n\n"
-                f"TRANSPORT URLS (try in order, stop category on first success):\n"
-                + "\n".join(f"  - {u}" for u in t_urls)
-                + f"\n\nACCOMMODATION URLS (try in order, stop category on first success):\n"
-                + "\n".join(f"  - {u}" for u in h_urls)
-                + f"\n\nACTIVITY URLS (try in order, stop category on first success):\n"
-                + "\n".join(f"  - {u}" for u in a_urls)
-            )
-            scout_data = await self._run_agent("scout", scout_prompt, max_turns=20)
-        else:
-            logger.warning("MCP browser not connected — using Python Playwright fallback.")
-            raw_pages = await self._fallback_fetch_urls(all_urls, label="scout-fallback")
-            scout_data = (
-                f"## Raw Page Content (Python Playwright Fallback)\n\n"
-                f"{raw_pages}\n\n"
-                f"Note: MCP browser was unavailable. Content extracted directly."
-            )
-
-        logger.info(f"Scout complete: {len(scout_data)} chars")
-
-        # ── PHASE 3: BUDGET CALCULATION ────────────────────────────── #
-        self._log_phase("PHASE 3: BUDGET CALCULATION")
-        await _progress("📊 Calculating budget tiers...")
-        budget = await self._run_agent(
-            "budget",
-            f"{ctx}\n\n"
-            f"SCOUT DATA:\n{scout_data[:5000]}\n\n"
-            f"Calculate all three budget tiers. Use calculator tools for all arithmetic.",
-            max_turns=12,  # 3 tiers × ~3 calculator calls each, allows batching
-        )
-        logger.info(f"Budget complete: {len(budget)} chars")
-
-        # ── PHASE 4: AGGREGATION ────────────────────────────────────── #
-        self._log_phase("PHASE 4: AGGREGATION")
-        await _progress("📋 Finalising your travel dossier...")
-        raw_final = await self._run_agent(
-            "aggregator",
-            f"{ctx}\n\n"
-            f"--- SCOUT DATA ---\n{scout_data[:5000]}\n\n"
-            f"--- BUDGET ---\n{budget}\n\n"
-            f"Output the complete JSON travel dossier now.",
-            max_turns=3,
-        )
-
-        # Parse and normalise the JSON output from the aggregator
         try:
-            clean = re.sub(r"```(?:json)?", "", raw_final).strip().strip("`").strip()
-            parsed = json.loads(clean)
-            return json.dumps(parsed)
-        except json.JSONDecodeError as e:
-            logger.error(f"Aggregator JSON parse error: {e}\nRaw:\n{raw_final[:500]}")
-            return json.dumps({"error": f"Could not parse result: {str(e)}", "raw": raw_final[:500]})
+            # ── PHASE 1: PLANNING ──────────────────────────────────────── #
+            self._log_phase("PHASE 1: PLANNING")
+            await _progress("🗺️ Planning your route...")
+            plan_call_id = str(uuid.uuid4())
+            plan_raw = await self._run_agent(
+                "planner",
+                f"Today is {now}.\n\nUser travel request:\n{user_input}",
+                max_turns=2,
+                run_id=run_id,
+                agent_call_id=plan_call_id,
+            )
+            manifest = self._parse_manifest(plan_raw)
+            if not manifest or "trip" not in manifest:
+                db.fail_run(run_id, "Planning failed — no trip manifest", int((time.monotonic() - run_start) * 1000))
+                return (
+                    "Planning failed — could not parse trip manifest.\n"
+                    "Please include: origin, destination, dates, number of travellers."
+                )
+
+            trip = manifest["trip"]
+            nights = self._calculate_nights(trip.get("depart_date"), trip.get("return_date"))
+            ctx = self._build_trip_context(trip, nights)
+            transport_urls, hotel_urls, activity_urls = self._flatten_booking_urls(manifest)
+            operators = manifest.get("transport_operators", [])
+            all_urls = transport_urls + hotel_urls + activity_urls
+
+            logger.info(f"Manifest OK:\n{ctx}")
+            logger.info(
+                f"URLs from manifest: {len(transport_urls)} transport, "
+                f"{len(hotel_urls)} hotel, {len(activity_urls)} activity"
+            )
+
+            # ── PHASE 2: SCOUT (single-pass research + pricing) ────────── #
+            self._log_phase("PHASE 2: SCOUT (research + pricing)")
+            await _progress("🔍 Scouting prices and travel options...")
+            scout_call_id = str(uuid.uuid4())
+
+            if self._mcp_browser_connected:
+                # Limit to 2 per category — first success stops the category
+                t_urls = transport_urls[:2]
+                h_urls = hotel_urls[:2]
+                a_urls = activity_urls[:1]
+                logger.info(
+                    "Scout: queuing %d URLs (transport=%d hotel=%d activity=%d)",
+                    len(t_urls) + len(h_urls) + len(a_urls),
+                    len(t_urls), len(h_urls), len(a_urls),
+                )
+                scout_prompt = (
+                    f"{ctx}\n\n"
+                    f"Operators to look for: {', '.join(operators)}\n"
+                    f"Travel dates: {trip.get('depart_date')} → {trip.get('return_date')}, "
+                    f"{trip.get('travellers', 1)} traveller(s)\n\n"
+                    f"Work category by category. Within each category, stop at the first URL that yields prices "
+                    f"— do NOT visit the remaining URLs for that category.\n\n"
+                    f"TRANSPORT URLS (try in order, stop category on first success):\n"
+                    + "\n".join(f"  - {u}" for u in t_urls)
+                    + f"\n\nACCOMMODATION URLS (try in order, stop category on first success):\n"
+                    + "\n".join(f"  - {u}" for u in h_urls)
+                    + f"\n\nACTIVITY URLS (try in order, stop category on first success):\n"
+                    + "\n".join(f"  - {u}" for u in a_urls)
+                )
+                scout_data = await self._run_agent(
+                    "scout", scout_prompt, max_turns=20,
+                    run_id=run_id, agent_call_id=scout_call_id,
+                )
+            else:
+                logger.warning(
+                    "Scout: MCP browser unavailable — Playwright fallback for %d URLs",
+                    len(all_urls),
+                )
+                raw_pages = await self._fallback_fetch_urls(all_urls, label="scout-fallback")
+                scout_data = (
+                    f"## Raw Page Content (Python Playwright Fallback)\n\n"
+                    f"{raw_pages}\n\n"
+                    f"Note: MCP browser was unavailable. Content extracted directly."
+                )
+
+            logger.info(
+                "Scout complete: %d chars (transport=%d hotel=%d activity=%d URLs queued)",
+                len(scout_data),
+                len(transport_urls[:2]), len(hotel_urls[:2]), len(activity_urls[:1]),
+            )
+
+            # ── PHASE 3: BUDGET CALCULATION ────────────────────────────── #
+            self._log_phase("PHASE 3: BUDGET CALCULATION")
+            await _progress("📊 Calculating budget tiers...")
+            budget_call_id = str(uuid.uuid4())
+            budget = await self._run_agent(
+                "budget",
+                f"{ctx}\n\n"
+                f"SCOUT DATA:\n{scout_data[:6000]}\n\n"
+                f"Calculate all three budget tiers. Use calculator tools for all arithmetic.\n"
+                f"If scout data is empty or shows turn limit reached, use verified route benchmarks "
+                f"and clearly mark all prices as ESTIMATED.",
+                max_turns=12,
+                run_id=run_id,
+                agent_call_id=budget_call_id,
+            )
+            logger.info(f"Budget complete: {len(budget)} chars")
+
+            # ── PHASE 4: AGGREGATION ────────────────────────────────────── #
+            self._log_phase("PHASE 4: AGGREGATION")
+            await _progress("📋 Finalising your travel dossier...")
+            agg_call_id = str(uuid.uuid4())
+            t_url_lines = "\n".join(
+                f"  {u.get('label','')}: {u.get('url','')}"
+                for u in manifest.get("booking_urls", {}).get("transport", [])
+            )
+            h_url_lines = "\n".join(
+                f"  {u.get('label','')}: {u.get('url','')}"
+                for u in manifest.get("booking_urls", {}).get("accommodation", [])
+            )
+            raw_final = await self._run_agent(
+                "aggregator",
+                f"{ctx}\n\n"
+                f"--- TRANSPORT BOOKING URLS ---\n{t_url_lines}\n\n"
+                f"--- ACCOMMODATION BOOKING URLS ---\n{h_url_lines}\n\n"
+                f"--- SCOUT DATA ---\n{scout_data[:6000]}\n\n"
+                f"--- BUDGET ---\n{budget}\n\n"
+                f"Output the complete JSON travel dossier now.",
+                max_turns=3,
+                run_id=run_id,
+                agent_call_id=agg_call_id,
+            )
+
+            # Parse and normalise the JSON output from the aggregator
+            try:
+                clean = re.sub(r"```(?:json)?", "", raw_final).strip().strip("`").strip()
+                parsed = json.loads(clean)
+                result_str = json.dumps(parsed)
+                db.complete_run(run_id, result_str, int((time.monotonic() - run_start) * 1000))
+                return result_str
+            except json.JSONDecodeError as e:
+                logger.error(f"Aggregator JSON parse error: {e}\nRaw:\n{raw_final[:500]}")
+                err = json.dumps({"error": f"Could not parse result: {str(e)}", "raw": raw_final[:500]})
+                db.fail_run(run_id, str(e), int((time.monotonic() - run_start) * 1000))
+                return err
+
+        except Exception as exc:
+            try:
+                db.fail_run(run_id, str(exc), int((time.monotonic() - run_start) * 1000))
+            except Exception:
+                pass
+            raise
 
     @staticmethod
     def _log_phase(label: str):

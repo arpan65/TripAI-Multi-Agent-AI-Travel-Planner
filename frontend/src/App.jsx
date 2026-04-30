@@ -32,6 +32,14 @@ const BUDGET_OPTIONS = [
   { value: "comfort", label: "Comfort" },
 ];
 
+const TRANSPORT_OPTIONS = [
+  { value: "any",    label: "Any" },
+  { value: "flight", label: "✈️ Flight" },
+  { value: "train",  label: "🚆 Train" },
+  { value: "bus",    label: "🚌 Bus" },
+  { value: "drive",  label: "🚗 Car" },
+];
+
 const toSafeString = (value) => {
   if (typeof value === "string") return value;
   if (value == null) return "";
@@ -53,12 +61,14 @@ export default function App() {
     returnDate: addDays(today(), 10),
     pax: 2,
     budget: "any",
+    transport: "any",
   });
   const [loading, setLoading] = useState(false);
   const [phaseIdx, setPhaseIdx] = useState(0);
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
   const [sessionId, setSessionId] = useState(null);
+  const [testMode, setTestMode] = useState(false);
   const resultsRef = useRef(null);
 
   useEffect(() => {
@@ -88,6 +98,35 @@ export default function App() {
     return `${form.from} to ${form.to}, ${fmt(form.depart)} to ${fmt(form.returnDate)}, ${form.pax} ${form.pax === 1 ? "person" : "people"}${budgetPart}`;
   };
 
+  const handleTestModeToggle = async (enabled) => {
+    setTestMode(enabled);
+    if (!enabled) return;
+    try {
+      const res = await fetch(`${API_BASE}/api/latest-run`);
+      if (!res.ok) return;
+      const data = await res.json();
+      // Parse "City to City, Mon DD YYYY to Mon DD YYYY, N people" back into form fields
+      const msg = data.input_message || "";
+      // Strip optional "Preferred transport: X. " prefix
+      const stripped = msg.replace(/^Preferred transport:[^.]+\.\s*/i, "");
+      const m = stripped.match(/^(.+?) to (.+?),\s*(.+?) to (.+?),\s*(\d+)/);
+      if (m) {
+        const parseDate = (s) => {
+          const d = new Date(s);
+          return isNaN(d) ? "" : d.toISOString().split("T")[0];
+        };
+        setForm((f) => ({
+          ...f,
+          from: m[1].trim(),
+          to: m[2].trim(),
+          depart: parseDate(m[3]),
+          returnDate: parseDate(m[4]),
+          pax: parseInt(m[5], 10) || f.pax,
+        }));
+      }
+    } catch { /* silent — backend may not have runs yet */ }
+  };
+
   const handleSearch = async (e) => {
     e.preventDefault();
     if (!form.from.trim() || !form.to.trim() || loading) return;
@@ -99,7 +138,12 @@ export default function App() {
       const res = await fetch(`${API_BASE}/api/chat/stream`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: buildMessage(), session_id: sessionId }),
+        body: JSON.stringify({
+          message: buildMessage(),
+          session_id: sessionId,
+          test_mode: testMode,
+          transport_mode: form.transport,
+        }),
       });
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
@@ -262,6 +306,34 @@ export default function App() {
                 </select>
               </div>
 
+              <div className="divider" />
+
+              <div className="field-group field-group--narrow">
+                <label>Transport</label>
+                <select value={form.transport} onChange={set("transport")} disabled={loading}>
+                  {TRANSPORT_OPTIONS.map((o) => (
+                    <option key={o.value} value={o.value}>{o.label}</option>
+                  ))}
+                </select>
+              </div>
+
+            </div>
+
+            <div className="search-card-footer">
+              <label className="toggle-label">
+                <input
+                  type="checkbox"
+                  className="toggle-input"
+                  checked={testMode}
+                  onChange={(e) => handleTestModeToggle(e.target.checked)}
+                  disabled={loading}
+                />
+                <span className="toggle-switch" />
+                <span className="toggle-text">Test Mode</span>
+              </label>
+              {testMode && (
+                <span className="test-mode-badge">Uses last stored result — no API calls</span>
+              )}
             </div>
 
             <button
