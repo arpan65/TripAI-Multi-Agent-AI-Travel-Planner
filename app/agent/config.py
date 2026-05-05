@@ -52,7 +52,7 @@ def build_mcp_server_configs() -> dict[str, StdioServerParameters]:
         ),
         "browser": StdioServerParameters(
             command="npx",
-            args=["@playwright/mcp@latest", "--config", playwright_config, "--isolated"],
+            args=["@playwright/mcp@0.0.73", "--config", playwright_config, "--isolated"],
             env=base_env,
         ),
     }
