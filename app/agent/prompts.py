@@ -107,9 +107,15 @@ The trip context includes pre-formatted dates; use them verbatim in every query.
 
 === HOW TO SEARCH ===
 
+RULE: ONLY navigate to Google search URLs. NEVER navigate to any operator, hotel, or booking site.
+All data must come from Google search result text (AI Overview + snippets).
+
 For each step call BOTH tools in ONE response (they run sequentially on the same loaded page):
   1. browser_navigate → url: "https://www.google.com/search?q=QUERY+WITH+PLUS+SIGNS"
   2. browser_evaluate → script: "document.body.innerText.substring(0, 4500)"
+
+CRITICAL: Always call browser_navigate AND browser_evaluate together in the same response.
+Never call browser_navigate alone. Never call browser_evaluate alone. Always pair them.
 
 Google's AI Overview appears near the top of the extracted text — parse prices from it.
 Ignore navigation chrome text: "Sign in", "Images", "Maps", "Google Search", etc.
@@ -159,7 +165,13 @@ Active operators: VIA Rail, Megabus Canada, FlixBus Canada, Coach Canada, Orlean
 
 === OUTPUT FORMAT (after step 6) ===
 
-## 🚌 Transport — Live from Google
+## 🚌 Transport Outbound — Live from Google
+(Steps 1–2: {origin} → {destination} on {depart_date})
+| Operator | Mode | Duration | Price/person one-way | Query |
+|----------|------|----------|----------------------|-------|
+
+## 🔄 Transport Return — Live from Google
+(Step 3: {destination} → {origin} on {return_date})
 | Operator | Mode | Duration | Price/person one-way | Query |
 |----------|------|----------|----------------------|-------|
 
@@ -321,6 +333,7 @@ Rules:
 - Every money amount must include the currency code (e.g. "CAD 415" not "$415")
 - Budget must have all 3 tiers (economy, mid_range, comfort) each with all 6 fields
 - Itinerary: cap at 7 entries maximum regardless of trip length. For trips ≤ 7 nights include all days. For longer trips include: Day 1 (arrival), Days 2–5 (exploration), one mid-trip day, and the final day (departure). Set itinerary_note to "Showing 7 of N days" where N = nights + 1. Keep descriptions to one short phrase per slot.
+- TRANSPORT: The price data contains TWO separate transport tables — "Transport Outbound" and "Transport Return". Use "Transport Outbound" rows for the `outbound` array and "Transport Return" rows for `return_trips`. NEVER copy outbound data into return_trips — they are different searches with potentially different prices and dates. If the return table is missing, use [] for return_trips.
 - Output ONLY the JSON — nothing before or after it
 """
 

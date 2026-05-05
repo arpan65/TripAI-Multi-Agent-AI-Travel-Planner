@@ -25,7 +25,7 @@ MAX_TOKENS: dict[str, int] = {
 
 MAX_TURNS: dict[str, int] = {
     "planner":    2,
-    "pricer":     7,
+    "pricer":     14,
     "budget":     10,
     "aggregator": 3,
 }

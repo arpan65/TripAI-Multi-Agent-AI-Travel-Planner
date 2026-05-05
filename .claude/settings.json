@@ -26,7 +26,10 @@
       "WebSearch",
       "Bash(sqlite3 travel_runs.db ' *)",
       "Bash(sqlite3 travel_runs.db \".schema agent_calls\")",
-      "Bash(sqlite3 travel_runs.db \"SELECT * FROM agent_calls LIMIT 2;\")"
+      "Bash(sqlite3 travel_runs.db \"SELECT * FROM agent_calls LIMIT 2;\")",
+      "Bash(sqlite3 /Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/travel_runs.db \"SELECT tc.tool_name, tc.input_json, substr\\(tc.output_text, 1, 80\\) FROM tool_calls tc JOIN agent_calls ac ON tc.agent_call_id = ac.id WHERE ac.run_id='d38a731e-2a31-49d9-92cc-b123df9e3359' AND ac.phase='pricer' ORDER BY tc.started_at ASC;\")",
+      "Bash(sqlite3 /Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/travel_runs.db \".schema tool_calls\")",
+      "Bash(sqlite3 /Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/travel_runs.db \"SELECT tc.tool_name, tc.input_json FROM tool_calls tc JOIN agent_calls ac ON tc.agent_call_id = ac.id WHERE ac.run_id='d38a731e-2a31-49d9-92cc-b123df9e3359' AND ac.phase='pricer';\")"
     ]
   }
 }

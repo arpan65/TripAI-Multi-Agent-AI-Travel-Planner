@@ -132,6 +132,9 @@ class TravelAgent:
                 run_id=run_id,
                 agent_call_id=str(uuid.uuid4()),
             )
+            if "Agent reached turn limit" in price_data:
+                logger.warning("Pricer hit turn limit — no live data available")
+                price_data = "No live price data available (pricer did not complete)."
 
             # Phase 3: Budget
             logger.info("=== PHASE 3: BUDGET ===")
