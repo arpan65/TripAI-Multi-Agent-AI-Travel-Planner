@@ -1,0 +1,108 @@
+[    4788ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=amdeus+api+key&oq=amdeus+api+key&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI5ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8:21
+[    4788ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=amdeus+api+key&oq=amdeus+api+key&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI5ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8:21
+[    5638ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=amdeus+api+key&oq=amdeus+api+key&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI5ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8:21
+[    5638ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=amdeus+api+key&oq=amdeus+api+key&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI5ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8:21
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/a4857268-e5eb-4754-bc17-a506d20e3a39 @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/be08f8ab-3133-444a-8970-f86c1230e11c @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/310314ff-4535-408f-8e69-457546bf8182 @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/df44953b-e75c-4fac-9437-9d4b0f9816d0 @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/58058051-80a8-4a26-a51e-b7d637da233f @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/9d5ded1f-4c36-40a6-bbce-b951a5cc1d04 @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/279efa79-e46a-4e0c-a534-f26c38b19539 @ :54
+[  102954ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/b0ecfc97-cdc9-49c2-97a6-ef9658bad08d @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/8dcebaff-53ad-4c68-9139-f6f969450101 @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/2ec3b665-8798-477f-a9b2-01068b967ac2 @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/2a67dc64-161e-4098-a166-e6ed3f0ebeea @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/91209bba-35cf-4661-8248-768dfc9c0dd6 @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/0fffdd5e-770c-47b5-bb8b-d08d247e2712 @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/39306dd4-8a01-479d-ab91-6ad6b9fae8eb @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/2a0c5814-583a-483d-b1af-8bb229dca817 @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/543ced94-b972-4af1-92d6-b40a89251534 @ :54
+[  102955ms] [LOG] [berqwp] preloaded: blob:https://technosoftwares.com/59641292-4677-4eb9-999c-cf31a5803964 @ :54
+[  103036ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/style.css?hash=5e1c959b9d238a3975eb7e5aa5ae484e @ :54
+[  103037ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/css/modules-responsive.min.css?hash=aed981b2824ce57fc2299ad2f3e79f82 @ :54
+[  103037ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/nsg-seo-generator/assets/nsg-styles.css?hash=ead208d72e1ffe7189f93beb615c97d0 @ :54
+[  103037ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?hash=2b615ac961c24ab56675422879857298 @ :54
+[  103037ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/css/style_dynamic.css?hash=355ce742245b2dfb67104cce73c9e720 @ :54
+[  103038ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/country-phone-field-contact-form-7/assets/css/countrySelect.min.css?hash=6910c06be201c9980993bfe897003ad9 @ :54
+[  103038ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/css/style_dynamic_responsive.css?hash=c53024f8baef79f0b067e640c824e25d @ :54
+[  103038ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/css/dist/preferences/style.min.css?hash=820567e8c2878ee449e38a126e07f94d @ :54
+[  103038ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/contact-form-7/includes/css/styles.css?hash=04d2069c1d7d75c25fe461a9f15c6135 @ :54
+[  103038ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?hash=bb97e01f5a319af74b3f0412f7ff1742 @ :54
+[  103039ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/dripicons/dripicons.css?hash=a6e07698a9dce8d9f89a8cc0555ab884 @ :54
+[  103039ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/simple-line-icons/simple-line-icons.css?hash=c709623eab21f9ae1d92c2091397311a @ :54
+[  103039ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/ajax-load-more-anything/assets/styles.min.css?hash=7b792d41e66f83d64dfe227141893bd8 @ :54
+[  103039ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/popup-maker/dist/assets/site.css?hash=66d0239eb34d6ffe401c33bc45ba4baf @ :54
+[  103039ms] [LOG] [berqwp] preloaded: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js @ :54
+[  103050ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/css/dist/components/style.min.css?hash=c5ae0f913b647cecbd83ab25a44ae372 @ :54
+[  103050ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/core-dashboard/assets/css/core-dashboard.min.css?hash=a67ffe29583ce6d4b2494c129fd98b61 @ :54
+[  103050ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/linear-icons/style.css?hash=e58fe5737fd922d253e00d82d6fb5c2c @ :54
+[  103050ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/elegant-icons/style.min.css?hash=c9f73ee94a1a9948e9acbac5ae4cbce6 @ :54
+[  103050ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/font-awesome/css/fontawesome-all.min.css?hash=b0db4cd25f2ab20087f3cbd25fc28df3 @ :54
+[  103050ms] [LOG] [berqwp] preloaded: https://technosoftwares.com/wp-content/plugins/ajax-load-more-anything/assets/scripts.js?ver=3.3.9 @ :54
+[  103056ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/css/dist/block-editor/style.min.css?hash=19e5365b8aea3878348739c6094c73e2 @ :54
+[  103060ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/css/dist/block-library/style.min.css?hash=4cdc41a4d02545d47671e1fd186a0baf @ :54
+[  103066ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/linea-icons/style.css?hash=3eb333b964306bd13942bbe6d3788d6b @ :54
+[  103066ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/framework/lib/icons-pack/ion-icons/css/ionicons.min.css?hash=46758811341104dfaa36b953495c06db @ :54
+[  103066ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/country-phone-field-contact-form-7/assets/css/intlTelInput.min.css?hash=288100ccb10ca2aed6f9334c61104b8a @ :54
+[  103077ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com//metrices.js?hash=3e3d96131d0227aa4e2eaca952ceb62f @ :54
+[  103077ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com//web-vitals.iife.js?hash=42097a4cf51ebdfebdf6500cd0a85edf @ :54
+[  103079ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/css/modules.min.css?hash=8051728dd967657a952bcc5e33ea23a0 @ :54
+[  103086ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/jquery/jquery-migrate.min.js?hash=c61b67d0e13ccfd3a51c84bcfd7ff3ca @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/jquery/jquery.min.js?hash=8e2c23465cd66c063c23ea12085a637a @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/dist/hooks.min.js?hash=18070d78aa5ad68977f45b5bb0112433 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/dist/i18n.min.js?hash=9153d1db3416d5e1ce99ed0a8aa54dbb @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?hash=46f2b5a09179f2c3d86fe991b7e12972 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/contact-form-7/includes/js/index.js?hash=3067737ba85462409c0e04fca6171035 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/country-phone-field-contact-form-7/assets/js/intlTelInput.min.js?hash=6e540a9a30a5e84de46694dba5ba656d @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/country-phone-field-contact-form-7/assets/js/countrySelect.min.js?hash=fb219ca4b715a8809c084ae99c77b4a3 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton-child/custom-script.js?hash=80781fa3411b6fa3f8bff2fbf12cb8e5 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/jquery/ui/core.min.js?hash=9197cf284606642c943f79ee89c1971a @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/jquery/ui/tabs.min.js?hash=8a31bf0bc99c3541f75d4a9d616261a2 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/jquery/ui/accordion.min.js?hash=07ff9b1e31f1505a13aa9c1eea9f8932 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?hash=9361ca21f89bbdc5b682e9727ac2d6ce @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?hash=f11a328756c30efc362f6a044fdcb43a @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/hoverIntent.min.js?hash=ace7591285c29e59f47c553ce003ad6f @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/fluidvids.min.js?hash=48600bebe0e4aa66d132cd688fd50b49 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/ScrollToPlugin.min.js?hash=9687bd172a8d5149ca5613e3f07696f9 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/modernizr.min.js?hash=af09cc0867bdc2bcaf5f242b35d64238 @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.prettyPhoto.js?hash=af3cdc4e5290844341476a72d079bdec @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/perfect-scrollbar.jquery.min.js?hash=2d2cf800d20837d0f579cb7f89d8814c @ :54
+[  103087ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/parallax.min.js?hash=65ad7245d9953940017c852db325d8bc @ :54
+[  103088ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.waitforimages.js?hash=3f86cd162b7eb4c342e2de06e4f5c864 @ :54
+[  103088ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.easing.1.3.js?hash=2c67869636ed91b131d9ebff2ba1573f @ :54
+[  103088ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.parallax-scroll.js?hash=70277cbefdb7b983dacc3151eda05c78 @ :54
+[  103088ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.waypoints.min.js?hash=ad6a2b41dbf7fbb9778cbeda2daf1f67 @ :54
+[  103088ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/packery-mode.pkgd.min.js?hash=5a6ba6ffaa41da7cf76e3e380b0ff38e @ :54
+[  103088ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.plugin.js?hash=77dbbb213eee95ce62c81309c9a138ea @ :54
+[  103090ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.appear.js?hash=7115bbd1bec45ce0edae4fe4e7f7d997 @ :54
+[  103090ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/jquery.geocomplete.min.js?hash=a631ee2d8e78030fb215fbaca2584737 @ :54
+[  103090ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/isotope.pkgd.min.js?hash=4f524aaf4647c77a87bd6de2fa73dd9f @ :54
+[  103093ms] [LOG] [berqwp] preloaded: https://technosoftwares.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.5 @ :54
+[  103098ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?hash=a2b1c5f3f398560846ea87a6d0f6389a @ :54
+[  103099ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules/plugins/owl.carousel.min.js?hash=57aa5961d9d9b44f57d48624afba6792 @ :54
+[  103099ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?hash=491fca91ca131012cf3bd5ee042a41f1 @ :54
+[  103099ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/popup-maker/dist/assets/site.js?hash=e60254df0019bd4fbff2d4e3fc91e2ec @ :54
+[  103100ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/shortcodes/counter/assets/js/plugins/counter.js?hash=a145803a010555251c4b4ab5c8c4a2ec @ :54
+[  103100ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?hash=baa2f41ecd314d54651136b03cf8b0a3 @ :54
+[  103100ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?hash=6edc913ac2dc5a1cb2d653bb2ef2694c @ :54
+[  103100ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?hash=e6e0baa653224f797fde6987b7d0cf19 @ :54
+[  103101ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?hash=f73d99edd60e3af20aec89163eea84da @ :54
+[  103101ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/shortcodes/vertical-split-slider/assets/js/plugins/jquery.multiscroll.min.js?hash=caeb85895dbf9f87916e39fc947aac27 @ :54
+[  103101ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/themes/foton/assets/js/modules.min.js?hash=77458b7eb2f3daee02d9f2b77a9b392c @ :54
+[  103101ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/foton-core/shortcodes/custom-font/assets/js/plugins/typed.js?hash=a9cc758c401ba61af2ceae048ec6e984 @ :54
+[  103112ms] [LOG] [berqwp] preloaded: https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?hash=bb7e8246bee0de36196476e6837fb954 @ :54
+[  103126ms] [LOG] [berqwp] preloaded: https://www.google.com/recaptcha/api.js?render=6Ldwn2kqAAAAAM5pZ1Dec8uVboS4HknMYkY-5B_s&ver=3.0 @ :54
+[  103126ms] [LOG] Preloading completed, invoking berqwpLoadJs... @ :70
+[  103133ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/technosoftwares.com/wp-includes/js/jquery/jquery-migrate.min.js?hash=c61b67d0e13ccfd3a51c84bcfd7ff3ca:1
+[  103146ms] [LOG] scripts loaded. @ :183
+[  103162ms] [LOG] scripts early loaded. @ :38
+[  103214ms] [LOG] CA @ nbcpf-countryFlag-script-js-after:68
+[  104346ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://technosoftwares.com/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2:0
+[  104347ms] [WARNING] [berqwp] failed: https://technosoftwares.com/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 @ :58
+[  110404ms] [ERROR] Mixed Content: The page at 'https://technosoftwares.com/blog/step-by-step-guide-to-amadeus-api-integration/' was loaded over HTTPS, but requested an insecure script 'http://www.geoplugin.net/javascript.gp'. This request has been blocked; the content must be served over HTTPS. @ https://www.googletagmanager.com/gtm.js?id=GTM-MMPK8J3:181
+[  110700ms] [LOG] %c TruConversion: Data collection has been stopped due to account inactivity. please login to resume your data collection. Please contact support[at]truconversion[dot]com background: yellow; color: black; padding-right: 5px; @ https://app.truconversion.com/ti-js/40111/99754.js:0
+[  111025ms] [LOG] %c[Happierleads]%c pixel 6.18.0 initialised color:#1E4EFF;font-weight:600 color:inherit {clientId: 4npFr2PVPVVCv4CEMXRE3i, mode: Full} @ https://rest.happierleads.com/v3/script?clientId=4npFr2PVPVVCv4CEMXRE3i&version=4.0.0:1
+[  111025ms] [LOG] Tracking Pixel with clientId: 4npFr2PVPVVCv4CEMXRE3i is on the Page: 6.18.0 @ https://rest.happierleads.com/v3/script?clientId=4npFr2PVPVVCv4CEMXRE3i&version=4.0.0:1
+[  111298ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://technosoftwares.com/blog/step-by-step-guide-to-amadeus-api-integration/:0
+[  122027ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-common.js:1

@@ -1,0 +1,4 @@
+[    1248ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=Montreal+hotels+15th+to+18th+May+2026+price+per+night:21
+[    1248ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=Montreal+hotels+15th+to+18th+May+2026+price+per+night:21
+[    2252ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=Montreal+hotels+15th+to+18th+May+2026+price+per+night:21
+[    2253ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=Montreal+hotels+15th+to+18th+May+2026+price+per+night:21

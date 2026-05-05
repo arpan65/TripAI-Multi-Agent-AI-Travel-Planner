@@ -1,0 +1,403 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: average restaurant meal cost Montreal 2026 average restaurant meal cost Montreal 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Daverage%2Brestaurant%2Bmeal%2Bcost%2BMontreal%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "News" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&q=average+restaurant+meal+cost+Montreal+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDcvCcfuga88w-TkF64Xr2R-z8dcsic0agdKQIsUDvDJyyh2tsehHFj6f9a81LHPP2HSyVyoVyPwQk_r6MX6Q88UIRTqciqF4vUxA5cTry6w_juRrcMUNhBTILZETUjG1hAlg_aqbGt_zCNb6LEc7ymJi_YYvw&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q0pQJegQIFBAB
+              - generic [ref=e84]: News
+          - listitem [ref=e85]:
+            - link "Images" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDcvCcfuga88w-TkF64Xr2R-z8dcsic0agdKQIsUDvDJyyh2tsehHFj6f9a81LHPP2HSyVyoVyPwQk_r6MX6Q88UIRTqciqF4vUxA5cTry6w_juRrcMUNhBTILZETUjG1hAlg_aqbGt_zCNb6LEc7ymJi_YYvw&q=average+restaurant+meal+cost+Montreal+2026&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0QtKgLegQIFhAB
+              - generic [ref=e88]: Images
+          - listitem [ref=e89]:
+            - link "Forums" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDcvCcfuga88w-TkF64Xr2R-z8dcsic0agdKQIsUDvDJyyh2tsehHFj6f9a81LHPP2HSyVyoVyPwQk_r6MX6Q88UIRTqciqF4vUxA5cTry6w_juRrcMUNhBTILZETUjG1hAlg_aqbGt_zCNb6LEc7ymJi_YYvw&q=average+restaurant+meal+cost+Montreal+2026&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Qs6gLegQIFRAB
+              - generic [ref=e92]: Forums
+          - listitem [ref=e93]:
+            - link "Short videos" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDcvCcfuga88w-TkF64Xr2R-z8dcsic0agdKQIsUDvDJyyh2tsehHFj6f9a81LHPP2HSyVyoVyPwQk_r6MX6Q88UIRTqciqF4vUxA5cTry6w_juRrcMUNhBTILZETUjG1hAlg_aqbGt_zCNb6LEc7ymJi_YYvw&q=average+restaurant+meal+cost+Montreal+2026&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Qs6gLegQIExAB
+              - generic [ref=e96]: Short videos
+          - listitem [ref=e97]:
+            - link "Shopping" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDcvCcfuga88w-TkF64Xr2R-z8dcsic0agdKQIsUDvDJyyh2tsehHFj6f9a81LHPP2HSyVyoVyPwQk_r6MX6Q88UIRTqciqF4vUxA5cTry6w_juRrcMUNhBTILZETUjG1hAlg_aqbGt_zCNb6LEc7ymJi_YYvw&q=average+restaurant+meal+cost+Montreal+2026&ved=1t:220175&ictx=111
+              - generic [ref=e100]: Shopping
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e122]:
+      - generic [ref=e141]:
+        - heading "Thinking" [level=2] [ref=e145]:
+          - generic [ref=e146]: Thinking
+        - progressbar [ref=e147]
+      - main [ref=e149]:
+        - generic [ref=e153]:
+          - generic [ref=e156]:
+            - heading "Web results" [level=2] [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e161]:
+                - 'link "Montreal Budget Guide 2026: Complete Cost Breakdown Machupicchu.org https://www.machupicchu.org › ... › Canada › Montreal" [ref=e163] [cursor=pointer]':
+                  - /url: https://www.machupicchu.org/montreal-budget-guide-2026-complete-cost-breakdown.htm
+                  - 'heading "Montreal Budget Guide 2026: Complete Cost Breakdown" [level=3] [ref=e164]'
+                  - generic [ref=e169]:
+                    - generic [ref=e171]: Machupicchu.org
+                    - generic [ref=e173]: https://www.machupicchu.org › ... › Canada › Montreal
+                - button "About this result" [ref=e174] [cursor=pointer]:
+                  - img [ref=e177]
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - text: ... food budgets ranging from $35 (street food and groceries) to $
+                  - emphasis [ref=e182]: 85 (restaurant meals
+                  - text: ") to $180+ (fine dining) per person; Currency and Pricing 2026: All prices ..."
+                - link "Read more" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.machupicchu.org/montreal-budget-guide-2026-complete-cost-breakdown.htm#:~:text=Food%20Budget%20Reality%202026%3A%20Montreal's,prices%20in%20Canadian%20dollars%20(CAD).
+          - generic [ref=e188]:
+            - heading "People also ask" [level=2] [ref=e190]
+            - generic [ref=e191]:
+              - button "How much is an average meal in Montreal?" [ref=e197] [cursor=pointer]:
+                - generic [ref=e199]: How much is an average meal in Montreal?
+                - img [ref=e202]
+              - button "What is the food price report for 2026?" [ref=e211] [cursor=pointer]:
+                - generic [ref=e213]: What is the food price report for 2026?
+                - img [ref=e216]
+              - button "What is the budget for 2026 in Montreal?" [ref=e225] [cursor=pointer]:
+                - generic [ref=e227]: What is the budget for 2026 in Montreal?
+                - img [ref=e230]
+              - button "What is the average restaurant bill in Canada?" [ref=e239] [cursor=pointer]:
+                - generic [ref=e241]: What is the average restaurant bill in Canada?
+                - img [ref=e244]
+          - generic [ref=e249]:
+            - heading "Web results" [level=2] [ref=e250]
+            - generic [ref=e251]:
+              - generic [ref=e254]:
+                - link "Cost of Living in Montreal. May 2026. Prices in Montreal Numbeo Cost of Living https://www.numbeo.com › Cost of Living › Canada" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.numbeo.com/cost-of-living/in/Montreal
+                  - heading "Cost of Living in Montreal. May 2026. Prices in Montreal" [level=3] [ref=e257]
+                  - generic [ref=e262]:
+                    - generic [ref=e264]: Numbeo Cost of Living
+                    - generic [ref=e266]: https://www.numbeo.com › Cost of Living › Canada
+                - button "About this result" [ref=e267] [cursor=pointer]:
+                  - img [ref=e270]
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - emphasis [ref=e275]: Meal at an Inexpensive Restaurant, C$25.00
+                  - text: ; Meal for Two at a Mid-Range Restaurant (Three Courses, Without Drinks), C$110.00 ; Combo Meal at McDonald's (or ...
+                - link "Read more" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.numbeo.com/cost-of-living/in/Montreal#:~:text=Meal%20at%20an%20Inexpensive%20Restaurant,C%2425.00&text=Meal%20for%20Two%20at%20a,C%24110.00&text=Combo%20Meal%20at%20McDonald's%20(or,Equivalent%20Fast%2DFood%20Meal)
+          - generic [ref=e280]:
+            - generic [ref=e283]:
+              - link "How Much Does Montréal Cost? 2026 Budget Guide GoTripzi https://gotripzi.com › Destinations › Montréal" [ref=e285] [cursor=pointer]:
+                - /url: https://gotripzi.com/destinations/montreal-ca/cost
+                - heading "How Much Does Montréal Cost? 2026 Budget Guide" [level=3] [ref=e286]
+                - generic [ref=e291]:
+                  - generic [ref=e293]: GoTripzi
+                  - generic [ref=e295]: https://gotripzi.com › Destinations › Montréal
+              - button "About this result" [ref=e296] [cursor=pointer]:
+                - img [ref=e299]
+            - generic [ref=e302]:
+              - generic [ref=e303]: Feb 16, 2026 —
+              - generic [ref=e304]:
+                - text: How much does Montréal cost? Daily budgets from $
+                - emphasis [ref=e305]: 69 (budget) to $566 (luxury) per person
+                - text: . Real prices for food, transport, ...
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - 'link "Grocery budget 2026 : r/montreal Reddit · r/montreal 140+ comments · 4 months ago" [ref=e314] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/montreal/comments/1psjwan/grocery_budget_2026/
+                - 'heading "Grocery budget 2026 : r/montreal" [level=3] [ref=e315]'
+                - generic [ref=e320]:
+                  - generic [ref=e322]: Reddit · r/montreal
+                  - generic [ref=e324]: 140+ comments · 4 months ago
+              - button "About this result" [ref=e325] [cursor=pointer]:
+                - img [ref=e328]
+            - generic [ref=e331]:
+              - generic [ref=e332]:
+                - text: Probably
+                - emphasis [ref=e333]: around $900 for two adults
+                - text: ". Sometimes more. However: we rarely eat out. It's too expensive and the quality/experience is not worth it."
+              - link "Read more" [ref=e334] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/montreal/comments/1psjwan/grocery_budget_2026/#:~:text=Probably%20around%20%24900%20for%20two,quality%2Fexperience%20is%20not%20worth%20it.
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - link "How much are we spending on food??" [ref=e341] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/montreal/comments/1bt89sk/how_much_are_we_spending_on_food/
+                  - generic [ref=e342]:
+                    - text: How much are we spending on
+                    - emphasis [ref=e343]: food
+                    - text: "??"
+                - generic [ref=e345]: 227 posts
+                - generic [ref=e347]: Apr 1, 2024
+              - generic [ref=e348]:
+                - link "The price of food." [ref=e351] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/montreal/comments/1kfg2nx/the_price_of_food/
+                  - generic [ref=e352]:
+                    - text: The price of
+                    - emphasis [ref=e353]: food
+                    - text: .
+                - generic [ref=e355]: 231 posts
+                - generic [ref=e357]: May 5, 2025
+              - link "More results from www.reddit.com" [ref=e361] [cursor=pointer]:
+                - /url: /search?q=average+restaurant+meal+cost+Montreal+2026+site:www.reddit.com&sca_esv=1c1263f81498c012&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0QrQIoAnoECC0QAw
+          - generic [ref=e365]:
+            - generic [ref=e368]:
+              - link "How much does it cost to live alone in Montreal in 2026? ... MTL Blog https://www.mtlblog.com › ... › Money › cost of living" [ref=e370] [cursor=pointer]:
+                - /url: https://www.mtlblog.com/montreal-cost-of-living-2026-how-much
+                - heading "How much does it cost to live alone in Montreal in 2026? ..." [level=3] [ref=e371]
+                - generic [ref=e376]:
+                  - generic [ref=e378]: MTL Blog
+                  - generic [ref=e380]: https://www.mtlblog.com › ... › Money › cost of living
+              - button "About this result" [ref=e381] [cursor=pointer]:
+                - img [ref=e384]
+            - generic [ref=e387]:
+              - generic [ref=e388]: Dec 31, 2025 —
+              - generic [ref=e389]:
+                - text: According to Numbeo figures, the average meal at an inexpensiveve restaurant costs
+                - emphasis [ref=e390]: around $25
+                - text: . If you grab lunch or dinner once or twice a ...
+              - link "Read more" [ref=e391] [cursor=pointer]:
+                - /url: https://www.mtlblog.com/montreal-cost-of-living-2026-how-much#:~:text=According%20to%20Numbeo%20figures%2C%20the,%24200%20a%20month%20is%20realistic.
+          - generic [ref=e398]:
+            - generic [ref=e401]:
+              - link "When it comes to Montreal restaurants, is smaller better? YouTube · CJAD 800 Montreal 2 views · 3 months ago" [ref=e403] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=AGgSoBvZiDY
+                - heading "When it comes to Montreal restaurants, is smaller better?" [level=3] [ref=e404]
+                - generic [ref=e409]:
+                  - generic [ref=e411]: YouTube · CJAD 800 Montreal
+                  - generic [ref=e413]: 2 views · 3 months ago
+              - button "About this result" [ref=e414] [cursor=pointer]:
+                - img [ref=e417]
+            - generic [ref=e419]:
+              - button "When it comes to Montreal restaurants, is smaller better? by CJAD 800 Montreal on YouTube. Play on Google. 10:44" [ref=e420] [cursor=pointer]:
+                - generic [ref=e422]:
+                  - img [ref=e425]
+                  - generic [ref=e428]:
+                    - generic [ref=e429]: 10:44
+                    - img [ref=e432]
+              - generic [ref=e435]: Smaller restaurants tend to focus on less quantity but higher quality and I think that's what they're paying for.
+            - generic [ref=e437]: "Missing: average ‎cost"
+          - generic [ref=e441]:
+            - generic [ref=e444]:
+              - link "Canada's Food Price Report 2026 - Agri‑Food Analytics Lab Dalhousie University https://www.dal.ca › Agri‑Food Analytics Lab › Research" [ref=e446] [cursor=pointer]:
+                - /url: https://www.dal.ca/sites/agri-food/research/canada-s-food-price-report-2026.html
+                - heading "Canada's Food Price Report 2026 - Agri‑Food Analytics Lab" [level=3] [ref=e447]
+                - generic [ref=e452]:
+                  - generic [ref=e454]: Dalhousie University
+                  - generic [ref=e456]: https://www.dal.ca › Agri‑Food Analytics Lab › Research
+              - button "About this result" [ref=e457] [cursor=pointer]:
+                - img [ref=e460]
+            - generic [ref=e463]:
+              - generic [ref=e464]: Dec 4, 2025 —
+              - generic [ref=e465]:
+                - text: The
+                - emphasis [ref=e466]: average
+                - text: family of four is expected to spend $17,571.79 on
+                - emphasis [ref=e467]: food
+                - text: in
+                - emphasis [ref=e468]: "2026"
+                - text: ", an increase of up to $994.63 from last year."
+                - emphasis [ref=e469]: Food prices
+                - text: are 27% ...
+              - link "Read more" [ref=e470] [cursor=pointer]:
+                - /url: https://www.dal.ca/sites/agri-food/research/canada-s-food-price-report-2026.html#:~:text=The%20average%20family%20of%20four,they%20were%20five%20years%20ago.
+            - generic [ref=e472]:
+              - text: "Missing: Montreal ‎| Show results with:"
+              - link "Montreal" [ref=e473] [cursor=pointer]:
+                - /url: /search?sca_esv=1c1263f81498c012&q=average+restaurant+meal+cost+%22Montreal%22+2026&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q5t4CegQIPRAB
+          - generic [ref=e477]:
+            - generic [ref=e480]:
+              - link "Montreal Restaurants by Price Table Agent https://tableagent.com › montreal › price" [ref=e482] [cursor=pointer]:
+                - /url: https://tableagent.com/montreal/price/
+                - heading "Montreal Restaurants by Price" [level=3] [ref=e483]
+                - generic [ref=e488]:
+                  - generic [ref=e490]: Table Agent
+                  - generic [ref=e492]: https://tableagent.com › montreal › price
+              - button "About this result" [ref=e493] [cursor=pointer]:
+                - img [ref=e496]
+            - generic [ref=e499]:
+              - generic [ref=e500]:
+                - text: Search Montreal Restaurants by Price. The price scale used throughout our website represents the
+                - emphasis [ref=e501]: average cost of a three course meal for one person
+                - text: .
+              - link "Read more" [ref=e502] [cursor=pointer]:
+                - /url: https://tableagent.com/montreal/price/#:~:text=Search&text=Montreal%20Restaurants%20by%20Price&text=The%20price%20scale%20used%20throughout,course%20meal%20for%20one%20person.
+          - generic [ref=e506]:
+            - generic [ref=e509]:
+              - link "The cost of living in Montreal Maplr https://maplr.co › cout-de-la-vie-a-montreal" [ref=e511] [cursor=pointer]:
+                - /url: https://maplr.co/en/cout-de-la-vie-a-montreal/
+                - heading "The cost of living in Montreal" [level=3] [ref=e512]
+                - generic [ref=e517]:
+                  - generic [ref=e519]: Maplr
+                  - generic [ref=e521]: https://maplr.co › cout-de-la-vie-a-montreal
+              - button "About this result" [ref=e522] [cursor=pointer]:
+                - img [ref=e525]
+            - generic [ref=e528]:
+              - generic [ref=e529]:
+                - text: The
+                - emphasis [ref=e530]: average
+                - text: monthly
+                - emphasis [ref=e531]: cost
+                - text: of
+                - emphasis [ref=e532]: food
+                - text: for one person is estimated at between $350 and $550. And don't forget to allow yourself a period of adjustment. If you're ...
+              - link "Read more" [ref=e533] [cursor=pointer]:
+                - /url: https://maplr.co/en/cout-de-la-vie-a-montreal/#:~:text=The%20average%20monthly%20cost%20of,period%20of%20adjustment.%20If%20you're
+          - generic [ref=e537]:
+            - generic [ref=e540]:
+              - link "Average family will spend nearly $1000 more on food in 2026 CityNews Montreal https://montreal.citynews.ca › 2025/12/04 › food-prices..." [ref=e542] [cursor=pointer]:
+                - /url: https://montreal.citynews.ca/2025/12/04/food-prices-2026-report-canada/
+                - heading "Average family will spend nearly $1000 more on food in 2026" [level=3] [ref=e543]
+                - generic [ref=e548]:
+                  - generic [ref=e550]: CityNews Montreal
+                  - generic [ref=e552]: https://montreal.citynews.ca › 2025/12/04 › food-prices...
+              - button "About this result" [ref=e553] [cursor=pointer]:
+                - img [ref=e556]
+            - generic [ref=e559]:
+              - generic [ref=e560]: Dec 4, 2025 —
+              - generic [ref=e561]:
+                - text: A family of four can expect to fork out $17,571.79 on
+                - emphasis [ref=e562]: food
+                - text: in
+                - emphasis [ref=e563]: "2026"
+                - text: ", the report states. Those"
+                - emphasis [ref=e564]: "2026"
+                - text: projections continue a trend of rising
+                - emphasis [ref=e565]: food
+                - text: ...
+              - link "Read more" [ref=e566] [cursor=pointer]:
+                - /url: https://montreal.citynews.ca/2025/12/04/food-prices-2026-report-canada/#:~:text=A%20family%20of%20four%20can,over%20the%20past%20five%20years.
+        - generic [ref=e568]:
+          - generic [ref=e573]:
+            - heading "People also search for" [level=2] [ref=e575]
+            - generic [ref=e577]:
+              - generic [ref=e578]:
+                - link "Average restaurant meal cost montreal 2026 per month" [ref=e582] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Average+restaurant+meal+cost+montreal+2026+per+month&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhPEAE
+                  - generic [ref=e583]:
+                    - generic [ref=e588]: Average restaurant meal cost montreal 2026 per month
+                    - img [ref=e592]
+                - link "Average restaurant meal cost montreal 2026 per person" [ref=e597] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Average+restaurant+meal+cost+montreal+2026+per+person&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhTEAE
+                  - generic [ref=e598]:
+                    - generic [ref=e603]: Average restaurant meal cost montreal 2026 per person
+                    - img [ref=e607]
+                - link "Average restaurant meal cost montreal 2026 reddit" [ref=e612] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Average+restaurant+meal+cost+montreal+2026+reddit&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhREAE
+                  - generic [ref=e613]:
+                    - generic [ref=e618]: Average restaurant meal cost montreal 2026 reddit
+                    - img [ref=e622]
+                - link "Average restaurant meal cost montreal 2026 per day" [ref=e627] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Average+restaurant+meal+cost+montreal+2026+per+day&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhSEAE
+                  - generic [ref=e628]:
+                    - generic [ref=e633]: Average restaurant meal cost montreal 2026 per day
+                    - img [ref=e637]
+              - generic [ref=e639]:
+                - link "Montreal cost of living student" [ref=e643] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Montreal+cost+of+living+student&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhOEAE
+                  - generic [ref=e644]:
+                    - generic [ref=e649]: Montreal cost of living student
+                    - img [ref=e653]
+                - link "Cost of living in Montreal for single person" [ref=e658] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Cost+of+living+in+Montreal+for+single+person&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhQEAE
+                  - generic [ref=e659]:
+                    - generic [ref=e664]: Cost of living in Montreal for single person
+                    - img [ref=e668]
+                - link "Cost of living in montreal 2026" [ref=e673] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Cost+of+living+in+montreal+2026&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhNEAE
+                  - generic [ref=e674]:
+                    - generic [ref=e679]: Cost of living in montreal 2026
+                    - img [ref=e683]
+                - link "Cost of living in Montreal for a couple" [ref=e688] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Cost+of+living+in+Montreal+for+a+couple&sa=X&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q1QJ6BAhMEAE
+                  - generic [ref=e689]:
+                    - generic [ref=e694]: Cost of living in Montreal for a couple
+                    - img [ref=e698]
+          - navigation [ref=e700]:
+            - heading "Page Navigation" [level=1] [ref=e701]
+            - text: "1"
+            - link "Page 2" [ref=e704] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Montreal+2026&sca_esv=1c1263f81498c012&ei=QDT5aZ6LLKyNmLQPjI716Qs&start=10&sa=N&sstk=Af77f_cwdDXrIzSkZcCVtyekTwcuDdUzk0GGs2PcvHD6q32yD65NLjXjxPAg1UnFTfXNL3CJoBkFcwGZjHqISskeVb8XtyDivSKSMQ&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q8tMDegQIQRAE
+              - text: "2"
+            - link "Page 3" [ref=e706] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Montreal+2026&sca_esv=1c1263f81498c012&ei=QDT5aZ6LLKyNmLQPjI716Qs&start=20&sa=N&sstk=Af77f_cwdDXrIzSkZcCVtyekTwcuDdUzk0GGs2PcvHD6q32yD65NLjXjxPAg1UnFTfXNL3CJoBkFcwGZjHqISskeVb8XtyDivSKSMQ&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q8tMDegQIQRAG
+              - text: "3"
+            - link "Page 4" [ref=e708] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Montreal+2026&sca_esv=1c1263f81498c012&ei=QDT5aZ6LLKyNmLQPjI716Qs&start=30&sa=N&sstk=Af77f_cwdDXrIzSkZcCVtyekTwcuDdUzk0GGs2PcvHD6q32yD65NLjXjxPAg1UnFTfXNL3CJoBkFcwGZjHqISskeVb8XtyDivSKSMQ&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q8tMDegQIQRAI
+              - text: "4"
+            - link "Page 5" [ref=e710] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Montreal+2026&sca_esv=1c1263f81498c012&ei=QDT5aZ6LLKyNmLQPjI716Qs&start=40&sa=N&sstk=Af77f_cwdDXrIzSkZcCVtyekTwcuDdUzk0GGs2PcvHD6q32yD65NLjXjxPAg1UnFTfXNL3CJoBkFcwGZjHqISskeVb8XtyDivSKSMQ&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q8tMDegQIQRAK
+              - text: "5"
+            - link "Page 6" [ref=e712] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Montreal+2026&sca_esv=1c1263f81498c012&ei=QDT5aZ6LLKyNmLQPjI716Qs&start=50&sa=N&sstk=Af77f_cwdDXrIzSkZcCVtyekTwcuDdUzk0GGs2PcvHD6q32yD65NLjXjxPAg1UnFTfXNL3CJoBkFcwGZjHqISskeVb8XtyDivSKSMQ&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q8tMDegQIQRAM
+              - text: "6"
+            - heading "Next" [level=2] [ref=e714]:
+              - link "Next" [ref=e715] [cursor=pointer]:
+                - /url: /search?q=average+restaurant+meal+cost+Montreal+2026&sca_esv=1c1263f81498c012&ei=QDT5aZ6LLKyNmLQPjI716Qs&start=10&sa=N&sstk=Af77f_cwdDXrIzSkZcCVtyekTwcuDdUzk0GGs2PcvHD6q32yD65NLjXjxPAg1UnFTfXNL3CJoBkFcwGZjHqISskeVb8XtyDivSKSMQ&ved=2ahUKEwieq8Ls7KCUAxWsBoYAHQxHPb0Q8NMDegQIQRAO
+                - generic [ref=e717]: Next
+        - navigation
+    - contentinfo [ref=e718]:
+      - heading "Footer Links" [level=1] [ref=e719]
+      - generic [ref=e723]:
+        - generic [ref=e725]:
+          - text: Canada
+          - generic [ref=e727]:
+            - button "Montreal, Quebec - Based on your past activity" [ref=e729] [cursor=pointer]:
+              - generic [ref=e730]: Montreal, Quebec
+              - generic [ref=e732]:
+                - text: "-"
+                - generic [ref=e733]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e735] [cursor=pointer]: Update location
+        - generic [ref=e738]:
+          - link "Help" [ref=e739] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e740] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e741] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e742] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

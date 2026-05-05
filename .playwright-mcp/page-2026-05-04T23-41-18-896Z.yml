@@ -1,0 +1,414 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjIqde856CUAxV9NIYAHYveK8AQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Montreal to Toronto bus price 18th May 2026 Montreal to Toronto bus price 18th May 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi1hMvvwfqFL3FrhrSZiqu6_HkrrVPL8ieLdo17MWXD4gaiYSSX_Mh-cvZF6ucqA-DfptTh5IBOCRfewyVUY67aNVg8PP0it1KDK_9JGzSY45jFcOFQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ2J8OegQIDxAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "News" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+Toronto+bus+price+18th+May+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi1hMvvwfqFL3FrhrSZiqu6_HkrrVPL8ieLdo17MWXD4gaiYSSX_Mh-cvZF6ucqA-DfptTh5IBOCRfewyVUY67aNVg8PP0it1KDK_9JGzSY45jFcOFQ&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ0pQJegQIFRAB
+              - generic [ref=e85]: News
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi1hMvvwfqFL3FrhrSZiqu6_HkrrVPL8ieLdo17MWXD4gaiYSSX_Mh-cvZF6ucqA-DfptTh5IBOCRfewyVUY67aNVg8PP0it1KDK_9JGzSY45jFcOFQ&q=Montreal+to+Toronto+bus+price+18th+May+2026&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQtKgLegQIFBAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Forums" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi1hMvvwfqFL3FrhrSZiqu6_HkrrVPL8ieLdo17MWXD4gaiYSSX_Mh-cvZF6ucqA-DfptTh5IBOCRfewyVUY67aNVg8PP0it1KDK_9JGzSY45jFcOFQ&q=Montreal+to+Toronto+bus+price+18th+May+2026&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQs6gLegQIEhAB
+              - generic [ref=e93]: Forums
+          - listitem [ref=e94]:
+            - link "Shopping" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi1hMvvwfqFL3FrhrSZiqu6_HkrrVPL8ieLdo17MWXD4gaiYSSX_Mh-cvZF6ucqA-DfptTh5IBOCRfewyVUY67aNVg8PP0it1KDK_9JGzSY45jFcOFQ&q=Montreal+to+Toronto+bus+price+18th+May+2026&ved=1t:220175&ictx=111
+              - generic [ref=e97]: Shopping
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi1hMvvwfqFL3FrhrSZiqu6_HkrrVPL8ieLdo17MWXD4gaiYSSX_Mh-cvZF6ucqA-DfptTh5IBOCRfewyVUY67aNVg8PP0it1KDK_9JGzSY45jFcOFQ&q=Montreal+to+Toronto+bus+price+18th+May+2026&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQtKgLegQIERAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - generic [ref=e123]:
+      - generic [ref=e142]:
+        - heading "Thinking" [level=2] [ref=e146]:
+          - generic [ref=e147]: Thinking
+        - progressbar [ref=e148]
+      - main [ref=e150]:
+        - generic [ref=e154]:
+          - generic [ref=e157]:
+            - heading "Web results" [level=2] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e162]:
+                - link "Bus Montreal to Toronto from $20 | Refundable Tickets Busbud https://www.busbud.com › ... › Montreal › Toronto" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.busbud.com/en-ca/bus-montreal-toronto/r/f25dvk-dpz88g
+                  - heading "Bus Montreal to Toronto from $20 | Refundable Tickets" [level=3] [ref=e165]
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: Busbud
+                    - generic [ref=e174]: https://www.busbud.com › ... › Montreal › Toronto
+                - button "About this result" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - text: The average price for this route is
+                  - emphasis [ref=e183]: around $93
+                  - text: . Busbud recommends that you book your tickets in advance for a better chance to get the lowest possible price.
+                - link "Read more" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.busbud.com/en-ca/bus-montreal-toronto/r/f25dvk-dpz88g#:~:text=The%20average%20price%20for%20this,get%20the%20lowest%20possible%20price.
+              - generic [ref=e187]: $20.00 to $231.00
+              - generic [ref=e189]:
+                - text: "Missing: 18th ‎| Show results with:"
+                - link "18th" [ref=e190] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+Toronto+bus+price+%2218th%22+May+2026&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ5t4CegQIJRAB
+          - generic [ref=e195]:
+            - heading "People also ask" [level=2] [ref=e197]
+            - generic [ref=e198]:
+              - button "How much is the bus fare from Montreal to Toronto?" [ref=e204] [cursor=pointer]:
+                - generic [ref=e206]: How much is the bus fare from Montreal to Toronto?
+                - img [ref=e209]
+              - button "What is the cheapest way to get from Montreal to Toronto?" [ref=e218] [cursor=pointer]:
+                - generic [ref=e220]: What is the cheapest way to get from Montreal to Toronto?
+                - img [ref=e223]
+              - button "Is Megabus Canada cheaper than train travel?" [ref=e232] [cursor=pointer]:
+                - generic [ref=e234]: Is Megabus Canada cheaper than train travel?
+                - img [ref=e237]
+              - button "How much is the cash fare on a bus?" [ref=e246] [cursor=pointer]:
+                - generic [ref=e248]: How much is the cash fare on a bus?
+                - img [ref=e251]
+          - generic [ref=e256]:
+            - heading "Web results" [level=2] [ref=e257]
+            - generic [ref=e258]:
+              - generic [ref=e261]:
+                - link "Montreal to Toronto Bus Tickets From $108 Trailways https://trailways.ca › CA › Montreal" [ref=e263] [cursor=pointer]:
+                  - /url: https://trailways.ca/schedules/bus-from-montreal-qc-to-toronto-on/
+                  - heading "Montreal to Toronto Bus Tickets From $108" [level=3] [ref=e264]
+                  - generic [ref=e269]:
+                    - generic [ref=e271]: Trailways
+                    - generic [ref=e273]: https://trailways.ca › CA › Montreal
+                - button "About this result" [ref=e274] [cursor=pointer]:
+                  - img [ref=e277]
+              - generic [ref=e280]:
+                - generic [ref=e281]:
+                  - text: While the average ticket price for this journey is
+                  - emphasis [ref=e282]: around $122.98
+                  - text: ", you can find the cheapest bus tickets for as low as $108.44. Distance. 912mi ..."
+                - link "Read more" [ref=e283] [cursor=pointer]:
+                  - /url: https://trailways.ca/schedules/bus-from-montreal-qc-to-toronto-on/#:~:text=While%20the%20average%20ticket%20price,912mi%20(1467.72km)
+              - generic [ref=e286]: $108.44 to $239.65
+          - generic [ref=e290]:
+            - generic [ref=e293]:
+              - link "Bus from Montreal to Toronto with megabus megabus.com https://ca.megabus.com › route-guides › montreal-to-to..." [ref=e295] [cursor=pointer]:
+                - /url: https://ca.megabus.com/route-guides/montreal-to-toronto-bus
+                - heading "Bus from Montreal to Toronto with megabus" [level=3] [ref=e296]
+                - generic [ref=e301]:
+                  - generic [ref=e303]: megabus.com
+                  - generic [ref=e305]: https://ca.megabus.com › route-guides › montreal-to-to...
+              - button "About this result" [ref=e306] [cursor=pointer]:
+                - img [ref=e309]
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - text: Book your
+                - emphasis [ref=e314]: bus ticket
+                - text: to
+                - emphasis [ref=e315]: Toronto
+                - text: from
+                - emphasis [ref=e316]: Montreal
+                - text: today. Duration 6 hours 10 minutes (fastest time). Departures Up to 26 services per day.
+              - link "Read more" [ref=e317] [cursor=pointer]:
+                - /url: https://ca.megabus.com/route-guides/montreal-to-toronto-bus#:~:text=Book%20your%20bus%20ticket%20to,Toronto%20from%20Montreal%20today&text=Duration%206%20hours%2010%20minutes,(fastest%20time)&text=Departures%20Up%20to%2026%20services,per%20day
+            - generic [ref=e319]:
+              - text: "Missing: 18th ‎| Show results with:"
+              - link "18th" [ref=e320] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+Toronto+bus+price+%2218th%22+May+2026&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ5t4CegQIQBAB
+          - generic [ref=e324]:
+            - generic [ref=e327]:
+              - link "Bus Montreal to Toronto, ON - Compare all Companies CheckMyBus https://www.checkmybus.com › ... › Bus to Toronto, ON" [ref=e329] [cursor=pointer]:
+                - /url: https://www.checkmybus.com/montreal-qc/toronto-on
+                - heading "Bus Montreal to Toronto, ON - Compare all Companies" [level=3] [ref=e330]
+                - generic [ref=e335]:
+                  - generic [ref=e337]: CheckMyBus
+                  - generic [ref=e339]: https://www.checkmybus.com › ... › Bus to Toronto, ON
+              - button "About this result" [ref=e340] [cursor=pointer]:
+                - img [ref=e343]
+            - generic [ref=e347]:
+              - text: 61 buses every day from Montreal to Toronto, ON,
+              - emphasis [ref=e348]: starting at $14
+              - text: . Find the cheapest bus tickets from trusted companies in one place.
+            - generic [ref=e350]: Starting from US$15.00
+          - generic [ref=e354]:
+            - generic [ref=e357]:
+              - link "Bus Montreal to Toronto from $78 | Tickets & Timetables Rome2Rio https://www.rome2rio.com › Toronto-ON-Canada-Region" [ref=e359] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Bus/Montreal/Toronto-ON-Canada-Region
+                - heading "Bus Montreal to Toronto from $78 | Tickets & Timetables" [level=3] [ref=e360]
+                - generic [ref=e365]:
+                  - generic [ref=e367]: Rome2Rio
+                  - generic [ref=e369]: https://www.rome2rio.com › Toronto-ON-Canada-Region
+              - button "About this result" [ref=e370] [cursor=pointer]:
+                - img [ref=e373]
+            - generic [ref=e377]:
+              - emphasis [ref=e378]: Bus tickets from Montreal to Toronto start at $78
+              - text: ", and the quickest route takes just 7h. Check timetables and book your tickets with Rome2Rio."
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - link "Montreal to Toronto Bus - Buy Tickets Online Wanderu https://www.wanderu.com › ... › Ontario › Toronto" [ref=e387] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/bus/ca-qc/montreal/ca-on/toronto/
+                - heading "Montreal to Toronto Bus - Buy Tickets Online" [level=3] [ref=e388]
+                - generic [ref=e393]:
+                  - generic [ref=e395]: Wanderu
+                  - generic [ref=e397]: https://www.wanderu.com › ... › Ontario › Toronto
+              - button "About this result" [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+            - generic [ref=e404]:
+              - generic [ref=e405]:
+                - text: If you're planning to travel by
+                - emphasis [ref=e406]: bus
+                - text: from
+                - emphasis [ref=e407]: Montreal to Toronto
+                - text: in the next month, the average
+                - emphasis [ref=e408]: ticket price
+                - text: is expected to range from $48 to $114. The cheapest
+                - emphasis [ref=e409]: bus
+                - text: ...
+              - link "Read more" [ref=e410] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/bus/ca-qc/montreal/ca-on/toronto/#:~:text=If%20you're%20planning%20to%20travel,departing%20on%20May%2020%2C%202026.
+            - generic [ref=e412]:
+              - generic [ref=e413]: Starting from $19.00
+              - text: ·
+              - img "Rated 4.5 out of 5, (16) user reviews" [ref=e417]:
+                - text: "4.5"
+                - img [ref=e418]
+                - text: (16)
+            - generic [ref=e422]:
+              - text: "Missing: 18th ‎| Show results with:"
+              - link "18th" [ref=e423] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+Toronto+bus+price+%2218th%22+May+2026&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ5t4CegQISRAB
+          - generic [ref=e427]:
+            - generic [ref=e430]:
+              - link "GO Transit | Regional Public Transit Service for the GTHA GO Transit https://www.gotransit.com › ..." [ref=e432] [cursor=pointer]:
+                - /url: https://www.gotransit.com/en
+                - heading "GO Transit | Regional Public Transit Service for the GTHA" [level=3] [ref=e433]
+                - generic [ref=e438]:
+                  - generic [ref=e440]: GO Transit
+                  - generic [ref=e442]: https://www.gotransit.com › ...
+              - button "About this result" [ref=e443] [cursor=pointer]:
+                - img [ref=e446]
+            - generic [ref=e449]: A division of Metrolinx, GO Transit is the regional public transit service for the Greater Golden Horseshoe.
+          - generic [ref=e453]:
+            - generic [ref=e456]:
+              - link "Affordable Bus tickets to Toronto, ON FlixBus.ca https://www.flixbus.ca › Bus › Canada" [ref=e458] [cursor=pointer]:
+                - /url: https://www.flixbus.ca/bus/toronto-on
+                - heading "Affordable Bus tickets to Toronto, ON" [level=3] [ref=e459]
+                - generic [ref=e464]:
+                  - generic [ref=e466]: FlixBus.ca
+                  - generic [ref=e468]: https://www.flixbus.ca › Bus › Canada
+              - button "About this result" [ref=e469] [cursor=pointer]:
+                - img [ref=e472]
+            - generic [ref=e475]:
+              - generic [ref=e476]:
+                - text: When is the best time to book a
+                - emphasis [ref=e477]: bus ticket
+                - text: to
+                - emphasis [ref=e478]: Toronto
+                - text: "? You can book your"
+                - emphasis [ref=e479]: ticket
+                - text: to
+                - emphasis [ref=e480]: Toronto
+                - text: from as little as $10.98. You can book your
+                - emphasis [ref=e481]: ticket
+                - text: on our website or ...
+              - link "Read more" [ref=e482] [cursor=pointer]:
+                - /url: https://www.flixbus.ca/bus/toronto-on#:~:text=When%20is%20the%20best%20time,website%20or%20in%20the%20app.
+            - generic [ref=e484]: "Missing: 18th ‎May"
+          - generic [ref=e488]:
+            - generic [ref=e491]:
+              - link "Bus from Toronto, ON to Montreal from $14 CheckMyBus https://www.checkmybus.com › ... › Bus to Montreal" [ref=e493] [cursor=pointer]:
+                - /url: https://www.checkmybus.com/toronto-on/montreal-qc
+                - heading "Bus from Toronto, ON to Montreal from $14" [level=3] [ref=e494]
+                - generic [ref=e499]:
+                  - generic [ref=e501]: CheckMyBus
+                  - generic [ref=e503]: https://www.checkmybus.com › ... › Bus to Montreal
+              - button "About this result" [ref=e504] [cursor=pointer]:
+                - img [ref=e507]
+            - generic [ref=e510]:
+              - generic [ref=e511]:
+                - text: Book your bus ticket from Toronto, ON to Montreal
+                - emphasis [ref=e512]: starting from $14
+                - text: "! Cheapest Bus, $14. Fastest Bus, 4h 37m. Earliest Bus, 6:00 AM."
+              - link "Read more" [ref=e513] [cursor=pointer]:
+                - /url: https://www.checkmybus.com/toronto-on/montreal-qc#:~:text=Book%20your%20bus%20ticket%20from,6%3A00%20AM
+            - generic [ref=e515]: Starting from US$14.00
+          - generic [ref=e519]:
+            - generic [ref=e522]:
+              - link "Montreal-area transit fares are going up CTV News https://www.ctvnews.ca › montreal › article › montreal-..." [ref=e524] [cursor=pointer]:
+                - /url: https://www.ctvnews.ca/montreal/article/montreal-area-transit-fares-are-going-up-heres-how-much-youll-pay/
+                - heading "Montreal-area transit fares are going up" [level=3] [ref=e525]
+                - generic [ref=e530]:
+                  - generic [ref=e532]: CTV News
+                  - generic [ref=e534]: https://www.ctvnews.ca › montreal › article › montreal-...
+              - button "About this result" [ref=e535] [cursor=pointer]:
+                - img [ref=e538]
+            - generic [ref=e541]:
+              - generic [ref=e542]: 3 days ago —
+              - generic [ref=e543]:
+                - text: Unlimited evening
+                - emphasis [ref=e544]: tickets
+                - text: will be $6.75, up from $6.50. ARTM
+                - emphasis [ref=e545]: Fare
+                - text: Schedule for July 1,
+                - emphasis [ref=e546]: "2026"
+                - text: by CTV News
+                - emphasis [ref=e547]: Montreal
+                - text: . Reduced fares for monthly ...
+              - link "Read more" [ref=e548] [cursor=pointer]:
+                - /url: https://www.ctvnews.ca/montreal/article/montreal-area-transit-fares-are-going-up-heres-how-much-youll-pay/#:~:text=Unlimited%20evening%20tickets%20will%20be,available%20on%20the%20ARTM's%20website.
+        - generic [ref=e550]:
+          - generic [ref=e555]:
+            - heading "People also search for" [level=2] [ref=e557]
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - link "Montreal to toronto bus price 18th may 2026 timetable" [ref=e564] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+toronto+bus+price+18th+may+2026+timetable&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhQEAE
+                  - generic [ref=e565]:
+                    - generic [ref=e570]: Montreal to toronto bus price 18th may 2026 timetable
+                    - img [ref=e574]
+                - link "Montreal to toronto bus price 18th may 2026 sleeper" [ref=e579] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+toronto+bus+price+18th+may+2026+sleeper&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhSEAE
+                  - generic [ref=e580]:
+                    - generic [ref=e585]: Montreal to toronto bus price 18th may 2026 sleeper
+                    - img [ref=e589]
+                - link "Montreal to Toronto train" [ref=e594] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Montreal+to+Toronto+train&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhPEAE
+                  - generic [ref=e595]:
+                    - generic [ref=e600]: Montreal to Toronto train
+                    - img [ref=e604]
+                - link "Cheapest bus from Montreal to Toronto" [ref=e609] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Cheapest+bus+from+Montreal+to+Toronto&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhNEAE
+                  - generic [ref=e610]:
+                    - generic [ref=e615]: Cheapest bus from Montreal to Toronto
+                    - img [ref=e619]
+              - generic [ref=e621]:
+                - link "Megabus Montreal to Toronto" [ref=e625] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Megabus+Montreal+to+Toronto&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhREAE
+                  - generic [ref=e626]:
+                    - generic [ref=e631]: Megabus Montreal to Toronto
+                    - img [ref=e635]
+                - link "Overnight bus Montreal to Toronto" [ref=e640] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=Overnight+bus+Montreal+to+Toronto&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhOEAE
+                  - generic [ref=e641]:
+                    - generic [ref=e646]: Overnight bus Montreal to Toronto
+                    - img [ref=e650]
+                - link "GO bus Montreal to Toronto" [ref=e655] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=GO+bus+Montreal+to+Toronto&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhLEAE
+                  - generic [ref=e656]:
+                    - generic [ref=e661]: GO bus Montreal to Toronto
+                    - img [ref=e665]
+                - link "FlixBus Montreal to Toronto" [ref=e670] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&q=FlixBus+Montreal+to+Toronto&sa=X&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ1QJ6BAhMEAE
+                  - generic [ref=e671]:
+                    - generic [ref=e676]: FlixBus Montreal to Toronto
+                    - img [ref=e680]
+          - navigation [ref=e682]:
+            - heading "Page Navigation" [level=1] [ref=e683]
+            - text: "1"
+            - link "Page 2" [ref=e686] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=10&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAE
+              - text: "2"
+            - link "Page 3" [ref=e688] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=20&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAG
+              - text: "3"
+            - link "Page 4" [ref=e690] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=30&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAI
+              - text: "4"
+            - link "Page 5" [ref=e692] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=40&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAK
+              - text: "5"
+            - link "Page 6" [ref=e694] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=50&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAM
+              - text: "6"
+            - link "Page 7" [ref=e696] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=60&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAO
+              - text: "7"
+            - link "Page 8" [ref=e698] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=70&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAQ
+              - text: "8"
+            - link "Page 9" [ref=e700] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=80&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAS
+              - text: "9"
+            - link "Page 10" [ref=e702] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=90&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8tMDegQIRhAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e704]:
+              - link "Next" [ref=e705] [cursor=pointer]:
+                - /url: /search?q=Montreal+to+Toronto+bus+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230&ei=ni75acjiDf3omLQPi72vgQw&start=10&sa=N&sstk=Af77f_cLTvQhpVP1GowuoVMAW1-Q6FxQCgicR0davKsB2GPdy8_c5SquRverDdFdoPJYNX1cHpLYfCGP2TOKqxeTiZaQVh_9Pj5x-Q&ved=2ahUKEwjIqde856CUAxV9NIYAHYveK8AQ8NMDegQIRhAW
+                - generic [ref=e707]: Next
+        - navigation
+    - contentinfo [ref=e708]:
+      - heading "Footer Links" [level=1] [ref=e709]
+      - generic [ref=e713]:
+        - generic [ref=e716]:
+          - generic [ref=e717]: Results are personalized
+          - generic [ref=e718]: "-"
+          - link "Try without personalization" [ref=e720] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Montreal+to+Toronto+bus+price+18th+May+2026&peek_pws=0&sxsrf=ANbL-n5r2tqHhb-ud-VpHgCmfuwdxqM0eg:1777938078230
+            - generic [ref=e721]: Try without personalization
+        - generic [ref=e723]:
+          - text: Canada
+          - generic [ref=e725]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e727] [cursor=pointer]:
+              - generic [ref=e728]: Toronto, Ontario
+              - generic [ref=e730]:
+                - text: "-"
+                - generic [ref=e731]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e733] [cursor=pointer]: Update location
+        - generic [ref=e736]:
+          - link "Help" [ref=e737] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e738] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e739] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e740] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

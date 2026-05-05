@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Montreal restaurant meal cost budget mid-range comfort 2026 Montreal restaurant meal cost budget mid-range comfort 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6OfhE_ptNioXiQylvmEzXAg8_rieYr9B-DZ5GIQx5n7vAh8zEDAff4MJe0R0xwjA0MDQVRKSHkir0XpvNrxZa1Etf-3TD6w&aep=1&ntc=1&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ2J8OegQIEBAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "Short videos" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6OfhE_ptNioXiQylvmEzXAg8_rieYr9B-DZ5GIQx5n7vAh8zEDAff4MJe0R0xwjA0MDQVRKSHkir0XpvNrxZa1Etf-3TD6w&q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQs6gLegQIFhAB
+              - generic [ref=e85]: Short videos
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6OfhE_ptNioXiQylvmEzXAg8_rieYr9B-DZ5GIQx5n7vAh8zEDAff4MJe0R0xwjA0MDQVRKSHkir0XpvNrxZa1Etf-3TD6w&q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQtKgLegQIEhAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6OfhE_ptNioXiQylvmEzXAg8_rieYr9B-DZ5GIQx5n7vAh8zEDAff4MJe0R0xwjA0MDQVRKSHkir0XpvNrxZa1Etf-3TD6w&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ0pQJegQIFRAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Forums" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6OfhE_ptNioXiQylvmEzXAg8_rieYr9B-DZ5GIQx5n7vAh8zEDAff4MJe0R0xwjA0MDQVRKSHkir0XpvNrxZa1Etf-3TD6w&q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQs6gLegQIExAB
+              - generic [ref=e97]: Forums
+          - listitem [ref=e98]:
+            - link "Shopping" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6OfhE_ptNioXiQylvmEzXAg8_rieYr9B-DZ5GIQx5n7vAh8zEDAff4MJe0R0xwjA0MDQVRKSHkir0XpvNrxZa1Etf-3TD6w&q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&ved=1t:220175&ictx=111
+              - generic [ref=e101]: Shopping
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - generic [ref=e123]:
+      - generic [ref=e142]:
+        - heading "Thinking" [level=2] [ref=e146]:
+          - generic [ref=e147]: Thinking
+        - progressbar [ref=e148]
+      - main [ref=e150]:
+        - generic [ref=e154]:
+          - generic [ref=e157]:
+            - heading "Web results" [level=2] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e162]:
+                - 'link "Montreal Budget Guide 2026: Complete Cost Breakdown Machupicchu.org https://www.machupicchu.org › ... › Canada › Montreal" [ref=e164] [cursor=pointer]':
+                  - /url: https://www.machupicchu.org/montreal-budget-guide-2026-complete-cost-breakdown.htm
+                  - 'heading "Montreal Budget Guide 2026: Complete Cost Breakdown" [level=3] [ref=e165]'
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: Machupicchu.org
+                    - generic [ref=e174]: https://www.machupicchu.org › ... › Canada › Montreal
+                - button "About this result" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - text: Food and Dining Costs in Montreal 2026; Budget Dining in Montreal 2026 ($35-50 Daily Per Person);
+                  - emphasis [ref=e183]: Mid-Range Dining in Montreal 2026 ($65-85 Daily Per Person
+                  - text: ) ...
+                - link "Read more" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.machupicchu.org/montreal-budget-guide-2026-complete-cost-breakdown.htm#:~:text=Montreal%20Budget%20Guide%202026%3A%20Complete
+          - generic [ref=e189]:
+            - heading "People also ask" [level=2] [ref=e191]
+            - generic [ref=e192]:
+              - button "How much is an average meal in Montreal?" [ref=e198] [cursor=pointer]:
+                - generic [ref=e200]: How much is an average meal in Montreal?
+                - img [ref=e203]
+              - button "What is a must eat in Montreal?" [ref=e212] [cursor=pointer]:
+                - generic [ref=e214]: What is a must eat in Montreal?
+                - img [ref=e217]
+              - button "How much do I need per day in Montreal?" [ref=e226] [cursor=pointer]:
+                - generic [ref=e228]: How much do I need per day in Montreal?
+                - img [ref=e231]
+              - button "What is the average restaurant bill in Canada?" [ref=e240] [cursor=pointer]:
+                - generic [ref=e242]: What is the average restaurant bill in Canada?
+                - img [ref=e245]
+          - generic [ref=e250]:
+            - heading "Web results" [level=2] [ref=e251]
+            - generic [ref=e252]:
+              - generic [ref=e255]:
+                - 'link "Montreal Travel Tips 2026: Essential Planning & Practical ... Machupicchu.org https://www.machupicchu.org › ... › Canada › Montreal" [ref=e257] [cursor=pointer]':
+                  - /url: https://www.machupicchu.org/montreal-travel-tips-2026-essential-planning-practical-advice.htm
+                  - 'heading "Montreal Travel Tips 2026: Essential Planning & Practical ..." [level=3] [ref=e258]'
+                  - generic [ref=e263]:
+                    - generic [ref=e265]: Machupicchu.org
+                    - generic [ref=e267]: https://www.machupicchu.org › ... › Canada › Montreal
+                - button "About this result" [ref=e268] [cursor=pointer]:
+                  - img [ref=e271]
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - text: Budget casual dining costs
+                  - emphasis [ref=e276]: CAD $12-20 ($9-15) per person
+                  - text: for substantial meals at ethnic restaurants, sandwich shops, and casual eateries throughout the city.
+                - link "Read more" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.machupicchu.org/montreal-travel-tips-2026-essential-planning-practical-advice.htm#:~:text=Budget%20casual%20dining%20costs%20CAD,casual%20eateries%20throughout%20the%20city.
+          - generic [ref=e281]:
+            - generic [ref=e284]:
+              - 'link "Cost of Living in Montreal: Updated Monthly Costs in 2026 upGrad https://www.upgrad.com › Study Abroad › Articles" [ref=e286] [cursor=pointer]':
+                - /url: https://www.upgrad.com/study-abroad/articles/cost-of-living-in-montreal/
+                - 'heading "Cost of Living in Montreal: Updated Monthly Costs in 2026" [level=3] [ref=e287]'
+                - generic [ref=e292]:
+                  - generic [ref=e294]: upGrad
+                  - generic [ref=e296]: https://www.upgrad.com › Study Abroad › Articles
+              - button "About this result" [ref=e297] [cursor=pointer]:
+                - img [ref=e300]
+            - generic [ref=e303]:
+              - generic [ref=e304]: Mar 13, 2026 —
+              - generic [ref=e305]:
+                - emphasis [ref=e306]: Meal
+                - text: at an inexpensive
+                - emphasis [ref=e307]: restaurant
+                - text: ": CAD 18–40 (INR 1.22K–2.72K);"
+                - emphasis [ref=e308]: Meal
+                - text: for two (
+                - emphasis [ref=e309]: mid
+                - text: "-"
+                - emphasis [ref=e310]: range restaurant
+                - text: "): CAD 75–150 (INR 5.1K–10.2K); Fast-"
+                - emphasis [ref=e311]: food
+                - text: ...
+              - link "Read more" [ref=e312] [cursor=pointer]:
+                - /url: https://www.upgrad.com/study-abroad/articles/cost-of-living-in-montreal/#:~:text=Meal%20at%20an%20inexpensive%20restaurant%3A,meal%3A%20CAD%2015%E2%80%9318%20(INR%201.02K%E2%80%931.22K)
+          - generic [ref=e316]:
+            - generic [ref=e319]:
+              - link "How should I calculate my food budget in Canada ? Authentik Canada https://www.authentikcanada.com › faq › calculate-foo..." [ref=e321] [cursor=pointer]:
+                - /url: https://www.authentikcanada.com/en/faq/calculate-food-budget-canada
+                - heading "How should I calculate my food budget in Canada ?" [level=3] [ref=e322]
+                - generic [ref=e327]:
+                  - generic [ref=e329]: Authentik Canada
+                  - generic [ref=e331]: https://www.authentikcanada.com › faq › calculate-foo...
+              - button "About this result" [ref=e332] [cursor=pointer]:
+                - img [ref=e335]
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - text: "Budget traveler: around $55 per day per person · Mid-range traveler:"
+                - emphasis [ref=e340]: around $95 per day per person
+                - text: "· Comfort/luxury traveler: around $135 per day per person ..."
+              - link "Read more" [ref=e341] [cursor=pointer]:
+                - /url: https://www.authentikcanada.com/en/faq/calculate-food-budget-canada#:~:text=Budget%20traveler%3A%20around%20%2455%20per,day%20per%20person&text=Mid%2Drange%20traveler%3A%20around%20%2495%20per,day%20per%20person&text=Comfort%2Fluxury%20traveler%3A%20around%20%24135%20per,day%20per%20person
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - link "How Much Does Montréal Cost? 2026 Budget Guide GoTripzi https://gotripzi.com › Destinations › Montréal" [ref=e350] [cursor=pointer]:
+                - /url: https://gotripzi.com/destinations/montreal-ca/cost
+                - heading "How Much Does Montréal Cost? 2026 Budget Guide" [level=3] [ref=e351]
+                - generic [ref=e356]:
+                  - generic [ref=e358]: GoTripzi
+                  - generic [ref=e360]: https://gotripzi.com › Destinations › Montréal
+              - button "About this result" [ref=e361] [cursor=pointer]:
+                - img [ref=e364]
+            - generic [ref=e367]:
+              - generic [ref=e368]: Feb 16, 2026 —
+              - generic [ref=e369]:
+                - text: How much does Montréal cost?
+                - emphasis [ref=e370]: Daily budgets from $69 (budget) to $566 (luxury) per person
+                - text: . Real prices for food, transport, ...
+            - generic [ref=e372]:
+              - text: "Missing: comfort ‎| Show results with:"
+              - link "comfort" [ref=e373] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&q=Montreal+restaurant+meal+cost+budget+mid-range+%22comfort%22+2026&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ5t4CegQIQhAB
+          - generic [ref=e377]:
+            - generic [ref=e380]:
+              - link "THE 10 BEST Moderately Priced Restaurants in Montreal Tripadvisor https://www.tripadvisor.ca › ... › Montreal Restaurants" [ref=e382] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/Restaurants-g155032-zfp10955-Montreal_Quebec.html
+                - heading "THE 10 BEST Moderately Priced Restaurants in Montreal" [level=3] [ref=e383]
+                - generic [ref=e388]:
+                  - generic [ref=e390]: Tripadvisor
+                  - generic [ref=e392]: https://www.tripadvisor.ca › ... › Montreal Restaurants
+              - button "About this result" [ref=e393] [cursor=pointer]:
+                - img [ref=e396]
+            - generic [ref=e400]:
+              - emphasis [ref=e401]: Best Moderately Priced Restaurants in Montreal
+              - text: ", Quebec: Find Tripadvisor traveler reviews of THE BEST Montreal Mid Range Restaurants ..."
+          - generic [ref=e405]:
+            - generic [ref=e408]:
+              - 'link "The Cost of Living in Montreal: A Complete Breakdown Great Canadian Van Lines https://www.greatcanadianvanlines.com › 5-reasons-cana..." [ref=e410] [cursor=pointer]':
+                - /url: https://www.greatcanadianvanlines.com/5-reasons-canadians-love-living-in-montreal/
+                - 'heading "The Cost of Living in Montreal: A Complete Breakdown" [level=3] [ref=e411]'
+                - generic [ref=e413]:
+                  - img [ref=e417]
+                  - generic [ref=e419]:
+                    - generic [ref=e421]: Great Canadian Van Lines
+                    - generic [ref=e423]: https://www.greatcanadianvanlines.com › 5-reasons-cana...
+              - button "About this result" [ref=e424] [cursor=pointer]:
+                - img [ref=e427]
+            - generic [ref=e430]:
+              - generic [ref=e431]: Apr 15, 2026 —
+              - generic [ref=e432]:
+                - text: A mid-range dinner for two with drinks will typically cost $
+                - emphasis [ref=e433]: 70 to $100
+                - text: . The city's abundance of BYO wine restaurants (known locally as ...
+              - link "Read more" [ref=e434] [cursor=pointer]:
+                - /url: https://www.greatcanadianvanlines.com/5-reasons-canadians-love-living-in-montreal/#:~:text=price%20range.%20A%20casual%20sit%2Ddown,wine%20restaurants%20(known%20locally%20as
+          - generic [ref=e438]:
+            - generic [ref=e441]:
+              - 'link "Montreal''s Best Affordable Restaurants : Where to Eat Well ... Tastet https://tastet.ca › Home › Lists" [ref=e443] [cursor=pointer]':
+                - /url: https://tastet.ca/en/lists/nice-delicious-affordable-restaurant-montreal/
+                - 'heading "Montreal''s Best Affordable Restaurants : Where to Eat Well ..." [level=3] [ref=e444]'
+                - generic [ref=e449]:
+                  - generic [ref=e451]: Tastet
+                  - generic [ref=e453]: https://tastet.ca › Home › Lists
+              - button "About this result" [ref=e454] [cursor=pointer]:
+                - img [ref=e457]
+            - generic [ref=e460]:
+              - generic [ref=e461]: 4 days ago —
+              - generic [ref=e462]:
+                - emphasis [ref=e463]: Affordable and delicious restaurants in Montreal
+                - text: "(2025): our top picks for great food, cozy vibes, and excellent value, all under one guide."
+          - generic [ref=e467]:
+            - generic [ref=e470]:
+              - link "Montreal Mid-Range Travel Guide (2026) thingstodoinmontreal.com https://thingstodoinmontreal.com › Budget Guides" [ref=e472] [cursor=pointer]:
+                - /url: https://thingstodoinmontreal.com/budget/mid-range/
+                - heading "Montreal Mid-Range Travel Guide (2026)" [level=3] [ref=e473]
+                - generic [ref=e475]:
+                  - img [ref=e479]
+                  - generic [ref=e481]:
+                    - generic [ref=e483]: thingstodoinmontreal.com
+                    - generic [ref=e485]: https://thingstodoinmontreal.com › Budget Guides
+              - button "About this result" [ref=e486] [cursor=pointer]:
+                - img [ref=e489]
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - emphasis [ref=e494]: Food
+                - text: "&"
+                - emphasis [ref=e495]: Dining
+                - text: . CA$40-85 per day ($30-63 USD). Start with breakfast at Plateau cafés, grab lunch at sit-down
+                - emphasis [ref=e496]: restaurants
+                - text: along Saint-Laurent, and finish with ...
+              - link "Read more" [ref=e497] [cursor=pointer]:
+                - /url: https://thingstodoinmontreal.com/budget/mid-range/#:~:text=Food%20%26%20Dining,mid%2Dtier%20establishments%20in%20Mile%20End.
+          - generic [ref=e501]:
+            - generic [ref=e504]:
+              - 'link "Montreal Cost of Living Guide: Income Needed to Thrive EcoFlow GLOBAL https://www.ecoflow.com › blog › montreal-cost-of-livi..." [ref=e506] [cursor=pointer]':
+                - /url: https://www.ecoflow.com/ca/blog/montreal-cost-of-living-income-needed
+                - 'heading "Montreal Cost of Living Guide: Income Needed to Thrive" [level=3] [ref=e507]'
+                - generic [ref=e512]:
+                  - generic [ref=e514]: EcoFlow GLOBAL
+                  - generic [ref=e516]: https://www.ecoflow.com › blog › montreal-cost-of-livi...
+              - button "About this result" [ref=e517] [cursor=pointer]:
+                - img [ref=e520]
+            - generic [ref=e523]:
+              - generic [ref=e524]: Sep 25, 2025 —
+              - generic [ref=e525]:
+                - text: A mid-range restaurant will cost
+                - emphasis [ref=e526]: about $20-30 per person
+                - text: ", while you ... budget, but will be paying much more for the convenience of restaurant ..."
+              - link "Read more" [ref=e527] [cursor=pointer]:
+                - /url: https://www.ecoflow.com/ca/blog/montreal-cost-of-living-income-needed#:~:text=A%20mid%2Drange%20restaurant%20will%20cost,for%20a%20higher%2Dend%2C%20three%2Dcourse%20meal.&text=Those%20who%20eat%20out%20more,the%20convenience%20of%20restaurant%20meals.
+        - generic [ref=e529]:
+          - generic [ref=e534]:
+            - heading "People also search for" [level=2] [ref=e536]
+            - generic [ref=e538]:
+              - link "Montreal restaurant meal cost budget mid range comfort 2026 price" [ref=e543] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&q=Montreal+restaurant+meal+cost+budget+mid+range+comfort+2026+price&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ1QJ6BAhQEAE
+                - generic [ref=e544]:
+                  - generic [ref=e549]: Montreal restaurant meal cost budget mid range comfort 2026 price
+                  - img [ref=e553]
+              - link "Montreal restaurant meal cost budget mid range comfort 2026 canada" [ref=e559] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&q=Montreal+restaurant+meal+cost+budget+mid+range+comfort+2026+canada&sa=X&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ1QJ6BAhPEAE
+                - generic [ref=e560]:
+                  - generic [ref=e565]: Montreal restaurant meal cost budget mid range comfort 2026 canada
+                  - img [ref=e569]
+          - navigation [ref=e571]:
+            - heading "Page Navigation" [level=1] [ref=e572]
+            - text: "1"
+            - link "Page 2" [ref=e575] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=10&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAE
+              - text: "2"
+            - link "Page 3" [ref=e577] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=20&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAG
+              - text: "3"
+            - link "Page 4" [ref=e579] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=30&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAI
+              - text: "4"
+            - link "Page 5" [ref=e581] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=40&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAK
+              - text: "5"
+            - link "Page 6" [ref=e583] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=50&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAM
+              - text: "6"
+            - link "Page 7" [ref=e585] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=60&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAO
+              - text: "7"
+            - link "Page 8" [ref=e587] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=70&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAQ
+              - text: "8"
+            - link "Page 9" [ref=e589] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=80&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAS
+              - text: "9"
+            - link "Page 10" [ref=e591] [cursor=pointer]:
+              - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=90&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8tMDegQIQxAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e593]:
+              - link "Next" [ref=e594] [cursor=pointer]:
+                - /url: /search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884&ei=wyn5adHZNYaSruEPprbWgQo&start=10&sa=N&sstk=Af77f_fvjL-ATltK3fTzzUDHDPOCZqvrjdD4O7TQAP89tBoIyypIAXP5G1RfYfW5mlx4BtNocecq_vQAyob0qgrjbJaq4GGIaujUpQ&ved=2ahUKEwiRx6Ts4qCUAxUGiSsGHSabNaAQ8NMDegQIQxAW
+                - generic [ref=e596]: Next
+        - navigation
+    - contentinfo [ref=e597]:
+      - heading "Footer Links" [level=1] [ref=e598]
+      - generic [ref=e602]:
+        - generic [ref=e605]:
+          - generic [ref=e606]: Results are personalized
+          - generic [ref=e607]: "-"
+          - link "Try without personalization" [ref=e609] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Montreal+restaurant+meal+cost+budget+mid-range+comfort+2026&peek_pws=0&sxsrf=ANbL-n4sld_3xvgPY1uwXf7mOs6xFPQk6A:1777936835884
+            - generic [ref=e610]: Try without personalization
+        - generic [ref=e612]:
+          - text: Canada
+          - generic [ref=e614]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e616] [cursor=pointer]:
+              - generic [ref=e617]: Toronto, Ontario
+              - generic [ref=e619]:
+                - text: "-"
+                - generic [ref=e620]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e622] [cursor=pointer]: Update location
+        - generic [ref=e625]:
+          - link "Help" [ref=e626] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e627] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e628] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e629] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

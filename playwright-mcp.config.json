@@ -1,0 +1,18 @@
+{
+  "browser": {
+    "launchOptions": {
+      "args": [
+        "--disable-blink-features=AutomationControlled",
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--lang=en-US,en"
+      ]
+    },
+    "contextOptions": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "viewport": { "width": 1440, "height": 900 },
+      "locale": "en-US",
+      "timezoneId": "America/Toronto"
+    }
+  }
+}

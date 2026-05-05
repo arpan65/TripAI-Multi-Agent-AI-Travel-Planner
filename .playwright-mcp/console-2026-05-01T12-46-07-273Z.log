@@ -1,0 +1,22 @@
+[     299ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.tripadvisor.com/Attractions-g154994-Activities-Leamington_Ontario.html:0
+[    1149ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.tripadvisor.com/assets/s/b2f8c708.html?gtmParams=&parentDomain=https%3A%2F%2Fwww.tripadvisor.com&gclid=undefined&gbraid=undefined&wbraid=undefined&targetingConsent=granted&analyticsConsent=granted:0
+[    1157ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://micro.rubiconproject.com/prebid/dynamic/13406.js:23
+[    1502ms] [WARNING] [GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604280101/pubads_impl.js?cb=31098181:18
+[    2070ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[    2131ms] TypeError: Cannot read properties of null (reading 'style')
+    at setStyles (about:srcdoc:186:17)
+    at about:srcdoc:194:3
+[    2131ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at about:srcdoc:294:16
+[    2347ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604280101/pubads_impl.js?cb=31098181:18
+[    2483ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    2658ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.tripadvisor.com/Attractions-g154994-Activities-Leamington_Ontario.html:0
+[    2686ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.tripadvisor.com/Attractions-g154994-Activities-Leamington_Ontario.html:0
+[    3008ms] [TIMEEND] a: 0 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    7970ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://sync.crwdcntrl.net/qmap?c=2700&tp=UNDR&gdpr=&gdpr_consent=&tpid=6m3zl2k6q0lu8sf75ro0qa5kx:0
+[   13091ms] [LOG] GTM1P (dl.read): 0f5b2894b2e861747fa6fb644d798f3a7ddde5112c5a97403e39ddbcbdb8f8fd @ :0
+[   13106ms] [WARNING] pixel already configured. @ https://pixel.byspotify.com/ping.min.js:0
+[   13310ms] [WARNING] [TikTok Pixel] - Missing 'content_id' paramter
+Issue: The 'content_id' parameter isn't being received. This is required for Video Shopping Ads (VSA).
+Suggestion: Include the 'content_id' parameter in your source code. This is required for Video Shopping Ads (VSA). See https://ads.tiktok.com/help/article/standard-events-parameters?redirected=2 for more information. @ https://analytics.tiktok.com/i18n/pixel/static/main.MWE0ZWQ3ZWQwOQ.js:0

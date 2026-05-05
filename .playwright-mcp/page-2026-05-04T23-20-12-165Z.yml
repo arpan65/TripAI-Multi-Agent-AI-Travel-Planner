@@ -1,0 +1,399 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: VIA Rail Toronto Montreal price 2026 VIA Rail Toronto Montreal price 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&aep=1&ntc=1&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ2J8OegQIDxAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "Images" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=VIA+Rail+Toronto+Montreal+price+2026&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQtKgLegQIFhAB
+              - generic [ref=e85]: Images
+          - listitem [ref=e86]:
+            - link "News" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=VIA+Rail+Toronto+Montreal+price+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ0pQJegQIFBAB
+              - generic [ref=e89]: News
+          - listitem [ref=e90]:
+            - link "Shopping" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=VIA+Rail+Toronto+Montreal+price+2026&ved=1t:220175&ictx=111
+              - generic [ref=e93]: Shopping
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=VIA+Rail+Toronto+Montreal+price+2026&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQtKgLegQIEhAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=VIA+Rail+Toronto+Montreal+price+2026&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQs6gLegQIERAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - generic [ref=e123]:
+      - generic [ref=e142]:
+        - heading "Thinking" [level=2] [ref=e146]:
+          - generic [ref=e147]: Thinking
+        - progressbar [ref=e148]
+      - main [ref=e150]:
+        - generic [ref=e154]:
+          - generic [ref=e157]:
+            - heading "Web results" [level=2] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e162]:
+                - link "The lowest fares and discounts on your train travel VIA Rail https://www.viarail.ca › Home › Fares and packages" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.viarail.ca/en/offers/our-lowest-fares
+                  - heading "The lowest fares and discounts on your train travel" [level=3] [ref=e165]
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: VIA Rail
+                    - generic [ref=e174]: https://www.viarail.ca › Home › Fares and packages
+                - button "About this result" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+              - generic [ref=e182]:
+                - text: Compare train fares,
+                - emphasis [ref=e183]: find the lowest VIA Rail prices
+                - text: ", and book your train ticket now for your next journey across Canada with confidence and ease."
+              - link "VIA Rail Toronto Montreal price 2026 from www.viarail.ca" [ref=e186] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/offers/our-lowest-fares
+                - img "VIA Rail Toronto Montreal price 2026 from www.viarail.ca" [ref=e188]
+          - generic [ref=e192]:
+            - generic [ref=e195]:
+              - link "Travel by train from Toronto to Montréal VIA Rail https://www.viarail.ca › ... › Ontario-Québec" [ref=e197] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-montreal
+                - heading "Travel by train from Toronto to Montréal" [level=3] [ref=e198]
+                - generic [ref=e203]:
+                  - generic [ref=e205]: VIA Rail
+                  - generic [ref=e207]: https://www.viarail.ca › ... › Ontario-Québec
+              - button "About this result" [ref=e208] [cursor=pointer]:
+                - img [ref=e211]
+            - generic [ref=e215]:
+              - emphasis [ref=e216]: Travel by train from Toronto to Montréal with VIA Rail
+              - text: . Enjoy comfortable seating, excellent service, and a journey designed to meet your needs.
+          - generic [ref=e220]:
+            - generic [ref=e223]:
+              - link "Train ticket booking VIA Rail https://www.viarail.ca › Home › Plan your trip" [ref=e225] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/plan/book-travel
+                - heading "Train ticket booking" [level=3] [ref=e226]
+                - generic [ref=e231]:
+                  - generic [ref=e233]: VIA Rail
+                  - generic [ref=e235]: https://www.viarail.ca › Home › Plan your trip
+              - button "About this result" [ref=e236] [cursor=pointer]:
+                - img [ref=e239]
+            - generic [ref=e242]:
+              - text: 2-12 years inclusive. Kids travel at 50% off in Economy class and at 25% off in other classes (not applicable in Business and Prestige classes).
+              - link "Read more" [ref=e243] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/plan/book-travel#:~:text=ASL
+            - link "VIA Rail Toronto Montreal price 2026 from www.viarail.ca" [ref=e246] [cursor=pointer]:
+              - /url: https://www.viarail.ca/en/plan/book-travel
+              - img "VIA Rail Toronto Montreal price 2026 from www.viarail.ca" [ref=e248]
+          - generic [ref=e252]:
+            - generic [ref=e255]:
+              - link "Toronto to Montreal Train - Tickets from $54 Wanderu https://www.wanderu.com › ... › Quebec › Montreal" [ref=e257] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-qc/montreal/
+                - heading "Toronto to Montreal Train - Tickets from $54" [level=3] [ref=e258]
+                - generic [ref=e263]:
+                  - generic [ref=e265]: Wanderu
+                  - generic [ref=e267]: https://www.wanderu.com › ... › Quebec › Montreal
+              - button "About this result" [ref=e268] [cursor=pointer]:
+                - img [ref=e271]
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - text: For the best
+                - emphasis [ref=e276]: prices
+                - text: on this route, book in October when the average ticket
+                - emphasis [ref=e277]: price
+                - text: is only $90. If you're thinking of traveling from
+                - emphasis [ref=e278]: Toronto
+                - text: to
+                - emphasis [ref=e279]: Montreal
+                - text: during ...
+              - link "Read more" [ref=e280] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-qc/montreal/#:~:text=For%20the%20best%20prices%20on,from%20Toronto%20to%20Montreal%20during
+            - link "VIA Rail Toronto Montreal price 2026 from www.wanderu.com" [ref=e283] [cursor=pointer]:
+              - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-qc/montreal/
+              - img "VIA Rail Toronto Montreal price 2026 from www.wanderu.com" [ref=e285]
+            - generic [ref=e287]:
+              - generic [ref=e288]: Starting from $54.00
+              - text: ·
+              - img "Rated 4.6 out of 5, (118) user reviews" [ref=e292]:
+                - text: "4.6"
+                - img [ref=e293]
+                - text: (118)
+            - list [ref=e297]:
+              - listitem [ref=e298]:
+                - link "Prices" [ref=e299] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-qc/montreal/#price-chart-header
+                  - generic [ref=e301]: Prices
+              - listitem [ref=e302]:
+                - link "FAQ" [ref=e303] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-qc/montreal/#faq-header-section
+                  - generic [ref=e305]: FAQ
+              - listitem [ref=e306]:
+                - link "Cities" [ref=e307] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-qc/montreal/#city-editorial-blurb
+                  - generic [ref=e309]: Cities
+          - generic [ref=e314]:
+            - heading "People also ask" [level=2] [ref=e316]
+            - generic [ref=e317]:
+              - button "How much is a VIA Rail ticket from Toronto to Montreal?" [ref=e323] [cursor=pointer]:
+                - generic [ref=e325]: How much is a VIA Rail ticket from Toronto to Montreal?
+                - img [ref=e328]
+              - button "What is the cheapest day to book VIA Rail?" [ref=e337] [cursor=pointer]:
+                - generic [ref=e339]: What is the cheapest day to book VIA Rail?
+                - img [ref=e342]
+              - button "Is it cheaper to fly or take the train from Toronto to Montreal?" [ref=e351] [cursor=pointer]:
+                - generic [ref=e353]: Is it cheaper to fly or take the train from Toronto to Montreal?
+                - img [ref=e356]
+              - button "How much is a train ticket from Montreal to Toronto?" [ref=e365] [cursor=pointer]:
+                - generic [ref=e367]: How much is a train ticket from Montreal to Toronto?
+                - img [ref=e370]
+          - generic [ref=e375]:
+            - heading "Web results" [level=2] [ref=e376]
+            - generic [ref=e377]:
+              - generic [ref=e380]:
+                - link "Compare fares by class VIA Rail https://www.viarail.ca › ... › The Canadian" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.viarail.ca/en/explore-our-destinations/trains/rockies-and-pacific/toronto-vancouver-canadian/compare-fares-by-class
+                  - heading "Compare fares by class" [level=3] [ref=e383]
+                  - generic [ref=e388]:
+                    - generic [ref=e390]: VIA Rail
+                    - generic [ref=e392]: https://www.viarail.ca › ... › The Canadian
+                - button "About this result" [ref=e393] [cursor=pointer]:
+                  - img [ref=e396]
+              - generic [ref=e399]:
+                - generic [ref=e400]:
+                  - emphasis [ref=e401]: FARES FOR WINTER SEASON/ NOVEMBER 16, 2025 TO APRIL 30, 2026
+                  - text: . ROUTES. Fares valid for both directions. ECONOMY CLASS. Escape fare. SLEEPER PLUS CLASS.
+                - link "Read more" [ref=e402] [cursor=pointer]:
+                  - /url: https://www.viarail.ca/en/explore-our-destinations/trains/rockies-and-pacific/toronto-vancouver-canadian/compare-fares-by-class#:~:text=FARES%20FOR%20WINTER%20SEASON%2F%20NOVEMBER,SLEEPER%20PLUS%20CLASS
+          - generic [ref=e406]:
+            - generic [ref=e409]:
+              - link "Train fares and packages VIA Rail https://www.viarail.ca › offers › fares-and-packages" [ref=e411] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/offers/fares-and-packages
+                - heading "Train fares and packages" [level=3] [ref=e412]
+                - generic [ref=e417]:
+                  - generic [ref=e419]: VIA Rail
+                  - generic [ref=e421]: https://www.viarail.ca › offers › fares-and-packages
+              - button "About this result" [ref=e422] [cursor=pointer]:
+                - img [ref=e425]
+            - generic [ref=e428]:
+              - generic [ref=e429]:
+                - text: All-inclusive packages. Get packages that include
+                - emphasis [ref=e430]: train
+                - text: fare, accommodations, and activities with our travel partners across Canada. See packages.
+              - link "Read more" [ref=e431] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/offers/fares-and-packages#:~:text=All%2Dinclusive%20packages,See%20packages
+          - generic [ref=e435]:
+            - generic [ref=e438]:
+              - link "Train Toronto to Montreal from $75 | Tickets & Timetables Rome2Rio https://www.rome2rio.com › Train › Toronto › Montreal" [ref=e440] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto/Montreal
+                - heading "Train Toronto to Montreal from $75 | Tickets & Timetables" [level=3] [ref=e441]
+                - generic [ref=e446]:
+                  - generic [ref=e448]: Rome2Rio
+                  - generic [ref=e450]: https://www.rome2rio.com › Train › Toronto › Montreal
+              - button "About this result" [ref=e451] [cursor=pointer]:
+                - img [ref=e454]
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - text: VIA Rail operates a train from Toronto Union Station to Montréal every 4 hours.
+                - emphasis [ref=e459]: Tickets cost $65–150
+                - text: and the journey takes 5h 28m. Operators. VIA Rail logo VIA ...
+              - link "Read more" [ref=e460] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto/Montreal#:~:text=VIA%20Rail%20operates%20a%20train,VIA%20Rail
+          - generic [ref=e464]:
+            - generic [ref=e467]:
+              - 'link "VIA Rail Canada: Train travel in Canada VIA Rail https://www.viarail.ca › ..." [ref=e469] [cursor=pointer]':
+                - /url: https://www.viarail.ca/en
+                - 'heading "VIA Rail Canada: Train travel in Canada" [level=3] [ref=e470]'
+                - generic [ref=e475]:
+                  - generic [ref=e477]: VIA Rail
+                  - generic [ref=e479]: https://www.viarail.ca › ...
+              - button "About this result" [ref=e480] [cursor=pointer]:
+                - img [ref=e483]
+            - generic [ref=e486]:
+              - text: 2-12 years inclusive. Kids travel at 50% off in Economy class and at 25% off in other classes (not applicable in Business and Prestige classes).
+              - link "Read more" [ref=e487] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en#:~:text=Beginning%20of%20the%20main%20content.
+          - generic [ref=e491]:
+            - generic [ref=e494]:
+              - 'link "The Canadian Train Cost 2026: VIA Rail Prices & Fares canadiantrainvacations.com https://canadiantrainvacations.com › Explore" [ref=e496] [cursor=pointer]':
+                - /url: https://canadiantrainvacations.com/explore/via-rail-prices
+                - 'heading "The Canadian Train Cost 2026: VIA Rail Prices & Fares" [level=3] [ref=e497]'
+                - generic [ref=e502]:
+                  - generic [ref=e504]: canadiantrainvacations.com
+                  - generic [ref=e506]: https://canadiantrainvacations.com › Explore
+              - button "About this result" [ref=e507] [cursor=pointer]:
+                - img [ref=e510]
+            - generic [ref=e513]:
+              - generic [ref=e514]:
+                - text: A VIA Rail Canadian train trip costs an average of
+                - emphasis [ref=e515]: 3,500 to 7,500 CAD per passenger
+                - text: for a one-way journey. VIA Rail pricing depends on service class, season, ...
+              - link "Read more" [ref=e516] [cursor=pointer]:
+                - /url: https://canadiantrainvacations.com/explore/via-rail-prices#:~:text=A%20VIA%20Rail%20Canadian%20train,not%20a%20single%20fixed%20fare.
+          - generic [ref=e520]:
+            - generic [ref=e523]:
+              - 'link "Toronto - Montreal, 2026 : r/ViaRail Reddit · r/ViaRail 30+ comments · 9 months ago" [ref=e525] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/ViaRail/comments/1mf4znb/toronto_montreal_2026/
+                - 'heading "Toronto - Montreal, 2026 : r/ViaRail" [level=3] [ref=e526]'
+                - generic [ref=e531]:
+                  - generic [ref=e533]: Reddit · r/ViaRail
+                  - generic [ref=e535]: 30+ comments · 9 months ago
+              - button "About this result" [ref=e536] [cursor=pointer]:
+                - img [ref=e539]
+            - generic [ref=e542]:
+              - generic [ref=e543]:
+                - text: $
+                - emphasis [ref=e544]: 150 each for Business
+                - text: is GREAT! I've travelled in both classes on Via and economy is fine. But the money you'll spend if you get a drink, food ...
+              - link "Read more" [ref=e545] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/ViaRail/comments/1mf4znb/toronto_montreal_2026/#:~:text=%24150%20each%20for%20Business%20is,coffee%20will%20be%20quite%20expensive.
+        - generic [ref=e547]:
+          - generic [ref=e552]:
+            - heading "People also search for" [level=2] [ref=e554]
+            - generic [ref=e556]:
+              - generic [ref=e557]:
+                - link "Via rail toronto montreal price 2026 tickets" [ref=e561] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=Via+rail+toronto+montreal+price+2026+tickets&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAguEAE
+                  - generic [ref=e562]:
+                    - generic [ref=e567]: Via rail toronto montreal price 2026 tickets
+                    - img [ref=e571]
+                - link "Via rail toronto montreal price 2026 schedule" [ref=e576] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=Via+rail+toronto+montreal+price+2026+schedule&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAgyEAE
+                  - generic [ref=e577]:
+                    - generic [ref=e582]: Via rail toronto montreal price 2026 schedule
+                    - img [ref=e586]
+                - link "VIA rail Toronto to Montreal $39" [ref=e591] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=VIA+rail+Toronto+to+Montreal+%2439&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAg1EAE
+                  - generic [ref=e592]:
+                    - generic [ref=e597]: VIA rail Toronto to Montreal $39
+                    - img [ref=e601]
+                - link "VIA rail Toronto to Montréal $39 ticket price" [ref=e606] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=VIA+rail+Toronto+to+Montr%C3%A9al+%2439+ticket+price&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAg6EAE
+                  - generic [ref=e607]:
+                    - generic [ref=e612]: VIA rail Toronto to Montréal $39 ticket price
+                    - img [ref=e616]
+              - generic [ref=e618]:
+                - link "Via rail toronto montreal price 2026 pdf" [ref=e622] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=Via+rail+toronto+montreal+price+2026+pdf&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAg_EAE
+                  - generic [ref=e623]:
+                    - generic [ref=e628]: Via rail toronto montreal price 2026 pdf
+                    - img [ref=e632]
+                - link "VIA Rail Toronto to Vancouver price" [ref=e637] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=VIA+Rail+Toronto+to+Vancouver+price&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAg-EAE
+                  - generic [ref=e638]:
+                    - generic [ref=e643]: VIA Rail Toronto to Vancouver price
+                    - img [ref=e647]
+                - link "VIA Rail Toronto to Edmonton price" [ref=e652] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=VIA+Rail+Toronto+to+Edmonton+price&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAg5EAE
+                  - generic [ref=e653]:
+                    - generic [ref=e658]: VIA Rail Toronto to Edmonton price
+                    - img [ref=e662]
+                - link "VIA rail schedules and fares" [ref=e667] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&q=VIA+rail+schedules+and+fares&sa=X&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ1QJ6BAgzEAE
+                  - generic [ref=e668]:
+                    - generic [ref=e673]: VIA rail schedules and fares
+                    - img [ref=e677]
+          - navigation [ref=e679]:
+            - heading "Page Navigation" [level=1] [ref=e680]
+            - text: "1"
+            - link "Page 2" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=10&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAE
+              - text: "2"
+            - link "Page 3" [ref=e685] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=20&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAG
+              - text: "3"
+            - link "Page 4" [ref=e687] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=30&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAI
+              - text: "4"
+            - link "Page 5" [ref=e689] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=40&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAK
+              - text: "5"
+            - link "Page 6" [ref=e691] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=50&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAM
+              - text: "6"
+            - link "Page 7" [ref=e693] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=60&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAO
+              - text: "7"
+            - link "Page 8" [ref=e695] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=70&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAQ
+              - text: "8"
+            - link "Page 9" [ref=e697] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=80&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAS
+              - text: "9"
+            - link "Page 10" [ref=e699] [cursor=pointer]:
+              - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=90&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8tMDegQIKBAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e701]:
+              - link "Next" [ref=e702] [cursor=pointer]:
+                - /url: /search?q=VIA+Rail+Toronto+Montreal+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487&ei=qyn5acS3HfeqruEP5N2pwQM&start=10&sa=N&sstk=Af77f_eOMZp8gSE3cwUjnxLiO4hy4jGG-YQWs75kQ-KPukX4cVX4ebr9G1HtCk6YNhfFFXC3MFEJZSEqiQmHP4lpzN267ptwf8474Q&ved=2ahUKEwiEudPg4qCUAxV3lSsGHeRuKjgQ8NMDegQIKBAW
+                - generic [ref=e704]: Next
+        - navigation
+    - contentinfo [ref=e705]:
+      - heading "Footer Links" [level=1] [ref=e706]
+      - generic [ref=e710]:
+        - generic [ref=e713]:
+          - generic [ref=e714]: Results are personalized
+          - generic [ref=e715]: "-"
+          - link "Try without personalization" [ref=e717] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=VIA+Rail+Toronto+Montreal+price+2026&peek_pws=0&sxsrf=ANbL-n6MmGamin6IeFNkjD3BCALZdhm58g:1777936811487
+            - generic [ref=e718]: Try without personalization
+        - generic [ref=e720]:
+          - text: Canada
+          - generic [ref=e722]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e724] [cursor=pointer]:
+              - generic [ref=e725]: Toronto, Ontario
+              - generic [ref=e727]:
+                - text: "-"
+                - generic [ref=e728]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e730] [cursor=pointer]: Update location
+        - generic [ref=e733]:
+          - link "Help" [ref=e734] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e735] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e736] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e737] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

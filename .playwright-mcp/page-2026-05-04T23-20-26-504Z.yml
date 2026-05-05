@@ -1,0 +1,1089 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: average hotel price Montreal May 2026 per night average hotel price Montreal May 2026 per night
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXJW9Nma-6bW_RSBtA6TivNEpcMN7TkZHdM5ds1-fJWNatBsrEf2qzhy1TcP32-Y8sQszWHNsFIEtUN08XTA-EyYAgyfS4_IXd1Nu8sNsdOni-gcdpQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q2J8OegQIChAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "Images" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXJW9Nma-6bW_RSBtA6TivNEpcMN7TkZHdM5ds1-fJWNatBsrEf2qzhy1TcP32-Y8sQszWHNsFIEtUN08XTA-EyYAgyfS4_IXd1Nu8sNsdOni-gcdpQ&q=average+hotel+price+Montreal+May+2026+per+night&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8QtKgLegQIDhAB
+              - generic [ref=e85]: Images
+          - listitem [ref=e86]:
+            - link "Forums" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXJW9Nma-6bW_RSBtA6TivNEpcMN7TkZHdM5ds1-fJWNatBsrEf2qzhy1TcP32-Y8sQszWHNsFIEtUN08XTA-EyYAgyfS4_IXd1Nu8sNsdOni-gcdpQ&q=average+hotel+price+Montreal+May+2026+per+night&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Qs6gLegQIDxAB
+              - generic [ref=e89]: Forums
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=average+hotel+price+Montreal+May+2026+per+night&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXJW9Nma-6bW_RSBtA6TivNEpcMN7TkZHdM5ds1-fJWNatBsrEf2qzhy1TcP32-Y8sQszWHNsFIEtUN08XTA-EyYAgyfS4_IXd1Nu8sNsdOni-gcdpQ&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q0pQJegQIEBAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Shopping" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXJW9Nma-6bW_RSBtA6TivNEpcMN7TkZHdM5ds1-fJWNatBsrEf2qzhy1TcP32-Y8sQszWHNsFIEtUN08XTA-EyYAgyfS4_IXd1Nu8sNsdOni-gcdpQ&q=average+hotel+price+Montreal+May+2026+per+night&ved=1t:220175&ictx=111
+              - generic [ref=e97]: Shopping
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXJW9Nma-6bW_RSBtA6TivNEpcMN7TkZHdM5ds1-fJWNatBsrEf2qzhy1TcP32-Y8sQszWHNsFIEtUN08XTA-EyYAgyfS4_IXd1Nu8sNsdOni-gcdpQ&q=average+hotel+price+Montreal+May+2026+per+night&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8QtKgLegQIDRAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - generic [ref=e126]:
+      - generic [ref=e130]:
+        - generic [ref=e142]:
+          - heading "Thinking" [level=2] [ref=e146]:
+            - generic [ref=e147]: Thinking
+          - progressbar [ref=e148]
+        - generic [ref=e156]:
+          - generic [ref=e158]:
+            - heading "Hotels | Montreal, QC" [level=2] [ref=e159]
+            - button "More info" [ref=e162] [cursor=pointer]:
+              - generic "More info" [ref=e163]:
+                - img [ref=e164]
+          - generic [ref=e166]:
+            - generic [ref=e169]:
+              - status
+              - button "Select check-in date. Current check-in date is Sun, May 10" [ref=e171] [cursor=pointer]:
+                - img [ref=e173]
+                - generic [ref=e175]: Sun, May 10
+              - button "Select check-out date. Current check-out date is Mon, May 11" [ref=e177] [cursor=pointer]:
+                - img [ref=e179]
+                - generic [ref=e181]: Mon, May 11
+            - button "Select number of guests. Current selection is 2 guests" [ref=e186] [cursor=pointer]:
+              - generic [ref=e188]:
+                - img [ref=e191]
+                - generic [ref=e193]: "2"
+                - img [ref=e196]
+            - generic [ref=e199]:
+              - list [ref=e202]:
+                - link "Top-rated" [ref=e203] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqCQoFOgNDQUQoCA&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:54362
+                  - listitem [ref=e204]:
+                    - generic [ref=e207]: Top-rated
+                - link "Budget options" [ref=e208] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqDgoFOgNDQUQiBRIDEJYB&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:54363
+                  - listitem [ref=e209]:
+                    - generic [ref=e212]: Budget options
+                - link "Luxury stays" [ref=e213] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqCwoJEgIEBToDQ0FE&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:54364
+                  - listitem [ref=e214]:
+                    - generic [ref=e217]: Luxury stays
+                - link "Free cancellation" [ref=e218] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqCQoHIAE6A0NBRA&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:104374
+                  - listitem [ref=e219]:
+                    - generic [ref=e222]: Free cancellation
+                - link "Deals" [ref=e223] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqCQoFOgNDQUQwAQ&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:64157
+                  - listitem [ref=e224]:
+                    - generic [ref=e227]: Deals
+                - link "For tonight" [ref=e228] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAQSBwjqDxAFGAUYATICCAEqBwoFOgNDQUQ&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:54365
+                  - listitem [ref=e229]:
+                    - generic [ref=e232]: For tonight
+              - button [ref=e233] [cursor=pointer]:
+                - img [ref=e236]
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - generic "Hotel suggestions" [ref=e243]:
+                - generic [ref=e244]:
+                  - link "Ruby Foo's hotel $96 3.8 out of 5 stars from 2,450 reviews, 4-star hotel Great deal 26% less than usual Modern lodging with a pool & barber shop" [ref=e247] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqBwoFOgNDQUQ&qs=CAEyE0Nnb0lvcHVPNk8tM3lwQURFQUU4CkIJEQ-Awj0DykMrQgkRkzZd9P4CfrtCCRFcY433-yzR9lqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e248]:
+                      - generic [ref=e250]:
+                        - button "Previous" [ref=e251]:
+                          - img [ref=e254]
+                        - generic [ref=e256]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e257]:
+                                - img "Ruby Foo's hotel image 1 of 6" [ref=e260]
+                              - listitem [ref=e261]:
+                                - img [ref=e264]
+                              - listitem [ref=e265]:
+                                - img [ref=e268]
+                        - button "Next" [ref=e269]:
+                          - img [ref=e272]
+                      - generic [ref=e274]:
+                        - generic [ref=e275]:
+                          - generic [ref=e277]: Ruby Foo's hotel
+                          - generic [ref=e279]: $96
+                        - link "3.8 out of 5 stars from 2,450 reviews, 4-star hotel" [ref=e281]:
+                          - img "Rated 3.8 out of 5, 2.4K user reviews" [ref=e282]:
+                            - text: "3.8"
+                            - img [ref=e283]
+                            - text: (2.4K)
+                          - text: ·
+                          - generic [ref=e286]: 4-star hotel
+                        - generic [ref=e288]:
+                          - generic [ref=e290]:
+                            - generic [ref=e292]:
+                              - generic:
+                                - generic: Great deal
+                            - generic [ref=e293]: 26% less than usual
+                          - generic [ref=e296]: Modern lodging with a pool & barber shop
+                  - link "Auberge Saintlo Montréal $79 4.5 out of 5 stars from 2,032 reviews, 2-star hotel Basic lodging with a pub & free Wi-Fi Eco-certified · Free Wi-Fi" [ref=e300] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqBwoFOgNDQUQ&qs=CAEyFENnc0lrNkdKMnNDcjV1dWRBUkFCOApCCREPgMI9A8pDK0IJEZM2XfT-An67QgkRXGON9_ss0fZalQEIATKQAaoBjAEQASozIi9hdmVyYWdlIGhvdGVsIHByaWNlIG1vbnRyZWFsIG1heSAyMDI2IHBlciBuaWdodCgAMh4QASIaVTEtM8C_9Ig_jjM744uRAHxvHmZxGDueZu4yMxACIi9hdmVyYWdlIGhvdGVsIHByaWNlIG1vbnRyZWFsIG1heSAyMDI2IHBlciBuaWdodA&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e301]:
+                      - generic [ref=e303]:
+                        - button "Previous" [ref=e304]:
+                          - img [ref=e307]
+                        - generic [ref=e309]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e310]:
+                                - img "Auberge Saintlo Montréal image 1 of 6" [ref=e313]
+                              - listitem [ref=e314]:
+                                - img [ref=e317]
+                              - listitem [ref=e318]:
+                                - img [ref=e321]
+                        - button "Next" [ref=e322]:
+                          - img [ref=e325]
+                      - generic [ref=e327]:
+                        - generic [ref=e328]:
+                          - generic [ref=e330]: Auberge Saintlo Montréal
+                          - generic [ref=e332]: $79
+                        - link "4.5 out of 5 stars from 2,032 reviews, 2-star hotel" [ref=e334]:
+                          - img "Rated 4.5 out of 5, 2K user reviews" [ref=e335]:
+                            - text: "4.5"
+                            - img [ref=e336]
+                            - text: (2K)
+                          - text: ·
+                          - generic [ref=e339]: 2-star hotel
+                        - generic [ref=e341]:
+                          - generic [ref=e343]: Basic lodging with a pub & free Wi-Fi
+                          - generic [ref=e346]:
+                            - generic [ref=e352]: Eco-certified
+                            - generic [ref=e353]: ·
+                            - generic [ref=e355]:
+                              - img [ref=e358]
+                              - generic [ref=e360]: Free Wi-Fi
+                  - link "Hygie Hotel $34 2.7 out of 5 stars from 402 reviews, 3-star hotel Great deal 60% less than usual \"Got a pod for quite cheap, and only stayed one night.\"" [ref=e364] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqBwoFOgNDQUQ&qs=CAEyFENnc0lycnZxMjhhQ2pyRGVBUkFCOApCCREPgMI9A8pDK0IJEZM2XfT-An67QgkRXGON9_ss0fZalQEIATKQAaoBjAEQASozIi9hdmVyYWdlIGhvdGVsIHByaWNlIG1vbnRyZWFsIG1heSAyMDI2IHBlciBuaWdodCgAMh4QASIaVTEtM8C_9Ig_jjM744uRAHxvHmZxGDueZu4yMxACIi9hdmVyYWdlIGhvdGVsIHByaWNlIG1vbnRyZWFsIG1heSAyMDI2IHBlciBuaWdodA&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e365]:
+                      - generic [ref=e367]:
+                        - button "Previous" [ref=e368]:
+                          - img [ref=e371]
+                        - generic [ref=e373]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e374]:
+                                - img "Hygie Hotel image 1 of 6" [ref=e377]
+                              - listitem [ref=e378]:
+                                - img [ref=e381]
+                              - listitem [ref=e382]:
+                                - img [ref=e385]
+                        - button "Next" [ref=e386]:
+                          - img [ref=e389]
+                      - generic [ref=e391]:
+                        - generic [ref=e392]:
+                          - generic [ref=e394]: Hygie Hotel
+                          - generic [ref=e396]: $34
+                        - link "2.7 out of 5 stars from 402 reviews, 3-star hotel" [ref=e398]:
+                          - img "Rated 2.7 out of 5, 402 user reviews" [ref=e399]:
+                            - text: "2.7"
+                            - img [ref=e400]
+                            - text: (402)
+                          - text: ·
+                          - generic [ref=e403]: 3-star hotel
+                        - generic [ref=e405]:
+                          - generic [ref=e407]:
+                            - generic [ref=e409]:
+                              - generic:
+                                - generic: Great deal
+                            - generic [ref=e410]: 60% less than usual
+                          - generic [ref=e415]: "\"Got a pod for quite cheap, and only stayed one night.\""
+              - link "See more" [ref=e417] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqBwoFOgNDQUQ&qs=CAE4BkIJEQ-Awj0DykMrQgkRkzZd9P4CfrtCCRFcY433-yzR9lqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=aAE&ictx=111&ved=1t:195904
+                - separator [ref=e418]
+                - generic [ref=e419]:
+                  - generic [ref=e420]: See more
+                  - img [ref=e422]
+            - link "View larger map" [ref=e426] [cursor=pointer]:
+              - generic [ref=e427]:
+                - generic:
+                  - generic [ref=e429]:
+                    - img [ref=e431]
+                    - text: $135
+                  - img [ref=e434]
+                  - generic [ref=e438]:
+                    - img [ref=e440]
+                    - text: $108
+                  - img [ref=e443]
+                  - generic [ref=e447]:
+                    - img [ref=e449]
+                    - text: $128
+                  - img [ref=e452]
+                  - generic [ref=e456]:
+                    - img [ref=e458]
+                    - text: $60
+                  - img [ref=e461]
+                  - generic [ref=e465]:
+                    - img [ref=e467]
+                    - text: $115
+                  - img [ref=e470]
+                  - generic [ref=e474]:
+                    - img [ref=e476]
+                    - text: $99
+                  - img [ref=e479]
+                  - generic [ref=e483]:
+                    - img [ref=e485]
+                    - text: $223
+                  - img [ref=e488]
+                  - generic [ref=e492]:
+                    - img [ref=e494]
+                    - text: $110
+                  - img [ref=e497]
+                  - generic [ref=e501]:
+                    - img [ref=e503]
+                    - text: $102
+                  - img [ref=e506]
+                  - generic [ref=e510]:
+                    - img [ref=e512]
+                    - text: $34
+                  - img [ref=e515]
+                  - generic [ref=e519]:
+                    - img [ref=e521]
+                    - text: $79
+                  - img [ref=e524]
+                  - generic [ref=e528]:
+                    - img [ref=e530]
+                    - text: $96
+                  - img [ref=e533]
+              - link [ref=e537]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqBwoFOgNDQUQ&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=SAFoAQ&ictx=111&ved=1t:206005
+                - link [ref=e538]
+              - link "View larger map" [ref=e543]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,121608706&hl=en-CA&gl=ca&ssta=1&q=average+hotel+price+Montreal+May+2026+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAoSBwjqDxAFGAsYATICEAAqBwoFOgNDQUQ&qs=CAE4BlqVAQgBMpABqgGMARABKjMiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0KAAyHhABIhpVMS0zwL_0iD-OMzvji5EAfG8eZnEYO55m7jIzEAIiL2F2ZXJhZ2UgaG90ZWwgcHJpY2UgbW9udHJlYWwgbWF5IDIwMjYgcGVyIG5pZ2h0&ap=SAFoAQ&ictx=111&ved=1t:159633
+                - img [ref=e545]
+                - generic: View larger map
+      - main [ref=e547]:
+        - generic [ref=e551]:
+          - region "Ads" [ref=e555]:
+            - generic [ref=e557]:
+              - generic [ref=e559]:
+                - generic [ref=e560]:
+                  - generic [ref=e561]: Sponsored hotels
+                  - button "Why this ad?" [ref=e564] [cursor=pointer]:
+                    - img [ref=e566]
+                - generic [ref=e568]: Lowest prices for stays until Jul 4 · 2 guests
+              - generic [ref=e569]:
+                - list [ref=e571]:
+                  - listitem [ref=e572]:
+                    - link "Spark by Hilton Montreal Midtown From $107 Expedia.ca Rated 4.1 out of 5, 139 user reviews" [ref=e574] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e577]:
+                        - generic [ref=e579]: Spark by Hilton Montreal Midtown
+                        - generic [ref=e580]:
+                          - generic [ref=e581]:
+                            - generic [ref=e582]: From
+                            - generic [ref=e583]: $107
+                          - generic [ref=e584]: Expedia.ca
+                          - img "Rated 4.1 out of 5, 139 user reviews" [ref=e586]:
+                            - text: "4.1"
+                            - img [ref=e587]
+                            - text: (139)
+                  - listitem [ref=e590]:
+                    - link "Days Inn by Wyndham Montreal East From $93 Booking.com Rated 3.1 out of 5, 1.4K user reviews" [ref=e592] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e595]:
+                        - generic [ref=e597]: Days Inn by Wyndham Montreal East
+                        - generic [ref=e598]:
+                          - generic [ref=e599]:
+                            - generic [ref=e600]: From
+                            - generic [ref=e601]: $93
+                          - generic [ref=e602]: Booking.com
+                          - img "Rated 3.1 out of 5, 1.4K user reviews" [ref=e604]:
+                            - text: "3.1"
+                            - img [ref=e605]
+                            - text: (1.4K)
+                  - listitem [ref=e608]:
+                    - link "Sheraton Montreal Airport Hotel From $173 Sheraton Montreal Airport Hotel Rated 4.1 out of 5, 3K user reviews" [ref=e610] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e613]:
+                        - generic [ref=e615]: Sheraton Montreal Airport Hotel
+                        - generic [ref=e616]:
+                          - generic [ref=e617]:
+                            - generic [ref=e618]: From
+                            - generic [ref=e619]: $173
+                          - generic [ref=e620]: Sheraton Montreal Airport Hotel
+                          - img "Rated 4.1 out of 5, 3K user reviews" [ref=e622]:
+                            - text: "4.1"
+                            - img [ref=e623]
+                            - text: (3K)
+                  - listitem [ref=e626]:
+                    - link "Montreal Airport Marriott In-Terminal Hotel From $296 Montreal Airport Marriott In-Terminal Hotel Rated 4.3 out of 5, 3.2K user reviews" [ref=e628] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e631]:
+                        - generic [ref=e633]: Montreal Airport Marriott In-Terminal Hotel
+                        - generic [ref=e634]:
+                          - generic [ref=e635]:
+                            - generic [ref=e636]: From
+                            - generic [ref=e637]: $296
+                          - generic [ref=e638]: Montreal Airport Marriott In-Terminal Hotel
+                          - img "Rated 4.3 out of 5, 3.2K user reviews" [ref=e640]:
+                            - text: "4.3"
+                            - img [ref=e641]
+                            - text: (3.2K)
+                  - listitem [ref=e644]:
+                    - link "Ramada Plaza by Wyndham Montreal From $111 Booking.com Rated 3.3 out of 5, 1.6K user reviews" [ref=e646] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e649]:
+                        - generic [ref=e651]: Ramada Plaza by Wyndham Montreal
+                        - generic [ref=e652]:
+                          - generic [ref=e653]:
+                            - generic [ref=e654]: From
+                            - generic [ref=e655]: $111
+                          - generic [ref=e656]: Booking.com
+                          - img "Rated 3.3 out of 5, 1.6K user reviews" [ref=e658]:
+                            - text: "3.3"
+                            - img [ref=e659]
+                            - text: (1.6K)
+                  - listitem [ref=e662]:
+                    - link "Holiday Inn Express Montreal Airport - St-Laurent by IHG From $144 Booking.com Rated 4.3 out of 5, 126 user reviews" [ref=e664] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e667]:
+                        - generic [ref=e669]: Holiday Inn Express Montreal Airport - St-Laurent by IHG
+                        - generic [ref=e670]:
+                          - generic [ref=e671]:
+                            - generic [ref=e672]: From
+                            - generic [ref=e673]: $144
+                          - generic [ref=e674]: Booking.com
+                          - img "Rated 4.3 out of 5, 126 user reviews" [ref=e676]:
+                            - text: "4.3"
+                            - img [ref=e677]
+                            - text: (126)
+                  - listitem [ref=e680]:
+                    - link "Hampton Inn & Suites by Hilton Montreal-Dorval From $127 Skyscanner Rated 4.2 out of 5, 1.3K user reviews" [ref=e682] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e685]:
+                        - generic [ref=e687]: Hampton Inn & Suites by Hilton Montreal-Dorval
+                        - generic [ref=e688]:
+                          - generic [ref=e689]:
+                            - generic [ref=e690]: From
+                            - generic [ref=e691]: $127
+                          - generic [ref=e692]: Skyscanner
+                          - img "Rated 4.2 out of 5, 1.3K user reviews" [ref=e694]:
+                            - text: "4.2"
+                            - img [ref=e695]
+                            - text: (1.3K)
+                  - listitem [ref=e698]:
+                    - link "Courtyard by Marriott Montreal Midtown From $182 Booking.com Rated 4.1 out of 5, 392 user reviews" [ref=e700] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e703]:
+                        - generic [ref=e705]: Courtyard by Marriott Montreal Midtown
+                        - generic [ref=e706]:
+                          - generic [ref=e707]:
+                            - generic [ref=e708]: From
+                            - generic [ref=e709]: $182
+                          - generic [ref=e710]: Booking.com
+                          - img "Rated 4.1 out of 5, 392 user reviews" [ref=e712]:
+                            - text: "4.1"
+                            - img [ref=e713]
+                            - text: (392)
+                  - listitem [ref=e716]:
+                    - link "Hilton Garden Inn Montreal Centre-Ville From $176 Hilton Garden Inn Montreal Centre-Ville Rated 4.2 out of 5, 2.4K user reviews" [ref=e718] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e721]:
+                        - generic [ref=e723]: Hilton Garden Inn Montreal Centre-Ville
+                        - generic [ref=e724]:
+                          - generic [ref=e725]:
+                            - generic [ref=e726]: From
+                            - generic [ref=e727]: $176
+                          - generic [ref=e728]: Hilton Garden Inn Montreal Centre-Ville
+                          - img "Rated 4.2 out of 5, 2.4K user reviews" [ref=e730]:
+                            - text: "4.2"
+                            - img [ref=e731]
+                            - text: (2.4K)
+                  - listitem [ref=e734]:
+                    - link "Le Sand & Stone Hotel From $67 Hotels.com Rated 3.4 out of 5, 449 user reviews" [ref=e736] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e739]:
+                        - generic [ref=e741]: Le Sand & Stone Hotel
+                        - generic [ref=e742]:
+                          - generic [ref=e743]:
+                            - generic [ref=e744]: From
+                            - generic [ref=e745]: $67
+                          - generic [ref=e746]: Hotels.com
+                          - img "Rated 3.4 out of 5, 449 user reviews" [ref=e748]:
+                            - text: "3.4"
+                            - img [ref=e749]
+                            - text: (449)
+                  - listitem [ref=e752]:
+                    - link "Hampton Inn by Hilton Montreal East Anjou From $144 Booking.com Rated 4.3 out of 5, 8 user reviews" [ref=e754] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e757]:
+                        - generic [ref=e759]: Hampton Inn by Hilton Montreal East Anjou
+                        - generic [ref=e760]:
+                          - generic [ref=e761]:
+                            - generic [ref=e762]: From
+                            - generic [ref=e763]: $144
+                          - generic [ref=e764]: Booking.com
+                          - img "Rated 4.3 out of 5, 8 user reviews" [ref=e766]:
+                            - text: "4.3"
+                            - img [ref=e767]
+                            - text: (8)
+                  - listitem [ref=e770]:
+                    - link "Hotel Chrome From $63 Booking.com Rated 2.8 out of 5, 2.2K user reviews" [ref=e772] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e775]:
+                        - generic [ref=e777]: Hotel Chrome
+                        - generic [ref=e778]:
+                          - generic [ref=e779]:
+                            - generic [ref=e780]: From
+                            - generic [ref=e781]: $63
+                          - generic [ref=e782]: Booking.com
+                          - img "Rated 2.8 out of 5, 2.2K user reviews" [ref=e784]:
+                            - text: "2.8"
+                            - img [ref=e785]
+                            - text: (2.2K)
+                  - listitem [ref=e788]:
+                    - link "Hilton Garden Inn Montreal Midtown From $171 Booking.com Rated 4.2 out of 5, 818 user reviews" [ref=e790] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e793]:
+                        - generic [ref=e795]: Hilton Garden Inn Montreal Midtown
+                        - generic [ref=e796]:
+                          - generic [ref=e797]:
+                            - generic [ref=e798]: From
+                            - generic [ref=e799]: $171
+                          - generic [ref=e800]: Booking.com
+                          - img "Rated 4.2 out of 5, 818 user reviews" [ref=e802]:
+                            - text: "4.2"
+                            - img [ref=e803]
+                            - text: (818)
+                  - listitem [ref=e806]:
+                    - link "Olympia Hotel By Lodgo From $101 Booking.com Rated 4.2 out of 5, 160 user reviews" [ref=e808] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e811]:
+                        - generic [ref=e813]: Olympia Hotel By Lodgo
+                        - generic [ref=e814]:
+                          - generic [ref=e815]:
+                            - generic [ref=e816]: From
+                            - generic [ref=e817]: $101
+                          - generic [ref=e818]: Booking.com
+                          - img "Rated 4.2 out of 5, 160 user reviews" [ref=e820]:
+                            - text: "4.2"
+                            - img [ref=e821]
+                            - text: (160)
+                  - listitem [ref=e824]:
+                    - link "Courtyard by Marriott Montreal Downtown From $191 Booking.com Rated 4.3 out of 5, 2.2K user reviews" [ref=e826] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e829]:
+                        - generic [ref=e831]: Courtyard by Marriott Montreal Downtown
+                        - generic [ref=e832]:
+                          - generic [ref=e833]:
+                            - generic [ref=e834]: From
+                            - generic [ref=e835]: $191
+                          - generic [ref=e836]: Booking.com
+                          - img "Rated 4.3 out of 5, 2.2K user reviews" [ref=e838]:
+                            - text: "4.3"
+                            - img [ref=e839]
+                            - text: (2.2K)
+                  - listitem [ref=e842]:
+                    - link "Radisson Hotel Montreal Airport From $131 Booking.com Rated 3.5 out of 5, 2.4K user reviews" [ref=e844] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e847]:
+                        - generic [ref=e849]: Radisson Hotel Montreal Airport
+                        - generic [ref=e850]:
+                          - generic [ref=e851]:
+                            - generic [ref=e852]: From
+                            - generic [ref=e853]: $131
+                          - generic [ref=e854]: Booking.com
+                          - img "Rated 3.5 out of 5, 2.4K user reviews" [ref=e856]:
+                            - text: "3.5"
+                            - img [ref=e857]
+                            - text: (2.4K)
+                  - listitem [ref=e860]:
+                    - link "Le Westin Montreal From $297 Le Westin Montreal Rated 4.4 out of 5, 2.9K user reviews" [ref=e862] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e865]:
+                        - generic [ref=e867]: Le Westin Montreal
+                        - generic [ref=e868]:
+                          - generic [ref=e869]:
+                            - generic [ref=e870]: From
+                            - generic [ref=e871]: $297
+                          - generic [ref=e872]: Le Westin Montreal
+                          - img "Rated 4.4 out of 5, 2.9K user reviews" [ref=e874]:
+                            - text: "4.4"
+                            - img [ref=e875]
+                            - text: (2.9K)
+                  - listitem [ref=e878]:
+                    - link "Hôtel Casa Bella From $69 Expedia.ca Rated 3.0 out of 5, 399 user reviews" [ref=e880] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e883]:
+                        - generic [ref=e885]: Hôtel Casa Bella
+                        - generic [ref=e886]:
+                          - generic [ref=e887]:
+                            - generic [ref=e888]: From
+                            - generic [ref=e889]: $69
+                          - generic [ref=e890]: Expedia.ca
+                          - img "Rated 3.0 out of 5, 399 user reviews" [ref=e892]:
+                            - text: "3.0"
+                            - img [ref=e893]
+                            - text: (399)
+                  - listitem [ref=e896]:
+                    - link "Tru by Hilton Montreal centre-ville From $144 Booking.com Rated 4.4 out of 5, 136 user reviews" [ref=e898] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e901]:
+                        - generic [ref=e903]: Tru by Hilton Montreal centre-ville
+                        - generic [ref=e904]:
+                          - generic [ref=e905]:
+                            - generic [ref=e906]: From
+                            - generic [ref=e907]: $144
+                          - generic [ref=e908]: Booking.com
+                          - img "Rated 4.4 out of 5, 136 user reviews" [ref=e910]:
+                            - text: "4.4"
+                            - img [ref=e911]
+                            - text: (136)
+                  - listitem [ref=e914]:
+                    - link "Hotel Quartier Des Spectacles From $95 Skyscanner Rated 3.3 out of 5, 614 user reviews" [ref=e916] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e919]:
+                        - generic [ref=e921]: Hotel Quartier Des Spectacles
+                        - generic [ref=e922]:
+                          - generic [ref=e923]:
+                            - generic [ref=e924]: From
+                            - generic [ref=e925]: $95
+                          - generic [ref=e926]: Skyscanner
+                          - img "Rated 3.3 out of 5, 614 user reviews" [ref=e928]:
+                            - text: "3.3"
+                            - img [ref=e929]
+                            - text: (614)
+                  - listitem [ref=e932]:
+                    - link "Armon Plaza Airport Montreal From $116 Booking.com Rated 3.9 out of 5, 2K user reviews" [ref=e934] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e937]:
+                        - generic [ref=e939]: Armon Plaza Airport Montreal
+                        - generic [ref=e940]:
+                          - generic [ref=e941]:
+                            - generic [ref=e942]: From
+                            - generic [ref=e943]: $116
+                          - generic [ref=e944]: Booking.com
+                          - img "Rated 3.9 out of 5, 2K user reviews" [ref=e946]:
+                            - text: "3.9"
+                            - img [ref=e947]
+                            - text: (2K)
+                  - listitem [ref=e950]:
+                    - link "Hyatt Centric Montreal From $205 Hyatt Centric Montreal Rated 4.5 out of 5, 577 user reviews" [ref=e952] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e955]:
+                        - generic [ref=e957]: Hyatt Centric Montreal
+                        - generic [ref=e958]:
+                          - generic [ref=e959]:
+                            - generic [ref=e960]: From
+                            - generic [ref=e961]: $205
+                          - generic [ref=e962]: Hyatt Centric Montreal
+                          - img "Rated 4.5 out of 5, 577 user reviews" [ref=e964]:
+                            - text: "4.5"
+                            - img [ref=e965]
+                            - text: (577)
+                  - listitem [ref=e968]:
+                    - link "Home2 Suites by Hilton Montreal Dorval From $174 Booking.com Rated 4.4 out of 5, 629 user reviews" [ref=e970] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e973]:
+                        - generic [ref=e975]: Home2 Suites by Hilton Montreal Dorval
+                        - generic [ref=e976]:
+                          - generic [ref=e977]:
+                            - generic [ref=e978]: From
+                            - generic [ref=e979]: $174
+                          - generic [ref=e980]: Booking.com
+                          - img "Rated 4.4 out of 5, 629 user reviews" [ref=e982]:
+                            - text: "4.4"
+                            - img [ref=e983]
+                            - text: (629)
+                  - listitem [ref=e986]:
+                    - link "Fairfield by Marriott Montreal Downtown From $203 Booking.com Rated 4.2 out of 5, 749 user reviews" [ref=e988] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e991]:
+                        - generic [ref=e993]: Fairfield by Marriott Montreal Downtown
+                        - generic [ref=e994]:
+                          - generic [ref=e995]:
+                            - generic [ref=e996]: From
+                            - generic [ref=e997]: $203
+                          - generic [ref=e998]: Booking.com
+                          - img "Rated 4.2 out of 5, 749 user reviews" [ref=e1000]:
+                            - text: "4.2"
+                            - img [ref=e1001]
+                            - text: (749)
+                  - listitem [ref=e1004]:
+                    - link "Hotel Europa, BW Signature Collection From $161 Booking.com Rated 3.8 out of 5, 2.6K user reviews" [ref=e1006] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1009]:
+                        - generic [ref=e1011]: Hotel Europa, BW Signature Collection
+                        - generic [ref=e1012]:
+                          - generic [ref=e1013]:
+                            - generic [ref=e1014]: From
+                            - generic [ref=e1015]: $161
+                          - generic [ref=e1016]: Booking.com
+                          - img "Rated 3.8 out of 5, 2.6K user reviews" [ref=e1018]:
+                            - text: "3.8"
+                            - img [ref=e1019]
+                            - text: (2.6K)
+                  - listitem [ref=e1022]:
+                    - link "Clouds Hotel From $80 Booking.com Rated 2.8 out of 5, 79 user reviews" [ref=e1024] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1027]:
+                        - generic [ref=e1029]: Clouds Hotel
+                        - generic [ref=e1030]:
+                          - generic [ref=e1031]:
+                            - generic [ref=e1032]: From
+                            - generic [ref=e1033]: $80
+                          - generic [ref=e1034]: Booking.com
+                          - img "Rated 2.8 out of 5, 79 user reviews" [ref=e1036]:
+                            - text: "2.8"
+                            - img [ref=e1037]
+                            - text: (79)
+                  - listitem [ref=e1040]:
+                    - link "Courtyard by Marriott Montreal Airport From $209 Booking.com Rated 4.3 out of 5, 1.7K user reviews" [ref=e1042] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1045]:
+                        - generic [ref=e1047]: Courtyard by Marriott Montreal Airport
+                        - generic [ref=e1048]:
+                          - generic [ref=e1049]:
+                            - generic [ref=e1050]: From
+                            - generic [ref=e1051]: $209
+                          - generic [ref=e1052]: Booking.com
+                          - img "Rated 4.3 out of 5, 1.7K user reviews" [ref=e1054]:
+                            - text: "4.3"
+                            - img [ref=e1055]
+                            - text: (1.7K)
+                  - listitem [ref=e1058]:
+                    - link "Hôtel Le Dauphin Montréal Centre-Ville From $199 Booking.com Rated 4.5 out of 5, 1.6K user reviews" [ref=e1060] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1063]:
+                        - generic [ref=e1065]: Hôtel Le Dauphin Montréal Centre-Ville
+                        - generic [ref=e1066]:
+                          - generic [ref=e1067]:
+                            - generic [ref=e1068]: From
+                            - generic [ref=e1069]: $199
+                          - generic [ref=e1070]: Booking.com
+                          - img "Rated 4.5 out of 5, 1.6K user reviews" [ref=e1072]:
+                            - text: "4.5"
+                            - img [ref=e1073]
+                            - text: (1.6K)
+                  - listitem [ref=e1076]:
+                    - link "Hôtel Saint-Laurent Montréal From $189 Booking.com Rated 4.0 out of 5, 1.1K user reviews" [ref=e1078] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1081]:
+                        - generic [ref=e1083]: Hôtel Saint-Laurent Montréal
+                        - generic [ref=e1084]:
+                          - generic [ref=e1085]:
+                            - generic [ref=e1086]: From
+                            - generic [ref=e1087]: $189
+                          - generic [ref=e1088]: Booking.com
+                          - img "Rated 4.0 out of 5, 1.1K user reviews" [ref=e1090]:
+                            - text: "4.0"
+                            - img [ref=e1091]
+                            - text: (1.1K)
+                  - listitem [ref=e1094]:
+                    - link "Arcadia Hôtel Boutique From $176 Booking.com Rated 4.7 out of 5, 51 user reviews" [ref=e1096] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1099]:
+                        - generic [ref=e1101]: Arcadia Hôtel Boutique
+                        - generic [ref=e1102]:
+                          - generic [ref=e1103]:
+                            - generic [ref=e1104]: From
+                            - generic [ref=e1105]: $176
+                          - generic [ref=e1106]: Booking.com
+                          - img "Rated 4.7 out of 5, 51 user reviews" [ref=e1108]:
+                            - text: "4.7"
+                            - img [ref=e1109]
+                            - text: (51)
+                - button [ref=e1113] [cursor=pointer]:
+                  - img [ref=e1116]
+          - generic [ref=e1120]:
+            - heading "Web results" [level=2] [ref=e1121]
+            - generic [ref=e1122]:
+              - generic [ref=e1125]:
+                - link "Find hotels in Montreal from CA $80 - Expedia Expedia https://www.expedia.ca › Hotels › Canada › Quebec" [ref=e1127] [cursor=pointer]:
+                  - /url: https://www.expedia.ca/Montreal-Hotels.d178288.Travel-Guide-Hotels
+                  - heading "Find hotels in Montreal from CA $80 - Expedia" [level=3] [ref=e1128]
+                  - generic [ref=e1133]:
+                    - generic [ref=e1135]: Expedia
+                    - generic [ref=e1137]: https://www.expedia.ca › Hotels › Canada › Quebec
+                - button "About this result" [ref=e1138] [cursor=pointer]:
+                  - img [ref=e1141]
+              - generic [ref=e1144]:
+                - generic [ref=e1145]:
+                  - text: The
+                  - emphasis [ref=e1146]: price
+                  - text: is CA $54
+                  - emphasis [ref=e1147]: per night
+                  - text: from
+                  - emphasis [ref=e1148]: May
+                  - text: 5 to
+                  - emphasis [ref=e1149]: May
+                  - text: 6. CA $54. CA $80 total.
+                  - emphasis [ref=e1150]: May
+                  - text: 5 -
+                  - emphasis [ref=e1151]: May
+                  - text: 6. includes taxes & fees. Le Sand & Stone
+                  - emphasis [ref=e1152]: Hôtel
+                  - text: .
+                  - emphasis [ref=e1153]: Hôtel
+                  - text: ...
+                - link "Read more" [ref=e1154] [cursor=pointer]:
+                  - /url: https://www.expedia.ca/Montreal-Hotels.d178288.Travel-Guide-Hotels#:~:text=CA%20%2454,H%C3%B4tel%20Newstar%20Montr%C3%A9al
+              - link "average hotel price Montreal May 2026 per night from www.expedia.ca" [ref=e1157] [cursor=pointer]:
+                - /url: https://www.expedia.ca/Montreal-Hotels.d178288.Travel-Guide-Hotels
+                - img "average hotel price Montreal May 2026 per night from www.expedia.ca" [ref=e1159]
+          - generic [ref=e1163]:
+            - generic [ref=e1166]:
+              - link "10 Best Montreal Hotels, Canada (From US$65) Booking.com https://www.booking.com › Hotels › Canada › Quebec" [ref=e1168] [cursor=pointer]:
+                - /url: https://www.booking.com/city/ca/montreal.html
+                - heading "10 Best Montreal Hotels, Canada (From US$65)" [level=3] [ref=e1169]
+                - generic [ref=e1174]:
+                  - generic [ref=e1176]: Booking.com
+                  - generic [ref=e1178]: https://www.booking.com › Hotels › Canada › Quebec
+              - button "About this result" [ref=e1179] [cursor=pointer]:
+                - img [ref=e1182]
+            - generic [ref=e1185]:
+              - generic [ref=e1186]:
+                - text: Downtown
+                - emphasis [ref=e1187]: Montreal
+                - text: $117
+                - emphasis [ref=e1188]: Averages
+                - text: are based on
+                - emphasis [ref=e1189]: prices
+                - text: and ratings from guests who stayed in Downtown
+                - emphasis [ref=e1190]: Montreal in the
+                - text: last 30 days · Quartier des Spectacles $103.
+              - link "Read more" [ref=e1191] [cursor=pointer]:
+                - /url: https://www.booking.com/city/ca/montreal.html#:~:text=Downtown%20Montreal&text=%24117&text=Averages%20are%20based%20on%20prices,in%20the%20last%2030%20days&text=Explore%20Montreal&text=Explore%20Montreal
+            - link "average hotel price Montreal May 2026 per night from www.booking.com" [ref=e1194] [cursor=pointer]:
+              - /url: https://www.booking.com/city/ca/montreal.html
+              - img "average hotel price Montreal May 2026 per night from www.booking.com" [ref=e1196]
+          - generic [ref=e1201]:
+            - heading "People also ask" [level=2] [ref=e1203]
+            - generic [ref=e1204]:
+              - button "What is the average price of a hotel room for one night?" [ref=e1210] [cursor=pointer]:
+                - generic [ref=e1212]: What is the average price of a hotel room for one night?
+                - img [ref=e1215]
+              - button "What is the cheapest month to visit Montréal?" [ref=e1224] [cursor=pointer]:
+                - generic [ref=e1226]: What is the cheapest month to visit Montréal?
+                - img [ref=e1229]
+              - button "What is the average hotel price per night in Canada?" [ref=e1238] [cursor=pointer]:
+                - generic [ref=e1240]: What is the average hotel price per night in Canada?
+                - img [ref=e1243]
+              - button "What are the best budget hotels in Montréal?" [ref=e1252] [cursor=pointer]:
+                - generic [ref=e1254]: What are the best budget hotels in Montréal?
+                - img [ref=e1257]
+          - generic [ref=e1262]:
+            - heading "Web results" [level=2] [ref=e1263]
+            - generic [ref=e1264]:
+              - generic [ref=e1267]:
+                - link "THE 10 BEST Hotels in Montreal 2026 (from C$68) Tripadvisor https://www.tripadvisor.ca › Canada › Quebec › Montreal" [ref=e1269] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.ca/Hotels-g155032-Montreal_Quebec-Hotels.html
+                  - heading "THE 10 BEST Hotels in Montreal 2026 (from C$68)" [level=3] [ref=e1270]
+                  - generic [ref=e1275]:
+                    - generic [ref=e1277]: Tripadvisor
+                    - generic [ref=e1279]: https://www.tripadvisor.ca › Canada › Quebec › Montreal
+                - button "About this result" [ref=e1280] [cursor=pointer]:
+                  - img [ref=e1283]
+              - generic [ref=e1286]:
+                - generic [ref=e1287]:
+                  - text: Listed
+                  - emphasis [ref=e1288]: prices may
+                  - text: require
+                  - emphasis [ref=e1289]: a
+                  - text: stay of
+                  - emphasis [ref=e1290]: a
+                  - text: particular length or have blackout dates, qualifications or other applicable restrictions.
+                - link "Read more" [ref=e1291] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.ca/Hotels-g155032-Montreal_Quebec-Hotels.html#:~:text=Read%20more
+              - link "average hotel price Montreal May 2026 per night from www.tripadvisor.ca" [ref=e1294] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/Hotels-g155032-Montreal_Quebec-Hotels.html
+                - img "average hotel price Montreal May 2026 per night from www.tripadvisor.ca" [ref=e1296]
+          - generic [ref=e1300]:
+            - generic [ref=e1303]:
+              - link "Hotels near F1 MONTREAL GP 2026 in Montreal QC HotelPlanner https://www.hotelplanner.com › Quebec (QC) › Montreal" [ref=e1305] [cursor=pointer]:
+                - /url: https://www.hotelplanner.com/Event-Hotels/371226-For-F1-Montreal-GP-2026-May-22-2026-in-Montreal-QC
+                - heading "Hotels near F1 MONTREAL GP 2026 in Montreal QC" [level=3] [ref=e1306]
+                - generic [ref=e1311]:
+                  - generic [ref=e1313]: HotelPlanner
+                  - generic [ref=e1315]: https://www.hotelplanner.com › Quebec (QC) › Montreal
+              - button "About this result" [ref=e1316] [cursor=pointer]:
+                - img [ref=e1319]
+            - generic [ref=e1322]:
+              - generic [ref=e1323]: May 22, 2026 —
+              - generic [ref=e1324]:
+                - emphasis [ref=e1325]: Search for cheap and discount hotel rates
+                - text: near the F1 Montreal GP 2026 Montreal, QC for individual or group travel.
+              - link "Read more" [ref=e1326] [cursor=pointer]:
+                - /url: https://www.hotelplanner.com/Event-Hotels/371226-For-F1-Montreal-GP-2026-May-22-2026-in-Montreal-QC#:~:text=Search%20for%20cheap%20and%20discount,for%20individual%20or%20group%20travel.
+            - link "average hotel price Montreal May 2026 per night from www.hotelplanner.com" [ref=e1329] [cursor=pointer]:
+              - /url: https://www.hotelplanner.com/Event-Hotels/371226-For-F1-Montreal-GP-2026-May-22-2026-in-Montreal-QC
+              - img "average hotel price Montreal May 2026 per night from www.hotelplanner.com" [ref=e1331]
+          - generic [ref=e1335]:
+            - generic [ref=e1338]:
+              - link "16 Best Hotels in Montreal. Hotels from C$ 37/night Kayak https://www.ca.kayak.com › ... › Hotels in Quebec" [ref=e1340] [cursor=pointer]:
+                - /url: https://www.ca.kayak.com/Montreal-Hotels.6966.hotel.ksp
+                - heading "16 Best Hotels in Montreal. Hotels from C$ 37/night" [level=3] [ref=e1341]
+                - generic [ref=e1346]:
+                  - generic [ref=e1348]: Kayak
+                  - generic [ref=e1350]: https://www.ca.kayak.com › ... › Hotels in Quebec
+              - button "About this result" [ref=e1351] [cursor=pointer]:
+                - img [ref=e1354]
+            - generic [ref=e1357]:
+              - generic [ref=e1358]: Sep 25, 2024 —
+              - generic [ref=e1359]:
+                - text: The
+                - emphasis [ref=e1360]: average price
+                - text: of
+                - emphasis [ref=e1361]: a
+                - text: double room in
+                - emphasis [ref=e1362]: Montreal
+                - text: is C$ 326
+                - emphasis [ref=e1363]: per night
+                - text: .
+                - emphasis [ref=e1364]: In the
+                - text: last 3 days, KAYAK found great deals as cheap as C$ 43
+                - emphasis [ref=e1365]: per night
+                - text: .
+              - link "Read more" [ref=e1366] [cursor=pointer]:
+                - /url: https://www.ca.kayak.com/Montreal-Hotels.6966.hotel.ksp#:~:text=The%20average%20price%20of%20a,as%20C%24%2043%20per%20night.
+          - generic [ref=e1370]:
+            - generic [ref=e1373]:
+              - link "Top Hotels in Montreal from C$59 | Skyscanner skyscanner.ca https://www.skyscanner.ca › Hotels › Canada › Quebec" [ref=e1375] [cursor=pointer]:
+                - /url: https://www.skyscanner.ca/hotels/canada/montreal-hotels/ci-27536613
+                - heading "Top Hotels in Montreal from C$59 | Skyscanner" [level=3] [ref=e1376]
+                - generic [ref=e1381]:
+                  - generic [ref=e1383]: skyscanner.ca
+                  - generic [ref=e1385]: https://www.skyscanner.ca › Hotels › Canada › Quebec
+              - button "About this result" [ref=e1386] [cursor=pointer]:
+                - img [ref=e1389]
+            - generic [ref=e1392]:
+              - generic [ref=e1393]:
+                - text: What is the average price per night in Montreal in May?
+                - emphasis [ref=e1394]: The average price of a hotel in May is C$505 per night
+                - text: ", which is around 24% higher than the rest of the ..."
+              - link "Read more" [ref=e1395] [cursor=pointer]:
+                - /url: https://www.skyscanner.ca/hotels/canada/montreal-hotels/ci-27536613#:~:text=What%20is%20the%20average%20price,night%20in%20Montreal%20in%20May%3F
+            - generic [ref=e1397]: Starting from $59.00
+          - generic [ref=e1401]:
+            - generic [ref=e1404]:
+              - link "2474 Cheap Montreal Hotel Deals HotelsCombined https://www.hotelscombined.com › ... › Quebec Hotels" [ref=e1406] [cursor=pointer]:
+                - /url: https://www.hotelscombined.com/Place/Montreal.htm
+                - heading "2474 Cheap Montreal Hotel Deals" [level=3] [ref=e1407]
+                - generic [ref=e1412]:
+                  - generic [ref=e1414]: HotelsCombined
+                  - generic [ref=e1416]: https://www.hotelscombined.com › ... › Quebec Hotels
+              - button "About this result" [ref=e1417] [cursor=pointer]:
+                - img [ref=e1420]
+            - generic [ref=e1423]:
+              - generic [ref=e1424]:
+                - text: There are 2,474 hotels in Montreal and price data was last updated on May 2, 2026.
+                - emphasis [ref=e1425]: The average price for a hotel in Montreal is $294/night
+                - text: . Enter your ...
+              - link "Read more" [ref=e1426] [cursor=pointer]:
+                - /url: https://www.hotelscombined.com/Place/Montreal.htm#:~:text=Enter%20your%20travel%20dates%20to,find%20the%20best%20prices.
+          - generic [ref=e1430]:
+            - generic [ref=e1433]:
+              - link "Hotels in Montreal from C$ 27 - Find Cheap ... - momondo momondo.ca https://www.momondo.ca › ... › Hotels in Quebec" [ref=e1435] [cursor=pointer]:
+                - /url: https://www.momondo.ca/hotels/montreal
+                - heading "Hotels in Montreal from C$ 27 - Find Cheap ... - momondo" [level=3] [ref=e1436]
+                - generic [ref=e1441]:
+                  - generic [ref=e1443]: momondo.ca
+                  - generic [ref=e1445]: https://www.momondo.ca › ... › Hotels in Quebec
+              - button "About this result" [ref=e1446] [cursor=pointer]:
+                - img [ref=e1449]
+            - generic [ref=e1452]:
+              - generic [ref=e1453]:
+                - text: In Montreal, the least expensive option is a 2-star hotel, with
+                - emphasis [ref=e1454]: average nightly prices of C$ 115
+                - text: . Staying at a 1-star hotel will cost you about C$ 121 per night ...
+              - link "Read more" [ref=e1455] [cursor=pointer]:
+                - /url: https://www.momondo.ca/hotels/montreal#:~:text=In%20Montreal%2C%20the%20least%20expensive,averaging%20C%24%20441%20per%20night.
+          - generic [ref=e1459]:
+            - generic [ref=e1462]:
+              - 'link "Montreal Budget Guide 2026: Complete Cost Breakdown Machupicchu.org https://www.machupicchu.org › ... › Canada › Montreal" [ref=e1464] [cursor=pointer]':
+                - /url: https://www.machupicchu.org/montreal-budget-guide-2026-complete-cost-breakdown.htm
+                - 'heading "Montreal Budget Guide 2026: Complete Cost Breakdown" [level=3] [ref=e1465]'
+                - generic [ref=e1470]:
+                  - generic [ref=e1472]: Machupicchu.org
+                  - generic [ref=e1474]: https://www.machupicchu.org › ... › Canada › Montreal
+              - button "About this result" [ref=e1475] [cursor=pointer]:
+                - img [ref=e1478]
+            - generic [ref=e1481]:
+              - generic [ref=e1482]:
+                - text: Budget accommodation starts at $23-32
+                - emphasis [ref=e1483]: per
+                - text: person
+                - emphasis [ref=e1484]: for
+                - text: hostel dorms and $50-70
+                - emphasis [ref=e1485]: per
+                - text: person (two sharing budget
+                - emphasis [ref=e1486]: hotels
+                - text: at $100-140 nightly), while mid-range
+                - emphasis [ref=e1487]: hotels
+                - text: ...
+              - link "Read more" [ref=e1488] [cursor=pointer]:
+                - /url: https://www.machupicchu.org/montreal-budget-guide-2026-complete-cost-breakdown.htm#:~:text=Budget%20accommodation%20starts%20at%20%2423%2D32,(two%20sharing%20rooms%20at%20%24140%2D190).
+          - generic [ref=e1492]:
+            - generic [ref=e1495]:
+              - link "How Much Does Montréal Cost? 2026 Budget Guide GoTripzi https://gotripzi.com › Destinations › Montréal" [ref=e1497] [cursor=pointer]:
+                - /url: https://gotripzi.com/destinations/montreal-ca/cost
+                - heading "How Much Does Montréal Cost? 2026 Budget Guide" [level=3] [ref=e1498]
+                - generic [ref=e1503]:
+                  - generic [ref=e1505]: GoTripzi
+                  - generic [ref=e1507]: https://gotripzi.com › Destinations › Montréal
+              - button "About this result" [ref=e1508] [cursor=pointer]:
+                - img [ref=e1511]
+            - generic [ref=e1514]:
+              - generic [ref=e1515]: Feb 16, 2026 —
+              - generic [ref=e1516]:
+                - emphasis [ref=e1517]: Mid-range 3-star hotels average $102 / C$140
+                - text: ", while those seeking 5-star luxury should plan for costs around $319 / C$436 per night. Dorm Bed in ..."
+              - link "Read more" [ref=e1518] [cursor=pointer]:
+                - /url: https://gotripzi.com/destinations/montreal-ca/cost#:~:text=Mid%2Drange%203%2Dstar%20hotels%20average%20%24102,(e.g.%20M%20Montreal)%20%2435%20C%2448
+        - generic [ref=e1520]:
+          - generic [ref=e1525]:
+            - heading "People also search for" [level=2] [ref=e1527]
+            - generic [ref=e1529]:
+              - generic [ref=e1530]:
+                - link "Cheap hotel in Montreal under $100" [ref=e1534] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Cheap+hotel+in+Montreal+under+%24100&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhLEAE
+                  - generic [ref=e1535]:
+                    - generic [ref=e1540]: Cheap hotel in Montreal under $100
+                    - img [ref=e1544]
+                - link "Hotels Montreal Downtown" [ref=e1549] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Hotels+Montreal+Downtown&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhfEAE
+                  - generic [ref=e1550]:
+                    - generic [ref=e1555]: Hotels Montreal Downtown
+                    - img [ref=e1559]
+                - link "Hotel room Montreal" [ref=e1564] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Hotel+room+Montreal&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhgEAE
+                  - generic [ref=e1565]:
+                    - generic [ref=e1570]: Hotel room Montreal
+                    - img [ref=e1574]
+                - link "5-star hotels in Montreal Canada" [ref=e1579] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=5-star+hotels+in+Montreal+Canada&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAheEAE
+                  - generic [ref=e1580]:
+                    - generic [ref=e1585]: 5-star hotels in Montreal Canada
+                    - img [ref=e1589]
+              - generic [ref=e1591]:
+                - link "Expedia Montreal hotels" [ref=e1595] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Expedia+Montreal+hotels&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhdEAE
+                  - generic [ref=e1596]:
+                    - generic [ref=e1601]: Expedia Montreal hotels
+                    - img [ref=e1605]
+                - link "Trivago Montreal Hotels" [ref=e1610] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Trivago+Montreal+Hotels&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhYEAE
+                  - generic [ref=e1611]:
+                    - generic [ref=e1616]: Trivago Montreal Hotels
+                    - img [ref=e1620]
+                - link "Hotel deals Montreal Downtown" [ref=e1625] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Hotel+deals+Montreal+Downtown&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhUEAE
+                  - generic [ref=e1626]:
+                    - generic [ref=e1631]: Hotel deals Montreal Downtown
+                    - img [ref=e1635]
+                - link "Hotels in montreal near st joseph's oratory" [ref=e1640] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&q=Hotels+in+montreal+near+st+joseph%27s+oratory&sa=X&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q1QJ6BAhPEAE
+                  - generic [ref=e1641]:
+                    - generic [ref=e1646]: Hotels in montreal near st joseph's oratory
+                    - img [ref=e1650]
+          - navigation [ref=e1652]:
+            - heading "Page Navigation" [level=1] [ref=e1653]
+            - text: "1"
+            - link "Page 2" [ref=e1656] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=10&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAE
+              - text: "2"
+            - link "Page 3" [ref=e1658] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=20&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAG
+              - text: "3"
+            - link "Page 4" [ref=e1660] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=30&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAI
+              - text: "4"
+            - link "Page 5" [ref=e1662] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=40&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAK
+              - text: "5"
+            - link "Page 6" [ref=e1664] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=50&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAM
+              - text: "6"
+            - link "Page 7" [ref=e1666] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=60&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAO
+              - text: "7"
+            - link "Page 8" [ref=e1668] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=70&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAQ
+              - text: "8"
+            - link "Page 9" [ref=e1670] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=80&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAS
+              - text: "9"
+            - link "Page 10" [ref=e1672] [cursor=pointer]:
+              - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=90&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8tMDegQIQhAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1674]:
+              - link "Next" [ref=e1675] [cursor=pointer]:
+                - /url: /search?q=average+hotel+price+Montreal+May+2026+per+night&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115&ei=uSn5aYbkBrWKruEPsPL7-A0&start=10&sa=N&sstk=Af77f_e5E8wGFMv4L8g0qvDVF3_R0B55mKNnqM4XxclKXu6Tr3gpUbNs33gZJnkIJCInuVj4NWbaeQG0vp8ej2ZRfpoHv_4wdXAKGw&ved=2ahUKEwjGpJPn4qCUAxU1hSsGHTD5Ht8Q8NMDegQIQhAW
+                - generic [ref=e1677]: Next
+        - navigation
+    - contentinfo [ref=e1678]:
+      - heading "Footer Links" [level=1] [ref=e1679]
+      - generic [ref=e1683]:
+        - generic [ref=e1686]:
+          - generic [ref=e1687]: Results are personalized
+          - generic [ref=e1688]: "-"
+          - link "Try without personalization" [ref=e1690] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=average+hotel+price+Montreal+May+2026+per+night&peek_pws=0&sxsrf=ANbL-n5hu8dm_m5yFs_wNyvC8JW1OjlxGg:1777936825115
+            - generic [ref=e1691]: Try without personalization
+        - generic [ref=e1693]:
+          - text: Canada
+          - generic [ref=e1695]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e1697] [cursor=pointer]:
+              - generic [ref=e1698]: Toronto, Ontario
+              - generic [ref=e1700]:
+                - text: "-"
+                - generic [ref=e1701]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e1703] [cursor=pointer]: Update location
+        - generic [ref=e1706]:
+          - link "Help" [ref=e1707] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e1708] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1709] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e1710] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

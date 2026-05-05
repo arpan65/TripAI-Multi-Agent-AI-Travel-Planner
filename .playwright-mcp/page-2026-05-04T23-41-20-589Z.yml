@@ -1,0 +1,614 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Megabus Canada Toronto to Montreal 15th May 2026 price Megabus Canada Toronto to Montreal 15th May 2026 price
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu81PDnj-NrCGz4Rv6M7y3dRN_BJwIFszGgRfEk-BjnukzzMvvf-mnlb8my8VCD5YAnUBWNxYEEnqyYpFQ9lWlGgdoQ0Yw&aep=1&ntc=1&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ2J8OegQIDxAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "News" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu81PDnj-NrCGz4Rv6M7y3dRN_BJwIFszGgRfEk-BjnukzzMvvf-mnlb8my8VCD5YAnUBWNxYEEnqyYpFQ9lWlGgdoQ0Yw&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ0pQJegQIFRAB
+              - generic [ref=e85]: News
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu81PDnj-NrCGz4Rv6M7y3dRN_BJwIFszGgRfEk-BjnukzzMvvf-mnlb8my8VCD5YAnUBWNxYEEnqyYpFQ9lWlGgdoQ0Yw&q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQtKgLegQIFhAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Forums" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu81PDnj-NrCGz4Rv6M7y3dRN_BJwIFszGgRfEk-BjnukzzMvvf-mnlb8my8VCD5YAnUBWNxYEEnqyYpFQ9lWlGgdoQ0Yw&q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQs6gLegQIFBAB
+              - generic [ref=e93]: Forums
+          - listitem [ref=e94]:
+            - link "Shopping" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu81PDnj-NrCGz4Rv6M7y3dRN_BJwIFszGgRfEk-BjnukzzMvvf-mnlb8my8VCD5YAnUBWNxYEEnqyYpFQ9lWlGgdoQ0Yw&q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&ved=1t:220175&ictx=111
+              - generic [ref=e97]: Shopping
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu81PDnj-NrCGz4Rv6M7y3dRN_BJwIFszGgRfEk-BjnukzzMvvf-mnlb8my8VCD5YAnUBWNxYEEnqyYpFQ9lWlGgdoQ0Yw&q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQtKgLegQIExAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - generic [ref=e123]:
+      - generic [ref=e142]:
+        - heading "Thinking" [level=2] [ref=e146]:
+          - generic [ref=e147]: Thinking
+        - progressbar [ref=e148]
+      - main [ref=e150]:
+        - generic [ref=e154]:
+          - generic [ref=e162]:
+            - generic [ref=e164]:
+              - heading "Megabus buses from Toronto to Montreal" [level=2] [ref=e166]
+              - button "About this result" [ref=e170] [cursor=pointer]:
+                - generic "About this result" [ref=e171]:
+                  - img [ref=e174]
+            - generic [ref=e178]:
+              - generic [ref=e181]:
+                - img [ref=e183]
+                - combobox "Toronto (All stations),Enter an origin" [ref=e185]: Toronto (All stations)
+              - button "Swap origin and destination" [ref=e188] [cursor=pointer]:
+                - img [ref=e193]
+              - generic [ref=e197]:
+                - img [ref=e199]
+                - combobox "Le 1000 de La Gauchetiere, Montreal, PQ,Enter a destination" [ref=e201]: Le 1000 de La Gauchetiere, Montreal, PQ
+            - generic [ref=e202]:
+              - button "Fri, May 15" [ref=e206]:
+                - generic [ref=e207]: Fri, May 15
+              - button "Anytime" [ref=e213] [cursor=pointer]:
+                - generic [ref=e214]:
+                  - generic [ref=e215]: Anytime
+                  - img [ref=e218]
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - generic [ref=e225]: Fastest
+                - generic [ref=e226]: 6h 45min
+              - generic [ref=e227]:
+                - generic [ref=e229]: Cheapest
+                - generic [ref=e230]: $81
+              - generic [ref=e231]:
+                - generic [ref=e233]: Daily buses
+                - generic [ref=e234]: "15"
+            - generic [ref=e240]:
+              - button "1 earlier bus" [ref=e244]:
+                - generic [ref=e245]:
+                  - img [ref=e247]
+                  - text: 1 earlier bus
+                  - img [ref=e250]
+              - button [ref=e256]:
+                - generic [ref=e261] [cursor=pointer]:
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: 6:00 a.m. – 1:30 p.m.
+                    - generic [ref=e264]: 7h 30min
+                    - generic [ref=e265]: 0 changes
+                    - generic [ref=e267]:
+                      - generic [ref=e268]: $92
+                      - img [ref=e270]
+                  - generic [ref=e278]: ⁦Megabus ⁩
+              - 'button "⁦Departs at 7:00 a.m..⁩ ⁦Arrives at 2:05 p.m..⁩ ⁦Total duration: 7h 5min.⁩ ⁦0 changes⁩. ⁦Bus: Megabus .⁩ $98" [ref=e283]':
+                - generic [ref=e288] [cursor=pointer]:
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: 7:00 a.m. – 2:05 p.m.
+                    - generic [ref=e291]: 7h 5min
+                    - generic [ref=e292]: 0 changes
+                    - generic [ref=e294]:
+                      - generic [ref=e295]: $98
+                      - img [ref=e297]
+                  - generic [ref=e305]: ⁦Megabus ⁩
+              - 'button "⁦Departs at 9:00 a.m..⁩ ⁦Arrives at 4:05 p.m..⁩ ⁦Total duration: 7h 5min.⁩ ⁦0 changes⁩. ⁦Bus: Megabus .⁩ $98" [ref=e310]':
+                - generic [ref=e315] [cursor=pointer]:
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: 9:00 a.m. – 4:05 p.m.
+                    - generic [ref=e318]: 7h 5min
+                    - generic [ref=e319]: 0 changes
+                    - generic [ref=e321]:
+                      - generic [ref=e322]: $98
+                      - img [ref=e324]
+                  - generic [ref=e332]: ⁦Megabus ⁩
+              - 'button "⁦Departs at 9:10 a.m..⁩ ⁦Arrives at 4:05 p.m..⁩ ⁦Total duration: 6h 55min.⁩ ⁦1 change⁩. ⁦Multiple buses⁩ ⁦Price unavailable⁩" [ref=e337]':
+                - generic [ref=e342] [cursor=pointer]:
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: 9:10 a.m. – 4:05 p.m.
+                    - generic [ref=e345]: 6h 55min
+                    - generic [ref=e346]: 1 change
+                    - generic [ref=e348]:
+                      - img [ref=e351]
+                      - img [ref=e354]
+                  - generic [ref=e357]:
+                    - generic [ref=e364]: ⁦Multiple buses⁩
+                    - generic:
+                      - generic: Fast
+              - generic [ref=e365]:
+                - button [ref=e370]:
+                  - generic [ref=e375] [cursor=pointer]:
+                    - generic [ref=e376]:
+                      - generic [ref=e377]: 10:00 a.m. – 5:10 p.m.
+                      - generic [ref=e378]: 7h 10min
+                      - generic [ref=e379]: 0 changes
+                      - generic [ref=e381]:
+                        - generic [ref=e382]: $92
+                        - img [ref=e384]
+                    - generic [ref=e392]: ⁦Megabus ⁩
+                - button [ref=e397]:
+                  - generic [ref=e402] [cursor=pointer]:
+                    - generic [ref=e403]:
+                      - generic [ref=e404]: 10:30 a.m. – 5:40 p.m.
+                      - generic [ref=e405]: 7h 10min
+                      - generic [ref=e406]: 0 changes
+                      - generic [ref=e408]:
+                        - generic [ref=e409]: $86
+                        - img [ref=e411]
+                    - generic [ref=e419]: ⁦Megabus ⁩
+                - button [ref=e424]:
+                  - generic [ref=e429] [cursor=pointer]:
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: 11:00 a.m. – 6:10 p.m.
+                      - generic [ref=e432]: 7h 10min
+                      - generic [ref=e433]: 0 changes
+                      - generic [ref=e435]:
+                        - generic [ref=e436]: $86
+                        - img [ref=e438]
+                    - generic [ref=e446]: ⁦Megabus ⁩
+                - button [ref=e451]:
+                  - generic [ref=e456] [cursor=pointer]:
+                    - generic [ref=e457]:
+                      - generic [ref=e458]: 12:00 p.m. – 7:10 p.m.
+                      - generic [ref=e459]: 7h 10min
+                      - generic [ref=e460]: 0 changes
+                      - generic [ref=e462]:
+                        - generic [ref=e463]: $81
+                        - img [ref=e465]
+                    - generic [ref=e473]: ⁦Megabus ⁩
+                - button [ref=e478]:
+                  - generic [ref=e483] [cursor=pointer]:
+                    - generic [ref=e484]:
+                      - generic [ref=e485]: 1:00 p.m. – 8:10 p.m.
+                      - generic [ref=e486]: 7h 10min
+                      - generic [ref=e487]: 0 changes
+                      - generic [ref=e489]:
+                        - generic [ref=e490]: $81
+                        - img [ref=e492]
+                    - generic [ref=e500]: ⁦Megabus ⁩
+                - button [ref=e505]:
+                  - generic [ref=e510] [cursor=pointer]:
+                    - generic [ref=e511]:
+                      - generic [ref=e512]: 2:00 p.m. – 9:15 p.m.
+                      - generic [ref=e513]: 7h 15min
+                      - generic [ref=e514]: 0 changes
+                      - generic [ref=e516]:
+                        - generic [ref=e517]: $81
+                        - img [ref=e519]
+                    - generic [ref=e527]: ⁦Megabus ⁩
+                - button [ref=e532]:
+                  - generic [ref=e537] [cursor=pointer]:
+                    - generic [ref=e538]:
+                      - generic [ref=e539]: 2:30 p.m. – 9:15 p.m.
+                      - generic [ref=e540]: 6h 45min
+                      - generic [ref=e541]: 1 change
+                      - generic [ref=e543]:
+                        - img [ref=e546]
+                        - img [ref=e549]
+                    - generic [ref=e552]:
+                      - generic [ref=e559]: ⁦Multiple buses⁩
+                      - generic:
+                        - generic: Fast
+                - button [ref=e564]:
+                  - generic [ref=e569] [cursor=pointer]:
+                    - generic [ref=e570]:
+                      - generic [ref=e571]: 3:00 p.m. – 10:15 p.m.
+                      - generic [ref=e572]: 7h 15min
+                      - generic [ref=e573]: 0 changes
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: $81
+                        - img [ref=e578]
+                    - generic [ref=e586]: ⁦Megabus ⁩
+                - button [ref=e591]:
+                  - generic [ref=e596] [cursor=pointer]:
+                    - generic [ref=e597]:
+                      - generic [ref=e598]: 4:00 p.m. – 11:15 p.m.
+                      - generic [ref=e599]: 7h 15min
+                      - generic [ref=e600]: 0 changes
+                      - generic [ref=e602]:
+                        - generic [ref=e603]: $92
+                        - img [ref=e605]
+                    - generic [ref=e613]: ⁦Megabus ⁩
+                - button [ref=e618]:
+                  - generic [ref=e623] [cursor=pointer]:
+                    - generic [ref=e624]:
+                      - generic [ref=e625]: 4:30 p.m. – 11:15 p.m.
+                      - generic [ref=e626]: 6h 45min
+                      - generic [ref=e627]: 2 changes
+                      - generic [ref=e629]:
+                        - img [ref=e632]
+                        - img [ref=e635]
+                    - generic [ref=e638]:
+                      - generic [ref=e645]: ⁦Multiple buses⁩
+                      - generic:
+                        - generic: Fast
+                - button [ref=e650]:
+                  - generic [ref=e655] [cursor=pointer]:
+                    - generic [ref=e656]:
+                      - generic [ref=e657]:
+                        - text: 6:00 p.m. – 1:25 a.m.
+                        - superscript [ref=e658]: "+1"
+                      - generic [ref=e659]: 7h 25min
+                      - generic [ref=e660]: 0 changes
+                      - generic [ref=e662]:
+                        - generic [ref=e663]: $92
+                        - img [ref=e665]
+                    - generic [ref=e673]: ⁦Megabus ⁩
+              - button "More options" [ref=e675] [cursor=pointer]:
+                - separator [ref=e676]
+                - generic [ref=e677]:
+                  - generic [ref=e678]: More options
+                  - img [ref=e680]
+          - generic [ref=e684]:
+            - heading "Web results" [level=2] [ref=e685]
+            - generic [ref=e686]:
+              - generic [ref=e689]:
+                - link "Bus from Toronto to Montreal with megabus megabus.com https://ca.megabus.com › ... › Toronto to Montreal" [ref=e691] [cursor=pointer]:
+                  - /url: https://ca.megabus.com/route-guides/toronto-to-montreal
+                  - heading "Bus from Toronto to Montreal with megabus" [level=3] [ref=e692]
+                  - generic [ref=e697]:
+                    - generic [ref=e699]: megabus.com
+                    - generic [ref=e701]: https://ca.megabus.com › ... › Toronto to Montreal
+                - button "About this result" [ref=e702] [cursor=pointer]:
+                  - img [ref=e705]
+              - generic [ref=e708]:
+                - generic [ref=e709]:
+                  - text: Sat
+                  - emphasis [ref=e710]: May
+                  - text: 2nd From $2.00 Sun
+                  - emphasis [ref=e711]: May
+                  - text: 3rd From $2.00 Mon
+                  - emphasis [ref=e712]: May
+                  - text: 4th From $2.00 Tue
+                  - emphasis [ref=e713]: May
+                  - text: ... ©
+                  - emphasis [ref=e714]: "2026"
+                  - text: Coach USA.
+                - link "Read more" [ref=e715] [cursor=pointer]:
+                  - /url: https://ca.megabus.com/route-guides/toronto-to-montreal#:~:text=Sat%20May%202nd%20From%20%242.00,4th%20From%20%242.00%20Tue%20May&text=%C2%A9%202026%20Coach%20USA
+              - generic [ref=e717]:
+                - text: "Missing: 15th ‎| Show results with:"
+                - link "15th" [ref=e718] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Canada+Toronto+to+Montreal+%2215th%22+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ5t4CegQIThAB
+          - generic [ref=e722]:
+            - generic [ref=e725]:
+              - link "Bus from Toronto to Montreal and from Montreal to Toronto megabus.com https://ca.megabus.com › route-guides › toronto-to-mo..." [ref=e727] [cursor=pointer]:
+                - /url: https://ca.megabus.com/route-guides/toronto-to-montreal-bus
+                - heading "Bus from Toronto to Montreal and from Montreal to Toronto" [level=3] [ref=e728]
+                - generic [ref=e733]:
+                  - generic [ref=e735]: megabus.com
+                  - generic [ref=e737]: https://ca.megabus.com › route-guides › toronto-to-mo...
+              - button "About this result" [ref=e738] [cursor=pointer]:
+                - img [ref=e741]
+            - generic [ref=e744]:
+              - generic [ref=e745]:
+                - text: When booking in advance, you can save big on bus ticket
+                - emphasis [ref=e746]: pricing
+                - text: from
+                - emphasis [ref=e747]: Toronto to Montreal
+                - text: .
+                - emphasis [ref=e748]: Megabus
+                - text: makes bus travel easy and affordable for your upcoming
+                - emphasis [ref=e749]: Toronto
+                - text: ...
+              - link "Read more" [ref=e750] [cursor=pointer]:
+                - /url: https://ca.megabus.com/route-guides/toronto-to-montreal-bus#:~:text=When%20booking%20in%20advance%2C%20you,upcoming%20Toronto%20to%20Montreal%20trip.
+          - generic [ref=e755]:
+            - heading "People also ask" [level=2] [ref=e757]
+            - generic [ref=e758]:
+              - button "How much does it cost to take a bus from Toronto to Montreal?" [ref=e764] [cursor=pointer]:
+                - generic [ref=e766]: How much does it cost to take a bus from Toronto to Montreal?
+                - img [ref=e769]
+              - button "How do I get from Toronto to Montreal cheaply?" [ref=e778] [cursor=pointer]:
+                - generic [ref=e780]: How do I get from Toronto to Montreal cheaply?
+                - img [ref=e783]
+              - button "How do I book a Megabus Canada ticket?" [ref=e792] [cursor=pointer]:
+                - generic [ref=e794]: How do I book a Megabus Canada ticket?
+                - img [ref=e797]
+              - button "How much does a train cost from Toronto to Montreal?" [ref=e806] [cursor=pointer]:
+                - generic [ref=e808]: How much does a train cost from Toronto to Montreal?
+                - img [ref=e811]
+          - generic [ref=e816]:
+            - heading "Web results" [level=2] [ref=e817]
+            - generic [ref=e818]:
+              - generic [ref=e821]:
+                - link "Bus from Toronto, ON to Montreal from $14 CheckMyBus https://www.checkmybus.com › ... › Bus to Montreal" [ref=e823] [cursor=pointer]:
+                  - /url: https://www.checkmybus.com/toronto-on/montreal-qc
+                  - heading "Bus from Toronto, ON to Montreal from $14" [level=3] [ref=e824]
+                  - generic [ref=e829]:
+                    - generic [ref=e831]: CheckMyBus
+                    - generic [ref=e833]: https://www.checkmybus.com › ... › Bus to Montreal
+                - button "About this result" [ref=e834] [cursor=pointer]:
+                  - img [ref=e837]
+              - generic [ref=e840]:
+                - generic [ref=e841]:
+                  - text: "Best Price Offer: The price for the cheapest bus from Toronto, ON to Montreal is $"
+                  - emphasis [ref=e842]: 14 on 5/5/2026
+                  - text: . Flexible travelers save on ticket prices. Frequency of bus ...
+                - link "Read more" [ref=e843] [cursor=pointer]:
+                  - /url: https://www.checkmybus.com/toronto-on/montreal-qc#:~:text=Best%20Price%20Offer%3A%20The%20price,between%20Toronto%2C%20ON%20and%20Montreal
+              - generic [ref=e845]: Starting from US$14.00
+          - generic [ref=e849]:
+            - generic [ref=e852]:
+              - link "Bus Toronto to Montreal from $50 | Tickets & Timetables Rome2Rio https://www.rome2rio.com › Bus › Toronto › Montreal" [ref=e854] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Bus/Toronto/Montreal
+                - heading "Bus Toronto to Montreal from $50 | Tickets & Timetables" [level=3] [ref=e855]
+                - generic [ref=e860]:
+                  - generic [ref=e862]: Rome2Rio
+                  - generic [ref=e864]: https://www.rome2rio.com › Bus › Toronto › Montreal
+              - button "About this result" [ref=e865] [cursor=pointer]:
+                - img [ref=e868]
+            - generic [ref=e871]:
+              - generic [ref=e872]:
+                - text: Megabus Canada operates a bus from Toronto Union Station to Montreal, QC every 4 hours.
+                - emphasis [ref=e873]: Tickets cost $10–110
+                - text: and the journey takes 7h 10m. Operators. Megabus ...
+              - link "Read more" [ref=e874] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Bus/Toronto/Montreal#:~:text=Megabus%20Canada%20operates%20a%20bus,Operators
+            - generic [ref=e876]:
+              - text: "Missing: 15th ‎| Show results with:"
+              - link "15th" [ref=e877] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Canada+Toronto+to+Montreal+%2215th%22+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ5t4CegQISxAB
+          - generic [ref=e881]:
+            - generic [ref=e884]:
+              - link "Megabus now offering hourly trips from Toronto to Montreal ... CTV News https://www.ctvnews.ca › toronto › article › megabus-n..." [ref=e886] [cursor=pointer]:
+                - /url: https://www.ctvnews.ca/toronto/article/megabus-now-offering-hourly-trips-from-toronto-to-montreal-increased-service-to-pearson-airport/
+                - heading "Megabus now offering hourly trips from Toronto to Montreal ..." [level=3] [ref=e887]
+                - generic [ref=e892]:
+                  - generic [ref=e894]: CTV News
+                  - generic [ref=e896]: https://www.ctvnews.ca › toronto › article › megabus-n...
+              - button "About this result" [ref=e897] [cursor=pointer]:
+                - img [ref=e900]
+            - generic [ref=e903]:
+              - generic [ref=e904]: May 3, 2023 —
+              - generic [ref=e905]:
+                - text: According to the company's online booking platform,
+                - emphasis [ref=e906]: most trips between Toronto and Montreal cost between $50 and $70 each way
+                - text: ", while most trips ..."
+              - link "Read more" [ref=e907] [cursor=pointer]:
+                - /url: https://www.ctvnews.ca/toronto/article/megabus-now-offering-hourly-trips-from-toronto-to-montreal-increased-service-to-pearson-airport/#:~:text=According%20to%20the%20company's%20online,%2440%20and%20%2450%20each%20way.
+          - generic [ref=e911]:
+            - generic [ref=e914]:
+              - link "Toronto to Montreal Bus - Buy Tickets Online Wanderu https://www.wanderu.com › ... › Quebec › Montreal" [ref=e916] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/bus/ca-on/toronto/ca-qc/montreal/
+                - heading "Toronto to Montreal Bus - Buy Tickets Online" [level=3] [ref=e917]
+                - generic [ref=e922]:
+                  - generic [ref=e924]: Wanderu
+                  - generic [ref=e926]: https://www.wanderu.com › ... › Quebec › Montreal
+              - button "About this result" [ref=e927] [cursor=pointer]:
+                - img [ref=e930]
+            - generic [ref=e933]:
+              - generic [ref=e934]:
+                - text: The cheapest bus tickets available in the next few weeks are for trips departing on May 20, 2026. ...
+                - emphasis [ref=e935]: Book Megabus from Toronto to Montreal from $19
+                - text: . There ...
+              - link "Read more" [ref=e936] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/bus/ca-on/toronto/ca-qc/montreal/#:~:text=The%20cheapest%20bus%20tickets%20available,departing%20on%20May%2020%2C%202026.&text=Frequently%20asked%20questions%20about%20traveling
+            - generic [ref=e938]:
+              - generic [ref=e939]: Starting from $19.00
+              - text: ·
+              - img "Rated 4.8 out of 5, (20) user reviews" [ref=e943]:
+                - text: "4.8"
+                - img [ref=e944]
+                - text: (20)
+            - list [ref=e948]:
+              - listitem [ref=e949]:
+                - link "Prices" [ref=e950] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/bus/ca-on/toronto/ca-qc/montreal/#price-chart-header
+                  - generic [ref=e952]: Prices
+              - listitem [ref=e953]:
+                - link "FAQ" [ref=e954] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/bus/ca-on/toronto/ca-qc/montreal/#faq-header-section
+                  - generic [ref=e956]: FAQ
+              - listitem [ref=e957]:
+                - link "Cities" [ref=e958] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/bus/ca-on/toronto/ca-qc/montreal/#city-editorial-blurb
+                  - generic [ref=e960]: Cities
+          - generic [ref=e964]:
+            - generic [ref=e967]:
+              - link "Safe, convenient, low cost bus service in Canada and the US megabus.com https://ca.megabus.com" [ref=e969] [cursor=pointer]:
+                - /url: https://ca.megabus.com/
+                - heading "Safe, convenient, low cost bus service in Canada and the US" [level=3] [ref=e970]
+                - generic [ref=e975]:
+                  - generic [ref=e977]: megabus.com
+                  - generic [ref=e979]: https://ca.megabus.com
+              - button "About this result" [ref=e980] [cursor=pointer]:
+                - img [ref=e983]
+            - generic [ref=e987]:
+              - emphasis [ref=e988]: Megabus is a low cost bus service
+              - text: in Canada and the US, serving Montreal, Toronto, and New York City.
+            - generic [ref=e990]:
+              - text: "Missing: 15th ‎| Show results with:"
+              - link "15th" [ref=e991] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Canada+Toronto+to+Montreal+%2215th%22+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ5t4CegQITBAB
+          - generic [ref=e995]:
+            - generic [ref=e998]:
+              - link "Bus Toronto to Montreal from $20 | Refundable Tickets Busbud https://www.busbud.com › ... › Toronto › Montreal" [ref=e1000] [cursor=pointer]:
+                - /url: https://www.busbud.com/en-ca/bus-toronto-montreal/r/dpz88g-f25dvk
+                - heading "Bus Toronto to Montreal from $20 | Refundable Tickets" [level=3] [ref=e1001]
+                - generic [ref=e1006]:
+                  - generic [ref=e1008]: Busbud
+                  - generic [ref=e1010]: https://www.busbud.com › ... › Toronto › Montreal
+              - button "About this result" [ref=e1011] [cursor=pointer]:
+                - img [ref=e1014]
+            - generic [ref=e1017]:
+              - generic [ref=e1018]:
+                - text: The average price for this route is
+                - emphasis [ref=e1019]: around $85
+                - text: . Busbud recommends that you book your tickets in advance for a better chance to get the lowest possible price.
+              - link "Read more" [ref=e1020] [cursor=pointer]:
+                - /url: https://www.busbud.com/en-ca/bus-toronto-montreal/r/dpz88g-f25dvk#:~:text=The%20average%20price%20for%20this,get%20the%20lowest%20possible%20price.
+            - generic [ref=e1023]: $20.00 to $256.00
+            - generic [ref=e1025]:
+              - text: "Missing: 15th ‎| Show results with:"
+              - link "15th" [ref=e1026] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Canada+Toronto+to+Montreal+%2215th%22+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ5t4CegQITRAB
+          - generic [ref=e1030]:
+            - generic [ref=e1033]:
+              - link "A massively discounted $15 bus from Toronto to Montreal ... Time Out Worldwide https://www.timeout.com › montreal › news › a-massiv..." [ref=e1035] [cursor=pointer]:
+                - /url: https://www.timeout.com/montreal/news/a-massively-discounted-15-bus-from-toronto-to-montreal-is-coming-this-summer-061725
+                - heading "A massively discounted $15 bus from Toronto to Montreal ..." [level=3] [ref=e1036]
+                - generic [ref=e1041]:
+                  - generic [ref=e1043]: Time Out Worldwide
+                  - generic [ref=e1045]: https://www.timeout.com › montreal › news › a-massiv...
+              - button "About this result" [ref=e1046] [cursor=pointer]:
+                - img [ref=e1049]
+            - generic [ref=e1052]:
+              - generic [ref=e1053]: Jun 17, 2025 —
+              - generic [ref=e1054]:
+                - text: With tickets starting at just $
+                - emphasis [ref=e1055]: 14.99 for trips from Toronto to Montreal
+                - text: and $9.99 to Kingston (plus a small reservation fee), this is a serious summer sale.
+              - link "Read more" [ref=e1056] [cursor=pointer]:
+                - /url: https://www.timeout.com/montreal/news/a-massively-discounted-15-bus-from-toronto-to-montreal-is-coming-this-summer-061725#:~:text=With%20tickets%20starting%20at%20just,is%20a%20serious%20summer%20sale.
+            - link "Megabus Canada Toronto to Montreal 15th May 2026 price from www.timeout.com" [ref=e1059] [cursor=pointer]:
+              - /url: https://www.timeout.com/montreal/news/a-massively-discounted-15-bus-from-toronto-to-montreal-is-coming-this-summer-061725
+              - img "Megabus Canada Toronto to Montreal 15th May 2026 price from www.timeout.com" [ref=e1061]
+            - generic [ref=e1063]:
+              - text: "Missing: 15th ‎| Show results with:"
+              - link "15th" [ref=e1064] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Canada+Toronto+to+Montreal+%2215th%22+May+2026+price&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ5t4CegQIURAB
+        - generic [ref=e1066]:
+          - generic [ref=e1071]:
+            - heading "People also search for" [level=2] [ref=e1073]
+            - generic [ref=e1075]:
+              - generic [ref=e1076]:
+                - link "Megabus $1 Toronto to Montreal" [ref=e1080] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+%241+Toronto+to+Montreal&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAheEAE
+                  - generic [ref=e1081]:
+                    - generic [ref=e1086]: Megabus $1 Toronto to Montreal
+                    - img [ref=e1090]
+                - link "Megabus Toronto to Montreal round trip" [ref=e1095] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Toronto+to+Montreal+round+trip&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhjEAE
+                  - generic [ref=e1096]:
+                    - generic [ref=e1101]: Megabus Toronto to Montreal round trip
+                    - img [ref=e1105]
+                - link "Megabus Toronto to Montreal timetable" [ref=e1110] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Toronto+to+Montreal+timetable&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhiEAE
+                  - generic [ref=e1111]:
+                    - generic [ref=e1116]: Megabus Toronto to Montreal timetable
+                    - img [ref=e1120]
+                - link "$15 bus from Toronto to Montreal" [ref=e1125] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=%2415+bus+from+Toronto+to+Montreal&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhhEAE
+                  - generic [ref=e1126]:
+                    - generic [ref=e1131]: $15 bus from Toronto to Montreal
+                    - img [ref=e1135]
+              - generic [ref=e1137]:
+                - link "Megabus Montreal to Toronto" [ref=e1141] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Montreal+to+Toronto&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhfEAE
+                  - generic [ref=e1142]:
+                    - generic [ref=e1147]: Megabus Montreal to Toronto
+                    - img [ref=e1151]
+                - link "Megabus Scarborough to Montreal" [ref=e1156] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Scarborough+to+Montreal&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhgEAE
+                  - generic [ref=e1157]:
+                    - generic [ref=e1162]: Megabus Scarborough to Montreal
+                    - img [ref=e1166]
+                - link "Megabus Montreal to Toronto $10" [ref=e1171] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=Megabus+Montreal+to+Toronto+%2410&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhdEAE
+                  - generic [ref=e1172]:
+                    - generic [ref=e1177]: Megabus Montreal to Toronto $10
+                    - img [ref=e1181]
+                - link "FlixBus Toronto to Montreal" [ref=e1186] [cursor=pointer]:
+                  - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&q=FlixBus+Toronto+to+Montreal&sa=X&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ1QJ6BAhcEAE
+                  - generic [ref=e1187]:
+                    - generic [ref=e1192]: FlixBus Toronto to Montreal
+                    - img [ref=e1196]
+          - navigation [ref=e1198]:
+            - heading "Page Navigation" [level=1] [ref=e1199]
+            - text: "1"
+            - link "Page 2" [ref=e1202] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=10&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8tMDegQIVBAE
+              - text: "2"
+            - link "Page 3" [ref=e1204] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=20&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8tMDegQIVBAG
+              - text: "3"
+            - link "Page 4" [ref=e1206] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=30&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8tMDegQIVBAI
+              - text: "4"
+            - link "Page 5" [ref=e1208] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=40&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8tMDegQIVBAK
+              - text: "5"
+            - link "Page 6" [ref=e1210] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=50&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8tMDegQIVBAM
+              - text: "6"
+            - link "Page 7" [ref=e1212] [cursor=pointer]:
+              - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=60&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8tMDegQIVBAO
+              - text: "7"
+            - heading "Next" [level=2] [ref=e1214]:
+              - link "Next" [ref=e1215] [cursor=pointer]:
+                - /url: /search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708&ei=ny75af_5Kq-6ruEP24fQmAQ&start=10&sa=N&sstk=Af77f_cIdphv99huIKG1hIEp-EuWQXRakxWgJYXVDaF-kAgceKJgaDgY12XN985fnFeXHCN3XheSb2FVJuG3pPcoAczaWZMUizpOXw&ved=2ahUKEwi_xbG956CUAxUvnSsGHdsDFEMQ8NMDegQIVBAQ
+                - generic [ref=e1217]: Next
+        - navigation
+    - contentinfo [ref=e1218]:
+      - heading "Footer Links" [level=1] [ref=e1219]
+      - generic [ref=e1223]:
+        - generic [ref=e1226]:
+          - generic [ref=e1227]: Results are personalized
+          - generic [ref=e1228]: "-"
+          - link "Try without personalization" [ref=e1230] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Megabus+Canada+Toronto+to+Montreal+15th+May+2026+price&peek_pws=0&sxsrf=ANbL-n6hSOZkQtQvB2PfPhhanHFDnk9Pew:1777938079708
+            - generic [ref=e1231]: Try without personalization
+        - generic [ref=e1233]:
+          - text: Canada
+          - generic [ref=e1235]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e1237] [cursor=pointer]:
+              - generic [ref=e1238]: Toronto, Ontario
+              - generic [ref=e1240]:
+                - text: "-"
+                - generic [ref=e1241]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e1243] [cursor=pointer]: Update location
+        - generic [ref=e1246]:
+          - link "Help" [ref=e1247] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e1248] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1249] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e1250] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

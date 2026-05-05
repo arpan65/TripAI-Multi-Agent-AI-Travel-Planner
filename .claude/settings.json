@@ -21,7 +21,12 @@
       "Bash(sqlite3 travel_runs.db \"SELECT output_text FROM agent_calls WHERE id='6771b851-4767-428e-9993-9ef3f1aeca46';\")",
       "Bash(sqlite3 travel_runs.db \"SELECT result_json FROM runs WHERE id='d3a41270-6f7e-4661-9db6-e56377439b0f';\")",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('transport',[]\\), indent=2\\)\\)\")",
-      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\('/Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/app/agent/mcp_agent.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")"
+      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\('/Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/app/agent/mcp_agent.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(sqlite3 /Users/arpan/Downloads/Projects/Claude-Agentic-Workflow/travel_runs.db ' *)",
+      "WebSearch",
+      "Bash(sqlite3 travel_runs.db ' *)",
+      "Bash(sqlite3 travel_runs.db \".schema agent_calls\")",
+      "Bash(sqlite3 travel_runs.db \"SELECT * FROM agent_calls LIMIT 2;\")"
     ]
   }
 }

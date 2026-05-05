@@ -1,0 +1,4 @@
+[     649ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=Montreal+to+Toronto+bus+price+18th+May+2026:21
+[     649ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=Montreal+to+Toronto+bus+price+18th+May+2026:21
+[    1629ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=Montreal+to+Toronto+bus+price+18th+May+2026:21
+[    1629ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=Montreal+to+Toronto+bus+price+18th+May+2026:21

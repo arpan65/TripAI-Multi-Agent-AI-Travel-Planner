@@ -220,10 +220,11 @@ function TimeSlot({ icon, label, text }) {
   );
 }
 
-function ItinerarySection({ days }) {
+function ItinerarySection({ days, note }) {
   if (!days || days.length === 0) return null;
   return (
     <Card icon="📅" title="Itinerary" color="#8b5cf6" bg="#f5f3ff" border="#ddd6fe">
+      {note && <p style={{ margin: "0 0 12px", fontSize: "0.8rem", color: "#7c6fad" }}>{note}</p>}
       <div className="day-list">
         {days.map((d, i) => (
           <div key={i} className="day-card">
@@ -286,14 +287,14 @@ function DataNotesSection({ notes }) {
 
 export default function TripResult({ data }) {
   if (!data) return null;
-  const { trip, transport, accommodation, budget, itinerary, getting_around, data_notes } = data;
+  const { trip, transport, accommodation, budget, itinerary, itinerary_note, getting_around, data_notes } = data;
   return (
     <div className="trip-result">
       {trip && <TripHeader trip={trip} />}
       <TransportSection transport={transport} trip={trip} />
       <AccommodationSection items={accommodation} />
       <BudgetSection budget={budget} trip={trip} />
-      <ItinerarySection days={itinerary} />
+      <ItinerarySection days={itinerary} note={itinerary_note} />
       <GettingAroundSection items={getting_around} />
       {data_notes && <DataNotesSection notes={data_notes} />}
     </div>

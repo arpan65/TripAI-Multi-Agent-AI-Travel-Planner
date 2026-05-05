@@ -1,0 +1,77 @@
+- generic [ref=e2]:
+  - button "Skip to main content" [ref=e4] [cursor=pointer]:
+    - generic [ref=e5]: Skip to main content
+  - banner [ref=e7]:
+    - navigation [ref=e9]:
+      - link "Tripadvisor" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img "Tripadvisor" [ref=e13]
+      - generic [ref=e14]:
+        - button "Plan with AI" [ref=e16] [cursor=pointer]:
+          - generic [ref=e18]:
+            - img [ref=e20]
+            - text: Plan with AI
+        - generic [ref=e26]:
+          - link "Rewards" [ref=e28] [cursor=pointer]:
+            - /url: /Rewards
+          - button "Discover" [ref=e31] [cursor=pointer]
+          - button "Review" [ref=e34] [cursor=pointer]
+          - button "More" [ref=e37] [cursor=pointer]
+        - generic [ref=e38]:
+          - button "Select region or currency, currently United States and USD" [ref=e40] [cursor=pointer]:
+            - generic "Select region or currency, currently United States and USD" [ref=e42]:
+              - img [ref=e43]
+              - text: USD
+          - link "Sign in" [ref=e47] [cursor=pointer]:
+            - /url: /RegistrationController?flow=sign_up_and_save&returnTo=%2FSearch%3Fq%3DMontreal%2Battractions&fullscreen=true&flowOrigin=login&hideNavigation=true&isLithium=true
+            - generic [ref=e49]: Sign in
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - search [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - button "Search" [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+            - searchbox "Search" [ref=e66]: Montreal attractions
+          - button "Search" [ref=e68] [cursor=pointer]
+      - progressbar [ref=e70]
+  - contentinfo [ref=e71]:
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - img "Tripadvisor" [ref=e77]
+          - generic [ref=e78]:
+            - generic [ref=e80]: © 2026 Tripadvisor LLC All rights reserved.
+            - generic [ref=e81]:
+              - link "Terms of Use" [ref=e82] [cursor=pointer]:
+                - /url: https://tripadvisor.mediaroom.com/us-terms-of-use
+                - generic [ref=e83]: Terms of Use
+              - link "Privacy and Cookies Statement" [ref=e84] [cursor=pointer]:
+                - /url: https://tripadvisor.mediaroom.com/us-privacy-policy
+                - generic [ref=e85]: Privacy and Cookies Statement
+              - button "Cookie consent" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]: Cookie consent
+              - link "How the site works" [ref=e88] [cursor=pointer]:
+                - /url: /pages/serviceEN.html
+                - generic [ref=e89]: How the site works
+              - link "Contact us" [ref=e90] [cursor=pointer]:
+                - /url: https://tripadvisor.mediaroom.com/US-contact-us
+                - generic [ref=e91]: Contact us
+              - link "Accessibility Statement" [ref=e92] [cursor=pointer]:
+                - /url: /Trust-lgF5hKLTqw3U.html
+                - generic [ref=e93]: Accessibility Statement
+        - generic [ref=e94]:
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: This is the version of our website addressed to speakers of English in the United States. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu.
+            - paragraph [ref=e99]: Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications. Listed prices may require a stay of a particular length or have blackout dates, qualifications or other applicable restrictions. Tripadvisor LLC is not responsible for any content on external web sites that are not owned or operated by Tripadvisor . Indicative hotel prices displayed on our “Explore” pages are estimates extrapolated from historic pricing data.
+            - paragraph [ref=e100]: Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our partners, please be sure to check their site for a full disclosure of all applicable fees.
+          - button "Read more" [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]: Read more
+            - img [ref=e105]
+      - generic [ref=e107]:
+        - 'button "Currency: $ USD" [ref=e109] [cursor=pointer]':
+          - generic [ref=e110]: $ USD
+          - img [ref=e111]
+        - 'button "Region: United States" [ref=e114] [cursor=pointer]':
+          - generic [ref=e115]: United States
+          - img [ref=e116]

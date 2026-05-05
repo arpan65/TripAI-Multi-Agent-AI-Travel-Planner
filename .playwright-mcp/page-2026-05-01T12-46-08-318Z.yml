@@ -1,0 +1,1329 @@
+- generic [ref=e2]:
+  - button "Skip to main content" [ref=e4] [cursor=pointer]:
+    - generic [ref=e5]: Skip to main content
+  - banner [ref=e8]:
+    - navigation [ref=e10]:
+      - link "Tripadvisor" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img "Tripadvisor" [ref=e14]
+      - search [ref=e18]:
+        - generic [ref=e20]:
+          - button "Search" [ref=e21] [cursor=pointer]:
+            - img [ref=e22]
+          - searchbox "Search" [ref=e26]
+      - generic [ref=e27]:
+        - button "Plan with AI" [ref=e29] [cursor=pointer]:
+          - generic [ref=e31]:
+            - img [ref=e33]
+            - text: Plan with AI
+        - generic [ref=e39]:
+          - link "Rewards" [ref=e41] [cursor=pointer]:
+            - /url: /Rewards
+          - button "Discover" [ref=e44] [cursor=pointer]
+          - button "Review" [ref=e47] [cursor=pointer]
+        - generic [ref=e48]:
+          - button "Select region or currency, currently United States and USD" [ref=e50] [cursor=pointer]:
+            - generic "Select region or currency, currently United States and USD" [ref=e52]:
+              - img [ref=e53]
+              - text: USD
+          - link "Sign in" [ref=e57] [cursor=pointer]:
+            - /url: /RegistrationController?flow=sign_up_and_save&returnTo=%2FAttractions-g154994-Activities-Leamington_Ontario.html&fullscreen=true&flowOrigin=login&hideNavigation=true&isLithium=true
+            - generic [ref=e59]: Sign in
+    - generic [ref=e65]:
+      - tablist [ref=e68]:
+        - tab "Leamington" [ref=e69] [cursor=pointer]:
+          - link "Leamington" [ref=e71]:
+            - /url: ""
+            - img [ref=e72]
+            - text: Leamington
+        - tab "Things to Do" [selected] [ref=e75] [cursor=pointer]:
+          - link "Things to Do" [ref=e77]:
+            - /url: /Attractions
+        - tab "Hotels" [ref=e78] [cursor=pointer]:
+          - link "Hotels" [ref=e80]:
+            - /url: /Hotels
+        - tab "Restaurants" [ref=e81] [cursor=pointer]:
+          - link "Restaurants" [ref=e83]:
+            - /url: /Restaurants
+        - tab "Cruises" [ref=e84] [cursor=pointer]:
+          - link "Cruises" [ref=e86]:
+            - /url: /Cruises
+        - tab "Forums" [ref=e87] [cursor=pointer]:
+          - link "Forums" [ref=e89]:
+            - /url: /ForumHome
+      - generic:
+        - generic:
+          - generic:
+            - button:
+              - img
+        - generic:
+          - generic:
+            - button:
+              - img
+  - main [ref=e91]:
+    - generic [ref=e93]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Canada" [ref=e98] [cursor=pointer]:
+              - /url: /Tourism-g153339-Canada-Vacations.html
+              - generic [ref=e99]: Canada
+            - img [ref=e101]
+          - generic [ref=e103]:
+            - link "Ontario" [ref=e104] [cursor=pointer]:
+              - /url: /Tourism-g154979-Ontario-Vacations.html
+              - generic [ref=e105]: Ontario
+            - img [ref=e107]
+          - generic [ref=e109]:
+            - link "Leamington" [ref=e110] [cursor=pointer]:
+              - /url: /Tourism-g154994-Leamington_Ontario-Vacations.html
+              - generic [ref=e111]: Leamington
+            - img [ref=e113]
+          - generic [ref=e116]: Things to Do in Leamington
+        - heading [level=1] [ref=e117]: Top Things to Do in Leamington, Canada - Leamington Attractions
+      - generic [ref=e118]:
+        - heading "Top Things to Do in Leamington" [level=1] [ref=e124]
+        - generic [ref=e128]:
+          - generic [ref=e130]:
+            - generic [ref=e132]:
+              - generic [ref=e135]:
+                - heading "Tours near Leamington" [level=2] [ref=e138]
+                - generic [ref=e140]: Book these experiences to see what the area has to offer.
+              - generic [ref=e142]:
+                - button "Previous" [disabled] [ref=e144]:
+                  - img [ref=e145]
+                - list [ref=e149]:
+                  - listitem [ref=e150]:
+                    - generic [ref=e152]:
+                      - generic [ref=e154]:
+                        - generic [ref=e157]:
+                          - link [ref=e158] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g984015-d20231150-Roasting_Experience_at_14th_Coffee_Co-Essex_Ontario.html
+                          - button "Save to a trip" [ref=e163] [cursor=pointer]:
+                            - img [ref=e164]
+                        - generic [ref=e168]:
+                          - generic [ref=e169]:
+                            - link "Roasting Experience at 14th Coffee Co" [ref=e170] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g984015-d20231150-Roasting_Experience_at_14th_Coffee_Co-Essex_Ontario.html
+                              - heading "Roasting Experience at 14th Coffee Co" [level=3] [ref=e171]
+                            - generic [ref=e173]:
+                              - generic [ref=e175]: "4.9"
+                              - generic [ref=e176]:
+                                - img "4.9 of 5 bubbles" [ref=e177]
+                                - generic [ref=e185]: (12)
+                          - generic [ref=e187]:
+                            - text: Dining Experiences
+                            - generic [ref=e188]: English
+                      - generic [ref=e189]:
+                        - generic [ref=e190]:
+                          - text: from
+                          - generic [ref=e192]: $72
+                          - text: per adult
+                        - link "Reserve" [ref=e194] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g984015-d20231150-Roasting_Experience_at_14th_Coffee_Co-Essex_Ontario.html
+                          - generic [ref=e195]: Reserve
+                  - listitem [ref=e196]:
+                    - generic [ref=e198]:
+                      - generic [ref=e200]:
+                        - generic [ref=e203]:
+                          - link [ref=e204] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g155021-d17446420-Windsor_City_Scavenger_Hunt_by_Zombie_Scavengers-Windsor_Ontario.html
+                          - button "Save to a trip" [ref=e209] [cursor=pointer]:
+                            - img [ref=e210]
+                        - generic [ref=e214]:
+                          - generic [ref=e215]:
+                            - link "Windsor City Scavenger Hunt by Zombie Scavengers" [ref=e216] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g155021-d17446420-Windsor_City_Scavenger_Hunt_by_Zombie_Scavengers-Windsor_Ontario.html
+                              - heading "Windsor City Scavenger Hunt by Zombie Scavengers" [level=3] [ref=e217]
+                            - generic [ref=e219]:
+                              - generic [ref=e221]: "5.0"
+                              - generic [ref=e222]:
+                                - img "5 of 5 bubbles" [ref=e223]
+                                - generic [ref=e231]: (1)
+                          - generic [ref=e233]:
+                            - text: Scavenger Hunts
+                            - generic [ref=e234]: English
+                      - generic [ref=e235]:
+                        - generic [ref=e236]:
+                          - text: from
+                          - generic [ref=e238]: $21
+                          - text: per group (up to 10)
+                        - link "Reserve" [ref=e240] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g155021-d17446420-Windsor_City_Scavenger_Hunt_by_Zombie_Scavengers-Windsor_Ontario.html
+                          - generic [ref=e241]: Reserve
+                  - listitem [ref=e242]:
+                    - generic [ref=e244]:
+                      - generic [ref=e246]:
+                        - generic [ref=e249]:
+                          - link [ref=e250] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g499270-d26444755-7_Day_Windsor_Essex_Barrels_Bottles_and_Brews_Trail-Kingsville_Ontario.html
+                          - button "Save to a trip" [ref=e255] [cursor=pointer]:
+                            - img [ref=e256]
+                        - generic [ref=e260]:
+                          - generic [ref=e261]:
+                            - link "7-Day Windsor Essex Barrels Bottles and Brews Trail" [ref=e262] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g499270-d26444755-7_Day_Windsor_Essex_Barrels_Bottles_and_Brews_Trail-Kingsville_Ontario.html
+                              - heading "7-Day Windsor Essex Barrels Bottles and Brews Trail" [level=3] [ref=e263]
+                            - generic [ref=e266]:
+                              - img "No reviews yet" [ref=e267]
+                              - generic [ref=e275]: (0)
+                          - generic [ref=e277]: Multi-day Tours
+                      - generic [ref=e278]:
+                        - generic [ref=e279]:
+                          - text: from
+                          - generic [ref=e281]: $30
+                          - text: per adult
+                        - link "Reserve" [ref=e283] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g499270-d26444755-7_Day_Windsor_Essex_Barrels_Bottles_and_Brews_Trail-Kingsville_Ontario.html
+                          - generic [ref=e284]: Reserve
+                  - listitem [ref=e285]:
+                    - generic [ref=e287]:
+                      - generic [ref=e289]:
+                        - generic [ref=e292]:
+                          - link [ref=e293] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g499270-d26448812-1_Year_Windsor_Essex_Barrels_Bottles_and_Brews_Trail-Kingsville_Ontario.html
+                          - button "Save to a trip" [ref=e298] [cursor=pointer]:
+                            - img [ref=e299]
+                        - generic [ref=e303]:
+                          - generic [ref=e304]:
+                            - link "1-Year Windsor Essex Barrels Bottles and Brews Trail" [ref=e305] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g499270-d26448812-1_Year_Windsor_Essex_Barrels_Bottles_and_Brews_Trail-Kingsville_Ontario.html
+                              - heading "1-Year Windsor Essex Barrels Bottles and Brews Trail" [level=3] [ref=e306]
+                            - generic [ref=e309]:
+                              - img "No reviews yet" [ref=e310]
+                              - generic [ref=e318]: (0)
+                          - generic [ref=e320]: Multi-day Tours
+                      - generic [ref=e321]:
+                        - generic [ref=e322]:
+                          - text: from
+                          - generic [ref=e324]: $57
+                          - text: per adult
+                        - link "Reserve" [ref=e326] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g499270-d26448812-1_Year_Windsor_Essex_Barrels_Bottles_and_Brews_Trail-Kingsville_Ontario.html
+                          - generic [ref=e327]: Reserve
+                  - listitem [ref=e328]:
+                    - generic [ref=e330]:
+                      - generic [ref=e332]:
+                        - generic [ref=e335]:
+                          - link [ref=e336] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g155021-d32909993-Private_Scenic_Riverside_and_Nature_Walking_Tour_in_Windsor-Windsor_Ontario.html
+                          - button "Save to a trip" [ref=e341] [cursor=pointer]:
+                            - img [ref=e342]
+                        - generic [ref=e346]:
+                          - generic [ref=e347]:
+                            - link "Private Scenic Riverside and Nature Walking Tour in Windsor" [ref=e348] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g155021-d32909993-Private_Scenic_Riverside_and_Nature_Walking_Tour_in_Windsor-Windsor_Ontario.html
+                              - heading "Private Scenic Riverside and Nature Walking Tour in Windsor" [level=3] [ref=e349]
+                            - generic [ref=e352]:
+                              - img "No reviews yet" [ref=e353]
+                              - generic [ref=e361]: (0)
+                          - generic [ref=e363]:
+                            - text: Day Trips
+                            - generic [ref=e364]: English
+                      - generic [ref=e365]:
+                        - generic [ref=e366]:
+                          - text: from
+                          - generic [ref=e368]: $113
+                          - text: per adult
+                        - link "Reserve" [ref=e370] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g155021-d32909993-Private_Scenic_Riverside_and_Nature_Walking_Tour_in_Windsor-Windsor_Ontario.html
+                          - generic [ref=e371]: Reserve
+                  - listitem [ref=e372]:
+                    - generic [ref=e374]:
+                      - generic [ref=e376]:
+                        - generic [ref=e379]:
+                          - link [ref=e380] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g155021-d17403087-Scavenger_Hunt_Adventure_in_Windsor_by_Wacky_Walks-Windsor_Ontario.html
+                          - button "Save to a trip" [ref=e385] [cursor=pointer]:
+                            - img [ref=e386]
+                        - generic [ref=e390]:
+                          - generic [ref=e391]:
+                            - link "Scavenger Hunt Adventure in Windsor by Wacky Walks" [ref=e392] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g155021-d17403087-Scavenger_Hunt_Adventure_in_Windsor_by_Wacky_Walks-Windsor_Ontario.html
+                              - heading "Scavenger Hunt Adventure in Windsor by Wacky Walks" [level=3] [ref=e393]
+                            - generic [ref=e396]:
+                              - img "No reviews yet" [ref=e397]
+                              - generic [ref=e405]: (0)
+                          - generic [ref=e407]:
+                            - text: Scavenger Hunts
+                            - generic [ref=e408]: English
+                      - generic [ref=e409]:
+                        - generic [ref=e410]:
+                          - text: from
+                          - generic [ref=e412]: $11
+                          - text: per adult
+                        - link "Reserve" [ref=e414] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g155021-d17403087-Scavenger_Hunt_Adventure_in_Windsor_by_Wacky_Walks-Windsor_Ontario.html
+                          - generic [ref=e415]: Reserve
+                  - listitem [ref=e416]:
+                    - generic [ref=e418]:
+                      - generic [ref=e420]:
+                        - generic [ref=e423]:
+                          - link [ref=e424] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g155021-d21019282-Explore_Windsor_with_a_Unique_Scavenger_Hunt_by_Crazy_Dash-Windsor_Ontario.html
+                          - button "Save to a trip" [ref=e429] [cursor=pointer]:
+                            - img [ref=e430]
+                        - generic [ref=e434]:
+                          - generic [ref=e435]:
+                            - link "Explore Windsor with a Unique Scavenger Hunt by Crazy Dash" [ref=e436] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g155021-d21019282-Explore_Windsor_with_a_Unique_Scavenger_Hunt_by_Crazy_Dash-Windsor_Ontario.html
+                              - heading "Explore Windsor with a Unique Scavenger Hunt by Crazy Dash" [level=3] [ref=e437]
+                            - generic [ref=e440]:
+                              - img "No reviews yet" [ref=e441]
+                              - generic [ref=e449]: (0)
+                          - generic [ref=e451]:
+                            - text: Scavenger Hunts
+                            - generic [ref=e452]: English
+                      - generic [ref=e453]:
+                        - generic [ref=e454]:
+                          - text: from
+                          - generic [ref=e456]: $11
+                          - text: per adult
+                        - link "Reserve" [ref=e458] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g155021-d21019282-Explore_Windsor_with_a_Unique_Scavenger_Hunt_by_Crazy_Dash-Windsor_Ontario.html
+                          - generic [ref=e459]: Reserve
+                  - listitem [ref=e460]:
+                    - generic [ref=e462]:
+                      - generic [ref=e464]:
+                        - generic [ref=e467]:
+                          - link [ref=e468] [cursor=pointer]:
+                            - /url: /AttractionProductReview-g181757-d17401980-Unique_Scavenger_Hunt_in_Chatham_Kent_by_Zombie_Scavengers-Chatham_Chatham_Kent_On.html
+                          - button "Save to a trip" [ref=e473] [cursor=pointer]:
+                            - img [ref=e474]
+                        - generic [ref=e478]:
+                          - generic [ref=e479]:
+                            - link "Unique Scavenger Hunt in Chatham-Kent by Zombie Scavengers" [ref=e480] [cursor=pointer]:
+                              - /url: /AttractionProductReview-g181757-d17401980-Unique_Scavenger_Hunt_in_Chatham_Kent_by_Zombie_Scavengers-Chatham_Chatham_Kent_On.html
+                              - heading "Unique Scavenger Hunt in Chatham-Kent by Zombie Scavengers" [level=3] [ref=e481]
+                            - generic [ref=e484]:
+                              - img "No reviews yet" [ref=e485]
+                              - generic [ref=e493]: (0)
+                          - generic [ref=e495]:
+                            - text: Scavenger Hunts
+                            - generic [ref=e496]: English
+                      - generic [ref=e497]:
+                        - generic [ref=e498]:
+                          - text: from
+                          - generic [ref=e500]: $21
+                          - text: per group (up to 10)
+                        - link "Reserve" [ref=e502] [cursor=pointer]:
+                          - /url: /AttractionProductReview-g181757-d17401980-Unique_Scavenger_Hunt_in_Chatham_Kent_by_Zombie_Scavengers-Chatham_Chatham_Kent_On.html
+                          - generic [ref=e503]: Reserve
+                - button "Next" [ref=e505] [cursor=pointer]:
+                  - img [ref=e506]
+            - separator [ref=e508]
+          - generic [ref=e512]:
+            - generic [ref=e515]:
+              - generic [ref=e519]:
+                - heading "Top Attractions in Leamington" [level=2] [ref=e520]
+                - generic [ref=e521]:
+                  - button "View map" [ref=e524] [cursor=pointer]:
+                    - generic [ref=e525]:
+                      - img [ref=e526]
+                      - generic [ref=e528]: Map
+                  - link "See all" [ref=e530] [cursor=pointer]:
+                    - /url: /Attractions-g154994-Activities-oa0-Leamington_Ontario.html
+              - generic [ref=e534]:
+                - generic [ref=e535]:
+                  - text: These
+                  - link "rankings" [ref=e536] [cursor=pointer]:
+                    - /url: /pages/service_en.html
+                  - text: are informed by Tripadvisor data
+                - text: —we consider traveler reviews, ratings, number of page views, and user location.
+            - generic [ref=e538]:
+              - generic [ref=e540]:
+                - generic [ref=e544]:
+                  - link [ref=e546] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                    - list [ref=e551]:
+                      - listitem [ref=e552]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e562] [cursor=pointer]:
+                    - img [ref=e563]
+                - generic [ref=e566]:
+                  - generic [ref=e568]:
+                    - link "1. Point Pelee National Park" [ref=e569] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e570]: 1. Point Pelee National Park
+                    - link "4.6 of 5 bubbles (915)" [ref=e571] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e574]:
+                        - generic [ref=e576]: "4.6"
+                        - generic [ref=e577]:
+                          - img "4.6 of 5 bubbles" [ref=e578]
+                          - generic [ref=e586]: (915)
+                  - generic [ref=e588]: National Parks
+                - generic [ref=e592]:
+                  - separator [ref=e593]
+                  - link "Established in 1918, this small yet popular park is home to a variety of trees and birds." [ref=e595] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                    - generic [ref=e596]: Established in 1918, this small yet popular park is home to a variety of trees and birds.
+              - generic [ref=e598]:
+                - generic [ref=e602]:
+                  - link [ref=e604] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d6702575-Reviews-Leamington_Municipal_Marina-Leamington_Ontario.html
+                    - list [ref=e609]:
+                      - listitem [ref=e610]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e620] [cursor=pointer]:
+                    - img [ref=e621]
+                - generic [ref=e624]:
+                  - generic [ref=e626]:
+                    - link "2. Leamington Municipal Marina" [ref=e627] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d6702575-Reviews-Leamington_Municipal_Marina-Leamington_Ontario.html
+                      - generic [ref=e628]: 2. Leamington Municipal Marina
+                    - link "4.6 of 5 bubbles (84)" [ref=e629] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d6702575-Reviews-Leamington_Municipal_Marina-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e632]:
+                        - generic [ref=e634]: "4.6"
+                        - generic [ref=e635]:
+                          - img "4.6 of 5 bubbles" [ref=e636]
+                          - generic [ref=e644]: (84)
+                  - generic [ref=e646]: Points of Interest & Landmarks
+                - generic [ref=e650]:
+                  - separator [ref=e651]
+                  - generic [ref=e654]:
+                    - generic [ref=e656]:
+                      - link [ref=e663] [cursor=pointer]:
+                        - /url: /ClientLink?value=YTE2Xy9Qcm9maWxlL0pld2VsbGVyeTUwX21uMQ%3D%3D
+                      - generic [ref=e667]:
+                        - text: By
+                        - link "Jewellery50" [ref=e668] [cursor=pointer]:
+                          - /url: /ClientLink?value=YTE2Xy9Qcm9maWxlL0pld2VsbGVyeTUwX21uMQ%3D%3D
+                    - link "We dock our boat here and we don't want to be anywhere else. We take boat trips and this is the best marina in the..." [ref=e670] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d6702575-r703700711-Leamington_Municipal_Marina-Leamington_Ontario.html
+                      - generic [ref=e672]: We dock our boat here and we don't want to be anywhere else. We take boat trips and this is the best marina in the...
+              - generic [ref=e674]:
+                - generic [ref=e678]:
+                  - link [ref=e680] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d8521835-Reviews-Pelee_Island_Ferry-Leamington_Ontario.html
+                    - list [ref=e685]:
+                      - listitem [ref=e686]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e696] [cursor=pointer]:
+                    - img [ref=e697]
+                - generic [ref=e700]:
+                  - generic [ref=e702]:
+                    - link "3. Pelee Island Ferry" [ref=e703] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d8521835-Reviews-Pelee_Island_Ferry-Leamington_Ontario.html
+                      - generic [ref=e704]: 3. Pelee Island Ferry
+                    - link "4.2 of 5 bubbles (164)" [ref=e705] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d8521835-Reviews-Pelee_Island_Ferry-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e708]:
+                        - generic [ref=e710]: "4.2"
+                        - generic [ref=e711]:
+                          - img "4.2 of 5 bubbles" [ref=e712]
+                          - generic [ref=e720]: (164)
+                  - generic [ref=e722]: Ferries
+                - generic [ref=e726]:
+                  - separator [ref=e727]
+                  - generic [ref=e730]:
+                    - generic [ref=e732]:
+                      - link [ref=e739] [cursor=pointer]:
+                        - /url: /ClientLink?value=cFZuXy9Qcm9maWxlL0thc3NpZTE2MDVfWmtC
+                      - generic [ref=e743]:
+                        - text: By
+                        - link "Kassie1605" [ref=e744] [cursor=pointer]:
+                          - /url: /ClientLink?value=cFZuXy9Qcm9maWxlL0thc3NpZTE2MDVfWmtC
+                    - link "Recommend you take a picnic lunch and enjoy the view from the island. We found a little spot couple kilometers from..." [ref=e746] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d8521835-r770149227-Pelee_Island_Ferry-Leamington_Ontario.html
+                      - generic [ref=e748]: Recommend you take a picnic lunch and enjoy the view from the island. We found a little spot couple kilometers from...
+              - generic [ref=e750]:
+                - generic [ref=e754]:
+                  - link [ref=e756] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d7123084-Reviews-Seacliff_Park-Leamington_Ontario.html
+                    - list [ref=e761]:
+                      - listitem [ref=e762]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e772] [cursor=pointer]:
+                    - img [ref=e773]
+                - generic [ref=e776]:
+                  - generic [ref=e778]:
+                    - link "4. Seacliff Park" [ref=e779] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d7123084-Reviews-Seacliff_Park-Leamington_Ontario.html
+                      - generic [ref=e780]: 4. Seacliff Park
+                    - link "4.4 of 5 bubbles (88)" [ref=e781] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d7123084-Reviews-Seacliff_Park-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e784]:
+                        - generic [ref=e786]: "4.4"
+                        - generic [ref=e787]:
+                          - img "4.4 of 5 bubbles" [ref=e788]
+                          - generic [ref=e796]: (88)
+                  - generic [ref=e798]: Parks
+                - generic [ref=e802]:
+                  - separator [ref=e803]
+                  - generic [ref=e806]:
+                    - generic [ref=e808]:
+                      - link [ref=e815] [cursor=pointer]:
+                        - /url: /ClientLink?value=dUlsXy9Qcm9maWxlL01hcmU1MjRfaE1s
+                      - generic [ref=e819]:
+                        - text: By
+                        - link "Mare524" [ref=e820] [cursor=pointer]:
+                          - /url: /ClientLink?value=dUlsXy9Qcm9maWxlL01hcmU1MjRfaE1s
+                    - link "And up the hill from the beach is a park & splash pad too." [ref=e822] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d7123084-r915839583-Seacliff_Park-Leamington_Ontario.html
+                      - generic [ref=e825]: And up the hill from the beach is a park & splash pad too.
+              - generic [ref=e827]:
+                - generic [ref=e831]:
+                  - link [ref=e833] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d6599491-Reviews-Hillman_Marsh_Conservation_Area-Leamington_Ontario.html
+                    - list [ref=e838]:
+                      - listitem [ref=e839]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e849] [cursor=pointer]:
+                    - img [ref=e850]
+                - generic [ref=e853]:
+                  - generic [ref=e855]:
+                    - link "5. Hillman Marsh Conservation Area" [ref=e856] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d6599491-Reviews-Hillman_Marsh_Conservation_Area-Leamington_Ontario.html
+                      - generic [ref=e857]: 5. Hillman Marsh Conservation Area
+                    - link "4.5 of 5 bubbles (43)" [ref=e858] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d6599491-Reviews-Hillman_Marsh_Conservation_Area-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e861]:
+                        - generic [ref=e863]: "4.5"
+                        - generic [ref=e864]:
+                          - img "4.5 of 5 bubbles" [ref=e865]
+                          - generic [ref=e873]: (43)
+                  - generic [ref=e875]: Nature & Wildlife Areas
+                - generic [ref=e879]:
+                  - separator [ref=e880]
+                  - generic [ref=e883]:
+                    - generic [ref=e885]:
+                      - link [ref=e892] [cursor=pointer]:
+                        - /url: /ClientLink?value=OTBEXy9Qcm9maWxlL1RhcmFCMDk5N18xaVY%3D
+                      - generic [ref=e896]:
+                        - text: By
+                        - link "TaraB0997" [ref=e897] [cursor=pointer]:
+                          - /url: /ClientLink?value=OTBEXy9Qcm9maWxlL1RhcmFCMDk5N18xaVY%3D
+                    - link "We try to go to the Hillman Marsh every May during the spring migration. The marsh usually has a great variety of birds." [ref=e899] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d6599491-r608671997-Hillman_Marsh_Conservation_Area-Leamington_Ontario.html
+                      - generic [ref=e901]: We try to go to the Hillman Marsh every May during the spring migration. The marsh usually has a great variety of birds.
+              - generic [ref=e903]:
+                - generic [ref=e907]:
+                  - link [ref=e909] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d12685074-Reviews-Our_Lady_Of_Lebanon_shrine-Leamington_Ontario.html
+                    - list [ref=e914]:
+                      - listitem [ref=e915]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e925] [cursor=pointer]:
+                    - img [ref=e926]
+                - generic [ref=e929]:
+                  - generic [ref=e931]:
+                    - link "6. Our Lady Of Lebanon-shrine" [ref=e932] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d12685074-Reviews-Our_Lady_Of_Lebanon_shrine-Leamington_Ontario.html
+                      - generic [ref=e933]: 6. Our Lady Of Lebanon-shrine
+                    - link "5 of 5 bubbles (3)" [ref=e934] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d12685074-Reviews-Our_Lady_Of_Lebanon_shrine-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e937]:
+                        - generic [ref=e939]: "5.0"
+                        - generic [ref=e940]:
+                          - img "5 of 5 bubbles" [ref=e941]
+                          - generic [ref=e949]: (3)
+                  - generic [ref=e951]: Churches & Cathedrals
+                - generic [ref=e955]:
+                  - separator [ref=e956]
+                  - generic [ref=e959]:
+                    - generic [ref=e961]:
+                      - link [ref=e968] [cursor=pointer]:
+                        - /url: /ClientLink?value=d2J5Xy9Qcm9maWxlL01vbmljYV9NaWNoaWdhbl9CRXE%3D
+                      - generic [ref=e972]:
+                        - text: By
+                        - link "Monica_Michigan" [ref=e973] [cursor=pointer]:
+                          - /url: /ClientLink?value=d2J5Xy9Qcm9maWxlL01vbmljYV9NaWNoaWdhbl9CRXE%3D
+                    - link "We did not expect to stumble across a shrine on a trip to Leamington. We we plan more time on our next visit." [ref=e975] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d12685074-r564958260-Our_Lady_Of_Lebanon_shrine-Leamington_Ontario.html
+                      - generic [ref=e977]: We did not expect to stumble across a shrine on a trip to Leamington. We we plan more time on our next visit.
+              - generic [ref=e979]:
+                - generic [ref=e983]:
+                  - link [ref=e985] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d8652208-Reviews-Thiessen_Orchards-Leamington_Ontario.html
+                    - list [ref=e990]:
+                      - listitem [ref=e991]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e1001] [cursor=pointer]:
+                    - img [ref=e1002]
+                - generic [ref=e1005]:
+                  - generic [ref=e1007]:
+                    - link "7. Thiessen Orchards" [ref=e1008] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d8652208-Reviews-Thiessen_Orchards-Leamington_Ontario.html
+                      - generic [ref=e1009]: 7. Thiessen Orchards
+                    - link "4 of 5 bubbles (16)" [ref=e1010] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d8652208-Reviews-Thiessen_Orchards-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e1013]:
+                        - generic [ref=e1015]: "4.0"
+                        - generic [ref=e1016]:
+                          - img "4 of 5 bubbles" [ref=e1017]
+                          - generic [ref=e1025]: (16)
+                  - generic [ref=e1027]: Farms
+                - generic [ref=e1031]:
+                  - separator [ref=e1032]
+                  - generic [ref=e1035]:
+                    - generic [ref=e1037]:
+                      - link [ref=e1044] [cursor=pointer]:
+                        - /url: /ClientLink?value=Y3Y0Xy9Qcm9maWxlL0M5NzY4WUlrYXRoeXJfVnRn
+                      - generic [ref=e1048]:
+                        - text: By
+                        - link "C9768YIkathyr" [ref=e1049] [cursor=pointer]:
+                          - /url: /ClientLink?value=Y3Y0Xy9Qcm9maWxlL0M5NzY4WUlrYXRoeXJfVnRn
+                    - link "Be sure to check out the flower shop; such amazing creations. Pack a picnic or grab something at the take out counter..." [ref=e1051] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d8652208-r714254485-Thiessen_Orchards-Leamington_Ontario.html
+                      - generic [ref=e1053]: Be sure to check out the flower shop; such amazing creations. Pack a picnic or grab something at the take out counter...
+              - generic [ref=e1055]:
+                - generic [ref=e1059]:
+                  - link [ref=e1061] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d4085922-Reviews-Leamington_Arts_Centre-Leamington_Ontario.html
+                    - list [ref=e1066]:
+                      - listitem [ref=e1067]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e1077] [cursor=pointer]:
+                    - img [ref=e1078]
+                - generic [ref=e1081]:
+                  - generic [ref=e1083]:
+                    - link "8. Leamington Arts Centre" [ref=e1084] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d4085922-Reviews-Leamington_Arts_Centre-Leamington_Ontario.html
+                      - generic [ref=e1085]: 8. Leamington Arts Centre
+                    - link "4.1 of 5 bubbles (13)" [ref=e1086] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d4085922-Reviews-Leamington_Arts_Centre-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e1089]:
+                        - generic [ref=e1091]: "4.1"
+                        - generic [ref=e1092]:
+                          - img "4.1 of 5 bubbles" [ref=e1093]
+                          - generic [ref=e1101]: (13)
+                  - generic [ref=e1103]: Points of Interest & Landmarks
+                - generic [ref=e1107]:
+                  - separator [ref=e1108]
+                  - link "The Leamington Arts Centre (LAC) is located in the heart of South Western Ontario’s beautiful uptown Leamington in one of the town’s many wonderful heritage buildings. The LAC is a 10,000 square foot…" [ref=e1110] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d4085922-Reviews-Leamington_Arts_Centre-Leamington_Ontario.html
+                    - generic [ref=e1111]: The Leamington Arts Centre (LAC) is located in the heart of South Western Ontario’s beautiful uptown Leamington in one of the town’s many wonderful heritage buildings. The LAC is a 10,000 square foot…
+              - generic [ref=e1113]:
+                - generic [ref=e1117]:
+                  - link [ref=e1119] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d19354511-Reviews-Leamington_Farmers_Market-Leamington_Ontario.html
+                    - img [ref=e1122]:
+                      - img [ref=e1123]
+                  - button "Save to a trip" [ref=e1128] [cursor=pointer]:
+                    - img [ref=e1129]
+                - generic [ref=e1132]:
+                  - link "9. Leamington Farmers’ Market" [ref=e1134] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d19354511-Reviews-Leamington_Farmers_Market-Leamington_Ontario.html
+                    - generic [ref=e1135]: 9. Leamington Farmers’ Market
+                  - generic [ref=e1137]: Farmers Markets
+                - separator [ref=e1142]
+              - generic [ref=e1144]:
+                - generic [ref=e1148]:
+                  - link [ref=e1150] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d23924110-Reviews-Hogs_For_Hospice-Leamington_Ontario.html
+                    - list [ref=e1155]:
+                      - listitem [ref=e1156]
+                      - listitem
+                      - listitem
+                  - button "Save to a trip" [ref=e1166] [cursor=pointer]:
+                    - img [ref=e1167]
+                - generic [ref=e1170]:
+                  - generic [ref=e1172]:
+                    - link "10. Hogs For Hospice" [ref=e1173] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d23924110-Reviews-Hogs_For_Hospice-Leamington_Ontario.html
+                      - generic [ref=e1174]: 10. Hogs For Hospice
+                    - link "5 of 5 bubbles (2)" [ref=e1175] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d23924110-Reviews-Hogs_For_Hospice-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e1178]:
+                        - generic [ref=e1180]: "5.0"
+                        - generic [ref=e1181]:
+                          - img "5 of 5 bubbles" [ref=e1182]
+                          - generic [ref=e1190]: (2)
+                  - generic [ref=e1192]: Music Festivals
+                - generic [ref=e1196]:
+                  - separator [ref=e1197]
+                  - link "July 29th - 31st, 2022. Canada’s Most Southern Motorcycle Rally - Everyone welcome. Hogs for Hospice is a three day Motorcycle Rally in Leamington, Ontario at beautiful Seacliff Park on Lake Erie. …" [ref=e1199] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d23924110-Reviews-Hogs_For_Hospice-Leamington_Ontario.html
+                    - generic [ref=e1200]: July 29th - 31st, 2022. Canada’s Most Southern Motorcycle Rally - Everyone welcome. Hogs for Hospice is a three day Motorcycle Rally in Leamington, Ontario at beautiful Seacliff Park on Lake Erie. …
+              - generic [ref=e1202]:
+                - generic [ref=e1206]:
+                  - link [ref=e1208] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d10824557-Reviews-Essex_Kent_Mennonite_Historical_Society-Leamington_Ontario.html
+                    - img [ref=e1211]:
+                      - img [ref=e1212]
+                  - button "Save to a trip" [ref=e1217] [cursor=pointer]:
+                    - img [ref=e1218]
+                - generic [ref=e1221]:
+                  - generic [ref=e1223]:
+                    - link "11. Essex Kent Mennonite Historical Society" [ref=e1224] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d10824557-Reviews-Essex_Kent_Mennonite_Historical_Society-Leamington_Ontario.html
+                      - generic [ref=e1225]: 11. Essex Kent Mennonite Historical Society
+                    - link "4.5 of 5 bubbles (2)" [ref=e1226] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d10824557-Reviews-Essex_Kent_Mennonite_Historical_Society-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e1229]:
+                        - generic [ref=e1231]: "4.5"
+                        - generic [ref=e1232]:
+                          - img "4.5 of 5 bubbles" [ref=e1233]
+                          - generic [ref=e1241]: (2)
+                  - generic [ref=e1243]: Speciality Museums
+                - generic [ref=e1247]:
+                  - separator [ref=e1248]
+                  - generic [ref=e1251]:
+                    - generic [ref=e1253]:
+                      - link [ref=e1260] [cursor=pointer]:
+                        - /url: /ClientLink?value=cHdMXy9Qcm9maWxlL01hcmtfU18xOTU3X3kzMw%3D%3D
+                        - img [ref=e1262]
+                      - generic [ref=e1267]:
+                        - text: By
+                        - link "Mark_S_1957" [ref=e1268] [cursor=pointer]:
+                          - /url: /ClientLink?value=cHdMXy9Qcm9maWxlL01hcmtfU18xOTU3X3kzMw%3D%3D
+                    - link "There are miniature replicas of Mennonite farm buildings...done by a man with an odd sense of humour. ;-) If one is..." [ref=e1270] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d10824557-r416270345-Essex_Kent_Mennonite_Historical_Society-Leamington_Ontario.html
+                      - generic [ref=e1272]: There are miniature replicas of Mennonite farm buildings...done by a man with an odd sense of humour. ;-) If one is...
+              - generic [ref=e1274]:
+                - generic [ref=e1278]:
+                  - link [ref=e1280] [cursor=pointer]:
+                    - /url: /Attraction_Review-g154994-d18978410-Reviews-Leamington_Raceway-Leamington_Ontario.html
+                    - img [ref=e1283]:
+                      - img [ref=e1284]
+                  - button "Save to a trip" [ref=e1289] [cursor=pointer]:
+                    - img [ref=e1290]
+                - generic [ref=e1293]:
+                  - generic [ref=e1295]:
+                    - link "12. Leamington Raceway" [ref=e1296] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d18978410-Reviews-Leamington_Raceway-Leamington_Ontario.html
+                      - generic [ref=e1297]: 12. Leamington Raceway
+                    - link "4 of 5 bubbles (1)" [ref=e1298] [cursor=pointer]:
+                      - /url: /Attraction_Review-g154994-d18978410-Reviews-Leamington_Raceway-Leamington_Ontario.html#REVIEWS
+                      - generic [ref=e1301]:
+                        - generic [ref=e1303]: "4.0"
+                        - generic [ref=e1304]:
+                          - img "4 of 5 bubbles" [ref=e1305]
+                          - generic [ref=e1313]: (1)
+                  - generic [ref=e1315]: Horse Tracks
+                - generic [ref=e1319]:
+                  - separator [ref=e1320]
+                  - generic [ref=e1323]:
+                    - generic [ref=e1325]:
+                      - link [ref=e1332] [cursor=pointer]:
+                        - /url: /ClientLink?value=Y3pwXy9Qcm9maWxlL0xBTVIxOTY0X001cw%3D%3D
+                      - generic [ref=e1336]:
+                        - text: By
+                        - link "LAMR1964" [ref=e1337] [cursor=pointer]:
+                          - /url: /ClientLink?value=Y3pwXy9Qcm9maWxlL0xBTVIxOTY0X001cw%3D%3D
+                    - link "I have to say I had so much fun!!! I know nothing about horse racing, nor did I know anything about how to read the..." [ref=e1339] [cursor=pointer]:
+                      - /url: /ShowUserReviews-g154994-d18978410-r710625770-Leamington_Raceway-Leamington_Ontario.html
+                      - generic [ref=e1341]: I have to say I had so much fun!!! I know nothing about horse racing, nor did I know anything about how to read the...
+            - link "See all" [ref=e1344] [cursor=pointer]:
+              - /url: /Attractions-g154994-Activities-oa0-Leamington_Ontario.html
+          - generic [ref=e1348]:
+            - heading "Other Top Attractions around Leamington" [level=2] [ref=e1354]
+            - generic [ref=e1357]:
+              - button "Previous" [disabled] [ref=e1359]:
+                - img [ref=e1360]
+              - list [ref=e1364]:
+                - listitem [ref=e1365]:
+                  - generic [ref=e1368]:
+                    - link "Caesars Windsor Casino 4.2 of 5 bubbles (1,623) 29 mi away Windsor Casinos" [ref=e1369] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d279551-Reviews-Caesars_Windsor_Casino-Windsor_Ontario.html
+                      - generic [ref=e1374]:
+                        - generic [ref=e1375]: Caesars Windsor Casino
+                        - generic [ref=e1376]:
+                          - generic [ref=e1378]:
+                            - generic [ref=e1380]: "4.2"
+                            - generic [ref=e1381]:
+                              - img "4.2 of 5 bubbles" [ref=e1382]
+                              - generic [ref=e1390]: (1,623)
+                          - generic [ref=e1392]: 29 mi away
+                        - generic [ref=e1394]: Windsor
+                        - generic [ref=e1395]: Casinos
+                    - button "Save to a trip" [ref=e1397] [cursor=pointer]:
+                      - img [ref=e1398]
+                - listitem [ref=e1400]:
+                  - generic [ref=e1403]:
+                    - link "Windsor Riverfront 4.7 of 5 bubbles (881) 29 mi away Windsor Points of Interest & Landmarks" [ref=e1404] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d6370071-Reviews-Windsor_Riverfront-Windsor_Ontario.html
+                      - generic [ref=e1409]:
+                        - generic [ref=e1410]: Windsor Riverfront
+                        - generic [ref=e1411]:
+                          - generic [ref=e1413]:
+                            - generic [ref=e1415]: "4.7"
+                            - generic [ref=e1416]:
+                              - img "4.7 of 5 bubbles" [ref=e1417]
+                              - generic [ref=e1425]: (881)
+                          - generic [ref=e1427]: 29 mi away
+                        - generic [ref=e1429]: Windsor
+                        - generic [ref=e1430]: Points of Interest & Landmarks
+                    - button "Save to a trip" [ref=e1432] [cursor=pointer]:
+                      - img [ref=e1433]
+                - listitem [ref=e1435]:
+                  - generic [ref=e1438]:
+                    - link "Cooper's Hawk Vineyards 4.4 of 5 bubbles (180) 13 mi away Harrow Wineries & Vineyards" [ref=e1439] [cursor=pointer]:
+                      - /url: /Attraction_Review-g844563-d3367600-Reviews-Cooper_s_Hawk_Vineyards-Harrow_Essex_Ontario.html
+                      - generic [ref=e1444]:
+                        - generic [ref=e1445]: Cooper's Hawk Vineyards
+                        - generic [ref=e1446]:
+                          - generic [ref=e1448]:
+                            - generic [ref=e1450]: "4.4"
+                            - generic [ref=e1451]:
+                              - img "4.4 of 5 bubbles" [ref=e1452]
+                              - generic [ref=e1460]: (180)
+                          - generic [ref=e1462]: 13 mi away
+                        - generic [ref=e1464]: Harrow
+                        - generic [ref=e1465]: Wineries & Vineyards
+                    - button "Save to a trip" [ref=e1467] [cursor=pointer]:
+                      - img [ref=e1468]
+                - listitem [ref=e1470]:
+                  - generic [ref=e1473]:
+                    - link "Canadian Aviation Museum 4.9 of 5 bubbles (85) 24 mi away Windsor Speciality Museums" [ref=e1474] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d5220565-Reviews-Canadian_Aviation_Museum-Windsor_Ontario.html
+                      - generic [ref=e1479]:
+                        - generic [ref=e1480]: Canadian Aviation Museum
+                        - generic [ref=e1481]:
+                          - generic [ref=e1483]:
+                            - generic [ref=e1485]: "4.9"
+                            - generic [ref=e1486]:
+                              - img "4.9 of 5 bubbles" [ref=e1487]
+                              - generic [ref=e1495]: (85)
+                          - generic [ref=e1497]: 24 mi away
+                        - generic [ref=e1499]: Windsor
+                        - generic [ref=e1500]: Speciality Museums
+                    - button "Save to a trip" [ref=e1502] [cursor=pointer]:
+                      - img [ref=e1503]
+                - listitem [ref=e1505]:
+                  - generic [ref=e1508]:
+                    - link "Dieppe Gardens 4.7 of 5 bubbles (239) 27 mi away Windsor Parks" [ref=e1509] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d2102036-Reviews-Dieppe_Gardens-Windsor_Ontario.html
+                      - generic [ref=e1514]:
+                        - generic [ref=e1515]: Dieppe Gardens
+                        - generic [ref=e1516]:
+                          - generic [ref=e1518]:
+                            - generic [ref=e1520]: "4.7"
+                            - generic [ref=e1521]:
+                              - img "4.7 of 5 bubbles" [ref=e1522]
+                              - generic [ref=e1530]: (239)
+                          - generic [ref=e1532]: 27 mi away
+                        - generic [ref=e1534]: Windsor
+                        - generic [ref=e1535]: Parks
+                    - button "Save to a trip" [ref=e1537] [cursor=pointer]:
+                      - img [ref=e1538]
+                - listitem [ref=e1540]:
+                  - generic [ref=e1543]:
+                    - link "Wheatley Provincial Park 4.2 of 5 bubbles (97) 8.3 mi away Wheatley Parks" [ref=e1544] [cursor=pointer]:
+                      - /url: /Attraction_Review-g3442328-d4316719-Reviews-Wheatley_Provincial_Park-Wheatley_Chatham_Kent_Ontario.html
+                      - generic [ref=e1549]:
+                        - generic [ref=e1550]: Wheatley Provincial Park
+                        - generic [ref=e1551]:
+                          - generic [ref=e1553]:
+                            - generic [ref=e1555]: "4.2"
+                            - generic [ref=e1556]:
+                              - img "4.2 of 5 bubbles" [ref=e1557]
+                              - generic [ref=e1565]: (97)
+                          - generic [ref=e1567]: 8.3 mi away
+                        - generic [ref=e1569]: Wheatley
+                        - generic [ref=e1570]: Parks
+                    - button "Save to a trip" [ref=e1572] [cursor=pointer]:
+                      - img [ref=e1573]
+                - listitem [ref=e1575]:
+                  - generic [ref=e1578]:
+                    - link "Fort Malden National Historic Site 4.5 of 5 bubbles (122) 27 mi away Amherstburg Historic Sites" [ref=e1579] [cursor=pointer]:
+                      - /url: /Attraction_Review-g793524-d1861821-Reviews-Fort_Malden_National_Historic_Site-Amherstburg_Ontario.html
+                      - generic [ref=e1584]:
+                        - generic [ref=e1585]: Fort Malden National Historic Site
+                        - generic [ref=e1586]:
+                          - generic [ref=e1588]:
+                            - generic [ref=e1590]: "4.5"
+                            - generic [ref=e1591]:
+                              - img "4.5 of 5 bubbles" [ref=e1592]
+                              - generic [ref=e1600]: (122)
+                          - generic [ref=e1602]: 27 mi away
+                        - generic [ref=e1604]: Amherstburg
+                        - generic [ref=e1605]: Historic Sites
+                    - button "Save to a trip" [ref=e1607] [cursor=pointer]:
+                      - img [ref=e1608]
+                - listitem [ref=e1610]:
+                  - generic [ref=e1613]:
+                    - link "Wilderness Retreat And Nordic Spa 5 of 5 bubbles (16) 11 mi away Kingsville Thermal Spas" [ref=e1614] [cursor=pointer]:
+                      - /url: /Attraction_Review-g499270-d27582894-Reviews-Wilderness_Retreat_And_Nordic_Spa-Kingsville_Ontario.html
+                      - generic [ref=e1619]:
+                        - generic [ref=e1620]: Wilderness Retreat And Nordic Spa
+                        - generic [ref=e1621]:
+                          - generic [ref=e1623]:
+                            - generic [ref=e1625]: "5.0"
+                            - generic [ref=e1626]:
+                              - img "5 of 5 bubbles" [ref=e1627]
+                              - generic [ref=e1635]: (16)
+                          - generic [ref=e1637]: 11 mi away
+                        - generic [ref=e1639]: Kingsville
+                        - generic [ref=e1640]: Thermal Spas
+                    - button "Save to a trip" [ref=e1642] [cursor=pointer]:
+                      - img [ref=e1643]
+                - listitem [ref=e1645]:
+                  - generic [ref=e1648]:
+                    - link "Jackson Park 4.5 of 5 bubbles (205) 27 mi away Windsor Parks" [ref=e1649] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d2102033-Reviews-Jackson_Park-Windsor_Ontario.html
+                      - generic [ref=e1654]:
+                        - generic [ref=e1655]: Jackson Park
+                        - generic [ref=e1656]:
+                          - generic [ref=e1658]:
+                            - generic [ref=e1660]: "4.5"
+                            - generic [ref=e1661]:
+                              - img "4.5 of 5 bubbles" [ref=e1662]
+                              - generic [ref=e1670]: (205)
+                          - generic [ref=e1672]: 27 mi away
+                        - generic [ref=e1674]: Windsor
+                        - generic [ref=e1675]: Parks
+                    - button "Save to a trip" [ref=e1677] [cursor=pointer]:
+                      - img [ref=e1678]
+                - listitem [ref=e1680]:
+                  - generic [ref=e1683]:
+                    - link "Adventure Bay Family Water Park 4.2 of 5 bubbles (183) 29 mi away Windsor Water Parks" [ref=e1684] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d6104115-Reviews-Adventure_Bay_Family_Water_Park-Windsor_Ontario.html
+                      - generic [ref=e1689]:
+                        - generic [ref=e1690]: Adventure Bay Family Water Park
+                        - generic [ref=e1691]:
+                          - generic [ref=e1693]:
+                            - generic [ref=e1695]: "4.2"
+                            - generic [ref=e1696]:
+                              - img "4.2 of 5 bubbles" [ref=e1697]
+                              - generic [ref=e1705]: (183)
+                          - generic [ref=e1707]: 29 mi away
+                        - generic [ref=e1709]: Windsor
+                        - generic [ref=e1710]: Water Parks
+                    - button "Save to a trip" [ref=e1712] [cursor=pointer]:
+                      - img [ref=e1713]
+                - listitem [ref=e1715]:
+                  - generic [ref=e1718]:
+                    - link "Oxley Estate Winery 4.5 of 5 bubbles (168) 15 mi away Harrow Wineries & Vineyards" [ref=e1719] [cursor=pointer]:
+                      - /url: /Attraction_Review-g844563-d4086166-Reviews-Oxley_Estate_Winery-Harrow_Essex_Ontario.html
+                      - generic [ref=e1724]:
+                        - generic [ref=e1725]: Oxley Estate Winery
+                        - generic [ref=e1726]:
+                          - generic [ref=e1728]:
+                            - generic [ref=e1730]: "4.5"
+                            - generic [ref=e1731]:
+                              - img "4.5 of 5 bubbles" [ref=e1732]
+                              - generic [ref=e1740]: (168)
+                          - generic [ref=e1742]: 15 mi away
+                        - generic [ref=e1744]: Harrow
+                        - generic [ref=e1745]: Wineries & Vineyards
+                    - button "Save to a trip" [ref=e1747] [cursor=pointer]:
+                      - img [ref=e1748]
+                - listitem [ref=e1750]:
+                  - generic [ref=e1753]:
+                    - link "Willistead Manor 4.5 of 5 bubbles (98) 28 mi away Windsor Historic Sites" [ref=e1754] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d311370-Reviews-Willistead_Manor-Windsor_Ontario.html
+                      - generic [ref=e1759]:
+                        - generic [ref=e1760]: Willistead Manor
+                        - generic [ref=e1761]:
+                          - generic [ref=e1763]:
+                            - generic [ref=e1765]: "4.5"
+                            - generic [ref=e1766]:
+                              - img "4.5 of 5 bubbles" [ref=e1767]
+                              - generic [ref=e1775]: (98)
+                          - generic [ref=e1777]: 28 mi away
+                        - generic [ref=e1779]: Windsor
+                        - generic [ref=e1780]: Historic Sites
+                    - button "Save to a trip" [ref=e1782] [cursor=pointer]:
+                      - img [ref=e1783]
+                - listitem [ref=e1785]:
+                  - generic [ref=e1788]:
+                    - link "Olde Walkerville Neighborhood 4.6 of 5 bubbles (187) 28 mi away Windsor Historic Walking Areas" [ref=e1789] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d3825727-Reviews-Olde_Walkerville_Neighborhood-Windsor_Ontario.html
+                      - generic [ref=e1794]:
+                        - generic [ref=e1795]: Olde Walkerville Neighborhood
+                        - generic [ref=e1796]:
+                          - generic [ref=e1798]:
+                            - generic [ref=e1800]: "4.6"
+                            - generic [ref=e1801]:
+                              - img "4.6 of 5 bubbles" [ref=e1802]
+                              - generic [ref=e1810]: (187)
+                          - generic [ref=e1812]: 28 mi away
+                        - generic [ref=e1814]: Windsor
+                        - generic [ref=e1815]: Historic Walking Areas
+                    - button "Save to a trip" [ref=e1817] [cursor=pointer]:
+                      - img [ref=e1818]
+                - listitem [ref=e1820]:
+                  - generic [ref=e1823]:
+                    - link "Canadian Transportation Museum & Heritage Village 4.4 of 5 bubbles (76) 12 mi away Kingsville Speciality Museums" [ref=e1824] [cursor=pointer]:
+                      - /url: /Attraction_Review-g499270-d3259286-Reviews-Canadian_Transportation_Museum_Heritage_Village-Kingsville_Ontario.html
+                      - generic [ref=e1829]:
+                        - generic [ref=e1830]: Canadian Transportation Museum & Heritage Village
+                        - generic [ref=e1831]:
+                          - generic [ref=e1833]:
+                            - generic [ref=e1835]: "4.4"
+                            - generic [ref=e1836]:
+                              - img "4.4 of 5 bubbles" [ref=e1837]
+                              - generic [ref=e1845]: (76)
+                          - generic [ref=e1847]: 12 mi away
+                        - generic [ref=e1849]: Kingsville
+                        - generic [ref=e1850]: Speciality Museums
+                    - button "Save to a trip" [ref=e1852] [cursor=pointer]:
+                      - img [ref=e1853]
+                - listitem [ref=e1855]:
+                  - generic [ref=e1858]:
+                    - link "Aleksander Estate Winery 4.6 of 5 bubbles (55) 3.8 mi away Kingsville Wineries & Vineyards" [ref=e1859] [cursor=pointer]:
+                      - /url: /Attraction_Review-g499270-d4085945-Reviews-Aleksander_Estate_Winery-Kingsville_Ontario.html
+                      - generic [ref=e1864]:
+                        - generic [ref=e1865]: Aleksander Estate Winery
+                        - generic [ref=e1866]:
+                          - generic [ref=e1868]:
+                            - generic [ref=e1870]: "4.6"
+                            - generic [ref=e1871]:
+                              - img "4.6 of 5 bubbles" [ref=e1872]
+                              - generic [ref=e1880]: (55)
+                          - generic [ref=e1882]: 3.8 mi away
+                        - generic [ref=e1884]: Kingsville
+                        - generic [ref=e1885]: Wineries & Vineyards
+                    - button "Save to a trip" [ref=e1887] [cursor=pointer]:
+                      - img [ref=e1888]
+                - listitem [ref=e1890]:
+                  - generic [ref=e1893]:
+                    - link "North 42 Degrees Estate Winery & Bistro 42 4 of 5 bubbles (121) 17 mi away Harrow Wineries & Vineyards" [ref=e1894] [cursor=pointer]:
+                      - /url: /Attraction_Review-g844563-d3536966-Reviews-North_42_Degrees_Estate_Winery_Bistro_42-Harrow_Essex_Ontario.html
+                      - generic [ref=e1899]:
+                        - generic [ref=e1900]: North 42 Degrees Estate Winery & Bistro 42
+                        - generic [ref=e1901]:
+                          - generic [ref=e1903]:
+                            - generic [ref=e1905]: "4.0"
+                            - generic [ref=e1906]:
+                              - img "4 of 5 bubbles" [ref=e1907]
+                              - generic [ref=e1915]: (121)
+                          - generic [ref=e1917]: 17 mi away
+                        - generic [ref=e1919]: Harrow
+                        - generic [ref=e1920]: Wineries & Vineyards
+                    - button "Save to a trip" [ref=e1922] [cursor=pointer]:
+                      - img [ref=e1923]
+                - listitem [ref=e1925]:
+                  - generic [ref=e1928]:
+                    - link "Lee and Maria's 4.8 of 5 bubbles (61) 5.8 mi away Kingsville Farmers Markets" [ref=e1929] [cursor=pointer]:
+                      - /url: /Attraction_Review-g499270-d10605046-Reviews-Lee_and_Maria_s-Kingsville_Ontario.html
+                      - generic [ref=e1934]:
+                        - generic [ref=e1935]: Lee and Maria's
+                        - generic [ref=e1936]:
+                          - generic [ref=e1938]:
+                            - generic [ref=e1940]: "4.8"
+                            - generic [ref=e1941]:
+                              - img "4.8 of 5 bubbles" [ref=e1942]
+                              - generic [ref=e1950]: (61)
+                          - generic [ref=e1952]: 5.8 mi away
+                        - generic [ref=e1954]: Kingsville
+                        - generic [ref=e1955]: Farmers Markets
+                    - button "Save to a trip" [ref=e1957] [cursor=pointer]:
+                      - img [ref=e1958]
+                - listitem [ref=e1960]:
+                  - generic [ref=e1963]:
+                    - link "Coventry Gardens 4.7 of 5 bubbles (87) 27 mi away Windsor Parks" [ref=e1964] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d2102037-Reviews-Coventry_Gardens-Windsor_Ontario.html
+                      - generic [ref=e1969]:
+                        - generic [ref=e1970]: Coventry Gardens
+                        - generic [ref=e1971]:
+                          - generic [ref=e1973]:
+                            - generic [ref=e1975]: "4.7"
+                            - generic [ref=e1976]:
+                              - img "4.7 of 5 bubbles" [ref=e1977]
+                              - generic [ref=e1985]: (87)
+                          - generic [ref=e1987]: 27 mi away
+                        - generic [ref=e1989]: Windsor
+                        - generic [ref=e1990]: Parks
+                    - button "Save to a trip" [ref=e1992] [cursor=pointer]:
+                      - img [ref=e1993]
+                - listitem [ref=e1995]:
+                  - generic [ref=e1998]:
+                    - link "Muscedere Vineyards 4.3 of 5 bubbles (70) 17 mi away Harrow Wineries & Vineyards" [ref=e1999] [cursor=pointer]:
+                      - /url: /Attraction_Review-g844563-d3350691-Reviews-Muscedere_Vineyards-Harrow_Essex_Ontario.html
+                      - generic [ref=e2004]:
+                        - generic [ref=e2005]: Muscedere Vineyards
+                        - generic [ref=e2006]:
+                          - generic [ref=e2008]:
+                            - generic [ref=e2010]: "4.3"
+                            - generic [ref=e2011]:
+                              - img "4.3 of 5 bubbles" [ref=e2012]
+                              - generic [ref=e2020]: (70)
+                          - generic [ref=e2022]: 17 mi away
+                        - generic [ref=e2024]: Harrow
+                        - generic [ref=e2025]: Wineries & Vineyards
+                    - button "Save to a trip" [ref=e2027] [cursor=pointer]:
+                      - img [ref=e2028]
+                - listitem [ref=e2030]:
+                  - generic [ref=e2033]:
+                    - link "Ojibway Nature Centre 4.6 of 5 bubbles (142) 29 mi away Windsor Educational sites" [ref=e2034] [cursor=pointer]:
+                      - /url: /Attraction_Review-g155021-d4310981-Reviews-Ojibway_Nature_Centre-Windsor_Ontario.html
+                      - generic [ref=e2039]:
+                        - generic [ref=e2040]: Ojibway Nature Centre
+                        - generic [ref=e2041]:
+                          - generic [ref=e2043]:
+                            - generic [ref=e2045]: "4.6"
+                            - generic [ref=e2046]:
+                              - img "4.6 of 5 bubbles" [ref=e2047]
+                              - generic [ref=e2055]: (142)
+                          - generic [ref=e2057]: 29 mi away
+                        - generic [ref=e2059]: Windsor
+                        - generic [ref=e2060]: Educational sites
+                    - button "Save to a trip" [ref=e2062] [cursor=pointer]:
+                      - img [ref=e2063]
+              - button "Next" [ref=e2066] [cursor=pointer]:
+                - img [ref=e2067]
+          - generic [ref=e2070]:
+            - generic [ref=e2071]:
+              - generic [ref=e2072]:
+                - generic [ref=e2073]: See what travelers are saying
+                - button "Learn more" [ref=e2074] [cursor=pointer]:
+                  - generic [ref=e2075]: Learn more
+              - generic [ref=e2077]:
+                - button "Previous" [disabled] [ref=e2079]:
+                  - img [ref=e2080]
+                - list [ref=e2084]:
+                  - listitem [ref=e2085]:
+                    - generic [ref=e2086]:
+                      - generic [ref=e2087]:
+                        - generic [ref=e2089]:
+                          - link [ref=e2096] [cursor=pointer]:
+                            - /url: /Profile/adhp02
+                          - generic [ref=e2099]:
+                            - link "adhp02" [ref=e2101] [cursor=pointer]:
+                              - /url: /Profile/adhp02
+                            - generic [ref=e2103]: Toronto, Canada • 183 contributions
+                        - button "open" [ref=e2106] [cursor=pointer]:
+                          - img [ref=e2107]
+                      - img "5 of 5 bubbles" [ref=e2113]
+                      - heading "Beautiful Canadian National Park" [level=3] [ref=e2119]:
+                        - link "Beautiful Canadian National Park" [ref=e2120] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1022765605-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2122]:
+                        - generic [ref=e2125] [cursor=pointer]: It was a stopover before visiting relatives nearby, and we had only five hours to enjoy this trip. Since it was during the Civic Holiday weekend, the wait time to enter the park was quite long. We arrived inside the park after 1pm, and parking was very limited, and it took awhile to find a parking. Following the advice of others, I decided to take the shuttle bus to the peak of Point Pelee first from the Visitor Centre. The shuttle arrived every 10 minutes, but we had to wait for the second shuttle because there were so many visitors. At the peak of Point Pelee, we climbed the steel stairs to the lookout. The view of Lake Erie and the forest was stunning; we spent about 30 minutes there admiring the scenery. There were also an abundance of birds to see. After that, we lounged for over an hour at the beach near the shuttle drop-off/pick-up area, which was accessible via a small path across from the washrooms. This turned out to be the highlight of our visit. The beach had shade, a nice breeze, and fewer people (most visitors avoided this section), plus there were no stable flies. There was a long wait for the shuttle back to the Visitor Centre but this was worth it. Afterward, we walked back to the car and drove to the Marsh Boardwalk. Fortunately, there was parking available. This walk along the marsh at Point Pelee was also highly recommended. We spent about 30 minutes there and wished we had more time, as I would have loved to rent a canoe and paddle through the marsh.
+                        - button "Read more" [ref=e2127] [cursor=pointer]:
+                          - generic [ref=e2128]: Read more
+                          - img [ref=e2130]
+                      - 'link "Review of: Point Pelee National Park" [ref=e2132] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2133]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2134]:
+                        - generic [ref=e2136]: Visited August 2025
+                        - generic [ref=e2138]: Traveled with family
+                      - generic [ref=e2139]: Written August 5, 2025
+                  - listitem [ref=e2140]:
+                    - generic [ref=e2141]:
+                      - generic [ref=e2142]:
+                        - generic [ref=e2144]:
+                          - link [ref=e2151] [cursor=pointer]:
+                            - /url: /Profile/M3349ZSjasonp
+                          - generic [ref=e2154]:
+                            - link "jpete02" [ref=e2156] [cursor=pointer]:
+                              - /url: /Profile/M3349ZSjasonp
+                            - generic [ref=e2158]: Lansing, Michigan • 1,121 contributions
+                        - button "open" [ref=e2161] [cursor=pointer]:
+                          - img [ref=e2162]
+                      - img "5 of 5 bubbles" [ref=e2168]
+                      - heading "Worthwhile for a weekend visit" [level=3] [ref=e2174]:
+                        - link "Worthwhile for a weekend visit" [ref=e2175] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1016696290-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2177]:
+                        - generic [ref=e2180] [cursor=pointer]: Glad I came down here and visited this park but you won’t need more than a day or two to see everything. Located in a less visited part of Canada. About an hour drive from the Detroit/Windsor border and 3.5-4 hours from Toronto. If not here during bird or butterfly migration season, found there are two main things to do. One, rent a kayak or walk the boardwalk in the marsh area and, two, take the shuttle tram to Canada’s Southernmost point. The kayak rental is located in the marsh boardwalk parking lot and opens at 10 daily. Can rent a double kayak for $35 for the first hour and $15 for each additional hour or a single kayak for $25/$15. Beautiful kayaking through the marsh, which opens up into a large lake. Can paddle to the east side of the Peninsula, where there is a beach. Took us about two hours to kayak out to the beach and come back. The tram to the point leaves from the visitors center at the end of the park road and runs about every fifteen minutes beginning at 10 AM. Short ten minute walk to the point. It is only 4600 KM from here to Canada’s Northernmost point! The southernmost point is a spit of sandy land surrounded by Lake Erie. At this point you are about as far South as some of the southern suburbs of Detroit and across the lake, due South, is Sandusky, Ohio. We also went to the swimming beaches but found the sand full of rocks and pebbles and not very comfortable to walk on. Even with water shoes, the pebbles got into our shoes. There are definitely better Great Lakes beaches than these. Water was a nice temperature at the beginning of July. Best beach facilities were at the Northwest beach, which were newer and included changing rooms and outdoor showers.
+                        - button "Read more" [ref=e2182] [cursor=pointer]:
+                          - generic [ref=e2183]: Read more
+                          - img [ref=e2185]
+                      - 'link "Review of: Point Pelee National Park" [ref=e2187] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2188]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2189]:
+                        - generic [ref=e2191]: Visited July 2025
+                        - generic [ref=e2193]: Traveled with family
+                      - generic [ref=e2194]: Written July 5, 2025
+                  - listitem [ref=e2195]:
+                    - generic [ref=e2196]:
+                      - generic [ref=e2197]:
+                        - generic [ref=e2199]:
+                          - link [ref=e2206] [cursor=pointer]:
+                            - /url: /Profile/chait1788
+                          - generic [ref=e2209]:
+                            - link "Chaitanya" [ref=e2211] [cursor=pointer]:
+                              - /url: /Profile/chait1788
+                            - generic [ref=e2213]: Cambridge, Canada • 1,573 contributions
+                        - button "open" [ref=e2216] [cursor=pointer]:
+                          - img [ref=e2217]
+                      - img "4 of 5 bubbles" [ref=e2223]
+                      - heading "Fun and Relaxed National Park - good for a relaxed visit" [level=3] [ref=e2229]:
+                        - link "Fun and Relaxed National Park - good for a relaxed visit" [ref=e2230] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1041275341-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2232]:
+                        - generic [ref=e2235] [cursor=pointer]: "The park is a great spot to visit the southermost tip of Canada Park activities include: Visitor centre - cute gift shop and informative activity centre Tip trail - shuttles are every 20mins from the visitor centre - trail takes 10mins on road and beach to get to the tip Shuster trail - takes you to a nice beach spot Tilden Woods Trail - decent wooded trail, good for birding, fall colours and a nice momento to show how saving trees and forests can help Boardwalk @ Marsh - tower @ front is great for photos, the rest is a boardwalk along the marsh and is stroller friendly All the trails were pretty short and straightforward and pretty stroller friendly and its nice as the weather is pretty good since its pretty south."
+                        - button "Read more" [ref=e2237] [cursor=pointer]:
+                          - generic [ref=e2238]: Read more
+                          - img [ref=e2240]
+                      - 'link "Review of: Point Pelee National Park" [ref=e2242] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2243]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2244]:
+                        - generic [ref=e2246]: Visited November 2025
+                        - generic [ref=e2248]: Traveled as a couple
+                      - generic [ref=e2249]: Written December 3, 2025
+                  - listitem [ref=e2250]:
+                    - generic [ref=e2251]:
+                      - generic [ref=e2252]:
+                        - generic [ref=e2254]:
+                          - link [ref=e2261] [cursor=pointer]:
+                            - /url: /Profile/Redeployed
+                          - generic [ref=e2264]:
+                            - link "Garth L" [ref=e2266] [cursor=pointer]:
+                              - /url: /Profile/Redeployed
+                            - generic [ref=e2268]: LaSalle, Canada • 88 contributions
+                        - button "open" [ref=e2271] [cursor=pointer]:
+                          - img [ref=e2272]
+                      - img "5 of 5 bubbles" [ref=e2278]
+                      - heading "Canada's southernmost attraction" [level=3] [ref=e2284]:
+                        - link "Canada's southernmost attraction" [ref=e2285] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1016317471-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2287]:
+                        - generic [ref=e2290] [cursor=pointer]: We visited Point Pelee National Park the week of Canada Day. It was spectacular! And the weather was perfect too. This is Canada's southernmost piece of real estate , and people love it for its unique ecology, scenic beauty, and rich recreational opportunities. We hiked to the point, dipped our toes in the water, and walked back, but it was well worth it. The park spans beaches, cedar savannah, swamp and wet/dry forests, marshes, and the iconic Tip peninsula. They have an enormous Tower that you can climb and enjoy the 360° Vista! The Marsh Boardwalk offers an elevated wooden loop through lush wetlands, complete with an observation tower—easy, family-friendly, and wildlife rich. And best of all, the Canadian government has made admission to all of its national parks free of charge just to encourage more visitors! Elbows up!
+                        - button "Read more" [ref=e2292] [cursor=pointer]:
+                          - generic [ref=e2293]: Read more
+                          - img [ref=e2295]
+                      - 'link "Review of: Point Pelee National Park" [ref=e2297] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2298]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2299]:
+                        - generic [ref=e2301]: Visited July 2025
+                        - generic [ref=e2303]: Traveled as a couple
+                      - generic [ref=e2304]: Written July 3, 2025
+                  - listitem [ref=e2305]:
+                    - generic [ref=e2306]:
+                      - generic [ref=e2307]:
+                        - generic [ref=e2309]:
+                          - link [ref=e2316] [cursor=pointer]:
+                            - /url: /Profile/Joyyy
+                          - generic [ref=e2319]:
+                            - link "Joyyy" [ref=e2321] [cursor=pointer]:
+                              - /url: /Profile/Joyyy
+                            - generic [ref=e2323]: Barrie, Canada • 618 contributions
+                        - button "open" [ref=e2326] [cursor=pointer]:
+                          - img [ref=e2327]
+                      - img "5 of 5 bubbles" [ref=e2333]
+                      - heading "Beautiful Piece of Nature At Its Best" [level=3] [ref=e2339]:
+                        - link "Beautiful Piece of Nature At Its Best" [ref=e2340] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1031042940-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2342]:
+                        - generic [ref=e2345] [cursor=pointer]: Absolutely stunning national park in early fall. Facilities are clean and visitor centre is worth a visit over a few days. Gets filled up for parking on weekends so arrive early to avoid the crowds. Only 1 gate in so can get busy. The trails are well maintained and easy to walk. Beaches are lovely. Lots of wildlife - butterflies, snakes, turtles, frogs, herons and birds but stable flies at the tip in the fall are annoying. The tram to the trip is an attraction itself. The boardwalks beautiful. Bike and watercraft rentals available. Love, love, love.
+                        - button "Read more" [ref=e2347] [cursor=pointer]:
+                          - generic [ref=e2348]: Read more
+                          - img [ref=e2350]
+                      - 'link "Review of: Point Pelee National Park" [ref=e2352] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2353]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2354]:
+                        - generic [ref=e2356]: Visited September 2025
+                        - generic [ref=e2358]: Traveled with family
+                      - generic [ref=e2359]: Written September 18, 2025
+                  - listitem [ref=e2360]:
+                    - generic [ref=e2361]:
+                      - generic [ref=e2362]:
+                        - generic [ref=e2364]:
+                          - link [ref=e2371] [cursor=pointer]:
+                            - /url: /Profile/MemoryMaker5
+                          - generic [ref=e2374]:
+                            - link "MemoryMaker5" [ref=e2376] [cursor=pointer]:
+                              - /url: /Profile/MemoryMaker5
+                            - generic [ref=e2378]: Ohio • 1,586 contributions
+                        - button "open" [ref=e2381] [cursor=pointer]:
+                          - img [ref=e2382]
+                      - img "5 of 5 bubbles" [ref=e2388]
+                      - heading "Well Maintained and Relaxing" [level=3] [ref=e2394]:
+                        - link "Well Maintained and Relaxing" [ref=e2395] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1034011980-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2400]: This park is very well-kept and clean. There are multiple places to visit the beach areas with picnic tables and benches. The marsh boardwalk is lengthy and lovely. The visitor center and gift shop has a lot to offer. And this is where you can take the shuttle to the point. The drive through the park is relaxing. This park is fantastic for birding.
+                      - 'link "Review of: Point Pelee National Park" [ref=e2401] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2402]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2403]:
+                        - generic [ref=e2405]: Visited October 2025
+                        - generic [ref=e2407]: Traveled as a couple
+                      - generic [ref=e2408]: Written October 8, 2025
+                  - listitem [ref=e2409]:
+                    - generic [ref=e2410]:
+                      - generic [ref=e2411]:
+                        - generic [ref=e2413]:
+                          - link [ref=e2420] [cursor=pointer]:
+                            - /url: /Profile/jwkarr
+                          - generic [ref=e2423]:
+                            - link "James K" [ref=e2425] [cursor=pointer]:
+                              - /url: /Profile/jwkarr
+                            - generic [ref=e2427]: Toronto, Canada • 521 contributions
+                        - button "open" [ref=e2430] [cursor=pointer]:
+                          - img [ref=e2431]
+                      - img "5 of 5 bubbles" [ref=e2437]
+                      - heading "Wonderful views of the lake and nature" [level=3] [ref=e2443]:
+                        - link "Wonderful views of the lake and nature" [ref=e2444] [cursor=pointer]:
+                          - /url: https://www.tripadvisor.com/ShowUserReviews-g154994-d282357-r1013770835-Point_Pelee_National_Park-Leamington_Ontario.html
+                      - generic [ref=e2449]: Definitely should be a destination if you're in the area! Great walking and hiking trails, and wonderful scenery. There is a lookout tower near the point that gives you great views of the lake and Point Pelee. I wish I had more time to explore this national park.
+                      - 'link "Review of: Point Pelee National Park" [ref=e2450] [cursor=pointer]':
+                        - /url: https://www.tripadvisor.com/Attraction_Review-g154994-d282357-Reviews-Point_Pelee_National_Park-Leamington_Ontario.html
+                        - generic [ref=e2451]: "Review of: Point Pelee National Park"
+                      - generic [ref=e2452]:
+                        - generic [ref=e2454]: Visited June 2025
+                        - generic [ref=e2456]: Traveled solo
+                      - generic [ref=e2457]: Written June 19, 2025
+                - button "Next" [ref=e2459] [cursor=pointer]:
+                  - img [ref=e2460]
+            - generic [ref=e2463]: These reviews are the subjective opinion of Tripadvisor members and not of Tripadvisor LLC. Tripadvisor performs checks on reviews.
+  - generic [ref=e2467]:
+    - button "Leamington" [ref=e2468] [cursor=pointer]:
+      - generic [ref=e2469]: Leamington
+      - img [ref=e2471]
+    - button "Hotels" [ref=e2473] [cursor=pointer]:
+      - generic [ref=e2474]: Hotels
+      - img [ref=e2476]
+    - button "Things to Do" [ref=e2478] [cursor=pointer]:
+      - generic [ref=e2479]: Things to Do
+      - img [ref=e2481]
+    - link "Restaurants" [ref=e2483] [cursor=pointer]:
+      - /url: /Restaurants-g154994-Leamington_Ontario.html
+      - generic [ref=e2484]: Restaurants
+    - link "Travel Stories" [ref=e2485] [cursor=pointer]:
+      - /url: /Articles
+      - generic [ref=e2486]: Travel Stories
+    - link "Cruises" [ref=e2487] [cursor=pointer]:
+      - /url: /Cruises
+      - generic [ref=e2488]: Cruises
+    - button "More" [ref=e2489] [cursor=pointer]:
+      - generic [ref=e2490]: More
+      - img [ref=e2492]
+  - contentinfo [ref=e2494]:
+    - generic [ref=e2496]:
+      - generic [ref=e2497]:
+        - generic [ref=e2498]:
+          - img "Tripadvisor" [ref=e2500]
+          - generic [ref=e2501]:
+            - generic [ref=e2503]: © 2026 Tripadvisor LLC All rights reserved.
+            - generic [ref=e2504]:
+              - link "Terms of Use" [ref=e2505] [cursor=pointer]:
+                - /url: https://tripadvisor.mediaroom.com/us-terms-of-use
+                - generic [ref=e2506]: Terms of Use
+              - link "Privacy and Cookies Statement" [ref=e2507] [cursor=pointer]:
+                - /url: https://tripadvisor.mediaroom.com/us-privacy-policy
+                - generic [ref=e2508]: Privacy and Cookies Statement
+              - button "Cookie consent" [ref=e2509] [cursor=pointer]:
+                - generic [ref=e2510]: Cookie consent
+              - link "How the site works" [ref=e2511] [cursor=pointer]:
+                - /url: /pages/serviceEN.html
+                - generic [ref=e2512]: How the site works
+              - link "Contact us" [ref=e2513] [cursor=pointer]:
+                - /url: https://tripadvisor.mediaroom.com/US-contact-us
+                - generic [ref=e2514]: Contact us
+              - link "Accessibility Statement" [ref=e2515] [cursor=pointer]:
+                - /url: /Trust-lgF5hKLTqw3U.html
+                - generic [ref=e2516]: Accessibility Statement
+        - generic [ref=e2517]:
+          - generic [ref=e2520]:
+            - paragraph [ref=e2521]: This is the version of our website addressed to speakers of English in the United States. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu.
+            - paragraph [ref=e2522]: Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications. Listed prices may require a stay of a particular length or have blackout dates, qualifications or other applicable restrictions. Tripadvisor LLC is not responsible for any content on external web sites that are not owned or operated by Tripadvisor . Indicative hotel prices displayed on our “Explore” pages are estimates extrapolated from historic pricing data.
+            - paragraph [ref=e2523]: Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our partners, please be sure to check their site for a full disclosure of all applicable fees.
+          - button "Read more" [ref=e2525] [cursor=pointer]:
+            - generic [ref=e2526]: Read more
+            - img [ref=e2528]
+      - generic [ref=e2530]:
+        - 'button "Currency: $ USD" [ref=e2532] [cursor=pointer]':
+          - generic [ref=e2533]: $ USD
+          - img [ref=e2534]
+        - 'button "Region: United States" [ref=e2537] [cursor=pointer]':
+          - generic [ref=e2538]: United States
+          - img [ref=e2539]

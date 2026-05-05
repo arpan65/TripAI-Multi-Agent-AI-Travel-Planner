@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: toronto to ottawa VIA Rail price 2026 toronto to ottawa VIA Rail price 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dtoronto%2Bto%2Bottawa%2BVIA%2BRail%2Bprice%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpn2Krr0IKqfflqqRk7juxKHJxMd-skALQX7h7BDSLmnoQU08Y9Oji5ACN8YBzO2uAQ-4WhAvRkruIs8UgAHcv9U6pmMT-SBhfb4H6paMe7MOmW-ZIY3GpER2y9pmXiSz1SxwLme0MsLEoQQBf9gF_unjhyEITFO73PFP2co_bVoOxY9kDDIddQ8iNFay5wV9R0MzJUw&aep=1&ntc=1&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ2J8OegQIEBAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "News" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=e11ce942ef99a1b2&q=toronto+to+ottawa+VIA+Rail+price+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpn2Krr0IKqfflqqRk7juxKHJxMd-skALQX7h7BDSLmnoQU08Y9Oji5ACN8YBzO2uAQ-4WhAvRkruIs8UgAHcv9U6pmMT-SBhfb4H6paMe7MOmW-ZIY3GpER2y9pmXiSz1SxwLme0MsLEoQQBf9gF_unjhyEITFO73PFP2co_bVoOxY9kDDIddQ8iNFay5wV9R0MzJUw&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ0pQJegQIExAB
+              - generic [ref=e91]: News
+          - listitem [ref=e92]:
+            - link "Shopping" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=e11ce942ef99a1b2&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpn2Krr0IKqfflqqRk7juxKHJxMd-skALQX7h7BDSLmnoQU08Y9Oji5ACN8YBzO2uAQ-4WhAvRkruIs8UgAHcv9U6pmMT-SBhfb4H6paMe7MOmW-ZIY3GpER2y9pmXiSz1SxwLme0MsLEoQQBf9gF_unjhyEITFO73PFP2co_bVoOxY9kDDIddQ8iNFay5wV9R0MzJUw&q=toronto+to+ottawa+VIA+Rail+price+2026&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Shopping
+          - listitem [ref=e96]:
+            - link "Images" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=e11ce942ef99a1b2&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpn2Krr0IKqfflqqRk7juxKHJxMd-skALQX7h7BDSLmnoQU08Y9Oji5ACN8YBzO2uAQ-4WhAvRkruIs8UgAHcv9U6pmMT-SBhfb4H6paMe7MOmW-ZIY3GpER2y9pmXiSz1SxwLme0MsLEoQQBf9gF_unjhyEITFO73PFP2co_bVoOxY9kDDIddQ8iNFay5wV9R0MzJUw&q=toronto+to+ottawa+VIA+Rail+price+2026&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQtKgLegQIFBAB
+              - generic [ref=e99]: Images
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=e11ce942ef99a1b2&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpn2Krr0IKqfflqqRk7juxKHJxMd-skALQX7h7BDSLmnoQU08Y9Oji5ACN8YBzO2uAQ-4WhAvRkruIs8UgAHcv9U6pmMT-SBhfb4H6paMe7MOmW-ZIY3GpER2y9pmXiSz1SxwLme0MsLEoQQBf9gF_unjhyEITFO73PFP2co_bVoOxY9kDDIddQ8iNFay5wV9R0MzJUw&q=toronto+to+ottawa+VIA+Rail+price+2026&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQs6gLegQIFhAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=e11ce942ef99a1b2&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpn2Krr0IKqfflqqRk7juxKHJxMd-skALQX7h7BDSLmnoQU08Y9Oji5ACN8YBzO2uAQ-4WhAvRkruIs8UgAHcv9U6pmMT-SBhfb4H6paMe7MOmW-ZIY3GpER2y9pmXiSz1SxwLme0MsLEoQQBf9gF_unjhyEITFO73PFP2co_bVoOxY9kDDIddQ8iNFay5wV9R0MzJUw&q=toronto+to+ottawa+VIA+Rail+price+2026&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQtKgLegQIEhAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e148]:
+        - heading "Thinking" [level=2] [ref=e152]:
+          - generic [ref=e153]: Thinking
+        - progressbar [ref=e154]
+      - main [ref=e156]:
+        - generic [ref=e160]:
+          - generic [ref=e163]:
+            - heading "Web results" [level=2] [ref=e164]
+            - generic [ref=e165]:
+              - generic [ref=e168]:
+                - link "Travel by train from Toronto to Ottawa VIA Rail https://www.viarail.ca › ... › Ontario-Québec" [ref=e170] [cursor=pointer]:
+                  - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-ottawa
+                  - heading "Travel by train from Toronto to Ottawa" [level=3] [ref=e171]
+                  - generic [ref=e176]:
+                    - generic [ref=e178]: VIA Rail
+                    - generic [ref=e180]: https://www.viarail.ca › ... › Ontario-Québec
+                - button "About this result" [ref=e181] [cursor=pointer]:
+                  - img [ref=e184]
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - text: "*"
+                  - emphasis [ref=e189]: Prices
+                  - text: valid for either direction. One-way
+                  - emphasis [ref=e190]: fare
+                  - text: per person, excluding sales taxes, and is based on the selected day of the week and time of departure.
+                  - emphasis [ref=e191]: Fares
+                  - text: ", ..."
+                - link "Read more" [ref=e192] [cursor=pointer]:
+                  - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-ottawa#:~:text=Uncompromising%20comfort%2C%20no%20matter%20the
+          - generic [ref=e197]:
+            - heading "People also ask" [level=2] [ref=e199]
+            - generic [ref=e200]:
+              - button "How much does it cost to take VIA Rail from Toronto to Ottawa?" [ref=e206] [cursor=pointer]:
+                - generic [ref=e208]: How much does it cost to take VIA Rail from Toronto to Ottawa?
+                - img [ref=e211]
+              - button "What is the cheapest day to book VIA Rail?" [ref=e220] [cursor=pointer]:
+                - generic [ref=e222]: What is the cheapest day to book VIA Rail?
+                - img [ref=e225]
+              - button "What is the cheapest way to travel from Toronto to Ottawa?" [ref=e234] [cursor=pointer]:
+                - generic [ref=e236]: What is the cheapest way to travel from Toronto to Ottawa?
+                - img [ref=e239]
+              - button "What age is considered senior on VIA Rail?" [ref=e248] [cursor=pointer]:
+                - generic [ref=e250]: What age is considered senior on VIA Rail?
+                - img [ref=e253]
+          - generic [ref=e258]:
+            - heading "Web results" [level=2] [ref=e259]
+            - generic [ref=e260]:
+              - generic [ref=e263]:
+                - link "Train fares and packages VIA Rail https://www.viarail.ca › offers › fares-and-packages" [ref=e265] [cursor=pointer]:
+                  - /url: https://www.viarail.ca/en/offers/fares-and-packages
+                  - heading "Train fares and packages" [level=3] [ref=e266]
+                  - generic [ref=e271]:
+                    - generic [ref=e273]: VIA Rail
+                    - generic [ref=e275]: https://www.viarail.ca › offers › fares-and-packages
+                - button "About this result" [ref=e276] [cursor=pointer]:
+                  - img [ref=e279]
+              - generic [ref=e283]:
+                - text: Travel your way with
+                - emphasis [ref=e284]: flexible train fares and customized packages
+                - text: ", designed for business trips, group travel, family getaways, all-inclusive options, ..."
+          - generic [ref=e288]:
+            - generic [ref=e291]:
+              - 'link "VIA Rail Canada: Train travel in Canada VIA Rail https://www.viarail.ca › ..." [ref=e293] [cursor=pointer]':
+                - /url: https://www.viarail.ca/en
+                - 'heading "VIA Rail Canada: Train travel in Canada" [level=3] [ref=e294]'
+                - generic [ref=e299]:
+                  - generic [ref=e301]: VIA Rail
+                  - generic [ref=e303]: https://www.viarail.ca › ...
+              - button "About this result" [ref=e304] [cursor=pointer]:
+                - img [ref=e307]
+            - generic [ref=e310]:
+              - text: 2-12 years inclusive. Kids travel at 50% off in Economy class and at 25% off in other classes (not applicable in Business and Prestige classes).
+              - link "Read more" [ref=e311] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en#:~:text=Beginning%20of%20the%20main%20content.
+          - generic [ref=e315]:
+            - generic [ref=e318]:
+              - 'link "The Canadian Train Cost 2026: VIA Rail Prices & Fares canadiantrainvacations.com https://canadiantrainvacations.com › Explore" [ref=e320] [cursor=pointer]':
+                - /url: https://canadiantrainvacations.com/explore/via-rail-prices
+                - 'heading "The Canadian Train Cost 2026: VIA Rail Prices & Fares" [level=3] [ref=e321]'
+                - generic [ref=e326]:
+                  - generic [ref=e328]: canadiantrainvacations.com
+                  - generic [ref=e330]: https://canadiantrainvacations.com › Explore
+              - button "About this result" [ref=e331] [cursor=pointer]:
+                - img [ref=e334]
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - text: A VIA Rail Canadian train trip costs an average of
+                - emphasis [ref=e339]: 3,500 to 7,500 CAD per passenger
+                - text: for a one-way journey. VIA Rail pricing depends on service class, season, ...
+              - link "Read more" [ref=e340] [cursor=pointer]:
+                - /url: https://canadiantrainvacations.com/explore/via-rail-prices#:~:text=A%20VIA%20Rail%20Canadian%20train,not%20a%20single%20fixed%20fare.
+          - generic [ref=e344]:
+            - generic [ref=e347]:
+              - link "Train Toronto to Ottawa - Via Rail from $65 Rome2Rio https://www.rome2rio.com › Train › Ottawa-Via-Rail" [ref=e349] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto/Ottawa-Via-Rail
+                - heading "Train Toronto to Ottawa - Via Rail from $65" [level=3] [ref=e350]
+                - generic [ref=e355]:
+                  - generic [ref=e357]: Rome2Rio
+                  - generic [ref=e359]: https://www.rome2rio.com › Train › Ottawa-Via-Rail
+              - button "About this result" [ref=e360] [cursor=pointer]:
+                - img [ref=e363]
+            - generic [ref=e367]:
+              - emphasis [ref=e368]: Train tickets from Toronto to Ottawa - Via Rail start at $65
+              - text: ", and the quickest route takes just 4h 8m. Check timetables and book your tickets with Rome2Rio."
+          - generic [ref=e372]:
+            - generic [ref=e375]:
+              - link "Train ticket booking VIA Rail https://www.viarail.ca › Home › Plan your trip" [ref=e377] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/plan/book-travel
+                - heading "Train ticket booking" [level=3] [ref=e378]
+                - generic [ref=e383]:
+                  - generic [ref=e385]: VIA Rail
+                  - generic [ref=e387]: https://www.viarail.ca › Home › Plan your trip
+              - button "About this result" [ref=e388] [cursor=pointer]:
+                - img [ref=e391]
+            - generic [ref=e394]:
+              - text: 2-12 years inclusive. Kids travel at 50% off in Economy class and at 25% off in other classes (not applicable in Business and Prestige classes).
+              - link "Read more" [ref=e395] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/plan/book-travel#:~:text=ASL
+          - generic [ref=e399]:
+            - generic [ref=e402]:
+              - link "Train Toronto to Ottawa from $63 | Refundable Tickets Busbud https://www.busbud.com › ... › Toronto › Ottawa" [ref=e404] [cursor=pointer]:
+                - /url: https://www.busbud.com/en-ca/t/train-toronto-ottawa/dpz88g-f244m6
+                - heading "Train Toronto to Ottawa from $63 | Refundable Tickets" [level=3] [ref=e405]
+                - generic [ref=e410]:
+                  - generic [ref=e412]: Busbud
+                  - generic [ref=e414]: https://www.busbud.com › ... › Toronto › Ottawa
+              - button "About this result" [ref=e415] [cursor=pointer]:
+                - img [ref=e418]
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - text: The cheapest
+                - emphasis [ref=e423]: train
+                - text: tickets from
+                - emphasis [ref=e424]: Toronto to Ottawa
+                - text: start at $55. The average
+                - emphasis [ref=e425]: price
+                - text: for this
+                - emphasis [ref=e426]: train
+                - text: route is around $120. Busbud recommends booking your tickets in ...
+              - link "Read more" [ref=e427] [cursor=pointer]:
+                - /url: https://www.busbud.com/en-ca/t/train-toronto-ottawa/dpz88g-f244m6#:~:text=The%20cheapest%20train%20tickets%20from,getting%20the%20lowest%20possible%20price.
+            - generic [ref=e430]: $63.00 to $452.00
+          - generic [ref=e434]:
+            - generic [ref=e437]:
+              - link "Travel by train from Ottawa to Toronto VIA Rail https://www.viarail.ca › ... › Ontario-Québec" [ref=e439] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/ottawa-toronto
+                - heading "Travel by train from Ottawa to Toronto" [level=3] [ref=e440]
+                - generic [ref=e445]:
+                  - generic [ref=e447]: VIA Rail
+                  - generic [ref=e449]: https://www.viarail.ca › ... › Ontario-Québec
+              - button "About this result" [ref=e450] [cursor=pointer]:
+                - img [ref=e453]
+            - generic [ref=e457]:
+              - emphasis [ref=e458]: Travel by train from Ottawa to Toronto with VIA Rail
+              - text: . Enjoy comfortable seating, excellent service, and a journey designed to meet your needs.
+          - generic [ref=e462]:
+            - generic [ref=e465]:
+              - link "Toronto to Ottawa Train - Tickets from $54 Wanderu https://www.wanderu.com › ... › Ontario › Ottawa" [ref=e467] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-on/ottawa/
+                - heading "Toronto to Ottawa Train - Tickets from $54" [level=3] [ref=e468]
+                - generic [ref=e473]:
+                  - generic [ref=e475]: Wanderu
+                  - generic [ref=e477]: https://www.wanderu.com › ... › Ontario › Ottawa
+              - button "About this result" [ref=e478] [cursor=pointer]:
+                - img [ref=e481]
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - text: Over the next 30 days, a one-way
+                - emphasis [ref=e486]: train
+                - text: trip from
+                - emphasis [ref=e487]: Toronto to Ottawa
+                - text: will
+                - emphasis [ref=e488]: cost
+                - text: between $100 and $171. Book in advance to secure the best
+                - emphasis [ref=e489]: price
+                - text: in the next few ...
+              - link "Read more" [ref=e490] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-on/ottawa/#:~:text=Over%20the%20next%2030%20days%2C,in%20the%20next%20few%20weeks.
+            - generic [ref=e492]:
+              - generic [ref=e493]: Starting from $54.00
+              - text: ·
+              - img "Rated 4.7 out of 5, (78) user reviews" [ref=e497]:
+                - text: "4.7"
+                - img [ref=e498]
+                - text: (78)
+            - list [ref=e502]:
+              - listitem [ref=e503]:
+                - link "Prices" [ref=e504] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-on/ottawa/#price-chart-header
+                  - generic [ref=e506]: Prices
+              - listitem [ref=e507]:
+                - link "FAQ" [ref=e508] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-on/ottawa/#faq-header-section
+                  - generic [ref=e510]: FAQ
+              - listitem [ref=e511]:
+                - link "Cities" [ref=e512] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-ca/train/ca-on/toronto/ca-on/ottawa/#city-editorial-blurb
+                  - generic [ref=e514]: Cities
+          - generic [ref=e518]:
+            - generic [ref=e521]:
+              - link "TORONTO to OTTAWA train from $25 (€20) with Seajets Omio https://www.omio.com › ... › Train Times to Ottawa, ON" [ref=e523] [cursor=pointer]:
+                - /url: https://www.omio.com/trains/toronto-on/ottawa-on
+                - heading "TORONTO to OTTAWA train from $25 (€20) with Seajets" [level=3] [ref=e524]
+                - generic [ref=e529]:
+                  - generic [ref=e531]: Omio
+                  - generic [ref=e533]: https://www.omio.com › ... › Train Times to Ottawa, ON
+              - button "About this result" [ref=e534] [cursor=pointer]:
+                - img [ref=e537]
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - text: The cheapest ticket price for a train journey from Toronto to Ottawa is $
+                - emphasis [ref=e542]: 44 (39.6€
+                - text: ). The average ticket price typically hovers around $94 (84.6€), making the ...
+              - link "Read more" [ref=e543] [cursor=pointer]:
+                - /url: https://www.omio.com/trains/toronto-on/ottawa-on#:~:text=The%20cheapest%20ticket%20price%20for,to%20explore%20Canada's%20capital%20city.
+            - generic [ref=e545]: Starting from €20.00
+        - generic [ref=e547]:
+          - generic [ref=e552]:
+            - heading "People also search for" [level=2] [ref=e554]
+            - generic [ref=e556]:
+              - generic [ref=e557]:
+                - link "Toronto to ottawa via rail price 2026 pdf" [ref=e561] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=Toronto+to+ottawa+via+rail+price+2026+pdf&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhEEAE
+                  - generic [ref=e562]:
+                    - generic [ref=e567]: Toronto to ottawa via rail price 2026 pdf
+                    - img [ref=e571]
+                - link "Toronto to ottawa via rail price 2026 sleeper" [ref=e576] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=Toronto+to+ottawa+via+rail+price+2026+sleeper&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhHEAE
+                  - generic [ref=e577]:
+                    - generic [ref=e582]: Toronto to ottawa via rail price 2026 sleeper
+                    - img [ref=e586]
+                - link "Toronto to ottawa via rail price 2026 vancouver" [ref=e591] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=Toronto+to+ottawa+via+rail+price+2026+vancouver&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhFEAE
+                  - generic [ref=e592]:
+                    - generic [ref=e597]: Toronto to ottawa via rail price 2026 vancouver
+                    - img [ref=e601]
+                - link "VIA Rail Sleeper cabin for 2 price" [ref=e606] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=VIA+Rail+Sleeper+cabin+for+2+price&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhKEAE
+                  - generic [ref=e607]:
+                    - generic [ref=e612]: VIA Rail Sleeper cabin for 2 price
+                    - img [ref=e616]
+              - generic [ref=e618]:
+                - link "VIA rail schedules and fares" [ref=e622] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=VIA+rail+schedules+and+fares&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhGEAE
+                  - generic [ref=e623]:
+                    - generic [ref=e628]: VIA rail schedules and fares
+                    - img [ref=e632]
+                - link "VIA Rail deals for seniors" [ref=e637] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=VIA+Rail+deals+for+seniors&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhIEAE
+                  - generic [ref=e638]:
+                    - generic [ref=e643]: VIA Rail deals for seniors
+                    - img [ref=e647]
+                - link "VIA Rail Toronto to Vancouver price" [ref=e652] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=VIA+Rail+Toronto+to+Vancouver+price&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhJEAE
+                  - generic [ref=e653]:
+                    - generic [ref=e658]: VIA Rail Toronto to Vancouver price
+                    - img [ref=e662]
+                - link "VIA rail Toronto to Montreal $39" [ref=e667] [cursor=pointer]:
+                  - /url: /search?sca_esv=e11ce942ef99a1b2&q=VIA+rail+Toronto+to+Montreal+%2439&sa=X&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ1QJ6BAhLEAE
+                  - generic [ref=e668]:
+                    - generic [ref=e673]: VIA rail Toronto to Montreal $39
+                    - img [ref=e677]
+          - navigation [ref=e679]:
+            - heading "Page Navigation" [level=1] [ref=e680]
+            - text: "1"
+            - link "Page 2" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=10&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAE
+              - text: "2"
+            - link "Page 3" [ref=e685] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=20&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAG
+              - text: "3"
+            - link "Page 4" [ref=e687] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=30&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAI
+              - text: "4"
+            - link "Page 5" [ref=e689] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=40&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAK
+              - text: "5"
+            - link "Page 6" [ref=e691] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=50&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAM
+              - text: "6"
+            - link "Page 7" [ref=e693] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=60&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAO
+              - text: "7"
+            - link "Page 8" [ref=e695] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=70&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAQ
+              - text: "8"
+            - link "Page 9" [ref=e697] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=80&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAS
+              - text: "9"
+            - link "Page 10" [ref=e699] [cursor=pointer]:
+              - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=90&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8tMDegQIQhAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e701]:
+              - link "Next" [ref=e702] [cursor=pointer]:
+                - /url: /search?q=toronto+to+ottawa+VIA+Rail+price+2026&sca_esv=e11ce942ef99a1b2&ei=h6D0adKFFIeOruEP9ND_sA0&start=10&sa=N&sstk=Af77f_dhxBOtOKtsxx11TiO2jFdBBpS88zlqrZF1QvFk-S3_HabTQ8ceYZYNc03HsHiLto0DXYg5F2WNfJnwdCq9RBGLlJKeyC19JQ&ved=2ahUKEwiS5eOzj5iUAxUHhysGHXToH9YQ8NMDegQIQhAW
+                - generic [ref=e704]: Next
+        - navigation
+    - contentinfo [ref=e705]:
+      - heading "Footer Links" [level=1] [ref=e706]
+      - generic [ref=e710]:
+        - generic [ref=e712]:
+          - text: Canada
+          - generic [ref=e714]:
+            - button "Montreal, Quebec - Based on your past activity" [ref=e716] [cursor=pointer]:
+              - generic [ref=e717]: Montreal, Quebec
+              - generic [ref=e719]:
+                - text: "-"
+                - generic [ref=e720]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e722] [cursor=pointer]: Update location
+        - generic [ref=e725]:
+          - link "Help" [ref=e726] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e727] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e728] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e729] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

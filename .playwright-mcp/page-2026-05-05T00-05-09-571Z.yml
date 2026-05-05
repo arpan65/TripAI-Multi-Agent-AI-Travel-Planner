@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Airbnb Montreal 15th to 18th May 2026 price Airbnb Montreal 15th to 18th May 2026 price
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DAirbnb%2BMontreal%2B15th%2Bto%2B18th%2BMay%2B2026%2Bprice&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "News" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&q=Airbnb+Montreal+15th+to+18th+May+2026+price&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu8p259kRSvVQ5bnHzYKDo1KuIK-7u3w7KEv1pu_TCCSH7887X9jX21NronH8pCfqRWSDXg4Bl8vtgugOCjeGH15RE7Jmw&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ0pQJegQIFRAB
+              - generic [ref=e84]: News
+          - listitem [ref=e85]:
+            - link "Images" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu8p259kRSvVQ5bnHzYKDo1KuIK-7u3w7KEv1pu_TCCSH7887X9jX21NronH8pCfqRWSDXg4Bl8vtgugOCjeGH15RE7Jmw&q=Airbnb+Montreal+15th+to+18th+May+2026+price&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQtKgLegQIExAB
+              - generic [ref=e88]: Images
+          - listitem [ref=e89]:
+            - link "Forums" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu8p259kRSvVQ5bnHzYKDo1KuIK-7u3w7KEv1pu_TCCSH7887X9jX21NronH8pCfqRWSDXg4Bl8vtgugOCjeGH15RE7Jmw&q=Airbnb+Montreal+15th+to+18th+May+2026+price&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQs6gLegQIERAB
+              - generic [ref=e92]: Forums
+          - listitem [ref=e93]:
+            - link "Shopping" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu8p259kRSvVQ5bnHzYKDo1KuIK-7u3w7KEv1pu_TCCSH7887X9jX21NronH8pCfqRWSDXg4Bl8vtgugOCjeGH15RE7Jmw&q=Airbnb+Montreal+15th+to+18th+May+2026+price&ved=1t:220175&ictx=111
+              - generic [ref=e96]: Shopping
+          - listitem [ref=e97]:
+            - link "Videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=1c1263f81498c012&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDc7UKkeLkqmlgcJTOaXASt80jNYKHwMUgCpEy2fJyNfi5HmMouilazTF7B-63aacu8p259kRSvVQ5bnHzYKDo1KuIK-7u3w7KEv1pu_TCCSH7887X9jX21NronH8pCfqRWSDXg4Bl8vtgugOCjeGH15RE7Jmw&q=Airbnb+Montreal+15th+to+18th+May+2026+price&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQtKgLegQIEhAB
+              - generic [ref=e100]: Videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e122]:
+      - generic [ref=e141]:
+        - heading "Thinking" [level=2] [ref=e145]:
+          - generic [ref=e146]: Thinking
+        - progressbar [ref=e147]
+      - main [ref=e149]:
+        - generic [ref=e153]:
+          - generic [ref=e156]:
+            - heading "Web results" [level=2] [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e161]:
+                - link "Montréal, Canada Vacation Rentals Airbnb https://www.airbnb.ca › Canada › Quebec" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.airbnb.ca/montreal-canada/stays
+                  - heading "Montréal, Canada Vacation Rentals" [level=3] [ref=e164]
+                  - generic [ref=e169]:
+                    - generic [ref=e171]: Airbnb
+                    - generic [ref=e173]: https://www.airbnb.ca › Canada › Quebec
+                - button "About this result" [ref=e174] [cursor=pointer]:
+                  - img [ref=e177]
+              - generic [ref=e181]:
+                - text: Find unique vacation rentals in
+                - emphasis [ref=e182]: Montréal
+                - text: ", Canada. Book homes, condos, and apartments with"
+                - emphasis [ref=e183]: Airbnb
+                - text: .
+              - img "Rated 4.8 out of 5, (870) user reviews" [ref=e188]:
+                - text: "4.8"
+                - img [ref=e189]
+                - text: (870)
+          - generic [ref=e195]:
+            - generic [ref=e198]:
+              - link "Downtown Montreal, Canada Vacation Rentals Airbnb https://www.airbnb.ca › Canada › Quebec › Montreal" [ref=e200] [cursor=pointer]:
+                - /url: https://www.airbnb.ca/downtown-montreal-canada/stays
+                - heading "Downtown Montreal, Canada Vacation Rentals" [level=3] [ref=e201]
+                - generic [ref=e206]:
+                  - generic [ref=e208]: Airbnb
+                  - generic [ref=e210]: https://www.airbnb.ca › Canada › Quebec › Montreal
+              - button "About this result" [ref=e211] [cursor=pointer]:
+                - img [ref=e214]
+            - generic [ref=e218]:
+              - emphasis [ref=e219]: Find unique vacation rentals in Downtown Montreal
+              - text: ", Canada. Book homes, condos, and apartments with Airbnb."
+            - img "Rated 4.9 out of 5, (218) user reviews" [ref=e224]:
+              - text: "4.9"
+              - img [ref=e225]
+              - text: (218)
+            - generic [ref=e229]:
+              - text: "Missing: 18th ‎| Show results with:"
+              - link "18th" [ref=e230] [cursor=pointer]:
+                - /url: /search?sca_esv=1c1263f81498c012&q=Airbnb+Montreal+15th+to+%2218th%22+May+2026+price&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ5t4CegQIIRAB
+          - generic [ref=e234]:
+            - generic [ref=e237]:
+              - link "House vacation rentals in Montreal Airbnb https://www.airbnb.ca › Canada › Quebec › Montreal" [ref=e239] [cursor=pointer]:
+                - /url: https://www.airbnb.ca/montreal-canada/stays/houses
+                - heading "House vacation rentals in Montreal" [level=3] [ref=e240]
+                - generic [ref=e245]:
+                  - generic [ref=e247]: Airbnb
+                  - generic [ref=e249]: https://www.airbnb.ca › Canada › Quebec › Montreal
+              - button "About this result" [ref=e250] [cursor=pointer]:
+                - img [ref=e253]
+            - generic [ref=e257]:
+              - text: Find the perfect house rental for your trip to
+              - emphasis [ref=e258]: Montréal
+              - text: . House rentals with a pool, weekly house rentals, private house rentals and pet-friendly house ...
+            - img "Rated 4.8 out of 5, (397) user reviews" [ref=e263]:
+              - text: "4.8"
+              - img [ref=e264]
+              - text: (397)
+            - generic [ref=e268]: "Missing: 18th ‎May"
+          - generic [ref=e273]:
+            - heading "People also ask" [level=2] [ref=e275]
+            - generic [ref=e276]:
+              - button "Is Montreal cracking down on Airbnb?" [ref=e282] [cursor=pointer]:
+                - generic [ref=e284]: Is Montreal cracking down on Airbnb?
+                - img [ref=e287]
+              - button "What is everyone using instead of Airbnb?" [ref=e296] [cursor=pointer]:
+                - generic [ref=e298]: What is everyone using instead of Airbnb?
+                - img [ref=e301]
+              - button "What are some unique Airbnbs in Montreal?" [ref=e310] [cursor=pointer]:
+                - generic [ref=e312]: What are some unique Airbnbs in Montreal?
+                - img [ref=e315]
+              - button "Is there a Canadian alternative to Airbnb?" [ref=e324] [cursor=pointer]:
+                - generic [ref=e326]: Is there a Canadian alternative to Airbnb?
+                - img [ref=e329]
+          - generic [ref=e334]:
+            - heading "Web results" [level=2] [ref=e335]
+            - generic [ref=e336]:
+              - generic [ref=e339]:
+                - link "Apartment vacation rentals in Montréal Airbnb https://www.airbnb.ca › Canada › Quebec › Montreal" [ref=e341] [cursor=pointer]:
+                  - /url: https://www.airbnb.ca/montreal-canada/stays/apartments
+                  - heading "Apartment vacation rentals in Montréal" [level=3] [ref=e342]
+                  - generic [ref=e347]:
+                    - generic [ref=e349]: Airbnb
+                    - generic [ref=e351]: https://www.airbnb.ca › Canada › Quebec › Montreal
+                - button "About this result" [ref=e352] [cursor=pointer]:
+                  - img [ref=e355]
+              - generic [ref=e359]:
+                - text: Find the perfect apartment rental for your trip to Montréal. Weekly apartment rentals, private apartment rentals,
+                - emphasis [ref=e360]: apartment rentals with a hot tub
+                - text: and ...
+              - img "Rated 4.8 out of 5, (870) user reviews" [ref=e365]:
+                - text: "4.8"
+                - img [ref=e366]
+                - text: (870)
+              - generic [ref=e370]: "Missing: 18th ‎price"
+          - generic [ref=e374]:
+            - generic [ref=e377]:
+              - link "The Best Airbnb Montreal Deals AirDNA https://www.airdna.co › top › montreal" [ref=e379] [cursor=pointer]:
+                - /url: https://www.airdna.co/top/ca/montreal
+                - heading "The Best Airbnb Montreal Deals" [level=3] [ref=e380]
+                - generic [ref=e385]:
+                  - generic [ref=e387]: AirDNA
+                  - generic [ref=e389]: https://www.airdna.co › top › montreal
+              - button "About this result" [ref=e390] [cursor=pointer]:
+                - img [ref=e393]
+            - generic [ref=e396]:
+              - generic [ref=e397]:
+                - text: Average
+                - emphasis [ref=e398]: Price
+                - text: ": $138. 30% Cheaper. than normal. AirDNA Score: 93. $170/night. Spacious & bright apartment with large terrace. 1 bed. 1 bath. 4 guests. Book Now ..."
+              - link "Read more" [ref=e399] [cursor=pointer]:
+                - /url: https://www.airdna.co/top/ca/montreal#:~:text=Average%20Price%3A,Book%20NowAnalyze%20Market
+            - generic [ref=e401]: "Missing: 15th ‎May ‎2026"
+          - generic [ref=e405]:
+            - generic [ref=e408]:
+              - link "Downtown Montreal, Canada Vacation Rentals (4.8 out of 5) Airbnb https://www.airbnb.com › ... › Downtown Montreal" [ref=e410] [cursor=pointer]:
+                - /url: https://www.airbnb.com/downtown-montreal-canada/stays/houses
+                - heading "Downtown Montreal, Canada Vacation Rentals (4.8 out of 5)" [level=3] [ref=e411]
+                - generic [ref=e416]:
+                  - generic [ref=e418]: Airbnb
+                  - generic [ref=e420]: https://www.airbnb.com › ... › Downtown Montreal
+              - button "About this result" [ref=e421] [cursor=pointer]:
+                - img [ref=e424]
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - text: Total vacation rentals. Explore 40 vacation rentals in Downtown Montreal ·
+                - emphasis [ref=e429]: Nightly prices starting at
+                - text: · Verified guest reviews · Family-friendly vacation rentals.
+              - link "Read more" [ref=e430] [cursor=pointer]:
+                - /url: https://www.airbnb.com/downtown-montreal-canada/stays/houses#:~:text=Total%20vacation%20rentals,vacation%20rentals%20in%20Downtown%20Montreal&text=Nightly%20prices%20starting%20at&text=Verified%20guest%20reviews&text=Family%2Dfriendly%20vacation%20rentals
+            - img "Rated 4.8 out of 5, (397) user reviews" [ref=e435]:
+              - text: "4.8"
+              - img [ref=e436]
+              - text: (397)
+          - generic [ref=e442]:
+            - generic [ref=e445]:
+              - link "Old Port of Montreal, Canada Vacation Rentals Airbnb https://www.airbnb.ca › Canada › Quebec › Montreal" [ref=e447] [cursor=pointer]:
+                - /url: https://www.airbnb.ca/old-port-of-montreal-canada/stays
+                - heading "Old Port of Montreal, Canada Vacation Rentals" [level=3] [ref=e448]
+                - generic [ref=e453]:
+                  - generic [ref=e455]: Airbnb
+                  - generic [ref=e457]: https://www.airbnb.ca › Canada › Quebec › Montreal
+              - button "About this result" [ref=e458] [cursor=pointer]:
+                - img [ref=e461]
+            - generic [ref=e464]:
+              - generic [ref=e465]:
+                - text: When is the best time to visit Old Port of Montreal? ;
+                - emphasis [ref=e466]: Avg. price, $160 CAD, $158 CAD
+                - text: ; Avg. temp, -6 °C · -5 °C ...
+              - link "Read more" [ref=e467] [cursor=pointer]:
+                - /url: https://www.airbnb.ca/old-port-of-montreal-canada/stays#:~:text=When%20is%20the%20best%20time,visit%20Old%20Port%20of%20Montreal%3F&text=Avg.%20price,%24158%20CAD&text=Avg.%20temp,%2D6%20%C2%B0C&text=%2D5%20%C2%B0C
+            - img "Rated 4.8 out of 5, (265) user reviews" [ref=e472]:
+              - text: "4.8"
+              - img [ref=e473]
+              - text: (265)
+            - generic [ref=e477]: "Missing: 15th ‎18th"
+          - generic [ref=e481]:
+            - generic [ref=e484]:
+              - link "Airbnb | Vacation rentals, cabins, beach houses, & more Airbnb https://www.airbnb.ca" [ref=e486] [cursor=pointer]:
+                - /url: https://www.airbnb.ca/
+                - heading "Airbnb | Vacation rentals, cabins, beach houses, & more" [level=3] [ref=e487]
+                - generic [ref=e492]:
+                  - generic [ref=e494]: Airbnb
+                  - generic [ref=e496]: https://www.airbnb.ca
+              - button "About this result" [ref=e497] [cursor=pointer]:
+                - img [ref=e500]
+            - generic [ref=e504]:
+              - text: Get an
+              - emphasis [ref=e505]: Airbnb
+              - text: for every kind of trip → 7 million vacation rentals → 2 million Guest Favourites → 220+ countries and regions worldwide.
+          - generic [ref=e509]:
+            - generic [ref=e512]:
+              - link "Best Vacation Rentals & Airbnb in Montreal for 2026 Cozycozy https://www.cozycozy.com › ... › Quebec vacation rentals" [ref=e514] [cursor=pointer]:
+                - /url: https://www.cozycozy.com/ca/montreal-vacation-rentals
+                - heading "Best Vacation Rentals & Airbnb in Montreal for 2026" [level=3] [ref=e515]
+                - generic [ref=e520]:
+                  - generic [ref=e522]: Cozycozy
+                  - generic [ref=e524]: https://www.cozycozy.com › ... › Quebec vacation rentals
+              - button "About this result" [ref=e525] [cursor=pointer]:
+                - img [ref=e528]
+            - generic [ref=e532]:
+              - emphasis [ref=e533]: Search and compare vacation rentals and apartments in Montreal
+              - text: on cozycozy. Choose your favourite vacation home or villa for the best price!
+            - img "Rated 5.0 out of 5, (763) user reviews" [ref=e538]:
+              - text: 9.7/10
+              - img [ref=e539]
+              - text: (763)
+            - generic [ref=e543]:
+              - text: "Missing: 18th ‎| Show results with:"
+              - link "18th" [ref=e544] [cursor=pointer]:
+                - /url: /search?sca_esv=1c1263f81498c012&q=Airbnb+Montreal+15th+to+%2218th%22+May+2026+price&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ5t4CegQIPhAB
+          - generic [ref=e548]:
+            - generic [ref=e551]:
+              - link "Hotels in Montréal - Montreal Airbnb https://www.airbnb.ca › Canada › Quebec › Montreal" [ref=e553] [cursor=pointer]:
+                - /url: https://www.airbnb.ca/montreal-canada/stays/hotels
+                - heading "Hotels in Montréal - Montreal" [level=3] [ref=e554]
+                - generic [ref=e559]:
+                  - generic [ref=e561]: Airbnb
+                  - generic [ref=e563]: https://www.airbnb.ca › Canada › Quebec › Montreal
+              - button "About this result" [ref=e564] [cursor=pointer]:
+                - img [ref=e567]
+            - generic [ref=e571]:
+              - text: Find the perfect hotels for your trip to
+              - emphasis [ref=e572]: Montréal
+              - text: Family-friendly hotels, hotels with a pool, hotels with a patio and other hotel vacation rentals.
+            - img "Rated 5.0 out of 5, (739) user reviews" [ref=e577]:
+              - text: "5.0"
+              - img [ref=e578]
+              - text: (739)
+            - generic [ref=e582]: "Missing: 18th ‎May"
+        - generic [ref=e584]:
+          - generic [ref=e589]:
+            - heading "People also search for" [level=2] [ref=e591]
+            - generic [ref=e593]:
+              - generic [ref=e594]:
+                - link "Airbnb montreal 15th to 18th may 2026 price per" [ref=e598] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Airbnb+montreal+15th+to+18th+may+2026+price+per&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAgmEAE
+                  - generic [ref=e599]:
+                    - generic [ref=e604]: Airbnb montreal 15th to 18th may 2026 price per
+                    - img [ref=e608]
+                - link "Airbnb montreal 15th to 18th may 2026 price near" [ref=e613] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Airbnb+montreal+15th+to+18th+may+2026+price+near&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAhMEAE
+                  - generic [ref=e614]:
+                    - generic [ref=e619]: Airbnb montreal 15th to 18th may 2026 price near
+                    - img [ref=e623]
+                - link "Cheap Airbnb Montreal Downtown" [ref=e628] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Cheap+Airbnb+Montreal+Downtown&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAhIEAE
+                  - generic [ref=e629]:
+                    - generic [ref=e634]: Cheap Airbnb Montreal Downtown
+                    - img [ref=e638]
+                - link "Romantic Airbnb Montreal" [ref=e643] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Romantic+Airbnb+Montreal&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAhDEAE
+                  - generic [ref=e644]:
+                    - generic [ref=e649]: Romantic Airbnb Montreal
+                    - img [ref=e653]
+              - generic [ref=e655]:
+                - link "Airbnb Old Montreal" [ref=e659] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Airbnb+Old+Montreal&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAg6EAE
+                  - generic [ref=e660]:
+                    - generic [ref=e665]: Airbnb Old Montreal
+                    - img [ref=e669]
+                - link "Party Airbnb Montreal" [ref=e674] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Party+Airbnb+Montreal&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAgyEAE
+                  - generic [ref=e675]:
+                    - generic [ref=e680]: Party Airbnb Montreal
+                    - img [ref=e684]
+                - link "Cheap airbnb montreal downtown 3 bedroom" [ref=e689] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Cheap+airbnb+montreal+downtown+3+bedroom&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAgwEAE
+                  - generic [ref=e690]:
+                    - generic [ref=e695]: Cheap airbnb montreal downtown 3 bedroom
+                    - img [ref=e699]
+                - link "Best Airbnb in Montreal" [ref=e704] [cursor=pointer]:
+                  - /url: /search?sca_esv=1c1263f81498c012&q=Best+Airbnb+in+Montreal&sa=X&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ1QJ6BAgrEAE
+                  - generic [ref=e705]:
+                    - generic [ref=e710]: Best Airbnb in Montreal
+                    - img [ref=e714]
+          - navigation [ref=e716]:
+            - heading "Page Navigation" [level=1] [ref=e717]
+            - text: "1"
+            - link "Page 2" [ref=e720] [cursor=pointer]:
+              - /url: /search?q=Airbnb+Montreal+15th+to+18th+May+2026+price&sca_esv=1c1263f81498c012&ei=NTT5afymA9aZmLQPzretwQQ&start=10&sa=N&sstk=Af77f_dYHw8hV79uz5xXcLMMju5ZQ6yHrRzyeEqc9QybEBoTtc9SIbonL7lrGV8XH9SNaag03nJ61Ggox0i8nRZXrehRnd4cAy289w&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ8tMDegQITRAE
+              - text: "2"
+            - link "Page 3" [ref=e722] [cursor=pointer]:
+              - /url: /search?q=Airbnb+Montreal+15th+to+18th+May+2026+price&sca_esv=1c1263f81498c012&ei=NTT5afymA9aZmLQPzretwQQ&start=20&sa=N&sstk=Af77f_dYHw8hV79uz5xXcLMMju5ZQ6yHrRzyeEqc9QybEBoTtc9SIbonL7lrGV8XH9SNaag03nJ61Ggox0i8nRZXrehRnd4cAy289w&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ8tMDegQITRAG
+              - text: "3"
+            - link "Page 4" [ref=e724] [cursor=pointer]:
+              - /url: /search?q=Airbnb+Montreal+15th+to+18th+May+2026+price&sca_esv=1c1263f81498c012&ei=NTT5afymA9aZmLQPzretwQQ&start=30&sa=N&sstk=Af77f_dYHw8hV79uz5xXcLMMju5ZQ6yHrRzyeEqc9QybEBoTtc9SIbonL7lrGV8XH9SNaag03nJ61Ggox0i8nRZXrehRnd4cAy289w&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ8tMDegQITRAI
+              - text: "4"
+            - link "Page 5" [ref=e726] [cursor=pointer]:
+              - /url: /search?q=Airbnb+Montreal+15th+to+18th+May+2026+price&sca_esv=1c1263f81498c012&ei=NTT5afymA9aZmLQPzretwQQ&start=40&sa=N&sstk=Af77f_dYHw8hV79uz5xXcLMMju5ZQ6yHrRzyeEqc9QybEBoTtc9SIbonL7lrGV8XH9SNaag03nJ61Ggox0i8nRZXrehRnd4cAy289w&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ8tMDegQITRAK
+              - text: "5"
+            - heading "Next" [level=2] [ref=e728]:
+              - link "Next" [ref=e729] [cursor=pointer]:
+                - /url: /search?q=Airbnb+Montreal+15th+to+18th+May+2026+price&sca_esv=1c1263f81498c012&ei=NTT5afymA9aZmLQPzretwQQ&start=10&sa=N&sstk=Af77f_dYHw8hV79uz5xXcLMMju5ZQ6yHrRzyeEqc9QybEBoTtc9SIbonL7lrGV8XH9SNaag03nJ61Ggox0i8nRZXrehRnd4cAy289w&ved=2ahUKEwi8lfrm7KCUAxXWDIYAHc5bK0gQ8NMDegQITRAM
+                - generic [ref=e731]: Next
+        - navigation
+    - contentinfo [ref=e732]:
+      - heading "Footer Links" [level=1] [ref=e733]
+      - generic [ref=e737]:
+        - generic [ref=e739]:
+          - text: Canada
+          - generic [ref=e741]:
+            - button "Montreal, Quebec - Based on your past activity" [ref=e743] [cursor=pointer]:
+              - generic [ref=e744]: Montreal, Quebec
+              - generic [ref=e746]:
+                - text: "-"
+                - generic [ref=e747]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e749] [cursor=pointer]: Update location
+        - generic [ref=e752]:
+          - link "Help" [ref=e753] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e754] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e755] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e756] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

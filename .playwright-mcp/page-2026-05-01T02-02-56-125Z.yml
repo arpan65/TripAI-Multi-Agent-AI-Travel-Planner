@@ -1,0 +1,224 @@
+- generic [ref=e1]:
+  - link "Go to main navigation":
+    - /url: "#menu-main-collapse-cta-0"
+  - link "Go to main content":
+    - /url: "#content-main-start"
+  - generic [ref=e3]:
+    - generic: VIA Rail has an important message for all passengers. Please follow this link and read the information carefully.
+    - link "Please consult the travel advisory":
+      - /url: "#advisoriesBlock"
+    - generic [ref=e4]:
+      - generic [ref=e8]: Important Information
+      - button "+ Open the messages panel" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]:
+          - text: +
+          - generic [ref=e11]: Open the messages panel
+  - alertdialog [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: By continuing your navigation on this site, you accept the use of cookies.
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: These are designed to improve your user experience on our site and other media by providing you with targeted advertising based on your interests, collecting traffic statistics, information on your behaviour, and facilitating the sharing of information on social networks.
+          - link "Click for more information on our Cookie Policy" [ref=e19] [cursor=pointer]:
+            - /url: /en/cookie-policy
+            - text: For more information on our Cookie Policy
+      - button "x" [ref=e21] [cursor=pointer]
+  - generic [ref=e24]:
+    - region "Secondary menu" [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: Top menu
+        - list [ref=e28]:
+          - listitem:
+            - link "Home":
+              - /url: /en
+          - listitem [ref=e29]:
+            - link "Corporate This link will redirect to a new website." [ref=e30] [cursor=pointer]:
+              - /url: https://corpo.viarail.ca/en
+              - text: Corporate
+              - generic [ref=e31]: This link will redirect to a new website.
+          - listitem [ref=e32]:
+            - link "Media This link will redirect to a new website." [ref=e33] [cursor=pointer]:
+              - /url: https://media.viarail.ca/en/
+              - text: Media
+              - generic [ref=e34]: This link will redirect to a new website.
+        - region "Additional links" [ref=e35]:
+          - link "Loyalty program" [ref=e36] [cursor=pointer]:
+            - /url: /en/offers/via-preference
+            - img [ref=e37]
+            - text: Loyalty program
+          - link "Help & Contact" [ref=e39] [cursor=pointer]:
+            - /url: /en/plan/faq
+          - link "Accessibility" [ref=e40] [cursor=pointer]:
+            - /url: /en/plan/accessibility
+          - button "This button opens the video in a popup window" [ref=e41] [cursor=pointer]: ASL
+          - region "Language menu" [ref=e42]:
+            - generic [ref=e43]: Other languages
+            - button "Other languages" [ref=e45] [cursor=pointer]: English
+    - banner [ref=e46]:
+      - generic [ref=e47]:
+        - link "VIA Rail Canada logo" [ref=e49] [cursor=pointer]:
+          - /url: /en
+          - img [ref=e50]
+          - generic [ref=e52]: VIA Rail Canada logo
+        - generic [ref=e53]:
+          - navigation "Main navigation" [ref=e56]:
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - button "Destinations" [ref=e59] [cursor=pointer]
+              - listitem [ref=e60]:
+                - button "Plan" [ref=e61] [cursor=pointer]
+              - listitem [ref=e62]:
+                - button "Offers" [ref=e63] [cursor=pointer]
+              - listitem [ref=e64]:
+                - button "Why VIA?" [ref=e65] [cursor=pointer]
+          - generic [ref=e66]:
+            - button "My VIA profile" [ref=e68] [cursor=pointer]:
+              - generic: My VIA profile
+            - 'button "Train tickets: This button opens the booking engine in a popup window" [ref=e69] [cursor=pointer]': Tickets
+            - button "Search" [ref=e70] [cursor=pointer]:
+              - img [ref=e71]
+    - region "Alert bar"
+    - navigation [ref=e75]:
+      - generic [ref=e76]: Breadcrumb
+      - link "Home" [ref=e77] [cursor=pointer]:
+        - /url: /en
+      - generic [ref=e78]: /
+      - generic [ref=e79]: Page not found
+    - generic [ref=e81]:
+      - main [ref=e82]:
+        - paragraph: Beginning of the main content.
+        - generic [ref=e90]:
+          - heading "Sorry! You did not arrive at destination." [level=1] [ref=e91]
+          - paragraph [ref=e92]: The page could not be found, it may have been moved or deleted.
+          - link "< Return to the home page." [ref=e93] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=e94]:
+            - group "Search the site" [ref=e98]:
+              - generic [ref=e99]: Search the site
+              - generic [ref=e100]:
+                - generic: Search the site
+                - textbox "Search the site" [active] [ref=e101]
+                - group
+                - emphasis [ref=e102]:
+                  - img "Search icon" [ref=e103]
+              - button "Submit" [ref=e104] [cursor=pointer]
+            - link "Book This link opens a new window." [ref=e106] [cursor=pointer]:
+              - /url: https://reservia.viarail.ca/en
+              - text: Book
+              - img [ref=e107]
+            - link "Special Offers" [ref=e110] [cursor=pointer]:
+              - /url: /en/fares-and-packages/special-offers
+            - link "Schedules" [ref=e112] [cursor=pointer]:
+              - /url: /en/plan-your-trip/customize-your-train-schedule
+      - link "Go to main navigation":
+        - /url: "#menu-main-collapse-cta-0"
+    - contentinfo [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e117]: Main footer
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - heading "Company" [level=2] [ref=e121]
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - link "About VIA Rail This link opens a new window." [ref=e125] [cursor=pointer]:
+                  - /url: https://corpo.viarail.ca/en
+                  - text: About VIA Rail
+                  - img [ref=e126]
+              - listitem [ref=e128]:
+                - link "Conditions of the contract" [ref=e129] [cursor=pointer]:
+                  - /url: /en/conditions-contract
+              - listitem [ref=e130]:
+                - link "Careers This link opens a new window." [ref=e131] [cursor=pointer]:
+                  - /url: https://careers.viarail.ca/?locale=en_US
+                  - text: Careers
+                  - img [ref=e132]
+              - listitem [ref=e134]:
+                - link "Media room This link opens a new window." [ref=e135] [cursor=pointer]:
+                  - /url: https://media.viarail.ca/en
+                  - text: Media room
+                  - img [ref=e136]
+              - listitem [ref=e138]:
+                - 'link "VIA: the blog" [ref=e139] [cursor=pointer]':
+                  - /url: /en/blog
+          - listitem [ref=e140]:
+            - heading "Services & programs" [level=2] [ref=e141]
+            - list [ref=e143]:
+              - listitem [ref=e144]:
+                - link "Loyalty program" [ref=e145] [cursor=pointer]:
+                  - /url: /en/offers/via-preference
+              - listitem [ref=e146]:
+                - link "VIA Boutique This link opens a new window." [ref=e147] [cursor=pointer]:
+                  - /url: https://viarailboutique.ca/
+                  - text: VIA Boutique
+                  - img [ref=e148]
+              - listitem [ref=e150]:
+                - link "Travel agents & Tour operators This link opens a new window." [ref=e151] [cursor=pointer]:
+                  - /url: https://reservia.viarail.ca/en/booking/agent/login
+                  - text: Travel agents & Tour operators
+                  - img [ref=e152]
+              - listitem [ref=e154]:
+                - link "Business partners This link opens a new window." [ref=e155] [cursor=pointer]:
+                  - /url: https://reservia.viarail.ca/en/booking/contra/login
+                  - text: Business partners
+                  - img [ref=e156]
+          - listitem [ref=e158]:
+            - heading "Customer support" [level=2] [ref=e159]
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link "Help & Contact" [ref=e163] [cursor=pointer]:
+                  - /url: /en/plan/faq
+              - listitem [ref=e164]:
+                - link "Developers" [ref=e165] [cursor=pointer]:
+                  - /url: /en/developer-resources
+              - listitem [ref=e166]:
+                - link "Web Accessibility" [ref=e167] [cursor=pointer]:
+                  - /url: /en/plan/accessibility-web
+          - listitem [ref=e168]:
+            - heading "Connect" [level=2] [ref=e169]
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - generic [ref=e173]:
+                  - link "Connect with VIA on Facebook" [ref=e174] [cursor=pointer]:
+                    - /url: http://www.facebook.com/viarailcanada
+                    - generic: Connect with VIA on Facebook
+                  - link "Connect with VIA on Twitter" [ref=e175] [cursor=pointer]:
+                    - /url: http://www.twitter.com/VIA_Rail
+                    - generic: Connect with VIA on Twitter
+                  - link "Connect with VIA on Instagram" [ref=e176] [cursor=pointer]:
+                    - /url: https://instagram.com/viarailcanada
+                    - generic: Connect with VIA on Instagram
+                  - link "Connect with VIA on Youtube" [ref=e177] [cursor=pointer]:
+                    - /url: http://www.youtube.com/user/VIARailCanadaInc?feature=watch
+                    - generic: Connect with VIA on Youtube
+              - listitem [ref=e178]:
+                - link "Logo VIA Rail mobile app Download the VIA Rail app" [ref=e179] [cursor=pointer]:
+                  - /url: /en/mobile-app-train-booking
+                  - img "Logo VIA Rail mobile app" [ref=e180]
+                  - generic [ref=e181]: Download the VIA Rail app
+              - listitem [ref=e182]:
+                - link "Subscribe to our newsletter" [ref=e183] [cursor=pointer]:
+                  - /url: /en/newsletter
+      - generic [ref=e186]:
+        - generic [ref=e187]: Footer end of page
+        - generic [ref=e188]: 2026 VIA Rail Canada Inc.
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - link "Terms of Use of the Site" [ref=e191] [cursor=pointer]:
+              - /url: /en/terms-and-conditions
+            - text: "|"
+          - listitem [ref=e192]:
+            - link "Cookie Policy" [ref=e193] [cursor=pointer]:
+              - /url: /en/cookie-policy
+            - text: "|"
+          - listitem [ref=e194]:
+            - link "Privacy Policy" [ref=e195] [cursor=pointer]:
+              - /url: /en/our-privacy-policy
+            - text: "|"
+          - listitem [ref=e196]:
+            - link "Site Map" [ref=e197] [cursor=pointer]:
+              - /url: /en/sitemap
+  - status [ref=e198]
+  - status [ref=e199]
+  - img [ref=e200]
+  - img [ref=e201]
+  - status [ref=e202]

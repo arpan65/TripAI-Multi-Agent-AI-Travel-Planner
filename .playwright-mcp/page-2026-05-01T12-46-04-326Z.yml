@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Skip to content
+    - img [ref=e3]
+  - alert
+  - generic [ref=e15]:
+    - banner [ref=e17]:
+      - generic [ref=e18]:
+        - link "Airbnb Homepage" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img [ref=e22]
+        - navigation "Profile" [ref=e25]:
+          - button "Main navigation menu" [ref=e28] [cursor=pointer]:
+            - img [ref=e30]
+    - generic [ref=e35]:
+      - heading "We'll be right back" [level=1] [ref=e36]
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: There's a technical issue with our site right now.
+        - text: If you need help with something urgent, you can
+        - link "contact our support team" [ref=e39] [cursor=pointer]:
+          - /url: /help/contact-us
+        - text: 24/7 or check out the
+        - link "Help Centre" [ref=e40] [cursor=pointer]:
+          - /url: /help
+        - text: .
+        - paragraph [ref=e41]: Thanks for your patience, we'll get you back on your way shortly.

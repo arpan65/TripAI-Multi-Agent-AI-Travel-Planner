@@ -1,0 +1,4 @@
+[     660ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=FlixBus+Toronto+to+Montreal+15th+May+2026+ticket+price:21
+[     660ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=FlixBus+Toronto+to+Montreal+15th+May+2026+ticket+price:21
+[    1699ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=FlixBus+Toronto+to+Montreal+15th+May+2026+ticket+price:21
+[    1699ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=FlixBus+Toronto+to+Montreal+15th+May+2026+ticket+price:21

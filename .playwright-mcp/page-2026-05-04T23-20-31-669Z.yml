@@ -1,0 +1,417 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Montreal attractions admission price 2026 Montreal attractions admission price 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTFk8KJDcNcjWljQ7AHzjLvm9VY-a9E5zfi3qQOffkXV2URs3CDBs-BsMpEccpKylEbcvdJ_BaUVscHcnj-13kafIfUYsM0Dr0Duna-1pvAcbWkdzWCqJIcAJYlcIKQoaybhV8LlZQRfaaWLzRMFmmG0suJ1Q&aep=1&ntc=1&sa=X&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ2J8OegQIEBAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "Images" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTFk8KJDcNcjWljQ7AHzjLvm9VY-a9E5zfi3qQOffkXV2URs3CDBs-BsMpEccpKylEbcvdJ_BaUVscHcnj-13kafIfUYsM0Dr0Duna-1pvAcbWkdzWCqJIcAJYlcIKQoaybhV8LlZQRfaaWLzRMFmmG0suJ1Q&q=Montreal+attractions+admission+price+2026&sa=X&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQtKgLegQIFhAB
+              - generic [ref=e85]: Images
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTFk8KJDcNcjWljQ7AHzjLvm9VY-a9E5zfi3qQOffkXV2URs3CDBs-BsMpEccpKylEbcvdJ_BaUVscHcnj-13kafIfUYsM0Dr0Duna-1pvAcbWkdzWCqJIcAJYlcIKQoaybhV8LlZQRfaaWLzRMFmmG0suJ1Q&q=Montreal+attractions+admission+price+2026&sa=X&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQs6gLegQIFRAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&q=Montreal+attractions+admission+price+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTFk8KJDcNcjWljQ7AHzjLvm9VY-a9E5zfi3qQOffkXV2URs3CDBs-BsMpEccpKylEbcvdJ_BaUVscHcnj-13kafIfUYsM0Dr0Duna-1pvAcbWkdzWCqJIcAJYlcIKQoaybhV8LlZQRfaaWLzRMFmmG0suJ1Q&sa=X&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ0pQJegQIExAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Shopping" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTFk8KJDcNcjWljQ7AHzjLvm9VY-a9E5zfi3qQOffkXV2URs3CDBs-BsMpEccpKylEbcvdJ_BaUVscHcnj-13kafIfUYsM0Dr0Duna-1pvAcbWkdzWCqJIcAJYlcIKQoaybhV8LlZQRfaaWLzRMFmmG0suJ1Q&q=Montreal+attractions+admission+price+2026&ved=1t:220175&ictx=111
+              - generic [ref=e97]: Shopping
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTFk8KJDcNcjWljQ7AHzjLvm9VY-a9E5zfi3qQOffkXV2URs3CDBs-BsMpEccpKylEbcvdJ_BaUVscHcnj-13kafIfUYsM0Dr0Duna-1pvAcbWkdzWCqJIcAJYlcIKQoaybhV8LlZQRfaaWLzRMFmmG0suJ1Q&q=Montreal+attractions+admission+price+2026&sa=X&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQs6gLegQIEhAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e131]:
+          - heading "Montreal, QC" [level=2] [ref=e132]:
+            - img [ref=e135]:
+              - img [ref=e136]
+            - generic [ref=e139]: Montreal, QC
+          - generic [ref=e141]:
+            - text: ∙
+            - button "Choose area" [ref=e142] [cursor=pointer]
+          - button "How location is used" [ref=e145] [cursor=pointer]:
+            - img [ref=e147]
+        - generic [ref=e163]:
+          - heading "Thinking" [level=2] [ref=e167]:
+            - generic [ref=e168]: Thinking
+          - progressbar [ref=e169]
+      - main [ref=e171]:
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - heading "Web results" [level=2] [ref=e179]
+            - generic [ref=e180]:
+              - generic [ref=e183]:
+                - link "Passeport MTL Summer/Fall 2026 Tourisme Montréal https://www.mtl.org › deals › passport › passeport-mtl-s..." [ref=e185] [cursor=pointer]:
+                  - /url: https://www.mtl.org/en/deals/passport/passeport-mtl-summerfall-2026
+                  - heading "Passeport MTL Summer/Fall 2026" [level=3] [ref=e186]
+                  - generic [ref=e191]:
+                    - generic [ref=e193]: Tourisme Montréal
+                    - generic [ref=e195]: https://www.mtl.org › deals › passport › passeport-mtl-s...
+                - button "About this result" [ref=e196] [cursor=pointer]:
+                  - img [ref=e199]
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - text: How do you make the most of your stay in Montréal? With the Passeport MTL! Thanks to this city pass, you can
+                  - emphasis [ref=e204]: save up to 35% on your activities and outings
+                  - text: .
+                - link "Read more" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.mtl.org/en/deals/passport/passeport-mtl-summerfall-2026#:~:text=How%20do%20you%20make%20the,on%20your%20activities%20and%20outings.
+          - generic [ref=e209]:
+            - generic [ref=e212]:
+              - link "Top Montreal Attractions & Museums Viator https://www.viator.com › ... › Tickets & Passes" [ref=e214] [cursor=pointer]:
+                - /url: https://www.viator.com/en-CA/Montreal-tours/Attraction-Tickets/d625-g8-c29
+                - heading "Top Montreal Attractions & Museums" [level=3] [ref=e215]
+                - generic [ref=e220]:
+                  - generic [ref=e222]: Viator
+                  - generic [ref=e224]: https://www.viator.com › ... › Tickets & Passes
+              - button "About this result" [ref=e225] [cursor=pointer]:
+                - img [ref=e228]
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - text: Visit many of
+                - emphasis [ref=e233]: Montreal's top attractions
+                - text: — like Notre-Dame Basilica, Chinatown, Mount Royal Park, Crescent Street, Old Port and Old Montreal, to name just a few ...
+              - link "Read more" [ref=e234] [cursor=pointer]:
+                - /url: https://www.viator.com/en-CA/Montreal-tours/Attraction-Tickets/d625-g8-c29#:~:text=Top%20Attractions%20in%20Montreal
+          - generic [ref=e238]:
+            - generic [ref=e241]:
+              - link "The best Montreal Entry tickets 2026 - Free cancellation GetYourGuide https://www.getyourguide.com › ... › Tours in Montreal" [ref=e243] [cursor=pointer]:
+                - /url: https://www.getyourguide.com/montreal-l195/entry-tickets-tc123/
+                - heading "The best Montreal Entry tickets 2026 - Free cancellation" [level=3] [ref=e244]
+                - generic [ref=e249]:
+                  - generic [ref=e251]: GetYourGuide
+                  - generic [ref=e253]: https://www.getyourguide.com › ... › Tours in Montreal
+              - button "About this result" [ref=e254] [cursor=pointer]:
+                - img [ref=e257]
+            - generic [ref=e261]:
+              - emphasis [ref=e262]: Book the most popular Entry tickets in Montreal
+              - text: . Best price and money back guarantee! Read the reviews of your fellow travelers.
+            - generic [ref=e264]:
+              - generic [ref=e265]: Starting from US$12.61
+              - text: ·
+              - img "Rated 4.5 out of 5, (2,691) user reviews" [ref=e269]:
+                - text: "4.5"
+                - img [ref=e270]
+                - text: (2,691)
+          - generic [ref=e276]:
+            - generic [ref=e279]:
+              - link "Admission Fees for one museum - Montréal Espace pour la vie https://m.espacepourlavie.ca › admission-fees-one-museum" [ref=e281] [cursor=pointer]:
+                - /url: https://m.espacepourlavie.ca/en/admission-fees-one-museum
+                - heading "Admission Fees for one museum - Montréal" [level=3] [ref=e282]
+                - generic [ref=e287]:
+                  - generic [ref=e289]: Espace pour la vie
+                  - generic [ref=e291]: https://m.espacepourlavie.ca › admission-fees-one-museum
+              - button "About this result" [ref=e292] [cursor=pointer]:
+                - img [ref=e295]
+            - generic [ref=e298]:
+              - generic [ref=e299]:
+                - text: Buy your tickets.
+                - emphasis [ref=e300]: RATES FOR 2026
+                - text: . Admission Fees for one museum. Regular price, CMM Resident *. Adults, $25.50, $18.50. Ages 65 and up, $23,00, $17.50. Students ...
+              - link "Read more" [ref=e301] [cursor=pointer]:
+                - /url: https://m.espacepourlavie.ca/en/admission-fees-one-museum#:~:text=Buy%20your%20tickets,Students%20(18%2B%20with%20card)%20**
+            - link "Montreal attractions admission price 2026 from m.espacepourlavie.ca" [ref=e304] [cursor=pointer]:
+              - /url: https://m.espacepourlavie.ca/en/admission-fees-one-museum
+              - img "Montreal attractions admission price 2026 from m.espacepourlavie.ca" [ref=e306]
+          - generic [ref=e311]:
+            - heading "People also ask" [level=2] [ref=e313]
+            - generic [ref=e314]:
+              - button "What is the cheapest month to visit Montreal?" [ref=e320] [cursor=pointer]:
+                - generic [ref=e322]: What is the cheapest month to visit Montreal?
+                - img [ref=e325]
+              - button "Which days are museums free in Montreal?" [ref=e334] [cursor=pointer]:
+                - generic [ref=e336]: Which days are museums free in Montreal?
+                - img [ref=e339]
+              - button "What is the Montreal tourist attraction pass?" [ref=e348] [cursor=pointer]:
+                - generic [ref=e350]: What is the Montreal tourist attraction pass?
+                - img [ref=e353]
+              - button "What to do in Montreal in 2026?" [ref=e362] [cursor=pointer]:
+                - generic [ref=e364]: What to do in Montreal in 2026?
+                - img [ref=e367]
+          - generic [ref=e372]:
+            - heading "Web results" [level=2] [ref=e373]
+            - generic [ref=e374]:
+              - generic [ref=e377]:
+                - link "THE 15 BEST Things to Do in Montreal (2026) Tripadvisor https://www.tripadvisor.ca › Canada › Quebec › Montreal" [ref=e379] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.ca/Attractions-g155032-Activities-Montreal_Quebec.html
+                  - heading "THE 15 BEST Things to Do in Montreal (2026)" [level=3] [ref=e380]
+                  - generic [ref=e385]:
+                    - generic [ref=e387]: Tripadvisor
+                    - generic [ref=e389]: https://www.tripadvisor.ca › Canada › Quebec › Montreal
+                - button "About this result" [ref=e390] [cursor=pointer]:
+                  - img [ref=e393]
+              - generic [ref=e396]:
+                - generic [ref=e397]:
+                  - text: (1,881). Private and Luxury.
+                  - emphasis [ref=e398]: from. C$137. per adult
+                  - text: (price varies by group size) ... According to forum posts, it's advisable to purchase tickets in advance for ...
+                - link "Read more" [ref=e399] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.ca/Attractions-g155032-Activities-Montreal_Quebec.html#:~:text=(1%2C881),(price%20varies%20by%20group%20size)&text=Tripadvisor%20is%20not%20responsible%20for
+          - generic [ref=e403]:
+            - generic [ref=e406]:
+              - link "Things To Do In Montreal 2026 - Activities & Attractions Travelocity https://www.travelocity.ca › Activities" [ref=e408] [cursor=pointer]:
+                - /url: https://www.travelocity.ca/Things-To-Do-In-Montreal.d178288.Travel-Guide-Activities
+                - heading "Things To Do In Montreal 2026 - Activities & Attractions" [level=3] [ref=e409]
+                - generic [ref=e414]:
+                  - generic [ref=e416]: Travelocity
+                  - generic [ref=e418]: https://www.travelocity.ca › Activities
+              - button "About this result" [ref=e419] [cursor=pointer]:
+                - img [ref=e422]
+            - generic [ref=e425]:
+              - generic [ref=e426]:
+                - emphasis [ref=e427]: "Montreal: Ecomuseum Zoo Entry Ticket"
+                - text: . 8.2 out of 10 with 10 reviews. 8.2/10. 10 ... The previous price was CA $119 and current price is CA $107 per adult CA $119 ...
+              - link "Read more" [ref=e428] [cursor=pointer]:
+                - /url: https://www.travelocity.ca/Things-To-Do-In-Montreal.d178288.Travel-Guide-Activities#:~:text=Montreal%3A%20Ecomuseum%20Zoo%20Entry%20Ticket,10%20GetYourGuide%20reviews&text=CA%20%24119
+          - generic [ref=e432]:
+            - generic [ref=e435]:
+              - 'link "Accès Montréal card: exclusive offers and discounts Ville de Montréal https://montreal.ca › articles › acces-montreal-card-excl..." [ref=e437] [cursor=pointer]':
+                - /url: https://montreal.ca/en/articles/acces-montreal-card-exclusive-offers-and-discounts-5990
+                - 'heading "Accès Montréal card: exclusive offers and discounts" [level=3] [ref=e438]'
+                - generic [ref=e443]:
+                  - generic [ref=e445]: Ville de Montréal
+                  - generic [ref=e447]: https://montreal.ca › articles › acces-montreal-card-excl...
+              - button "About this result" [ref=e448] [cursor=pointer]:
+                - img [ref=e451]
+            - generic [ref=e454]:
+              - generic [ref=e455]: 7 days ago —
+              - generic [ref=e456]:
+                - text: "Preferential rates on admission to the Biodôme, Insectarium and Planetarium for :"
+                - emphasis [ref=e457]: "Kids (ages 5 to 17) : $7,75"
+                - text: "; Students (ages 18 +) : $12.50 ..."
+              - link "Read more" [ref=e458] [cursor=pointer]:
+                - /url: https://montreal.ca/en/articles/acces-montreal-card-exclusive-offers-and-discounts-5990#:~:text=Festivals%20and%20shows
+          - generic [ref=e462]:
+            - generic [ref=e465]:
+              - link "Montreal June 2026 — tickets & things to do tickadoo https://www.tickadoo.com › ... › Montreal › June 2026" [ref=e467] [cursor=pointer]:
+                - /url: https://www.tickadoo.com/cs/montreal/june-2026?srsltid=AfmBOorZaGzGSJER9QgL_tMRa3m4vNSZ4l54fZBDhhgNkOc6tBkXBl7m
+                - heading "Montreal June 2026 — tickets & things to do" [level=3] [ref=e468]
+                - generic [ref=e473]:
+                  - generic [ref=e475]: tickadoo
+                  - generic [ref=e477]: https://www.tickadoo.com › ... › Montreal › June 2026
+              - button "About this result" [ref=e478] [cursor=pointer]:
+                - img [ref=e481]
+            - generic [ref=e484]:
+              - generic [ref=e485]: 4 days ago —
+              - generic [ref=e486]:
+                - emphasis [ref=e487]: Montreal attractions
+                - text: "; Musée des Hospitalières: Entry ticket · 8,74 € ; La Grande Roue de Montréal: Ferris Wheel Entry Ticket · 21,17 € ; MTL Zipline ..."
+              - link "Read more" [ref=e488] [cursor=pointer]:
+                - /url: https://www.tickadoo.com/cs/montreal/june-2026?srsltid=AfmBOorZaGzGSJER9QgL_tMRa3m4vNSZ4l54fZBDhhgNkOc6tBkXBl7m#:~:text=Montreal%20attractions&text=Mus%C3%A9e%20des%20Hospitali%C3%A8res%3A%20Entry%20ticket&text=Od8%2C74%20%E2%82%AC&text=La%20Grande%20Roue%20de%20Montr%C3%A9al%3A,Ferris%20Wheel%20Entry%20Ticket&text=Od21%2C17%20%E2%82%AC&text=MTL%20Zipline%20Experience
+          - generic [ref=e492]:
+            - generic [ref=e495]:
+              - link "Old Montreal Tickets [2026] - Promos, Prices, Reviews & ... Trip.com https://ca.trip.com › travel-guide › attraction › old-mon..." [ref=e497] [cursor=pointer]:
+                - /url: https://ca.trip.com/travel-guide/attraction/montreal/old-montreal-80791/
+                - heading "Old Montreal Tickets [2026] - Promos, Prices, Reviews & ..." [level=3] [ref=e498]
+                - generic [ref=e503]:
+                  - generic [ref=e505]: Trip.com
+                  - generic [ref=e507]: https://ca.trip.com › travel-guide › attraction › old-mon...
+              - button "About this result" [ref=e508] [cursor=pointer]:
+                - img [ref=e511]
+            - generic [ref=e515]:
+              - emphasis [ref=e516]: Book Old Montreal tickets
+              - text: with limited-time offers, skip-the-line access, and instant confirmation. Get the best prices and enjoy a seamless booking ...
+            - img "Rated 4.6 out of 5, (248) user reviews" [ref=e521]:
+              - text: "4.6"
+              - img [ref=e522]
+              - text: (248)
+          - generic [ref=e529]:
+            - heading "Top sights in Montreal" [level=2] [ref=e531]
+            - generic [ref=e532]:
+              - generic [ref=e536]:
+                - button "Notre-Dame Basilica of Montreal Rated 4.7 out of 5, 37K user reviews Closed Basilica $16.00" [ref=e543] [cursor=pointer]:
+                  - generic [ref=e545]:
+                    - heading "Notre-Dame Basilica of Montreal" [level=3] [ref=e550]:
+                      - generic [ref=e551]: Notre-Dame Basilica of Montreal
+                    - generic [ref=e553]:
+                      - img "Rated 4.7 out of 5, 37K user reviews" [ref=e555]:
+                        - text: "4.7"
+                        - img [ref=e556]
+                        - text: (37K)
+                      - generic [ref=e559]:
+                        - generic [ref=e561]: Closed
+                        - generic [ref=e562]: ·
+                        - generic [ref=e563]: Basilica
+                      - generic [ref=e564]: $16.00
+                - button "Montreal Museum of Fine Arts Rated 4.7 out of 5, 17K user reviews Closed Art museum $32.00" [ref=e571] [cursor=pointer]:
+                  - generic [ref=e573]:
+                    - heading "Montreal Museum of Fine Arts" [level=3] [ref=e578]:
+                      - generic [ref=e579]: Montreal Museum of Fine Arts
+                    - generic [ref=e581]:
+                      - img "Rated 4.7 out of 5, 17K user reviews" [ref=e583]:
+                        - text: "4.7"
+                        - img [ref=e584]
+                        - text: (17K)
+                      - generic [ref=e587]:
+                        - generic [ref=e589]: Closed
+                        - generic [ref=e590]: ·
+                        - generic [ref=e591]: Art museum
+                      - generic [ref=e592]: $32.00
+                - button "Jardin botanique de Montréal Rated 4.6 out of 5, 29K user reviews Closed Botanical garden $25.50" [ref=e599] [cursor=pointer]:
+                  - generic [ref=e601]:
+                    - heading "Jardin botanique de Montréal" [level=3] [ref=e606]:
+                      - generic [ref=e607]: Jardin botanique de Montréal
+                    - generic [ref=e609]:
+                      - img "Rated 4.6 out of 5, 29K user reviews" [ref=e611]:
+                        - text: "4.6"
+                        - img [ref=e612]
+                        - text: (29K)
+                      - generic [ref=e615]:
+                        - generic [ref=e617]: Closed
+                        - generic [ref=e618]: ·
+                        - generic [ref=e619]: Botanical garden
+                      - generic [ref=e620]: $25.50
+                - button "Montreal Biodome Rated 4.5 out of 5, 21K user reviews Closed Science museum $25.50" [ref=e627] [cursor=pointer]:
+                  - generic [ref=e629]:
+                    - heading "Montreal Biodome" [level=3] [ref=e634]:
+                      - generic [ref=e635]: Montreal Biodome
+                    - generic [ref=e637]:
+                      - img "Rated 4.5 out of 5, 21K user reviews" [ref=e639]:
+                        - text: "4.5"
+                        - img [ref=e640]
+                        - text: (21K)
+                      - generic [ref=e643]:
+                        - generic [ref=e645]: Closed
+                        - generic [ref=e646]: ·
+                        - generic [ref=e647]: Science museum
+                      - generic [ref=e648]: $25.50
+              - button "More things to do" [ref=e649]:
+                - button "More things to do" [ref=e650] [cursor=pointer]:
+                  - separator [ref=e651]
+                  - generic [ref=e652]:
+                    - generic [ref=e653]: More things to do
+                    - img [ref=e655]
+          - generic [ref=e659]:
+            - heading "Web results" [level=2] [ref=e660]
+            - generic [ref=e661]:
+              - generic [ref=e664]:
+                - link "Canada Strong Pass Canada.ca https://www.canada.ca › canadian-heritage › campaigns" [ref=e666] [cursor=pointer]:
+                  - /url: https://www.canada.ca/en/canadian-heritage/campaigns/canada-pass.html
+                  - heading "Canada Strong Pass" [level=3] [ref=e667]
+                  - generic [ref=e672]:
+                    - generic [ref=e674]: Canada.ca
+                    - generic [ref=e676]: https://www.canada.ca › canadian-heritage › campaigns
+                - button "About this result" [ref=e677] [cursor=pointer]:
+                  - img [ref=e680]
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - text: Enjoy discounted rates on camping, roofed accommodations and historic stays.
+                  - emphasis [ref=e685]: Free or reduced admission at museums and galleries
+                  - text: . Visit participating museums and ...
+                - link "Read more" [ref=e686] [cursor=pointer]:
+                  - /url: https://www.canada.ca/en/canadian-heritage/campaigns/canada-pass.html#:~:text=Enjoy%20discounted%20rates%20on%20camping%2C,and%20galleries%20across%20the%20country.
+        - navigation [ref=e689]:
+          - heading "Page Navigation" [level=1] [ref=e690]
+          - text: "1"
+          - link "Page 2" [ref=e693] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=10&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAE
+            - text: "2"
+          - link "Page 3" [ref=e695] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=20&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAG
+            - text: "3"
+          - link "Page 4" [ref=e697] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=30&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAI
+            - text: "4"
+          - link "Page 5" [ref=e699] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=40&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAK
+            - text: "5"
+          - link "Page 6" [ref=e701] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=50&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAM
+            - text: "6"
+          - link "Page 7" [ref=e703] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=60&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAO
+            - text: "7"
+          - link "Page 8" [ref=e705] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=70&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAQ
+            - text: "8"
+          - link "Page 9" [ref=e707] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=80&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAS
+            - text: "9"
+          - link "Page 10" [ref=e709] [cursor=pointer]:
+            - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=90&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8tMDegQIVRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e711]:
+            - link "Next" [ref=e712] [cursor=pointer]:
+              - /url: /search?q=Montreal+attractions+admission+price+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084&ei=vyn5ad3vBPe8ruEPjqK84QM&start=10&sa=N&sstk=Af77f_cdxB3HFwsZxgUUWBYAM5UqSsvsoRlWkvFtwA-dEr_OiZdrEbmwSpNSCV1XdqRGhTHh2nI1JzM1mX7D8zQwReFhnAGsjzquog&ved=2ahUKEwidy__p4qCUAxV3nisGHQ4RLzwQ8NMDegQIVRAW
+              - generic [ref=e714]: Next
+        - navigation
+    - contentinfo [ref=e715]:
+      - heading "Footer Links" [level=1] [ref=e716]
+      - generic [ref=e720]:
+        - generic [ref=e723]:
+          - generic [ref=e724]: Results are personalized
+          - generic [ref=e725]: "-"
+          - link "Try without personalization" [ref=e727] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Montreal+attractions+admission+price+2026&peek_pws=0&sxsrf=ANbL-n5qg8E2ZovTgPHWlWdDKwyIf6jExg:1777936831084
+            - generic [ref=e728]: Try without personalization
+        - generic [ref=e730]:
+          - text: Canada
+          - generic [ref=e732]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e734] [cursor=pointer]:
+              - generic [ref=e735]: Toronto, Ontario
+              - generic [ref=e737]:
+                - text: "-"
+                - generic [ref=e738]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e740] [cursor=pointer]: Update location
+        - generic [ref=e743]:
+          - link "Help" [ref=e744] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e745] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e746] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e747] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

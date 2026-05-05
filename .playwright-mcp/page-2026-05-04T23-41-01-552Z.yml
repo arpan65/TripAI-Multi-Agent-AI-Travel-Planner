@@ -1,0 +1,507 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiYpbG056CUAxVprSsGHdCjAtAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Montreal to Toronto train ticket price 18th May 2026 Montreal to Toronto train ticket price 18th May 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Google apps" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - 'button "Google Account: Arpan Das (arpandas.a3@gmail.com)" [ref=e54] [cursor=pointer]':
+        - img [ref=e55]
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "AI Mode" [ref=e74] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze7UmbTO5gM-4c24z-aoauXm086l9u5IRd92LNzaNGo3nFCypFwA1FfYZsLDqF3npGKTRstijat191AtP79980lBTNCtuc1-G8wj5HhQVeqSuSd-ON7ZphCyHCD3jmamECpnhBSTJ-TtxE8opwWHY4igH_xfjA&aep=1&ntc=1&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ2J8OegQIDhAD
+              - generic [ref=e77]: AI Mode
+          - listitem [ref=e78]:
+            - link "All" [disabled] [ref=e79]:
+              - generic [ref=e81]: All
+          - listitem [ref=e82]:
+            - link "Shopping" [ref=e83] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze7UmbTO5gM-4c24z-aoauXm086l9u5IRd92LNzaNGo3nFCypFwA1FfYZsLDqF3npGKTRstijat191AtP79980lBTNCtuc1-G8wj5HhQVeqSuSd-ON7ZphCyHCD3jmamECpnhBSTJ-TtxE8opwWHY4igH_xfjA&q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&ved=1t:220175&ictx=111
+              - generic [ref=e85]: Shopping
+          - listitem [ref=e86]:
+            - link "News" [ref=e87] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze7UmbTO5gM-4c24z-aoauXm086l9u5IRd92LNzaNGo3nFCypFwA1FfYZsLDqF3npGKTRstijat191AtP79980lBTNCtuc1-G8wj5HhQVeqSuSd-ON7ZphCyHCD3jmamECpnhBSTJ-TtxE8opwWHY4igH_xfjA&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ0pQJegQIExAB
+              - generic [ref=e89]: News
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze7UmbTO5gM-4c24z-aoauXm086l9u5IRd92LNzaNGo3nFCypFwA1FfYZsLDqF3npGKTRstijat191AtP79980lBTNCtuc1-G8wj5HhQVeqSuSd-ON7ZphCyHCD3jmamECpnhBSTJ-TtxE8opwWHY4igH_xfjA&q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQtKgLegQIEhAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Forums" [ref=e95] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze7UmbTO5gM-4c24z-aoauXm086l9u5IRd92LNzaNGo3nFCypFwA1FfYZsLDqF3npGKTRstijat191AtP79980lBTNCtuc1-G8wj5HhQVeqSuSd-ON7ZphCyHCD3jmamECpnhBSTJ-TtxE8opwWHY4igH_xfjA&q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQs6gLegQIEBAB
+              - generic [ref=e97]: Forums
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze7UmbTO5gM-4c24z-aoauXm086l9u5IRd92LNzaNGo3nFCypFwA1FfYZsLDqF3npGKTRstijat191AtP79980lBTNCtuc1-G8wj5HhQVeqSuSd-ON7ZphCyHCD3jmamECpnhBSTJ-TtxE8opwWHY4igH_xfjA&q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQtKgLegQIERAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - button "More filters" [ref=e103] [cursor=pointer]:
+              - generic "More filters" [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: More
+                  - img [ref=e108]
+        - button "Tools" [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Tools
+            - img [ref=e116]
+    - heading "Search Results" [level=1] [ref=e118]
+    - main [ref=e124]:
+      - generic [ref=e128]:
+        - generic [ref=e136]:
+          - generic [ref=e138]:
+            - heading "Trains from Montreal to Toronto" [level=2] [ref=e140]
+            - button "About this result" [ref=e144] [cursor=pointer]:
+              - generic "About this result" [ref=e145]:
+                - img [ref=e148]
+          - button "Less emissions than flying" [ref=e152] [cursor=pointer]:
+            - generic [ref=e153]:
+              - generic [ref=e155]: Less emissions than flying
+              - img [ref=e157]
+          - generic [ref=e161]:
+            - generic [ref=e164]:
+              - img [ref=e166]
+              - combobox "Gare Centrale,Enter an origin" [ref=e168]: Gare Centrale
+            - button "Swap origin and destination" [ref=e171] [cursor=pointer]:
+              - img [ref=e176]
+            - generic [ref=e180]:
+              - img [ref=e182]
+              - combobox "Union Station,Enter a destination" [ref=e184]: Union Station
+          - generic [ref=e185]:
+            - button "Mon, May 18" [ref=e189]:
+              - generic [ref=e190]: Mon, May 18
+            - button "Anytime" [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: Anytime
+                - img [ref=e201]
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - generic [ref=e208]: Fastest
+              - generic [ref=e209]: 5h 9min
+            - generic [ref=e210]:
+              - generic [ref=e212]: Cheapest
+              - generic [ref=e213]: $212
+            - generic [ref=e214]:
+              - generic [ref=e216]: Daily trains
+              - generic [ref=e217]: "7"
+          - generic [ref=e223]:
+            - 'button "⁦Departs at 6:45 a.m..⁩ ⁦Arrives at 12:03 p.m..⁩ ⁦Total duration: 5h 18min.⁩ ⁦0 changes⁩. ⁦Train: 61.⁩ $212" [ref=e227]':
+              - generic [ref=e232] [cursor=pointer]:
+                - generic [ref=e233]:
+                  - generic [ref=e234]: 6:45 a.m. – 12:03 p.m.
+                  - generic [ref=e235]: 5h 18min
+                  - generic [ref=e236]: 0 changes
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: $212
+                    - img [ref=e241]
+                - generic [ref=e244]:
+                  - generic [ref=e251]: "61"
+                  - generic:
+                    - generic: Fast
+            - 'button "⁦Departs at 8:46 a.m..⁩ ⁦Arrives at 2:18 p.m..⁩ ⁦Total duration: 5h 32min.⁩ ⁦0 changes⁩. ⁦Train: 63.⁩ $274" [ref=e256]':
+              - generic [ref=e261] [cursor=pointer]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]: 8:46 a.m. – 2:18 p.m.
+                  - generic [ref=e264]: 5h 32min
+                  - generic [ref=e265]: 0 changes
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: $274
+                    - img [ref=e270]
+                - generic [ref=e278]: "63"
+            - 'button "⁦Departs at 10:49 a.m..⁩ ⁦Arrives at 4:18 p.m..⁩ ⁦Total duration: 5h 29min.⁩ ⁦0 changes⁩. ⁦Train: 65.⁩ $477" [ref=e283]':
+              - generic [ref=e288] [cursor=pointer]:
+                - generic [ref=e289]:
+                  - generic [ref=e290]: 10:49 a.m. – 4:18 p.m.
+                  - generic [ref=e291]: 5h 29min
+                  - generic [ref=e292]: 0 changes
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: $477
+                    - img [ref=e297]
+                - generic [ref=e305]: "65"
+            - generic [ref=e306]:
+              - button [ref=e311]:
+                - generic [ref=e316] [cursor=pointer]:
+                  - generic [ref=e317]:
+                    - generic [ref=e318]: 1:22 p.m. – 6:45 p.m.
+                    - generic [ref=e319]: 5h 23min
+                    - generic [ref=e320]: 0 changes
+                    - generic [ref=e322]:
+                      - img [ref=e325]
+                      - img [ref=e328]
+                  - generic [ref=e336]: "67"
+              - button [ref=e341]:
+                - generic [ref=e346] [cursor=pointer]:
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: 4:38 p.m. – 9:48 p.m.
+                    - generic [ref=e349]: 5h 10min
+                    - generic [ref=e350]: 0 changes
+                    - generic [ref=e352]:
+                      - generic [ref=e353]: $299
+                      - img [ref=e355]
+                  - generic [ref=e358]:
+                    - generic [ref=e365]: "69"
+                    - generic:
+                      - generic: Fast
+              - button [ref=e370]:
+                - generic [ref=e375] [cursor=pointer]:
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: 6:09 p.m. – 11:18 p.m.
+                    - generic [ref=e378]: 5h 9min
+                    - generic [ref=e379]: 0 changes
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: $252
+                      - img [ref=e384]
+                  - generic [ref=e387]:
+                    - generic [ref=e394]: "669"
+                    - generic:
+                      - generic: Fast
+              - button [ref=e399]:
+                - generic [ref=e404] [cursor=pointer]:
+                  - generic [ref=e405]:
+                    - generic [ref=e406]:
+                      - text: 6:50 p.m. – 8:48 a.m.
+                      - superscript [ref=e407]: "+1"
+                    - generic [ref=e408]: 13h 58min
+                    - generic [ref=e409]: 1 change
+                    - generic [ref=e411]:
+                      - img [ref=e414]
+                      - img [ref=e417]
+                  - generic [ref=e425]: ⁦Multiple trains⁩
+            - button "More options" [ref=e427] [cursor=pointer]:
+              - separator [ref=e428]
+              - generic [ref=e429]:
+                - generic [ref=e430]: More options
+                - img [ref=e432]
+        - generic [ref=e444]:
+          - heading "Thinking" [level=2] [ref=e448]:
+            - generic [ref=e449]: Thinking
+          - progressbar [ref=e450]
+        - generic [ref=e454]:
+          - heading "Web results" [level=2] [ref=e455]
+          - generic [ref=e456]:
+            - generic [ref=e459]:
+              - link "Travel by train from Montréal to Toronto VIA Rail https://www.viarail.ca › ... › Ontario-Québec" [ref=e461] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/montreal-toronto
+                - heading "Travel by train from Montréal to Toronto" [level=3] [ref=e462]
+                - generic [ref=e467]:
+                  - generic [ref=e469]: VIA Rail
+                  - generic [ref=e471]: https://www.viarail.ca › ... › Ontario-Québec
+              - button "About this result" [ref=e472] [cursor=pointer]:
+                - img [ref=e475]
+            - generic [ref=e479]:
+              - emphasis [ref=e480]: Travel by train from Montréal to Toronto with VIA Rail
+              - text: . Enjoy comfortable seating, excellent service, and a journey designed to meet your needs.
+            - link "Montreal to Toronto train ticket price 18th May 2026 from www.viarail.ca" [ref=e483] [cursor=pointer]:
+              - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/montreal-toronto
+              - img "Montreal to Toronto train ticket price 18th May 2026 from www.viarail.ca" [ref=e485]
+        - generic [ref=e489]:
+          - generic [ref=e492]:
+            - link "Montreal to Toronto Train - Tickets from $54 Wanderu https://www.wanderu.com › ... › Ontario › Toronto" [ref=e494] [cursor=pointer]:
+              - /url: https://www.wanderu.com/en-ca/train/ca-qc/montreal/ca-on/toronto/
+              - heading "Montreal to Toronto Train - Tickets from $54" [level=3] [ref=e495]
+              - generic [ref=e500]:
+                - generic [ref=e502]: Wanderu
+                - generic [ref=e504]: https://www.wanderu.com › ... › Ontario › Toronto
+            - button "About this result" [ref=e505] [cursor=pointer]:
+              - img [ref=e508]
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - text: In the last month, the average
+              - emphasis [ref=e513]: price
+              - text: of a
+              - emphasis [ref=e514]: train ticket
+              - text: from
+              - emphasis [ref=e515]: Montreal to Toronto
+              - text: was $98.68. ...
+              - emphasis [ref=e516]: "18"
+              - text: days ahead of time, you can save about $74.54 on your
+              - emphasis [ref=e517]: ticket
+              - text: .
+            - link "Read more" [ref=e518] [cursor=pointer]:
+              - /url: https://www.wanderu.com/en-ca/train/ca-qc/montreal/ca-on/toronto/#:~:text=In%20the%20last%20month%2C%20the,Montreal%20to%20Toronto%20was%20%2498.68.&text=By%20booking%20your%20train%20trip,about%20%2474.54%20on%20your%20ticket.
+          - generic [ref=e520]:
+            - generic [ref=e521]: Starting from $54.00
+            - text: ·
+            - img "Rated 4.6 out of 5, (99) user reviews" [ref=e525]:
+              - text: "4.6"
+              - img [ref=e526]
+              - text: (99)
+        - generic [ref=e532]:
+          - generic [ref=e535]:
+            - link "The lowest fares and discounts on your train travel VIA Rail https://www.viarail.ca › Home › Fares and packages" [ref=e537] [cursor=pointer]:
+              - /url: https://www.viarail.ca/en/offers/our-lowest-fares
+              - heading "The lowest fares and discounts on your train travel" [level=3] [ref=e538]
+              - generic [ref=e543]:
+                - generic [ref=e545]: VIA Rail
+                - generic [ref=e547]: https://www.viarail.ca › Home › Fares and packages
+            - button "About this result" [ref=e548] [cursor=pointer]:
+              - img [ref=e551]
+          - generic [ref=e554]:
+            - generic [ref=e555]:
+              - text: Book now Book now from
+              - emphasis [ref=e556]: Toronto
+              - text: to Port Hope on
+              - emphasis [ref=e557]: May 18, 2026
+              - text: for $20. ... Book now Book now from
+              - emphasis [ref=e558]: Toronto
+              - text: to Georgetown on May 13, 2026 for $20. This ...
+            - link "Read more" [ref=e559] [cursor=pointer]:
+              - /url: https://www.viarail.ca/en/offers/our-lowest-fares#:~:text=Book%20now,May%2018%2C%202026%20for%20%2420.&text=Book%20now,link%20opens%20a%20new%20window.
+        - generic [ref=e564]:
+          - heading "People also ask" [level=2] [ref=e566]
+          - generic [ref=e567]:
+            - button "How much is the cost of a train from Montreal to Toronto?" [ref=e573] [cursor=pointer]:
+              - generic [ref=e575]: How much is the cost of a train from Montreal to Toronto?
+              - img [ref=e578]
+            - button "What age is considered senior for VIA Rail?" [ref=e587] [cursor=pointer]:
+              - generic [ref=e589]: What age is considered senior for VIA Rail?
+              - img [ref=e592]
+            - button "Is it cheaper to book VIA Rail on Tuesday?" [ref=e601] [cursor=pointer]:
+              - generic [ref=e603]: Is it cheaper to book VIA Rail on Tuesday?
+              - img [ref=e606]
+            - button "Is it cheaper to buy train tickets in advance?" [ref=e615] [cursor=pointer]:
+              - generic [ref=e617]: Is it cheaper to buy train tickets in advance?
+              - img [ref=e620]
+        - generic [ref=e625]:
+          - heading "Web results" [level=2] [ref=e626]
+          - generic [ref=e627]:
+            - generic [ref=e630]:
+              - link "Train Montreal to Toronto from $75 | Tickets & Timetables Rome2Rio https://www.rome2rio.com › Train › Montreal › Toronto" [ref=e632] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Montreal/Toronto
+                - heading "Train Montreal to Toronto from $75 | Tickets & Timetables" [level=3] [ref=e633]
+                - generic [ref=e638]:
+                  - generic [ref=e640]: Rome2Rio
+                  - generic [ref=e642]: https://www.rome2rio.com › Train › Montreal › Toronto
+              - button "About this result" [ref=e643] [cursor=pointer]:
+                - img [ref=e646]
+            - generic [ref=e649]:
+              - generic [ref=e650]:
+                - text: VIA Rail operates a train from Montréal to Toronto Union Station every 4 hours.
+                - emphasis [ref=e651]: Tickets cost $65–150
+                - text: and the journey takes 5h 23m. Operators. VIA Rail logo VIA ...
+              - link "Read more" [ref=e652] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Montreal/Toronto#:~:text=VIA%20Rail%20operates%20a%20train,VIA%20Rail
+        - generic [ref=e656]:
+          - generic [ref=e659]:
+            - link "Train Montreal to Toronto from $69 | Refundable Tickets Busbud https://www.busbud.com › ... › Montreal › Toronto" [ref=e661] [cursor=pointer]:
+              - /url: https://www.busbud.com/en-ca/t/train-montreal-toronto/f25dvk-dpz88g
+              - heading "Train Montreal to Toronto from $69 | Refundable Tickets" [level=3] [ref=e662]
+              - generic [ref=e667]:
+                - generic [ref=e669]: Busbud
+                - generic [ref=e671]: https://www.busbud.com › ... › Montreal › Toronto
+            - button "About this result" [ref=e672] [cursor=pointer]:
+              - img [ref=e675]
+          - generic [ref=e678]:
+            - generic [ref=e679]:
+              - emphasis [ref=e680]: The cheapest train tickets from Montreal to Toronto start at $54
+              - text: . The average price for this train route is around $117. Busbud recommends booking your tickets ...
+            - link "Read more" [ref=e681] [cursor=pointer]:
+              - /url: https://www.busbud.com/en-ca/t/train-montreal-toronto/f25dvk-dpz88g#:~:text=The%20cheapest%20train%20tickets%20from,getting%20the%20lowest%20possible%20price.
+          - generic [ref=e684]: $69.00 to $452.00
+          - generic [ref=e686]:
+            - text: "Missing: 18th ‎| Show results with:"
+            - link "18th" [ref=e687] [cursor=pointer]:
+              - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=Montreal+to+Toronto+train+ticket+price+%2218th%22+May+2026&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ5t4CegQIRhAB
+        - generic [ref=e691]:
+          - generic [ref=e694]:
+            - link "Travel from Montreal to Toronto by High-Speed Train Rail Ninja https://rail.ninja › route › montreal-to-toronto" [ref=e696] [cursor=pointer]:
+              - /url: https://rail.ninja/route/montreal-to-toronto
+              - heading "Travel from Montreal to Toronto by High-Speed Train" [level=3] [ref=e697]
+              - generic [ref=e702]:
+                - generic [ref=e704]: Rail Ninja
+                - generic [ref=e706]: https://rail.ninja › route › montreal-to-toronto
+            - button "About this result" [ref=e707] [cursor=pointer]:
+              - img [ref=e710]
+          - generic [ref=e713]:
+            - generic [ref=e714]:
+              - emphasis [ref=e715]: Montreal to Toronto Train Information
+              - text: ; Shortest travel time:5 h 9 m ; Earliest departure:06:20 ; Longest travel time:9 h 24 m ; Lowest ticket cost:$61 ; Avg. daily ...
+            - link "Read more" [ref=e716] [cursor=pointer]:
+              - /url: https://rail.ninja/route/montreal-to-toronto#:~:text=Montreal%20to%20Toronto%20Train%20Information&text=Shortest%20travel%20time%3A5%20h%209,m&text=Earliest%20departure%3A06%3A20&text=Longest%20travel%20time%3A9%20h%2024,m&text=Lowest%20ticket%20cost%3A%2461&text=Avg.%20daily%20departures%3A10
+          - img "Rated 4.5 out of 5, (54) user reviews" [ref=e721]:
+            - text: 9/10
+            - img [ref=e722]
+            - text: (54)
+        - generic [ref=e728]:
+          - generic [ref=e731]:
+            - link "MONTREAL to TORONTO train from $57 (€46) with Seajets Omio https://www.omio.com › ... › Train Times to Toronto, ON" [ref=e733] [cursor=pointer]:
+              - /url: https://www.omio.com/trains/montreal-qc/toronto-on
+              - heading "MONTREAL to TORONTO train from $57 (€46) with Seajets" [level=3] [ref=e734]
+              - generic [ref=e739]:
+                - generic [ref=e741]: Omio
+                - generic [ref=e743]: https://www.omio.com › ... › Train Times to Toronto, ON
+            - button "About this result" [ref=e744] [cursor=pointer]:
+              - img [ref=e747]
+          - generic [ref=e750]:
+            - generic [ref=e751]:
+              - text: Train ticket prices from Montreal, QC to Toronto, ON can vary.
+              - emphasis [ref=e752]: The cheapest ticket starts at $57 (€46
+              - text: ), while the average price is around $120 (€97).
+            - link "Read more" [ref=e753] [cursor=pointer]:
+              - /url: https://www.omio.com/trains/montreal-qc/toronto-on#:~:text=How%20long%20is%20the%20train
+          - generic [ref=e755]: Starting from €46.00
+        - generic [ref=e759]:
+          - generic [ref=e762]:
+            - link "Train ticket booking VIA Rail https://www.viarail.ca › Home › Plan your trip" [ref=e764] [cursor=pointer]:
+              - /url: https://www.viarail.ca/en/plan/book-travel
+              - heading "Train ticket booking" [level=3] [ref=e765]
+              - generic [ref=e770]:
+                - generic [ref=e772]: VIA Rail
+                - generic [ref=e774]: https://www.viarail.ca › Home › Plan your trip
+            - button "About this result" [ref=e775] [cursor=pointer]:
+              - img [ref=e778]
+          - generic [ref=e781]:
+            - text: 2-12 years inclusive. Kids travel at 50% off in Economy class and at 25% off in other classes (not applicable in Business and Prestige classes).
+            - link "Read more" [ref=e782] [cursor=pointer]:
+              - /url: https://www.viarail.ca/en/plan/book-travel#:~:text=ASL
+        - generic [ref=e786]:
+          - generic [ref=e789]:
+            - link "Train Montréal, QC to Toronto from $75 | Tickets & Timetables Rome2Rio https://www.rome2rio.com › Train › Toronto" [ref=e791] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/Train/Montr%C3%A9al-QC/Toronto
+              - heading "Train Montréal, QC to Toronto from $75 | Tickets & Timetables" [level=3] [ref=e792]
+              - generic [ref=e797]:
+                - generic [ref=e799]: Rome2Rio
+                - generic [ref=e801]: https://www.rome2rio.com › Train › Toronto
+            - button "About this result" [ref=e802] [cursor=pointer]:
+              - img [ref=e805]
+          - generic [ref=e808]:
+            - generic [ref=e809]:
+              - text: VIA Rail operates a train from Montréal to Toronto Union Station every 4 hours.
+              - emphasis [ref=e810]: Tickets cost $65–150
+              - text: and the journey takes 5h 23m. Operators. VIA Rail logo VIA ...
+            - link "Read more" [ref=e811] [cursor=pointer]:
+              - /url: https://www.rome2rio.com/Train/Montr%C3%A9al-QC/Toronto#:~:text=VIA%20Rail%20operates%20a%20train,VIA%20Rail
+      - generic [ref=e813]:
+        - generic [ref=e818]:
+          - heading "People also search for" [level=2] [ref=e820]
+          - generic [ref=e822]:
+            - generic [ref=e823]:
+              - link "Montreal to toronto train ticket price 18th may 2026 sleep" [ref=e827] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=Montreal+to+toronto+train+ticket+price+18th+may+2026+sleep&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhaEAE
+                - generic [ref=e828]:
+                  - generic [ref=e833]: Montreal to toronto train ticket price 18th may 2026 sleep
+                  - img [ref=e837]
+              - link "Montreal to Toronto train price" [ref=e842] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=Montreal+to+Toronto+train+price&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhgEAE
+                - generic [ref=e843]:
+                  - generic [ref=e848]: Montreal to Toronto train price
+                  - img [ref=e852]
+              - link "VIA rail Toronto to Montréal $39 ticket price" [ref=e857] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=VIA+rail+Toronto+to+Montr%C3%A9al+%2439+ticket+price&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhcEAE
+                - generic [ref=e858]:
+                  - generic [ref=e863]: VIA rail Toronto to Montréal $39 ticket price
+                  - img [ref=e867]
+              - link "Montreal to Toronto bus" [ref=e872] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=Montreal+to+Toronto+bus&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAheEAE
+                - generic [ref=e873]:
+                  - generic [ref=e878]: Montreal to Toronto bus
+                  - img [ref=e882]
+            - generic [ref=e884]:
+              - link "VIA Rail deals for seniors" [ref=e888] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=VIA+Rail+deals+for+seniors&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhfEAE
+                - generic [ref=e889]:
+                  - generic [ref=e894]: VIA Rail deals for seniors
+                  - img [ref=e898]
+              - link "VIA rail schedules and fares" [ref=e903] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=VIA+rail+schedules+and+fares&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhdEAE
+                - generic [ref=e904]:
+                  - generic [ref=e909]: VIA rail schedules and fares
+                  - img [ref=e913]
+              - link "VIA Rail ticket prices" [ref=e918] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=VIA+Rail+ticket+prices&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhbEAE
+                - generic [ref=e919]:
+                  - generic [ref=e924]: VIA Rail ticket prices
+                  - img [ref=e928]
+              - link "Montreal to Toronto flight" [ref=e933] [cursor=pointer]:
+                - /url: /search?newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&q=Montreal+to+Toronto+flight&sa=X&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ1QJ6BAhZEAE
+                - generic [ref=e934]:
+                  - generic [ref=e939]: Montreal to Toronto flight
+                  - img [ref=e943]
+        - navigation [ref=e945]:
+          - heading "Page Navigation" [level=1] [ref=e946]
+          - text: "1"
+          - link "Page 2" [ref=e949] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=10&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAE
+            - text: "2"
+          - link "Page 3" [ref=e951] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=20&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAG
+            - text: "3"
+          - link "Page 4" [ref=e953] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=30&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAI
+            - text: "4"
+          - link "Page 5" [ref=e955] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=40&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAK
+            - text: "5"
+          - link "Page 6" [ref=e957] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=50&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAM
+            - text: "6"
+          - link "Page 7" [ref=e959] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=60&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAO
+            - text: "7"
+          - link "Page 8" [ref=e961] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=70&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAQ
+            - text: "8"
+          - link "Page 9" [ref=e963] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=80&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAS
+            - text: "9"
+          - link "Page 10" [ref=e965] [cursor=pointer]:
+            - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=90&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8tMDegQITBAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e967]:
+            - link "Next" [ref=e968] [cursor=pointer]:
+              - /url: /search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&newwindow=1&sca_esv=1c1263f81498c012&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829&ei=jC75aZivMunaruEP0MeKgA0&start=10&sa=N&sstk=Af77f_dG8mHtdZqSUodaWpSHHkIJ6OO-0M-QO4G5tz6s25_LVNkS2DBU2uaBr3M74C4mSzu1CU0tjGZTisqkj2P5iyRIqmGaXvlOtQ&ved=2ahUKEwiYpbG056CUAxVprSsGHdCjAtAQ8NMDegQITBAW
+              - generic [ref=e970]: Next
+      - navigation
+    - contentinfo [ref=e971]:
+      - heading "Footer Links" [level=1] [ref=e972]
+      - generic [ref=e976]:
+        - generic [ref=e979]:
+          - generic [ref=e980]: Results are personalized
+          - generic [ref=e981]: "-"
+          - link "Try without personalization" [ref=e983] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Montreal+to+Toronto+train+ticket+price+18th+May+2026&peek_pws=0&sxsrf=ANbL-n7YVh-RbrwYhEfx8GeWDD2yhCZ51A:1777938060829
+            - generic [ref=e984]: Try without personalization
+        - generic [ref=e986]:
+          - text: Canada
+          - generic [ref=e988]:
+            - button "Toronto, Ontario - Based on your past activity" [ref=e990] [cursor=pointer]:
+              - generic [ref=e991]: Toronto, Ontario
+              - generic [ref=e993]:
+                - text: "-"
+                - generic [ref=e994]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e996] [cursor=pointer]: Update location
+        - generic [ref=e999]:
+          - link "Help" [ref=e1000] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e1001] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1002] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e1003] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

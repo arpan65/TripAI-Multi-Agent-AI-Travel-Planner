@@ -1,0 +1,2 @@
+[     629ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.booking.com/searchresults/en-us.html?ss=Ottawa&checkin=2026-05-15&checkout=2026-05-18&group_adults=2&no_rooms=1&selected_currency=CAD:0
+[    1052ms] The pagetype parameter is required when you include the prodid parameter.
