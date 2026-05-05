@@ -1,0 +1,515 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Toronto to Niagara Falls train price 12th May 2026 Toronto to Niagara Falls train price 12th May 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DToronto%2Bto%2BNiagara%2BFalls%2Btrain%2Bprice%2B12th%2BMay%2B2026%26sei%3DBd35acSJFvbv4-EPwKSS0QM&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwmFzbjh9gaVoVVoRf0vpMhH8JN_UoNe5Hv-CxZwK8yzLe6kp9At_hN-HXjOjsaw3A7CPMNgfPYGhI-EizREv3APjfJCShvYwmCwlZT3Ao3you2oyo9FHcB8uVMPZKsPrm1Jp4atU65XrUQUEe5y2IWVjO7bcQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ2J8OegQIERAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Shopping" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwmFzbjh9gaVoVVoRf0vpMhH8JN_UoNe5Hv-CxZwK8yzLe6kp9At_hN-HXjOjsaw3A7CPMNgfPYGhI-EizREv3APjfJCShvYwmCwlZT3Ao3you2oyo9FHcB8uVMPZKsPrm1Jp4atU65XrUQUEe5y2IWVjO7bcQ&q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&ved=1t:220175&ictx=111
+              - generic [ref=e91]: Shopping
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwmFzbjh9gaVoVVoRf0vpMhH8JN_UoNe5Hv-CxZwK8yzLe6kp9At_hN-HXjOjsaw3A7CPMNgfPYGhI-EizREv3APjfJCShvYwmCwlZT3Ao3you2oyo9FHcB8uVMPZKsPrm1Jp4atU65XrUQUEe5y2IWVjO7bcQ&q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQtKgLegQIFBAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwmFzbjh9gaVoVVoRf0vpMhH8JN_UoNe5Hv-CxZwK8yzLe6kp9At_hN-HXjOjsaw3A7CPMNgfPYGhI-EizREv3APjfJCShvYwmCwlZT3Ao3you2oyo9FHcB8uVMPZKsPrm1Jp4atU65XrUQUEe5y2IWVjO7bcQ&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ0pQJegQIFRAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwmFzbjh9gaVoVVoRf0vpMhH8JN_UoNe5Hv-CxZwK8yzLe6kp9At_hN-HXjOjsaw3A7CPMNgfPYGhI-EizREv3APjfJCShvYwmCwlZT3Ao3you2oyo9FHcB8uVMPZKsPrm1Jp4atU65XrUQUEe5y2IWVjO7bcQ&q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQs6gLegQIFhAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwmFzbjh9gaVoVVoRf0vpMhH8JN_UoNe5Hv-CxZwK8yzLe6kp9At_hN-HXjOjsaw3A7CPMNgfPYGhI-EizREv3APjfJCShvYwmCwlZT3Ao3you2oyo9FHcB8uVMPZKsPrm1Jp4atU65XrUQUEe5y2IWVjO7bcQ&q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQtKgLegQIFxAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e148]:
+        - generic [ref=e150]:
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - img [ref=e154]
+              - heading "AI Overview" [level=2] [ref=e156]
+            - button "Listen" [ref=e160]:
+              - img [ref=e165] [cursor=pointer]
+            - button "About this result" [ref=e170]:
+              - img [ref=e172]
+          - generic [ref=e193]:
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - text: For May 12, 2026 (a Tuesday), GO Transit offers the most budget-friendly options, with return packages starting around $34-$40 CAD, including WEGO bus access. VIA Rail tickets for the same route typically range from
+                - mark [ref=e198]: $19-$85 CAD
+                - text: depending on how early you book.
+                - generic [ref=e200]:
+                  - link "GO Transit (+1) – View related links" [ref=e201] [cursor=pointer]:
+                    - /url: https://www.gotransit.com/en/partners-and-promotions/toronto-to-niagara-falls-weekday-trips#:~:text=GO%20Transit%20offers%20service%20to%20Niagara%20Falls,hours%2C%20unlimited%20Falls%20Incline%20Railway%2048%20hours
+                  - button "GO Transit (+1) – View related links" [ref=e202] [cursor=pointer]:
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: GO Transit
+                      - generic [ref=e206]: "+1"
+              - strong [ref=e208]: "Key Options for Toronto to Niagara Falls (May 12, 2026):"
+              - list [ref=e210]:
+                - listitem [ref=e211]:
+                  - generic [ref=e212]:
+                    - strong [ref=e213]: "GO Transit (Recommended):"
+                    - text: Offers year-round, daily service from Union Station.
+                  - list [ref=e214]:
+                    - listitem [ref=e215]:
+                      - generic [ref=e216]:
+                        - strong [ref=e217]: "1-Day Travel Package:"
+                        - text: ~$34 round trip (includes 24-hour WEGO bus access).
+                    - listitem [ref=e218]:
+                      - generic [ref=e219]:
+                        - strong [ref=e220]: "2-Day Travel Package:"
+                        - text: ~$40 round trip (includes 48-hour WEGO bus access + Incline Railway).
+                - listitem [ref=e221]:
+                  - generic [ref=e222]:
+                    - strong [ref=e223]: "VIA Rail/Amtrak:"
+                    - text: Generally faster but more expensive, usually starting around $25-$30+ per person.
+                  - generic [ref=e225]:
+                    - link [ref=e226] [cursor=pointer]:
+                      - /url: https://www.gotransit.com/en/partners-and-promotions/toronto-to-niagara-falls-weekday-trips#:~:text=GO%20Transit%20offers%20service%20to%20Niagara%20Falls,hours%2C%20unlimited%20Falls%20Incline%20Railway%2048%20hours
+                    - button [ref=e227] [cursor=pointer]:
+                      - generic [ref=e229]:
+                        - generic [ref=e230]: GO Transit
+                        - generic [ref=e231]: "+3"
+              - strong [ref=e234]: "Tips for Booking:"
+              - list [ref=e236]:
+                - listitem [ref=e237]:
+                  - generic [ref=e238]: Book at least a month in advance for the best prices.
+                - listitem [ref=e239]:
+                  - generic [ref=e240]:
+                    - text: Check
+                    - link [ref=e242] [cursor=pointer]:
+                      - /url: https://www.gotransit.com/en/partners-and-promotions/toronto-to-niagara-falls-weekday-trips
+                      - text: GO Transit's website
+                    - text: closer to the date for specific 2026 scheduling.
+                - listitem [ref=e243]:
+                  - generic [ref=e244]: CAA members can save up to 20% on VIA Rail.
+                  - generic [ref=e246]:
+                    - link [ref=e247] [cursor=pointer]:
+                      - /url: https://www.expedia.com/Cheap-Flights-To-Niagara-Falls.d6023515.Travel-Guide-Flights#:~:text=month%20to%20fly-,September%20is%20the%20cheapest%20month%20to%20fly%20to%20Niagara%20Falls,cheap%20tickets%20to%20Niagara%20Falls.
+                    - button [ref=e248] [cursor=pointer]:
+                      - generic [ref=e250]:
+                        - generic [ref=e251]: Expedia
+                        - generic [ref=e252]: "+1"
+            - generic [ref=e263]:
+              - list [ref=e266]:
+                - listitem [ref=e267]:
+                  - generic [ref=e268]:
+                    - link "Weekday GO Trains between Toronto & Niagara. Opens in new tab." [ref=e269] [cursor=pointer]:
+                      - /url: https://www.gotransit.com/en/partners-and-promotions/toronto-to-niagara-falls-weekday-trips
+                    - generic [ref=e270]:
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Weekday GO Trains between Toronto & Niagara
+                        - generic [ref=e274]: GO Transit offers service to Niagara Falls year-round. You can take weekday and weekend train trips in and out of Niagara. GO Tran...
+                      - generic [ref=e276]:
+                        - generic [ref=e281]: GO Transit
+                        - button "About this result" [ref=e283] [cursor=pointer]:
+                          - img [ref=e284]
+                - listitem [ref=e287]:
+                  - generic [ref=e288]:
+                    - link "$48 Cheap Flights to Niagara Falls - Expedia. Opens in new tab." [ref=e289] [cursor=pointer]:
+                      - /url: https://www.expedia.com/Cheap-Flights-To-Niagara-Falls.d6023515.Travel-Guide-Flights
+                    - generic [ref=e290]:
+                      - generic [ref=e292]:
+                        - generic [ref=e293]: $48 Cheap Flights to Niagara Falls - Expedia
+                        - generic [ref=e294]: September is the cheapest month to fly to Niagara Falls. This coincides with the low season when fewer people travel. Whichever mo...
+                      - generic [ref=e296]:
+                        - generic [ref=e301]: Expedia
+                        - button [ref=e303] [cursor=pointer]:
+                          - img [ref=e304]
+                - listitem [ref=e307]:
+                  - generic [ref=e308]:
+                    - link [ref=e309] [cursor=pointer]:
+                      - /url: https://www.rome2rio.com/s/Toronto/Niagara-Falls
+                    - generic [ref=e310]:
+                      - generic [ref=e312]:
+                        - generic [ref=e313]: Toronto to Niagara Falls - 4 ways to travel via train, bus, and car
+                        - generic [ref=e314]: Toronto to Niagara Falls train services, operated by VIA Rail, depart from Toronto Union Station. Train or bus from Toronto to Nia...
+                      - generic [ref=e316]:
+                        - generic [ref=e321]: Rome2Rio
+                        - button [ref=e323] [cursor=pointer]:
+                          - img [ref=e324]
+              - button [ref=e327] [cursor=pointer]:
+                - generic [ref=e328]: Show all
+        - button "Show more AI Overview" [ref=e332]:
+          - generic [ref=e334] [cursor=pointer]:
+            - generic [ref=e335]: Show more
+            - img [ref=e337]
+      - main [ref=e340]:
+        - generic [ref=e344]:
+          - generic [ref=e347]:
+            - heading "Web results" [level=2] [ref=e348]
+            - generic [ref=e349]:
+              - generic [ref=e352]:
+                - link "Trains from Toronto to Niagara Falls 12Go https://12go.asia › Canada 🎫 › Toronto › Niagara Falls" [ref=e354] [cursor=pointer]:
+                  - /url: https://12go.asia/en/train/toronto/niagara-falls
+                  - heading "Trains from Toronto to Niagara Falls" [level=3] [ref=e355]
+                  - generic [ref=e360]:
+                    - generic [ref=e362]: 12Go
+                    - generic [ref=e364]: https://12go.asia › Canada 🎫 › Toronto › Niagara Falls
+                - button "About this result" [ref=e365] [cursor=pointer]:
+                  - img [ref=e368]
+              - generic [ref=e371]:
+                - generic [ref=e372]:
+                  - text: Toronto to Niagara Falls Train Schedule ; Via Rail Canada. Budget. 08:20. 10:20. $
+                  - emphasis [ref=e373]: "24.72"
+                  - text: ; Via Rail Canada. Economy. 08:20. 10:20. $32.11.
+                - link "Read more" [ref=e374] [cursor=pointer]:
+                  - /url: https://12go.asia/en/train/toronto/niagara-falls#:~:text=Toronto%20to%20Niagara%20Falls%20Train,Schedule&text=Via%20Rail%20Canada,%2424.72&text=Via%20Rail%20Canada,%2432.11
+              - link "Toronto to Niagara Falls train price 12th May 2026 from 12go.asia" [ref=e377] [cursor=pointer]:
+                - /url: https://12go.asia/en/train/toronto/niagara-falls
+                - img "Toronto to Niagara Falls train price 12th May 2026 from 12go.asia" [ref=e379]
+              - generic [ref=e381]:
+                - generic [ref=e382]: $10.53 to $617.19
+                - text: ·
+                - img "Rated 4.4 out of 5, (1) user reviews" [ref=e386]:
+                  - text: "4.4"
+                  - img [ref=e387]
+                  - text: (1)
+          - generic [ref=e394]:
+            - heading "People also ask" [level=2] [ref=e396]
+            - generic [ref=e397]:
+              - button "How much is a train ticket from Toronto to Niagara Falls?" [ref=e403] [cursor=pointer]:
+                - generic [ref=e405]: How much is a train ticket from Toronto to Niagara Falls?
+                - img [ref=e408]
+              - button "What is the cheapest month to go to Niagara Falls?" [ref=e417] [cursor=pointer]:
+                - generic [ref=e419]: What is the cheapest month to go to Niagara Falls?
+                - img [ref=e422]
+              - button "How much does it cost to travel from Toronto to Niagara Falls?" [ref=e431] [cursor=pointer]:
+                - generic [ref=e433]: How much does it cost to travel from Toronto to Niagara Falls?
+                - img [ref=e436]
+              - button "How much does it cost to take the GO Train from Toronto Pearson to Niagara Falls?" [ref=e445] [cursor=pointer]:
+                - generic [ref=e447]: How much does it cost to take the GO Train from Toronto Pearson to Niagara Falls?
+                - img [ref=e450]
+          - generic [ref=e455]:
+            - heading "Web results" [level=2] [ref=e456]
+            - generic [ref=e457]:
+              - generic [ref=e460]:
+                - link "Toronto to Niagara Falls Train - Tickets from $19 Wanderu https://www.wanderu.com › ... › Ontario › Niagara Falls" [ref=e462] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-us/train/ca-on/toronto/ca-on/niagara-falls/
+                  - heading "Toronto to Niagara Falls Train - Tickets from $19" [level=3] [ref=e463]
+                  - generic [ref=e468]:
+                    - generic [ref=e470]: Wanderu
+                    - generic [ref=e472]: https://www.wanderu.com › ... › Ontario › Niagara Falls
+                - button "About this result" [ref=e473] [cursor=pointer]:
+                  - img [ref=e476]
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - emphasis [ref=e481]: The average price for a train ticket from Toronto to Niagara Falls is $39.19
+                  - text: ", Compared to most train fares, this is an excellent price. By booking your trip at ..."
+                - link "Read more" [ref=e482] [cursor=pointer]:
+                  - /url: https://www.wanderu.com/en-us/train/ca-on/toronto/ca-on/niagara-falls/#:~:text=The%20average%20price%20for%20a,of%20scoring%20even%20cheaper%20tickets.
+              - generic [ref=e484]:
+                - generic [ref=e485]: Starting from $19.00
+                - text: ·
+                - img "Rated 4.8 out of 5, (12) user reviews" [ref=e489]:
+                  - text: "4.8"
+                  - img [ref=e490]
+                  - text: (12)
+          - generic [ref=e496]:
+            - generic [ref=e499]:
+              - link "Weekday GO Trains between Toronto & Niagara GO Transit https://www.gotransit.com › partners-and-promotions" [ref=e501] [cursor=pointer]:
+                - /url: https://www.gotransit.com/en/partners-and-promotions/toronto-to-niagara-falls-weekday-trips
+                - heading "Weekday GO Trains between Toronto & Niagara" [level=3] [ref=e502]
+                - generic [ref=e507]:
+                  - generic [ref=e509]: GO Transit
+                  - generic [ref=e511]: https://www.gotransit.com › partners-and-promotions
+              - button "About this result" [ref=e512] [cursor=pointer]:
+                - img [ref=e515]
+            - generic [ref=e518]:
+              - generic [ref=e519]:
+                - text: Enjoy a weekday trip with the Toronto to Niagara Falls GO train ... $
+                - emphasis [ref=e520]: 34 Round trip tickets
+                - text: for the GO Train, unlimited Niagara Falls WEGO bus usage for 24 hours.
+              - link "Read more" [ref=e521] [cursor=pointer]:
+                - /url: https://www.gotransit.com/en/partners-and-promotions/toronto-to-niagara-falls-weekday-trips#:~:text=%2434%20Round%20trip%20tickets%20for,bus%20usage%20for%2024%20hours
+          - generic [ref=e525]:
+            - generic [ref=e528]:
+              - link "Train Toronto to Niagara Falls from $30 Rome2Rio https://www.rome2rio.com › Niagara-Falls-ON-Canada" [ref=e530] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto/Niagara-Falls-ON-Canada
+                - heading "Train Toronto to Niagara Falls from $30" [level=3] [ref=e531]
+                - generic [ref=e536]:
+                  - generic [ref=e538]: Rome2Rio
+                  - generic [ref=e540]: https://www.rome2rio.com › Niagara-Falls-ON-Canada
+              - button "About this result" [ref=e541] [cursor=pointer]:
+                - img [ref=e544]
+            - generic [ref=e547]:
+              - generic [ref=e548]:
+                - text: GO Transit operates a train from Union Station GO to Niagara Falls GO 3 times a day.
+                - emphasis [ref=e549]: Tickets cost $20–26
+                - text: and the journey takes 2h 25m. Two other operators also ...
+              - link "Read more" [ref=e550] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto/Niagara-Falls-ON-Canada#:~:text=GO%20Transit%20operates%20a%20train,operators%20also%20service%20this%20route.
+          - generic [ref=e554]:
+            - generic [ref=e557]:
+              - link "Travel by train from Toronto to Niagara Falls VIA Rail https://www.viarail.ca › ... › Ontario-Québec" [ref=e559] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-niagara-falls
+                - heading "Travel by train from Toronto to Niagara Falls" [level=3] [ref=e560]
+                - generic [ref=e565]:
+                  - generic [ref=e567]: VIA Rail
+                  - generic [ref=e569]: https://www.viarail.ca › ... › Ontario-Québec
+              - button "About this result" [ref=e570] [cursor=pointer]:
+                - img [ref=e573]
+            - generic [ref=e576]:
+              - generic [ref=e577]:
+                - emphasis [ref=e578]: There
+                - text: are 7 weekly departures for this trip. See the train schedule for more specific information on each arrival and departure.
+              - link "Read more" [ref=e579] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec/toronto-niagara-falls#:~:text=There%20are%207%20weekly%20departures,on%20each%20arrival%20and%20departure.
+          - generic [ref=e583]:
+            - generic [ref=e586]:
+              - link "Toronto, ON to Niagara Falls, ON train with Seajets Omio https://www.omio.com › trains › niagara-falls-on" [ref=e588] [cursor=pointer]:
+                - /url: https://www.omio.com/trains/toronto-on/niagara-falls-on
+                - heading "Toronto, ON to Niagara Falls, ON train with Seajets" [level=3] [ref=e589]
+                - generic [ref=e594]:
+                  - generic [ref=e596]: Omio
+                  - generic [ref=e598]: https://www.omio.com › trains › niagara-falls-on
+              - button "About this result" [ref=e599] [cursor=pointer]:
+                - img [ref=e602]
+            - generic [ref=e605]:
+              - generic [ref=e606]:
+                - text: Train ticket prices from Toronto, ON to Niagara Falls, ON can vary.
+                - emphasis [ref=e607]: The cheapest ticket starts at $24 (€19
+                - text: ), while the average price is around $26 (€21).
+              - link "Read more" [ref=e608] [cursor=pointer]:
+                - /url: https://www.omio.com/trains/toronto-on/niagara-falls-on#:~:text=How%20long%20is%20the%20train
+            - generic [ref=e610]: Starting from €8.00
+          - generic [ref=e614]:
+            - generic [ref=e617]:
+              - link "Train Toronto to Niagara Falls from $16 | Refundable Tickets Busbud https://www.busbud.com › ... › Toronto › Niagara Falls" [ref=e619] [cursor=pointer]:
+                - /url: https://www.busbud.com/en/t/train-toronto-niagara-falls/dpz88g-dpxv0y
+                - heading "Train Toronto to Niagara Falls from $16 | Refundable Tickets" [level=3] [ref=e620]
+                - generic [ref=e625]:
+                  - generic [ref=e627]: Busbud
+                  - generic [ref=e629]: https://www.busbud.com › ... › Toronto › Niagara Falls
+              - button "About this result" [ref=e630] [cursor=pointer]:
+                - img [ref=e633]
+            - generic [ref=e636]:
+              - generic [ref=e637]:
+                - text: You can expect to pay from $
+                - emphasis [ref=e638]: 16 to $48
+                - text: for a train ticket from Toronto to Niagara Falls, CA based on the last 2 days. You can expect to find the cheapest price ...
+              - link "Read more" [ref=e639] [cursor=pointer]:
+                - /url: https://www.busbud.com/en/t/train-toronto-niagara-falls/dpz88g-dpxv0y#:~:text=You%20can%20expect%20to%20pay,%2416%20which%20is%20on%202026%2D05%2D03.
+            - link "Toronto to Niagara Falls train price 12th May 2026 from www.busbud.com" [ref=e642] [cursor=pointer]:
+              - /url: https://www.busbud.com/en/t/train-toronto-niagara-falls/dpz88g-dpxv0y
+              - img "Toronto to Niagara Falls train price 12th May 2026 from www.busbud.com" [ref=e644]
+            - generic [ref=e647]: $16.00 to $48.00
+          - generic [ref=e651]:
+            - generic [ref=e654]:
+              - link "Toronto to Niagara Falls Trains | High-Speed Train Tickets Rail Ninja https://rail.ninja › route › toronto-to-niagara-falls" [ref=e656] [cursor=pointer]:
+                - /url: https://rail.ninja/route/toronto-to-niagara-falls
+                - heading "Toronto to Niagara Falls Trains | High-Speed Train Tickets" [level=3] [ref=e657]
+                - generic [ref=e662]:
+                  - generic [ref=e664]: Rail Ninja
+                  - generic [ref=e666]: https://rail.ninja › route › toronto-to-niagara-falls
+              - button "About this result" [ref=e667] [cursor=pointer]:
+                - img [ref=e670]
+            - generic [ref=e673]:
+              - generic [ref=e674]:
+                - text: Trains on Toronto - Niagara Falls route. VIA RailExpress train. Travel time2 hrs 0 min.
+                - emphasis [ref=e675]: Price from$36
+                - text: . Departures1. 02 May 2026. Add return. Toronto. Niagara ...
+              - link "Read more" [ref=e676] [cursor=pointer]:
+                - /url: https://rail.ninja/route/toronto-to-niagara-falls#:~:text=Trains%20on%20Toronto%20%2D%20Niagara,Niagara%20Falls
+            - link "Toronto to Niagara Falls train price 12th May 2026 from rail.ninja" [ref=e679] [cursor=pointer]:
+              - /url: https://rail.ninja/route/toronto-to-niagara-falls
+              - img "Toronto to Niagara Falls train price 12th May 2026 from rail.ninja" [ref=e681]
+            - img "Rated 4.5 out of 5, (1) user reviews" [ref=e686]:
+              - text: 9/10
+              - img [ref=e687]
+              - text: (1)
+          - generic [ref=e693]:
+            - generic [ref=e696]:
+              - link "Toronto Union Station to Niagara Falls Transit Terminal trains Rome2Rio https://www.rome2rio.com › Train › Niagara-Falls-Tran..." [ref=e698] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto-Union-Station/Niagara-Falls-Transit-Terminal
+                - heading "Toronto Union Station to Niagara Falls Transit Terminal trains" [level=3] [ref=e699]
+                - generic [ref=e704]:
+                  - generic [ref=e706]: Rome2Rio
+                  - generic [ref=e708]: https://www.rome2rio.com › Train › Niagara-Falls-Tran...
+              - button "About this result" [ref=e709] [cursor=pointer]:
+                - img [ref=e712]
+            - generic [ref=e715]:
+              - generic [ref=e716]:
+                - text: GO Transit operates a train from Union Station GO to Niagara Falls GO 3 times a day.
+                - emphasis [ref=e717]: Tickets cost $20–26
+                - text: and the journey takes 2h 23m. VIA Rail also services ...
+              - link "Read more" [ref=e718] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Train/Toronto-Union-Station/Niagara-Falls-Transit-Terminal#:~:text=GO%20Transit%20operates%20a%20train,services%20this%20route%20once%20daily.
+          - generic [ref=e722]:
+            - generic [ref=e725]:
+              - link "Discounted train ticket - Our lowest fares VIA Rail https://www.viarail.ca › Home › Fares and packages" [ref=e727] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/offers/our-lowest-fares
+                - heading "Discounted train ticket - Our lowest fares" [level=3] [ref=e728]
+                - generic [ref=e733]:
+                  - generic [ref=e735]: VIA Rail
+                  - generic [ref=e737]: https://www.viarail.ca › Home › Fares and packages
+              - button "About this result" [ref=e738] [cursor=pointer]:
+                - img [ref=e741]
+            - generic [ref=e744]:
+              - generic [ref=e745]:
+                - text: 20*. Book now Book now from
+                - emphasis [ref=e746]: Toronto
+                - text: to Georgetown on May 13, 2026 for $20. ... 20*. Book now Book now from
+                - emphasis [ref=e747]: Toronto
+                - text: to Oakville on
+                - emphasis [ref=e748]: May 12, 2026
+                - text: for $20. This ...
+              - link "Read more" [ref=e749] [cursor=pointer]:
+                - /url: https://www.viarail.ca/en/offers/our-lowest-fares#:~:text=%2420*,May%2013%2C%202026%20for%20%2420.
+        - generic [ref=e751]:
+          - generic [ref=e756]:
+            - heading "People also search for" [level=2] [ref=e758]
+            - generic [ref=e760]:
+              - generic [ref=e761]:
+                - link "Toronto to niagara falls train price 12th may 2026 express" [ref=e765] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Toronto+to+niagara+falls+train+price+12th+may+2026+express&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAgwEAE
+                  - generic [ref=e766]:
+                    - generic [ref=e771]: Toronto to niagara falls train price 12th may 2026 express
+                    - img [ref=e775]
+                - link "Toronto to Niagara Falls bus" [ref=e780] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Toronto+to+Niagara+Falls+bus&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAhPEAE
+                  - generic [ref=e781]:
+                    - generic [ref=e786]: Toronto to Niagara Falls bus
+                    - img [ref=e790]
+                - link "Niagara Falls train station" [ref=e795] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+train+station&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAhQEAE
+                  - generic [ref=e796]:
+                    - generic [ref=e801]: Niagara Falls train station
+                    - img [ref=e805]
+                - link "Toronto to Niagara Falls drive" [ref=e810] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Toronto+to+Niagara+Falls+drive&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAhLEAE
+                  - generic [ref=e811]:
+                    - generic [ref=e816]: Toronto to Niagara Falls drive
+                    - img [ref=e820]
+              - generic [ref=e822]:
+                - link "Niagara Falls to Toronto Airport" [ref=e826] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+Airport&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAhCEAE
+                  - generic [ref=e827]:
+                    - generic [ref=e832]: Niagara Falls to Toronto Airport
+                    - img [ref=e836]
+                - link "Toronto to Niagara Falls distance" [ref=e841] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Toronto+to+Niagara+Falls+distance&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAg6EAE
+                  - generic [ref=e842]:
+                    - generic [ref=e847]: Toronto to Niagara Falls distance
+                    - img [ref=e851]
+                - link "Is the train from Toronto to Niagara Falls scenic" [ref=e856] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Is+the+train+from+Toronto+to+Niagara+Falls+scenic&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAg4EAE
+                  - generic [ref=e857]:
+                    - generic [ref=e862]: Is the train from Toronto to Niagara Falls scenic
+                    - img [ref=e866]
+                - link "Toronto to Niagara Falls day trip" [ref=e871] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Toronto+to+Niagara+Falls+day+trip&sa=X&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ1QJ6BAgxEAE
+                  - generic [ref=e872]:
+                    - generic [ref=e877]: Toronto to Niagara Falls day trip
+                    - img [ref=e881]
+          - navigation [ref=e883]:
+            - heading "Page navigation" [level=1] [ref=e884]
+            - text: "1"
+            - link "Page 2" [ref=e887] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=10&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAE
+              - text: "2"
+            - link "Page 3" [ref=e889] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=20&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAG
+              - text: "3"
+            - link "Page 4" [ref=e891] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=30&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAI
+              - text: "4"
+            - link "Page 5" [ref=e893] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=40&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAK
+              - text: "5"
+            - link "Page 6" [ref=e895] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=50&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAM
+              - text: "6"
+            - link "Page 7" [ref=e897] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=60&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAO
+              - text: "7"
+            - link "Page 8" [ref=e899] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=70&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAQ
+              - text: "8"
+            - link "Page 9" [ref=e901] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=80&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAS
+              - text: "9"
+            - link "Page 10" [ref=e903] [cursor=pointer]:
+              - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=90&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8tMDegQIUxAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e905]:
+              - link "Next" [ref=e906] [cursor=pointer]:
+                - /url: /search?q=Toronto+to+Niagara+Falls+train+price+12th+May+2026&sca_esv=279264206e6ccbef&ei=Bt35aebvDd2P4-EPh6_zoAc&start=10&sa=N&sstk=Af77f_dMkQCOShgn5hMCfaUCcOYBFDPIFsn2ojhOIqChOO8mpapApZQdP-5k1uEC7lUaB-b6JKNWpgohJExFCvSw2rpsoMeOvhzitg&ved=2ahUKEwjmisHmjaKUAxXdxzgGHYfXHHQQ8NMDegQIUxAW
+                - generic [ref=e908]: Next
+        - navigation
+    - contentinfo [ref=e909]:
+      - heading "Footer links" [level=1] [ref=e910]
+      - generic [ref=e914]:
+        - generic [ref=e916]:
+          - text: India
+          - generic [ref=e918]:
+            - button "New Delhi - From your IP address" [ref=e920] [cursor=pointer]:
+              - generic [ref=e921]: New Delhi
+              - generic [ref=e923]:
+                - text: "-"
+                - generic [ref=e924]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e926] [cursor=pointer]: Update location
+        - generic [ref=e929]:
+          - link "Help" [ref=e930] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e931] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e932] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e933] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

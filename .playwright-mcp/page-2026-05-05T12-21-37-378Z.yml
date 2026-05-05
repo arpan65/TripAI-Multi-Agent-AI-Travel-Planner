@@ -1,0 +1,606 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Niagara Falls hotels 12th to 13th May 2026 price per night Niagara Falls hotels 12th to 13th May 2026 price per night
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DNiagara%2BFalls%2Bhotels%2B12th%2Bto%2B13th%2BMay%2B2026%2Bprice%2Bper%2Bnight&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3u6MWRtAr31GIrXLfiKhJJ9zMfgfAzmC0EaStM63-fN2IMNAsYLcqNyMhBP24nYln8OqvOTkQapqwjhZpNW2qFR_SI7Zqj4fpjPubHn15q7rPdIx_d24UW-ACrc96Xi4ELApOJZ_t0AuUboHxcFtLyzC6ryiack6tt-p7X_zEhr6z-rp2A&aep=1&ntc=1&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ2J8OegQIDBAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=236bc161f81c4548&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3u6MWRtAr31GIrXLfiKhJJ9zMfgfAzmC0EaStM63-fN2IMNAsYLcqNyMhBP24nYln8OqvOTkQapqwjhZpNW2qFR_SI7Zqj4fpjPubHn15q7rPdIx_d24UW-ACrc96Xi4ELApOJZ_t0AuUboHxcFtLyzC6ryiack6tt-p7X_zEhr6z-rp2A&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQtKgLegQIExAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Forums" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=236bc161f81c4548&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3u6MWRtAr31GIrXLfiKhJJ9zMfgfAzmC0EaStM63-fN2IMNAsYLcqNyMhBP24nYln8OqvOTkQapqwjhZpNW2qFR_SI7Zqj4fpjPubHn15q7rPdIx_d24UW-ACrc96Xi4ELApOJZ_t0AuUboHxcFtLyzC6ryiack6tt-p7X_zEhr6z-rp2A&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQs6gLegQIERAB
+              - generic [ref=e95]: Forums
+          - listitem [ref=e96]:
+            - link "Shopping" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=236bc161f81c4548&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3u6MWRtAr31GIrXLfiKhJJ9zMfgfAzmC0EaStM63-fN2IMNAsYLcqNyMhBP24nYln8OqvOTkQapqwjhZpNW2qFR_SI7Zqj4fpjPubHn15q7rPdIx_d24UW-ACrc96Xi4ELApOJZ_t0AuUboHxcFtLyzC6ryiack6tt-p7X_zEhr6z-rp2A&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Shopping
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=236bc161f81c4548&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3u6MWRtAr31GIrXLfiKhJJ9zMfgfAzmC0EaStM63-fN2IMNAsYLcqNyMhBP24nYln8OqvOTkQapqwjhZpNW2qFR_SI7Zqj4fpjPubHn15q7rPdIx_d24UW-ACrc96Xi4ELApOJZ_t0AuUboHxcFtLyzC6ryiack6tt-p7X_zEhr6z-rp2A&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQtKgLegQIDhAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "News" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=236bc161f81c4548&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3u6MWRtAr31GIrXLfiKhJJ9zMfgfAzmC0EaStM63-fN2IMNAsYLcqNyMhBP24nYln8OqvOTkQapqwjhZpNW2qFR_SI7Zqj4fpjPubHn15q7rPdIx_d24UW-ACrc96Xi4ELApOJZ_t0AuUboHxcFtLyzC6ryiack6tt-p7X_zEhr6z-rp2A&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ0pQJegQIEBAB
+              - generic [ref=e107]: News
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e136]:
+        - generic [ref=e148]:
+          - heading "Thinking" [level=2] [ref=e152]:
+            - generic [ref=e153]: Thinking
+          - progressbar [ref=e154]
+        - generic [ref=e162]:
+          - generic [ref=e164]:
+            - heading "Hotels | Niagara Falls, ON" [level=2] [ref=e165]
+            - button "More info" [ref=e168] [cursor=pointer]:
+              - generic "More info" [ref=e169]:
+                - img [ref=e170]
+          - generic [ref=e172]:
+            - generic [ref=e175]:
+              - status
+              - button "Select check-in date. Current check-in date is Tue, May 12" [ref=e177] [cursor=pointer]:
+                - img [ref=e179]
+                - generic [ref=e181]: Tue, May 12
+              - button "Select check-out date. Current check-out date is Wed, May 13" [ref=e183] [cursor=pointer]:
+                - img [ref=e185]
+                - generic [ref=e187]: Wed, May 13
+            - button "Select number of guests. Current selection is 2 guests" [ref=e192] [cursor=pointer]:
+              - generic [ref=e194]:
+                - img [ref=e197]
+                - generic [ref=e199]: "2"
+                - img [ref=e202]
+            - generic [ref=e205]:
+              - list [ref=e208]:
+                - link "Top-rated" [ref=e209] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqCQoFOgNDQUQoCA&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:54362
+                  - listitem [ref=e210]:
+                    - generic [ref=e213]: Top-rated
+                - link "Budget options" [ref=e214] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqDgoFOgNDQUQiBRIDEJYB&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:54363
+                  - listitem [ref=e215]:
+                    - generic [ref=e218]: Budget options
+                - link "Luxury stays" [ref=e219] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqCwoJEgIEBToDQ0FE&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:54364
+                  - listitem [ref=e220]:
+                    - generic [ref=e223]: Luxury stays
+                - link "Free cancellation" [ref=e224] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqCQoHIAE6A0NBRA&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:104374
+                  - listitem [ref=e225]:
+                    - generic [ref=e228]: Free cancellation
+                - link "Deals" [ref=e229] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqCQoFOgNDQUQwAQ&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:64157
+                  - listitem [ref=e230]:
+                    - generic [ref=e233]: Deals
+                - link "For tonight" [ref=e234] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAUSBwjqDxAFGAYYATICCAEqBwoFOgNDQUQ&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:54365
+                  - listitem [ref=e235]:
+                    - generic [ref=e238]: For tonight
+              - button [ref=e239] [cursor=pointer]:
+                - img [ref=e242]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - generic "Hotel suggestions" [ref=e249]:
+                - generic [ref=e250]:
+                  - link "The Oakes Hotel Overlooking the Falls $77 3.4 out of 5 stars from 4,792 reviews, 3-star hotel Great deal 45% less than usual ... of the falls, and some have whirlpool ..." [ref=e253] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqBwoFOgNDQUQ&qs=CAEyFENnc0l1ZEMwajZES19acWFBUkFCOApCCRGMgA7CMlkeqUIJEdWGx43cZdBiQgkR2rW8wNDKZ8danAEymQGqAZUBEAEqMCIsaG90ZWxzIDEydGggdG8gMTN0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQoADIfEAEiGxHNWrziztyWEggvrvvxBfBwednVaqONLRNwMzI-EAIiOm5pYWdhcmEgZmFsbHMgaG90ZWxzIDEydGggdG8gMTN0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e254]:
+                      - generic [ref=e256]:
+                        - button "Previous" [ref=e257]:
+                          - img [ref=e260]
+                        - generic [ref=e262]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e263]:
+                                - img "The Oakes Hotel Overlooking the Falls image 1 of 6" [ref=e266]
+                        - button "Next" [ref=e267]:
+                          - img [ref=e270]
+                      - generic [ref=e272]:
+                        - generic [ref=e273]:
+                          - generic [ref=e275]: The Oakes Hotel Overlooking the Falls
+                          - generic [ref=e277]: $77
+                        - link "3.4 out of 5 stars from 4,792 reviews, 3-star hotel" [ref=e279]:
+                          - img "Rated 3.4 out of 5, 4.8K user reviews" [ref=e280]:
+                            - text: "3.4"
+                            - img [ref=e281]
+                            - text: (4.8K)
+                          - text: ·
+                          - generic [ref=e284]: 3-star hotel
+                        - generic [ref=e286]:
+                          - generic [ref=e288]:
+                            - generic [ref=e290]:
+                              - generic:
+                                - generic: Great deal
+                            - generic [ref=e291]: 45% less than usual
+                          - generic [ref=e295]: ... of the falls, and some have whirlpool ...
+                  - link "Ramada Plaza by Wyndham Niagara Falls $67 3.2 out of 5 stars from 2,297 reviews, 3-star hotel Deal 23% less than usual ... cost with an adult.This low-key budget ..." [ref=e299] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqBwoFOgNDQUQ&qs=CAEyE0Nnb0lpS0h1dU43UGxvOU5FQUU4CkIJEYyADsIyWR6pQgkR1YbHjdxl0GJCCRHatbzA0Mpnx1qcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e300]:
+                      - generic [ref=e302]:
+                        - button "Previous" [ref=e303]:
+                          - img [ref=e306]
+                        - generic [ref=e308]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e309]:
+                                - img "Ramada Plaza by Wyndham Niagara Falls image 1 of 6" [ref=e312]
+                        - button "Next" [ref=e313]:
+                          - img [ref=e316]
+                      - generic [ref=e318]:
+                        - generic [ref=e319]:
+                          - generic [ref=e321]: Ramada Plaza by Wyndham Niagara Falls
+                          - generic [ref=e323]: $67
+                        - link "3.2 out of 5 stars from 2,297 reviews, 3-star hotel" [ref=e325]:
+                          - img "Rated 3.2 out of 5, 2.3K user reviews" [ref=e326]:
+                            - text: "3.2"
+                            - img [ref=e327]
+                            - text: (2.3K)
+                          - text: ·
+                          - generic [ref=e330]: 3-star hotel
+                        - generic [ref=e332]:
+                          - generic [ref=e334]:
+                            - generic [ref=e336]:
+                              - generic:
+                                - generic: Deal
+                            - generic [ref=e337]: 23% less than usual
+                          - generic [ref=e341]: ... cost with an adult.This low-key budget ...
+                  - link "Ramada by Wyndham Niagara Falls/Fallsview $61 3.1 out of 5 stars from 4,171 reviews, 4-star hotel Great price for a 4-star hotel Relaxed hotel with an indoor pool" [ref=e345] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqBwoFOgNDQUQ&qs=CAEyFENnc0loNmI2NHMtSi1weldBUkFCOApCCRGMgA7CMlkeqUIJEdWGx43cZdBiQgkR2rW8wNDKZ8danAEymQGqAZUBEAEqMCIsaG90ZWxzIDEydGggdG8gMTN0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQoADIfEAEiGxHNWrziztyWEggvrvvxBfBwednVaqONLRNwMzI-EAIiOm5pYWdhcmEgZmFsbHMgaG90ZWxzIDEydGggdG8gMTN0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e346]:
+                      - generic [ref=e348]:
+                        - button "Previous" [ref=e349]:
+                          - img [ref=e352]
+                        - generic [ref=e354]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e355]:
+                                - img "Ramada by Wyndham Niagara Falls/Fallsview image 1 of 6" [ref=e358]
+                        - button "Next" [ref=e359]:
+                          - img [ref=e362]
+                      - generic [ref=e364]:
+                        - generic [ref=e365]:
+                          - generic [ref=e367]: Ramada by Wyndham Niagara Falls/Fallsview
+                          - generic [ref=e369]: $61
+                        - link "3.1 out of 5 stars from 4,171 reviews, 4-star hotel" [ref=e371]:
+                          - img "Rated 3.1 out of 5, 4.2K user reviews" [ref=e372]:
+                            - text: "3.1"
+                            - img [ref=e373]
+                            - text: (4.2K)
+                          - text: ·
+                          - generic [ref=e376]: 4-star hotel
+                        - generic [ref=e378]:
+                          - generic [ref=e380]:
+                            - generic [ref=e382]:
+                              - generic:
+                                - generic: Great price
+                            - generic [ref=e383]: for a 4-star hotel
+                          - generic [ref=e386]: Relaxed hotel with an indoor pool
+              - link "See more" [ref=e388] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqBwoFOgNDQUQ&qs=CAE4BkIJEYyADsIyWR6pQgkR1YbHjdxl0GJCCRHatbzA0Mpnx1qcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=aAE&ictx=111&ved=1t:195904
+                - separator [ref=e389]
+                - generic [ref=e390]:
+                  - generic [ref=e391]: See more
+                  - img [ref=e393]
+            - link "View larger map" [ref=e397] [cursor=pointer]:
+              - generic [ref=e398]:
+                - generic:
+                  - generic [ref=e400]:
+                    - img [ref=e402]
+                    - text: $98
+                  - img [ref=e405]
+                  - generic [ref=e409]:
+                    - img [ref=e411]
+                    - text: $79
+                  - img [ref=e414]
+                  - generic [ref=e418]:
+                    - img [ref=e420]
+                    - text: $148
+                  - img [ref=e423]
+                  - generic [ref=e427]:
+                    - img [ref=e429]
+                    - text: $154
+                  - img [ref=e432]
+                  - generic [ref=e436]:
+                    - img [ref=e438]
+                    - text: $126
+                  - img [ref=e441]
+                  - generic [ref=e445]:
+                    - img [ref=e447]
+                    - text: $67
+                  - img [ref=e450]
+                  - generic [ref=e454]:
+                    - img [ref=e456]
+                    - text: $127
+                  - img [ref=e459]
+                  - generic [ref=e463]:
+                    - img [ref=e465]
+                    - text: $61
+                  - img [ref=e468]
+                  - generic [ref=e472]:
+                    - img [ref=e474]
+                    - text: $67
+                  - img [ref=e477]
+                  - generic [ref=e481]:
+                    - img [ref=e483]
+                    - text: $77
+                  - img [ref=e486]
+              - link [ref=e490]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqBwoFOgNDQUQ&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=SAFoAQ&ictx=111&ved=1t:206005
+                - link [ref=e491]
+              - link "View larger map" [ref=e496]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAwSBwjqDxAFGA0YATICCAEqBwoFOgNDQUQ&qs=CAE4BlqcATKZAaoBlQEQASowIixob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbEc1avOLO3JYSCC-u-_EF8HB52dVqo40tE3AzMj4QAiI6bmlhZ2FyYSBmYWxscyBob3RlbHMgMTJ0aCB0byAxM3RoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodA&ap=SAFoAQ&ictx=111&ved=1t:159633
+                - img [ref=e498]
+                - generic: View larger map
+      - main [ref=e500]:
+        - generic [ref=e504]:
+          - generic [ref=e507]:
+            - heading "Web results" [level=2] [ref=e508]
+            - generic [ref=e509]:
+              - generic [ref=e512]:
+                - link "10 Best Niagara Falls Hotels, Canada (From US$49) Booking.com https://www.booking.com › Hotels › Canada › Ontario" [ref=e514] [cursor=pointer]:
+                  - /url: https://www.booking.com/city/ca/niagara-falls.html
+                  - heading "10 Best Niagara Falls Hotels, Canada (From US$49)" [level=3] [ref=e515]
+                  - generic [ref=e520]:
+                    - generic [ref=e522]: Booking.com
+                    - generic [ref=e524]: https://www.booking.com › Hotels › Canada › Ontario
+                - button "About this result" [ref=e525] [cursor=pointer]:
+                  - img [ref=e528]
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - text: Tue, May 5, 2026. Check-out date ... On average,
+                  - emphasis [ref=e533]: 3-star hotels in Niagara Falls cost $89 per night
+                  - text: ", and 4-star hotels in Niagara Falls are $144 per night."
+                - link "Read more" [ref=e534] [cursor=pointer]:
+                  - /url: https://www.booking.com/city/ca/niagara-falls.html#:~:text=Tue%2C%20May%205%2C%202026,Check%2Dout%20date&text=How%20much%20is%20a%20hotel
+          - generic [ref=e538]:
+            - generic [ref=e541]:
+              - link "Top Hotels in Niagara Falls for 2026 Expedia https://www.expedia.ca › Hotels › Canada › Ontario" [ref=e543] [cursor=pointer]:
+                - /url: https://www.expedia.ca/Niagara-Falls-Hotels.d6023515.Travel-Guide-Hotels
+                - heading "Top Hotels in Niagara Falls for 2026" [level=3] [ref=e544]
+                - generic [ref=e549]:
+                  - generic [ref=e551]: Expedia
+                  - generic [ref=e553]: https://www.expedia.ca › Hotels › Canada › Ontario
+              - button "About this result" [ref=e554] [cursor=pointer]:
+                - img [ref=e557]
+            - generic [ref=e561]:
+              - text: Discover top Niagara Falls hotels in Canada,
+              - emphasis [ref=e562]: starting from CA $55
+              - text: . Book now with Expedia for great offers and enjoy your unforgettable getaway!
+          - generic [ref=e566]:
+            - generic [ref=e569]:
+              - link "THE 10 BEST Hotels in Niagara Falls 2026 (from C$59) Tripadvisor https://www.tripadvisor.ca › ... › Ontario › Niagara Falls" [ref=e571] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/Hotels-g154998-Niagara_Falls_Ontario-Hotels.html
+                - heading "THE 10 BEST Hotels in Niagara Falls 2026 (from C$59)" [level=3] [ref=e572]
+                - generic [ref=e577]:
+                  - generic [ref=e579]: Tripadvisor
+                  - generic [ref=e581]: https://www.tripadvisor.ca › ... › Ontario › Niagara Falls
+              - button "About this result" [ref=e582] [cursor=pointer]:
+                - img [ref=e585]
+            - generic [ref=e589]:
+              - text: Book the Best
+              - emphasis [ref=e590]: Niagara Falls Hotels on
+              - text: "Tripadvisor: Find 134045 traveller reviews, 59471 candid photos, and"
+              - emphasis [ref=e591]: prices
+              - text: for
+              - emphasis [ref=e592]: hotels
+              - text: in Niagara ...
+          - generic [ref=e596]:
+            - generic [ref=e599]:
+              - link "Hotels in Niagara Falls (Ontario, Canada) trivago https://www.trivago.ca › ... › Canada › Ontario" [ref=e601] [cursor=pointer]:
+                - /url: https://www.trivago.ca/en-CA/odr/hotels-niagara-falls-canada?search=200-85306
+                - heading "Hotels in Niagara Falls (Ontario, Canada)" [level=3] [ref=e602]
+                - generic [ref=e607]:
+                  - generic [ref=e609]: trivago
+                  - generic [ref=e611]: https://www.trivago.ca › ... › Canada › Ontario
+              - button "About this result" [ref=e612] [cursor=pointer]:
+                - img [ref=e615]
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - emphasis [ref=e620]: Price
+                - text: range.
+                - emphasis [ref=e621]: Hotels
+                - text: in
+                - emphasis [ref=e622]: Niagara Falls
+                - text: "-"
+                - emphasis [ref=e623]: Price
+                - text: range from ‎$37 to ‎$275 (
+                - emphasis [ref=e624]: price per night
+                - text: ). Frequently Asked Questions about
+                - emphasis [ref=e625]: Niagara Falls
+                - text: . What are the best ...
+              - link "Read more" [ref=e626] [cursor=pointer]:
+                - /url: https://www.trivago.ca/en-CA/odr/hotels-niagara-falls-canada?search=200-85306#:~:text=Price%20range,best%20hotels%20in%20Niagara%20Falls%3F
+          - generic [ref=e630]:
+            - generic [ref=e633]:
+              - link "Top Hotels in Niagara Falls from C$55 | Skyscanner skyscanner.ca https://www.skyscanner.ca › Hotels › Canada › Ontario" [ref=e635] [cursor=pointer]:
+                - /url: https://www.skyscanner.ca/hotels/canada/niagara-falls-hotels/ci-113027597
+                - heading "Top Hotels in Niagara Falls from C$55 | Skyscanner" [level=3] [ref=e636]
+                - generic [ref=e641]:
+                  - generic [ref=e643]: skyscanner.ca
+                  - generic [ref=e645]: https://www.skyscanner.ca › Hotels › Canada › Ontario
+              - button "About this result" [ref=e646] [cursor=pointer]:
+                - img [ref=e649]
+            - generic [ref=e652]:
+              - generic [ref=e653]:
+                - text: Currently the
+                - emphasis [ref=e654]: average price of a hotel in Niagara Falls is C$199
+                - text: ", but that doesn't mean you can't find a better deal. We price check hundreds of hotel brands ..."
+              - link "Read more" [ref=e655] [cursor=pointer]:
+                - /url: https://www.skyscanner.ca/hotels/canada/niagara-falls-hotels/ci-113027597#:~:text=Currently%20the%20average%20price%20of,to%20search%20each%20one%20individually.
+            - generic [ref=e657]: Starting from $55.00
+          - generic [ref=e662]:
+            - heading "People also ask" [level=2] [ref=e664]
+            - generic [ref=e665]:
+              - button "What is the cheapest month to go to Niagara Falls?" [ref=e671] [cursor=pointer]:
+                - generic [ref=e673]: What is the cheapest month to go to Niagara Falls?
+                - img [ref=e676]
+              - button "What is the average price of a hotel room for one night?" [ref=e685] [cursor=pointer]:
+                - generic [ref=e687]: What is the average price of a hotel room for one night?
+                - img [ref=e690]
+              - button "What is the best hotel to stay at in Niagara Falls?" [ref=e699] [cursor=pointer]:
+                - generic [ref=e701]: What is the best hotel to stay at in Niagara Falls?
+                - img [ref=e704]
+              - button "What is the average cost of a Niagara hotel?" [ref=e713] [cursor=pointer]:
+                - generic [ref=e715]: What is the average cost of a Niagara hotel?
+                - img [ref=e718]
+          - generic [ref=e723]:
+            - heading "Web results" [level=2] [ref=e724]
+            - generic [ref=e725]:
+              - generic [ref=e728]:
+                - link "The 10 Best Hotels in Niagara Falls, Ontario Hotels.com https://ca.hotels.com › ... › Hotels in Ontario" [ref=e730] [cursor=pointer]:
+                  - /url: https://ca.hotels.com/de1643566/niagara-falls-and-vicinity-canada-ontario-hotels-rooms/
+                  - heading "The 10 Best Hotels in Niagara Falls, Ontario" [level=3] [ref=e731]
+                  - generic [ref=e736]:
+                    - generic [ref=e738]: Hotels.com
+                    - generic [ref=e740]: https://ca.hotels.com › ... › Hotels in Ontario
+                - button "About this result" [ref=e741] [cursor=pointer]:
+                  - img [ref=e744]
+              - generic [ref=e747]:
+                - generic [ref=e748]:
+                  - text: The
+                  - emphasis [ref=e749]: price
+                  - text: is CA $130. CA $130. CA $159 total. includes taxes &
+                  - emphasis [ref=e750]: fees
+                  - text: .
+                  - emphasis [ref=e751]: May 12
+                  - text: "-"
+                  - emphasis [ref=e752]: May 13
+                  - text: . Hampton Inn
+                  - emphasis [ref=e753]: by
+                  - text: Hilton St. Catharines
+                  - emphasis [ref=e754]: Niagara
+                  - text: . Lowest nightly
+                  - emphasis [ref=e755]: price
+                  - text: found ...
+                - link "Read more" [ref=e756] [cursor=pointer]:
+                  - /url: https://ca.hotels.com/de1643566/niagara-falls-and-vicinity-canada-ontario-hotels-rooms/#:~:text=CA%20%24130,May%2012%20%2D%20May%2013
+          - generic [ref=e760]:
+            - generic [ref=e763]:
+              - 'link "Niagara Falls Hotels: Hotels in Niagara Falls Canada Niagara Falls Hotels https://www.niagarafallshotels.com" [ref=e765] [cursor=pointer]':
+                - /url: https://www.niagarafallshotels.com/
+                - 'heading "Niagara Falls Hotels: Hotels in Niagara Falls Canada" [level=3] [ref=e766]'
+                - generic [ref=e771]:
+                  - generic [ref=e773]: Niagara Falls Hotels
+                  - generic [ref=e775]: https://www.niagarafallshotels.com
+              - button "About this result" [ref=e776] [cursor=pointer]:
+                - img [ref=e779]
+            - generic [ref=e782]:
+              - generic [ref=e783]:
+                - text: Welcome to the official destination
+                - emphasis [ref=e784]: for the
+                - text: best
+                - emphasis [ref=e785]: Niagara Falls hotels
+                - text: ... Find the perfect
+                - emphasis [ref=e786]: hotel
+                - text: deal here and reserve today
+                - emphasis [ref=e787]: for the
+                - text: best
+                - emphasis [ref=e788]: rate
+                - text: guaranteed!
+              - link "Read more" [ref=e789] [cursor=pointer]:
+                - /url: https://www.niagarafallshotels.com/#:~:text=Welcome%20to%20the%20official%20destination,Falls%20hotels%20and%20attractions%20deals.&text=Find%20the%20perfect%20hotel%20deal,for%20the%20best%20rate%20guaranteed!
+          - generic [ref=e793]:
+            - generic [ref=e796]:
+              - link "Niagara Falls Hotels from CA $93 - Cheap Hotel Deals Travelocity https://www.travelocity.ca › ... › New York" [ref=e798] [cursor=pointer]:
+                - /url: https://www.travelocity.ca/Niagara-Falls-Hotels.d602721.Travel-Guide-Hotels
+                - heading "Niagara Falls Hotels from CA $93 - Cheap Hotel Deals" [level=3] [ref=e799]
+                - generic [ref=e804]:
+                  - generic [ref=e806]: Travelocity
+                  - generic [ref=e808]: https://www.travelocity.ca › ... › New York
+              - button "About this result" [ref=e809] [cursor=pointer]:
+                - img [ref=e812]
+            - generic [ref=e815]:
+              - generic [ref=e816]:
+                - text: The
+                - emphasis [ref=e817]: price
+                - text: is CA $256
+                - emphasis [ref=e818]: per night
+                - text: from
+                - emphasis [ref=e819]: May
+                - text: 11 to
+                - emphasis [ref=e820]: May 12
+                - text: . CA $256. CA $328 total.
+                - emphasis [ref=e821]: May
+                - text: 11 -
+                - emphasis [ref=e822]: May 12
+                - text: . includes taxes &
+                - emphasis [ref=e823]: fees
+                - text: . 1BR Suite w/ 2 Dbl Beds | Free Breakfast ...
+              - link "Read more" [ref=e824] [cursor=pointer]:
+                - /url: https://www.travelocity.ca/Niagara-Falls-Hotels.d602721.Travel-Guide-Hotels#:~:text=CA%20%24256,includes%20taxes%20%26%20fees
+          - generic [ref=e828]:
+            - generic [ref=e831]:
+              - link "16 Best Hotels in Niagara Falls. Hotels from C$ 68/night Kayak https://www.ca.kayak.com › Niagara-Falls-Hotels.2689..." [ref=e833] [cursor=pointer]:
+                - /url: https://www.ca.kayak.com/Niagara-Falls-Hotels.26896.hotel.ksp
+                - heading "16 Best Hotels in Niagara Falls. Hotels from C$ 68/night" [level=3] [ref=e834]
+                - generic [ref=e839]:
+                  - generic [ref=e841]: Kayak
+                  - generic [ref=e843]: https://www.ca.kayak.com › Niagara-Falls-Hotels.2689...
+              - button "About this result" [ref=e844] [cursor=pointer]:
+                - img [ref=e847]
+            - generic [ref=e851]:
+              - text: Looking for
+              - emphasis [ref=e852]: Niagara Falls Hotel
+              - text: "? 2-star"
+              - emphasis [ref=e853]: hotels
+              - text: from C$ 68, 3 stars from C$ 88 and 4 stars+ from C$ 149. Stay at Best Western Summit Inn from C$ 112/
+              - emphasis [ref=e854]: night
+              - text: ", ..."
+          - generic [ref=e858]:
+            - generic [ref=e861]:
+              - link "Hotels in Niagara Falls Wegotravel.ca https://www.wegotravel.ca › hotels › canada › niagara-f..." [ref=e863] [cursor=pointer]:
+                - /url: https://www.wegotravel.ca/hotels/canada/niagara-falls
+                - heading "Hotels in Niagara Falls" [level=3] [ref=e864]
+                - generic [ref=e869]:
+                  - generic [ref=e871]: Wegotravel.ca
+                  - generic [ref=e873]: https://www.wegotravel.ca › hotels › canada › niagara-f...
+              - button "About this result" [ref=e874] [cursor=pointer]:
+                - img [ref=e877]
+            - generic [ref=e881]:
+              - text: Compare 278 Niagara Falls hotel deals in 2026 ✓
+              - emphasis [ref=e882]: Hotel room prices starting at CAD127
+              - text: ✓ Real user reviews and latest hotel photos ✓ Book on wegotravel.ca ...
+        - generic [ref=e884]:
+          - generic [ref=e889]:
+            - heading "People also search for" [level=2] [ref=e891]
+            - generic [ref=e893]:
+              - generic [ref=e894]:
+                - link "Hotels in Niagara Falls Canada with Fallsview" [ref=e898] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Hotels+in+Niagara+Falls+Canada+with+Fallsview&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAg8EAE
+                  - generic [ref=e899]:
+                    - generic [ref=e904]: Hotels in Niagara Falls Canada with Fallsview
+                    - img [ref=e908]
+                - link "Niagara Falls hotel packages for couples" [ref=e913] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Niagara+Falls+hotel+packages+for+couples&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAg7EAE
+                  - generic [ref=e914]:
+                    - generic [ref=e919]: Niagara Falls hotel packages for couples
+                    - img [ref=e923]
+                - link "Niagara Falls hotels, Canada" [ref=e928] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Niagara+Falls+hotels,+Canada&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAg-EAE
+                  - generic [ref=e929]:
+                    - generic [ref=e934]: Niagara Falls hotels, Canada
+                    - img [ref=e938]
+                - link "Cheap hotels in Niagara Falls Canada with Fallsview" [ref=e943] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Cheap+hotels+in+Niagara+Falls+Canada+with+Fallsview&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAhAEAE
+                  - generic [ref=e944]:
+                    - generic [ref=e949]: Cheap hotels in Niagara Falls Canada with Fallsview
+                    - img [ref=e953]
+              - generic [ref=e955]:
+                - link "5-star hotels in Niagara Falls Canada" [ref=e959] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=5-star+hotels+in+Niagara+Falls+Canada&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAhBEAE
+                  - generic [ref=e960]:
+                    - generic [ref=e965]: 5-star hotels in Niagara Falls Canada
+                    - img [ref=e969]
+                - link "Expedia Niagara Falls hotels" [ref=e974] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Expedia+Niagara+Falls+hotels&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAhCEAE
+                  - generic [ref=e975]:
+                    - generic [ref=e980]: Expedia Niagara Falls hotels
+                    - img [ref=e984]
+                - link "Niagara Falls Hotels Great Wolf Lodge" [ref=e989] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Niagara+Falls+Hotels+Great+Wolf+Lodge&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAg9EAE
+                  - generic [ref=e990]:
+                    - generic [ref=e995]: Niagara Falls Hotels Great Wolf Lodge
+                    - img [ref=e999]
+                - link "Last minute hotels Niagara Falls" [ref=e1004] [cursor=pointer]:
+                  - /url: /search?sca_esv=236bc161f81c4548&q=Last+minute+hotels+Niagara+Falls&sa=X&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ1QJ6BAg_EAE
+                  - generic [ref=e1005]:
+                    - generic [ref=e1010]: Last minute hotels Niagara Falls
+                    - img [ref=e1014]
+          - navigation [ref=e1016]:
+            - heading "Page Navigation" [level=1] [ref=e1017]
+            - text: "1"
+            - link "Page 2" [ref=e1020] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=10&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8tMDegQIMxAE
+              - text: "2"
+            - link "Page 3" [ref=e1022] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=20&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8tMDegQIMxAG
+              - text: "3"
+            - link "Page 4" [ref=e1024] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=30&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8tMDegQIMxAI
+              - text: "4"
+            - link "Page 5" [ref=e1026] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=40&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8tMDegQIMxAK
+              - text: "5"
+            - link "Page 6" [ref=e1028] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=50&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8tMDegQIMxAM
+              - text: "6"
+            - link "Page 7" [ref=e1030] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=60&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8tMDegQIMxAO
+              - text: "7"
+            - heading "Next" [level=2] [ref=e1032]:
+              - link "Next" [ref=e1033] [cursor=pointer]:
+                - /url: /search?q=Niagara+Falls+hotels+12th+to+13th+May+2026+price+per+night&sca_esv=236bc161f81c4548&ei=0OD5aZjWFbO3ruEPquS9oQI&start=10&sa=N&sstk=Af77f_forAja3_kz3Z-n1aD5H2trR5Z29xwBPILpIeC3CeKfAhrKekN_t5W1vJ2X5dxnAJemTWJxOqX-ZEf5Zif5FxvvBgJ56MAmRw&ved=2ahUKEwiY_oy1kaKUAxWzmysGHSpyLyQQ8NMDegQIMxAQ
+                - generic [ref=e1035]: Next
+        - navigation
+    - contentinfo [ref=e1036]:
+      - heading "Footer Links" [level=1] [ref=e1037]
+      - generic [ref=e1041]:
+        - generic [ref=e1043]:
+          - text: Canada
+          - generic [ref=e1045]:
+            - button "L5A, Mississauga, ON - From your IP address" [ref=e1047] [cursor=pointer]:
+              - generic [ref=e1048]: L5A, Mississauga, ON
+              - generic [ref=e1050]:
+                - text: "-"
+                - generic [ref=e1051]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e1053] [cursor=pointer]: Update location
+        - generic [ref=e1056]:
+          - link "Help" [ref=e1057] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e1058] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1059] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e1060] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

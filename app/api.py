@@ -1,10 +1,13 @@
 import asyncio
 import json
+import logging
 import os
 import time
 import uuid
 from contextlib import asynccontextmanager
 from dataclasses import dataclass, field
+
+logger = logging.getLogger(__name__)
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -50,12 +53,21 @@ class AgentState:
 _agents: dict[str, AgentState] = {}
 
 
+async def _safe_disconnect(agent) -> None:
+    """Disconnect wrapper that swallows anyio cancel-scope task-mismatch errors."""
+    try:
+        await agent.disconnect()
+    except Exception as exc:
+        import logging
+        logging.getLogger(__name__).debug("Eviction disconnect error (non-fatal): %s", exc)
+
+
 def _evict_stale() -> None:
     cutoff = time.time() - SESSION_TTL
     stale = [sid for sid, s in _agents.items() if s.last_used < cutoff]
     for sid in stale:
         state = _agents.pop(sid)
-        asyncio.create_task(state.agent.disconnect())
+        asyncio.create_task(_safe_disconnect(state.agent))
 
 
 def _get_or_create_state(session_id: str | None) -> tuple[str, AgentState]:
@@ -74,6 +86,7 @@ def _get_or_create_state(session_id: str | None) -> tuple[str, AgentState]:
     new_session_id = session_id or str(uuid.uuid4())
     state = AgentState(agent=MCPAgent(api_key=_api_key))
     _agents[new_session_id] = state
+    logger.info("New agent session created: %s  (active: %d)", new_session_id[:8], len(_agents))
     return new_session_id, state
 
 

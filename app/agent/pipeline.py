@@ -20,6 +20,30 @@ from .runner import AgentRunner
 
 logger = logging.getLogger(__name__)
 
+# ── Pretty banner helpers ─────────────────────────────────────────────────────
+
+def _banner(title: str) -> None:
+    bar = "─" * 60
+    logger.info("\n┌%s┐\n│  %-56s  │\n└%s┘", bar, title, bar)
+
+def _phase(emoji: str, name: str) -> None:
+    logger.info("  %s  %s", emoji, name)
+
+def _ok(label: str, detail: str = "") -> None:
+    logger.info("  ✅  %s%s", label, f"  — {detail}" if detail else "")
+
+def _warn(label: str, detail: str = "") -> None:
+    logger.warning("  ⚠️   %s%s", label, f"  — {detail}" if detail else "")
+
+def _err(label: str, detail: str = "") -> None:
+    logger.error("  ❌  %s%s", label, f"  — {detail}" if detail else "")
+
+def _preview(text: str, chars: int = 120) -> str:
+    text = text.strip()
+    return (text[:chars] + "…") if len(text) > chars else text
+
+
+# ── Agent class ───────────────────────────────────────────────────────────────
 
 class TravelAgent:
     def __init__(self, api_key: str):
@@ -31,17 +55,20 @@ class TravelAgent:
     async def connect(self) -> None:
         if self._runner:
             return
+        _banner("CONNECTING MCP SERVERS")
         self._stack = AsyncExitStack()
         tools: list[dict] = []
         session_map: dict = {}
 
         for name, params in build_mcp_server_configs().items():
+            t0 = time.monotonic()
             try:
                 read, write = await self._stack.enter_async_context(stdio_client(params))
                 session = await self._stack.enter_async_context(ClientSession(read, write))
                 await asyncio.wait_for(session.initialize(), timeout=45)
                 session_map[name] = session
                 resp = await session.list_tools()
+                n_tools = len(resp.tools)
                 for t in resp.tools:
                     tools.append({
                         "name": t.name,
@@ -49,19 +76,25 @@ class TravelAgent:
                         "inputSchema": t.inputSchema,
                         "server_name": name,
                     })
-                logger.info("Connected MCP: %s (%d tools)", name, len(resp.tools))
+                _ok(f"MCP [{name}]", f"{n_tools} tools  ({time.monotonic()-t0:.1f}s)")
             except Exception as exc:
-                logger.error("MCP connection failed for %s: %s", name, exc)
+                _err(f"MCP [{name}] failed to connect", str(exc))
 
+        logger.info("  Total tools loaded: %d", len(tools))
         self._executor = ToolExecutor(tools, session_map)
         self._runner = AgentRunner(self._client, self._executor)
 
     async def disconnect(self) -> None:
         if self._stack:
-            await self._stack.aclose()
-            self._stack = None
-            self._executor = None
-            self._runner = None
+            try:
+                await self._stack.aclose()
+            except Exception as exc:
+                # anyio cancel-scope task mismatch on eviction — harmless
+                logger.debug("Disconnect cleanup error (non-fatal): %s", exc)
+            finally:
+                self._stack = None
+                self._executor = None
+                self._runner = None
 
     async def run_agent(
         self,
@@ -87,10 +120,17 @@ class TravelAgent:
 
         now = datetime.now().strftime("%B %d, %Y")
 
+        _banner(f"NEW RUN  {run_id[:8]}")
+        logger.info("  Input   : %s", _preview(user_input))
+        logger.info("  Session : %s", session_id or "—")
+        logger.info("  Date    : %s", now)
+
         try:
-            # Phase 1: Plan
-            logger.info("=== PHASE 1: PLANNING ===")
+            # ── Phase 1: Planner ──────────────────────────────────────────────
+            _phase("🗺️", "PHASE 1 — PLANNER  (no tools)")
             await _progress("Planning your route...")
+            t0 = time.monotonic()
+
             plan_raw = await self._runner.run(
                 "planner",
                 f"Today is {now}.\n\nUser travel request:\n{user_input}",
@@ -98,25 +138,47 @@ class TravelAgent:
                 run_id=run_id,
                 agent_call_id=str(uuid.uuid4()),
             )
+            elapsed1 = time.monotonic() - t0
+            logger.info("  Planner raw (%d chars, %.1fs): %s", len(plan_raw), elapsed1, _preview(plan_raw))
+
             manifest = _parse_json(plan_raw)
             if not manifest or "trip" not in manifest:
+                _err("Planner", "JSON parse failed or missing 'trip' key")
+                logger.error("  Full planner output: %s", plan_raw[:800])
                 db.fail_run(run_id, "Planning failed", int((time.monotonic() - run_start) * 1000))
                 return json.dumps({"error": "Planning failed — could not parse trip manifest."})
 
             trip = manifest["trip"]
             nights = _calculate_nights(trip.get("depart_date"), trip.get("return_date"))
+            _ok("Planner done", (
+                f"{trip.get('origin')} → {trip.get('destination')}  "
+                f"| {trip.get('depart_date')} – {trip.get('return_date')}  "
+                f"| {nights} nights  | {trip.get('travellers')} pax  "
+                f"| transport: {trip.get('preferred_transport')}  "
+                f"| ({elapsed1:.1f}s)"
+            ))
+
             ctx = _build_trip_context(trip, nights)
             operators = manifest.get("transport_operators", [])
             t_urls, h_urls, a_urls = _flatten_booking_urls(manifest)
+            logger.info("  Operators: %s", operators)
+            logger.info("  Booking URLs — transport: %d, accommodation: %d, activities: %d",
+                        len(t_urls), len(h_urls), len(a_urls))
 
-            # Phase 2: Price (live Google search)
-            logger.info("=== PHASE 2: PRICING ===")
+            # ── Phase 2: Pricer ───────────────────────────────────────────────
+            _phase("🔍", "PHASE 2 — PRICER  (live Google searches via browser)")
             await _progress("Scouting live prices on Google...")
+            t0 = time.monotonic()
+
             depart_fmt = _fmt_search_date(trip.get("depart_date", ""))
             return_fmt = _fmt_search_date(trip.get("return_date", ""))
             date_range_fmt = _fmt_date_range(
                 trip.get("depart_date", ""), trip.get("return_date", "")
             )
+            logger.info("  Search dates — outbound: %s  return: %s  range: %s",
+                        depart_fmt, return_fmt, date_range_fmt)
+            logger.info("  Max turns: %d", MAX_TURNS["pricer"])
+
             price_data = await self._runner.run(
                 "pricer",
                 f"{ctx}\n\n"
@@ -132,13 +194,20 @@ class TravelAgent:
                 run_id=run_id,
                 agent_call_id=str(uuid.uuid4()),
             )
-            if "Agent reached turn limit" in price_data:
-                logger.warning("Pricer hit turn limit — no live data available")
-                price_data = "No live price data available (pricer did not complete)."
+            elapsed2 = time.monotonic() - t0
 
-            # Phase 3: Budget
-            logger.info("=== PHASE 3: BUDGET ===")
+            if "Agent reached turn limit" in price_data:
+                _warn("Pricer", f"hit turn limit after {elapsed2:.1f}s — no live data")
+                price_data = "No live price data available (pricer did not complete)."
+            else:
+                _ok("Pricer done", f"{len(price_data)} chars  ({elapsed2:.1f}s)")
+                logger.info("  Price data preview:\n%s", _preview(price_data, 400))
+
+            # ── Phase 3: Budget ───────────────────────────────────────────────
+            _phase("💰", "PHASE 3 — BUDGET  (calculator tools)")
             await _progress("Calculating budget tiers...")
+            t0 = time.monotonic()
+
             budget = await self._runner.run(
                 "budget",
                 f"{ctx}\n\nPRICE DATA:\n{price_data[:4000]}\n\n"
@@ -147,10 +216,15 @@ class TravelAgent:
                 run_id=run_id,
                 agent_call_id=str(uuid.uuid4()),
             )
+            elapsed3 = time.monotonic() - t0
+            _ok("Budget done", f"{len(budget)} chars  ({elapsed3:.1f}s)")
+            logger.info("  Budget preview:\n%s", _preview(budget, 300))
 
-            # Phase 4: Aggregate
-            logger.info("=== PHASE 4: AGGREGATION ===")
+            # ── Phase 4: Aggregator ───────────────────────────────────────────
+            _phase("📋", "PHASE 4 — AGGREGATOR  (JSON compiler)")
             await _progress("📋 Finalising your travel dossier...")
+            t0 = time.monotonic()
+
             t_url_lines = "\n".join(
                 f"  {u.get('label','')}: {u.get('url','')}"
                 for u in manifest.get("booking_urls", {}).get("transport", [])
@@ -159,6 +233,7 @@ class TravelAgent:
                 f"  {u.get('label','')}: {u.get('url','')}"
                 for u in manifest.get("booking_urls", {}).get("accommodation", [])
             )
+
             raw_final = await self._runner.run(
                 "aggregator",
                 f"{ctx}\n\n"
@@ -171,19 +246,32 @@ class TravelAgent:
                 run_id=run_id,
                 agent_call_id=str(uuid.uuid4()),
             )
+            elapsed4 = time.monotonic() - t0
+            logger.info("  Aggregator raw (%d chars, %.1fs): %s",
+                        len(raw_final), elapsed4, _preview(raw_final, 200))
 
             try:
                 parsed = json.loads(_clean_json(raw_final))
                 result_str = json.dumps(parsed)
-                db.complete_run(run_id, result_str, int((time.monotonic() - run_start) * 1000))
+                total_s = time.monotonic() - run_start
+                _ok("Aggregator", "valid JSON produced")
+                _banner(
+                    f"RUN COMPLETE  {run_id[:8]}  "
+                    f"total {total_s:.0f}s  "
+                    f"(p1:{elapsed1:.0f}s p2:{elapsed2:.0f}s p3:{elapsed3:.0f}s p4:{elapsed4:.0f}s)"
+                )
+                db.complete_run(run_id, result_str, int(total_s * 1000))
                 return result_str
             except json.JSONDecodeError as exc:
-                logger.error("Aggregator JSON parse error: %s", exc)
+                _err("Aggregator", f"JSON parse failed: {exc}")
+                logger.error("  Raw aggregator output (first 1000 chars):\n%s", raw_final[:1000])
                 err = json.dumps({"error": str(exc), "raw": raw_final[:500]})
                 db.fail_run(run_id, str(exc), int((time.monotonic() - run_start) * 1000))
                 return err
 
         except Exception as exc:
+            _err("Pipeline exception", str(exc))
+            logger.exception("Unhandled pipeline error for run %s", run_id)
             db.fail_run(run_id, str(exc), int((time.monotonic() - run_start) * 1000))
             raise
 
@@ -228,7 +316,6 @@ def _build_trip_context(trip: dict, nights: int) -> str:
 
 
 def _fmt_search_date(date_str: str) -> str:
-    """Convert YYYY-MM-DD to '15th May 2026' for Google search queries."""
     try:
         from datetime import datetime as _dt
         dt = _dt.strptime(date_str, "%Y-%m-%d")
@@ -240,7 +327,6 @@ def _fmt_search_date(date_str: str) -> str:
 
 
 def _fmt_date_range(depart: str, ret: str) -> str:
-    """Convert two YYYY-MM-DD dates to '15th to 18th May 2026' format."""
     try:
         from datetime import datetime as _dt
         d = _dt.strptime(depart, "%Y-%m-%d")

@@ -53,7 +53,11 @@ class AgentRunner:
         total_input = total_output = total_cache_read = total_cache_write = tool_count = 0
         final_text = ""
 
+        logger.info("  [%s] starting — model: %s  max_turns: %d  tools: %d",
+                    role, model, max_turns, len(claude_tools))
+
         for turn in range(max_turns):
+            turn_start = time.monotonic()
             kwargs: dict = dict(model=model, system=system, max_tokens=max_tokens, messages=history)
             if claude_tools:
                 kwargs["tools"] = claude_tools
@@ -73,16 +77,26 @@ class AgentRunner:
                 final_text = "\n".join(
                     b.text for b in response.content if hasattr(b, "text")
                 ).strip()
+                logger.info("  [%s] turn %d/%d → STOP (%s)  %.1fs  out_tokens: %d",
+                            role, turn + 1, max_turns, response.stop_reason,
+                            time.monotonic() - turn_start,
+                            getattr(usage, "output_tokens", 0))
                 break
 
             turn_calls = [b for b in response.content if b.type == "tool_use"]
             tool_count += len(turn_calls)
+            call_names = [tc.name for tc in turn_calls]
+            logger.info("  [%s] turn %d/%d → tool_use  calls: %s  %.1fs",
+                        role, turn + 1, max_turns, call_names,
+                        time.monotonic() - turn_start)
+
             results = []
             for tc in turn_calls:
                 res = await self._executor.execute(tc, role, agent_call_id, run_id)
                 results.append({"type": "tool_result", "tool_use_id": tc.id, "content": res})
             history.append({"role": "user", "content": results})
         else:
+            logger.warning("  [%s] REACHED TURN LIMIT (%d)", role, max_turns)
             final_text = "Agent reached turn limit."
 
         duration_ms = int((time.monotonic() - call_start) * 1000)
@@ -91,6 +105,7 @@ class AgentRunner:
             total_input, total_output, total_cache_read, total_cache_write,
             tool_count, final_text,
         )
-        logger.info("[%s] done: %d chars, %d input tokens, %d output tokens",
-                    role, len(final_text), total_input, total_output)
+        logger.info("  [%s] done — %dms  in:%d  out:%d  cache_read:%d  tools_called:%d  output:%d chars",
+                    role, duration_ms, total_input, total_output,
+                    total_cache_read, tool_count, len(final_text))
         return final_text

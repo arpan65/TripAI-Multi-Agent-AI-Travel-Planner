@@ -1,0 +1,544 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Niagara Falls to Toronto bus price 13th May 2026 Niagara Falls to Toronto bus price 13th May 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DNiagara%2BFalls%2Bto%2BToronto%2Bbus%2Bprice%2B13th%2BMay%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yaKXdYUyc4w9d-Z4AY4Z1je9azcHCzzi1xHeM9-sfsuxlt3oXai41Wbfm_qYyMEgql-bMUUat04UTby-1os7TCGu8c84_vmx-flGj9yXLhR1ZpOoztVREixE0dlj8A_LgvlkTrt0s63aq0Bnr_QAgG20Y-cg&aep=1&ntc=1&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ2J8OegQIEhAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yaKXdYUyc4w9d-Z4AY4Z1je9azcHCzzi1xHeM9-sfsuxlt3oXai41Wbfm_qYyMEgql-bMUUat04UTby-1os7TCGu8c84_vmx-flGj9yXLhR1ZpOoztVREixE0dlj8A_LgvlkTrt0s63aq0Bnr_QAgG20Y-cg&q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQtKgLegQIGBAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yaKXdYUyc4w9d-Z4AY4Z1je9azcHCzzi1xHeM9-sfsuxlt3oXai41Wbfm_qYyMEgql-bMUUat04UTby-1os7TCGu8c84_vmx-flGj9yXLhR1ZpOoztVREixE0dlj8A_LgvlkTrt0s63aq0Bnr_QAgG20Y-cg&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ0pQJegQIFxAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yaKXdYUyc4w9d-Z4AY4Z1je9azcHCzzi1xHeM9-sfsuxlt3oXai41Wbfm_qYyMEgql-bMUUat04UTby-1os7TCGu8c84_vmx-flGj9yXLhR1ZpOoztVREixE0dlj8A_LgvlkTrt0s63aq0Bnr_QAgG20Y-cg&q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQs6gLegQIFhAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Shopping" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yaKXdYUyc4w9d-Z4AY4Z1je9azcHCzzi1xHeM9-sfsuxlt3oXai41Wbfm_qYyMEgql-bMUUat04UTby-1os7TCGu8c84_vmx-flGj9yXLhR1ZpOoztVREixE0dlj8A_LgvlkTrt0s63aq0Bnr_QAgG20Y-cg&q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&ved=1t:220175&ictx=111
+              - generic [ref=e103]: Shopping
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=279264206e6ccbef&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yaKXdYUyc4w9d-Z4AY4Z1je9azcHCzzi1xHeM9-sfsuxlt3oXai41Wbfm_qYyMEgql-bMUUat04UTby-1os7TCGu8c84_vmx-flGj9yXLhR1ZpOoztVREixE0dlj8A_LgvlkTrt0s63aq0Bnr_QAgG20Y-cg&q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQtKgLegQIFBAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e148]:
+        - generic [ref=e150]:
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - img [ref=e154]
+              - heading "AI Overview" [level=2] [ref=e156]
+            - button "Listen" [ref=e160]:
+              - img [ref=e165] [cursor=pointer]
+            - button "About this result" [ref=e170]:
+              - img [ref=e172]
+          - generic [ref=e193]:
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - text: Bus tickets from Niagara Falls to Toronto on May 13th, 2026, typically range from approximately
+                - strong [ref=e198]: $19 to $27 CAD
+                - text: for a one-way trip, with operators like
+                - link "Megabus" [ref=e200] [cursor=pointer]:
+                  - /url: https://ca.megabus.com/route-guides/niagara-falls-to-toronto-bus
+                - text: and
+                - link "FlixBus" [ref=e202] [cursor=pointer]:
+                  - /url: https://www.flixbus.ca/bus-routes/toronto-on-niagara-falls-on
+                - text: offering multiple daily departures. The journey takes around 2 hours, departing from Niagara Falls and arriving at the Union Station Bus Terminal.
+                - generic [ref=e204]:
+                  - link "FlixBus.ca (+1) – View related links" [ref=e205] [cursor=pointer]:
+                    - /url: https://www.flixbus.ca/bus-routes/toronto-on-niagara-falls-on#:~:text=Find%20the%20cheapest%20buses%20from,for%20as%20little%20as%20$18.98.
+                  - button "FlixBus.ca (+1) – View related links" [ref=e206] [cursor=pointer]:
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: FlixBus.ca
+                      - generic [ref=e210]: "+1"
+              - strong [ref=e212]: "Key Details:"
+              - list [ref=e214]:
+                - listitem [ref=e215]:
+                  - generic [ref=e216]:
+                    - strong [ref=e217]: "Average Cost:"
+                    - text: $\sim$$19 - $27 CAD.
+                - listitem [ref=e218]:
+                  - generic [ref=e219]:
+                    - strong [ref=e220]: "Duration:"
+                    - text: $\sim$2 hours.
+                - listitem [ref=e221]:
+                  - generic [ref=e222]:
+                    - strong [ref=e223]: "Operators:"
+                    - generic [ref=e224]: Megabus
+                    - text: ","
+                    - generic [ref=e225]: FlixBus
+                    - text: .
+                - listitem [ref=e226]:
+                  - generic [ref=e227]:
+                    - strong [ref=e228]: "Arrival:"
+                    - text: Union Station Bus Terminal (downtown Toronto).
+                  - generic [ref=e230]:
+                    - link [ref=e231] [cursor=pointer]:
+                      - /url: https://www.flixbus.ca/bus-routes/toronto-on-niagara-falls-on#:~:text=Find%20the%20cheapest%20buses%20from,for%20as%20little%20as%20$18.98.
+                    - button [ref=e232] [cursor=pointer]:
+                      - generic [ref=e234]:
+                        - generic [ref=e235]: FlixBus.ca
+                        - generic [ref=e236]: "+2"
+              - emphasis [ref=e239]:
+                - text: "Note: Prices and schedules for May 2026 are based on current, typical weekday operations. It is highly recommended to check the official"
+                - generic [ref=e240]: Megabus
+                - text: or
+                - generic [ref=e241]: FlixBus
+                - text: websites closer to the date for the most accurate pricing.
+            - list [ref=e255]:
+              - listitem [ref=e256]:
+                - generic [ref=e257]:
+                  - link "Bus routes from Toronto, ON to Niagara Falls, ON - FlixBus. Opens in new tab." [ref=e258] [cursor=pointer]:
+                    - /url: https://www.flixbus.ca/bus-routes/toronto-on-niagara-falls-on
+                  - generic [ref=e259]:
+                    - generic [ref=e261]:
+                      - generic [ref=e262]: Bus routes from Toronto, ON to Niagara Falls, ON - FlixBus
+                      - generic [ref=e263]: Find the cheapest buses from Toronto to Niagara Falls The distance between Toronto and Niagara Falls is 125 km, which takes a mini...
+                    - generic [ref=e264]:
+                      - generic [ref=e269]: FlixBus.ca
+                      - button "About this result" [ref=e271] [cursor=pointer]:
+                        - img [ref=e272]
+              - listitem [ref=e275]:
+                - generic [ref=e276]:
+                  - link "Bus from Niagara Falls to Toronto with megabus. Opens in new tab." [ref=e277] [cursor=pointer]:
+                    - /url: https://ca.megabus.com/route-guides/niagara-falls-to-toronto-bus
+                  - generic [ref=e278]:
+                    - generic [ref=e280]:
+                      - generic [ref=e281]: Bus from Niagara Falls to Toronto with megabus
+                      - generic [ref=e282]: Megabus offers up to eight daily bus trips from Niagara Falls to Toronto. The fastest trip takes 2 hours and 00 minutes. The earli...
+                    - generic [ref=e284]:
+                      - generic [ref=e289]: ca.megabus.com
+                      - button [ref=e291] [cursor=pointer]:
+                        - img [ref=e292]
+              - listitem [ref=e295]:
+                - generic [ref=e296]:
+                  - link [ref=e297] [cursor=pointer]:
+                    - /url: https://www.wanderu.com/en-ca/bus/ca-on/toronto/ca-on/niagara-falls/
+                  - generic [ref=e298]:
+                    - generic [ref=e300]:
+                      - generic [ref=e301]: Cheap bus tickets from Toronto to Niagara Falls - Wanderu
+                      - generic [ref=e302]: "Table_title: What bus companies travel from Toronto to Niagara Falls? Table_content: header: | Bus | Daily Trips | Avg. Price | ro..."
+                    - generic [ref=e303]:
+                      - generic [ref=e308]: Wanderu
+                      - button [ref=e310] [cursor=pointer]:
+                        - img [ref=e311]
+        - button "Show more AI Overview" [ref=e316]:
+          - generic [ref=e318] [cursor=pointer]:
+            - generic [ref=e319]: Show more
+            - img [ref=e321]
+      - main [ref=e324]:
+        - generic [ref=e328]:
+          - generic [ref=e331]:
+            - heading "Web results" [level=2] [ref=e332]
+            - generic [ref=e333]:
+              - generic [ref=e336]:
+                - link "Niagara Falls, ON to Toronto, ON bus ticket booking FlixBus India https://www.flixbus.in › ... › Canada › Niagara Falls, ON" [ref=e338] [cursor=pointer]:
+                  - /url: https://www.flixbus.in/bus-routes/ca-ca/niagara-falls-on-toronto-on
+                  - heading "Niagara Falls, ON to Toronto, ON bus ticket booking" [level=3] [ref=e339]
+                  - generic [ref=e344]:
+                    - generic [ref=e346]: FlixBus India
+                    - generic [ref=e348]: https://www.flixbus.in › ... › Canada › Niagara Falls, ON
+                - button "About this result" [ref=e349] [cursor=pointer]:
+                  - img [ref=e352]
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - text: The
+                  - emphasis [ref=e357]: prices
+                  - text: of the
+                  - emphasis [ref=e358]: bus tickets
+                  - text: from
+                  - emphasis [ref=e359]: Niagara Falls to Toronto
+                  - text: start from ₹889. Please note that
+                  - emphasis [ref=e360]: fares
+                  - text: can vary based on factors like time, seasonality, and ...
+                - link "Read more" [ref=e361] [cursor=pointer]:
+                  - /url: https://www.flixbus.in/bus-routes/ca-ca/niagara-falls-on-toronto-on#:~:text=How%20do%20I%20book%20a
+              - generic [ref=e363]:
+                - text: "Missing: May ‎| Show results with:"
+                - link "May" [ref=e364] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+13th+%22May%22+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ5t4CegQIGxAB
+          - generic [ref=e369]:
+            - heading "People also ask" [level=2] [ref=e371]
+            - generic [ref=e372]:
+              - button "How much is a bus ticket from Toronto to Niagara Falls?" [ref=e378] [cursor=pointer]:
+                - generic [ref=e380]: How much is a bus ticket from Toronto to Niagara Falls?
+                - img [ref=e383]
+              - button "How to get cheap FlixBus tickets?" [ref=e392] [cursor=pointer]:
+                - generic [ref=e394]: How to get cheap FlixBus tickets?
+                - img [ref=e397]
+              - button "How much is Uber from Niagara to Toronto?" [ref=e406] [cursor=pointer]:
+                - generic [ref=e408]: How much is Uber from Niagara to Toronto?
+                - img [ref=e411]
+              - button "How much is the bus fare in Niagara?" [ref=e420] [cursor=pointer]:
+                - generic [ref=e422]: How much is the bus fare in Niagara?
+                - img [ref=e425]
+          - generic [ref=e430]:
+            - heading "Web results" [level=2] [ref=e431]
+            - generic [ref=e432]:
+              - generic [ref=e435]:
+                - link "Bus Niagara Falls, ON to Toronto, ON CheckMyBus https://www.checkmybus.com › ... › Bus to Toronto, ON" [ref=e437] [cursor=pointer]:
+                  - /url: https://www.checkmybus.com/niagara-falls-on/toronto-on
+                  - heading "Bus Niagara Falls, ON to Toronto, ON" [level=3] [ref=e438]
+                  - generic [ref=e443]:
+                    - generic [ref=e445]: CheckMyBus
+                    - generic [ref=e447]: https://www.checkmybus.com › ... › Bus to Toronto, ON
+                - button "About this result" [ref=e448] [cursor=pointer]:
+                  - img [ref=e451]
+              - generic [ref=e455]:
+                - text: 60 buses every day from Niagara Falls, ON to Toronto, ON,
+                - emphasis [ref=e456]: starting at $4
+                - text: . Find the cheapest bus tickets from trusted companies in one place.
+              - generic [ref=e458]: Starting from $4.00
+          - generic [ref=e462]:
+            - generic [ref=e465]:
+              - link "Cheap bus tickets from Niagara Falls to Toronto Wanderu https://www.wanderu.com › ... › Ontario › Toronto" [ref=e467] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-us/bus/ca-on/niagara-falls/ca-on/toronto/
+                - heading "Cheap bus tickets from Niagara Falls to Toronto" [level=3] [ref=e468]
+                - generic [ref=e473]:
+                  - generic [ref=e475]: Wanderu
+                  - generic [ref=e477]: https://www.wanderu.com › ... › Ontario › Toronto
+              - button "About this result" [ref=e478] [cursor=pointer]:
+                - img [ref=e481]
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - text: "Bus from Niagara Falls to Toronto: Journey Information ; Shortest duration, 1h 40m ;"
+                - emphasis [ref=e486]: Cheapest price, $3.60
+                - text: ; Trips per day, 26 ; Most frequent service, FlixBus US.
+              - link "Read more" [ref=e487] [cursor=pointer]:
+                - /url: https://www.wanderu.com/en-us/bus/ca-on/niagara-falls/ca-on/toronto/#:~:text=Bus%20from%20Niagara%20Falls%20to,Toronto%3A%20Journey%20Information&text=Shortest%20duration,1h%2040m&text=Cheapest%20price,%243.60&text=Trips%20per%20day,26&text=Most%20frequent%20service,FlixBus%20US
+            - generic [ref=e489]:
+              - generic [ref=e490]: Starting from $4.00
+              - text: ·
+              - img "Rated 4.9 out of 5, (16) user reviews" [ref=e494]:
+                - text: "4.9"
+                - img [ref=e495]
+                - text: (16)
+          - generic [ref=e501]:
+            - generic [ref=e504]:
+              - link "Niagara Falls, NY to Toronto, ON bus with FlixBus Omio https://www.omio.com › ... › Bus tickets to Toronto, ON" [ref=e506] [cursor=pointer]:
+                - /url: https://www.omio.com/buses/niagara-falls/toronto-kpi8u
+                - heading "Niagara Falls, NY to Toronto, ON bus with FlixBus" [level=3] [ref=e507]
+                - generic [ref=e512]:
+                  - generic [ref=e514]: Omio
+                  - generic [ref=e516]: https://www.omio.com › ... › Bus tickets to Toronto, ON
+              - button "About this result" [ref=e517] [cursor=pointer]:
+                - img [ref=e520]
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - text: Buses from Niagara Falls, NY to Toronto, ON run on average 4 times per day, taking around 2h 38m. Cheap bus tickets for this journey
+                - emphasis [ref=e525]: start at $26 (€20
+                - text: ) if you ...
+              - link "Read more" [ref=e526] [cursor=pointer]:
+                - /url: https://www.omio.com/buses/niagara-falls/toronto-kpi8u#:~:text=Buses%20from%20Niagara%20Falls%2C%20NY,if%20you%20book%20in%20advance.
+            - generic [ref=e528]: Starting from €20.00
+            - generic [ref=e530]:
+              - text: "Missing: 2026 ‎| Show results with:"
+              - link "2026" [ref=e531] [cursor=pointer]:
+                - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+13th+May+%222026%22&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ5t4CegQIXRAB
+          - generic [ref=e535]:
+            - generic [ref=e538]:
+              - link "Niagara Falls to Toronto Bus Tickets From $12 Trailways https://trailways.com › CA › Niagara Falls" [ref=e540] [cursor=pointer]:
+                - /url: https://trailways.com/schedules/bus-from-niagara-falls-on-to-toronto-on/
+                - heading "Niagara Falls to Toronto Bus Tickets From $12" [level=3] [ref=e541]
+                - generic [ref=e546]:
+                  - generic [ref=e548]: Trailways
+                  - generic [ref=e550]: https://trailways.com › CA › Niagara Falls
+              - button "About this result" [ref=e551] [cursor=pointer]:
+                - img [ref=e554]
+            - generic [ref=e557]:
+              - generic [ref=e558]:
+                - text: While the average
+                - emphasis [ref=e559]: ticket price
+                - text: for this journey is around $12.70, you can find the cheapest
+                - emphasis [ref=e560]: bus tickets
+                - text: for as low as $12.05. Distance. 86mi ...
+              - link "Read more" [ref=e561] [cursor=pointer]:
+                - /url: https://trailways.com/schedules/bus-from-niagara-falls-on-to-toronto-on/#:~:text=While%20the%20average%20ticket%20price,86mi%20(138.40km)
+            - generic [ref=e563]:
+              - generic [ref=e564]: $12.05 to $13.55
+              - text: ·
+              - img "Rated 4.0 out of 5, (1) user reviews" [ref=e568]:
+                - text: "4.0"
+                - img [ref=e569]
+                - text: (1)
+            - generic [ref=e573]:
+              - text: "Missing: 13th ‎| Show results with:"
+              - link "13th" [ref=e574] [cursor=pointer]:
+                - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+%2213th%22+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ5t4CegQIYRAB
+          - generic [ref=e578]:
+            - generic [ref=e581]:
+              - link "Niagara Falls to Toronto by bus, train, flight from CAD 15 12Go https://12go.asia › Canada 🎫 › Niagara Falls › Toronto" [ref=e583] [cursor=pointer]:
+                - /url: https://12go.asia/en/travel/niagara-falls/toronto
+                - heading "Niagara Falls to Toronto by bus, train, flight from CAD 15" [level=3] [ref=e584]
+                - generic [ref=e589]:
+                  - generic [ref=e591]: 12Go
+                  - generic [ref=e593]: https://12go.asia › Canada 🎫 › Niagara Falls › Toronto
+              - button "About this result" [ref=e594] [cursor=pointer]:
+                - img [ref=e597]
+            - generic [ref=e600]:
+              - generic [ref=e601]:
+                - emphasis [ref=e602]: Here is a chart of the average ticket prices
+                - text: "and transportation options available from Niagara Falls to Toronto: ... The price of first class tickets may include ..."
+              - link "Read more" [ref=e603] [cursor=pointer]:
+                - /url: https://12go.asia/en/travel/niagara-falls/toronto#:~:text=Here%20is%20a%20chart%20of,from%20Niagara%20Falls%20to%20Toronto%3A&text=The%20price%20of%20first%20class,choice%20of%20snacks%20and%20drinks..
+            - generic [ref=e606]: $10.53 to $38.82
+          - generic [ref=e610]:
+            - generic [ref=e613]:
+              - link "Bus from Niagara Falls to Toronto with megabus megabus.com https://ca.megabus.com › route-guides › niagara-falls-to..." [ref=e615] [cursor=pointer]:
+                - /url: https://ca.megabus.com/route-guides/niagara-falls-to-toronto-bus
+                - heading "Bus from Niagara Falls to Toronto with megabus" [level=3] [ref=e616]
+                - generic [ref=e621]:
+                  - generic [ref=e623]: megabus.com
+                  - generic [ref=e625]: https://ca.megabus.com › route-guides › niagara-falls-to...
+              - button "About this result" [ref=e626] [cursor=pointer]:
+                - img [ref=e629]
+            - generic [ref=e632]:
+              - generic [ref=e633]:
+                - text: Sat
+                - emphasis [ref=e634]: May
+                - text: 2nd From $2.00 Sun
+                - emphasis [ref=e635]: May
+                - text: 3rd From $2.00 Mon
+                - emphasis [ref=e636]: May
+                - text: 4th From $2.00 Tue ... How can I pay for my
+                - emphasis [ref=e637]: Niagara Falls to Toronto bus ticket
+                - text: "? megabus offers a ..."
+              - link "Read more" [ref=e638] [cursor=pointer]:
+                - /url: https://ca.megabus.com/route-guides/niagara-falls-to-toronto-bus#:~:text=Sat%20May%202nd%20From%20%242.00,May%204th%20From%20%242.00%20Tue&text=How%20can%20I%20pay%20for,card%20providers%20and%20Google%20pay.
+            - generic [ref=e640]:
+              - text: "Missing: 13th ‎| Show results with:"
+              - link "13th" [ref=e641] [cursor=pointer]:
+                - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+%2213th%22+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ5t4CegQIXBAB
+          - generic [ref=e645]:
+            - generic [ref=e648]:
+              - link "Bus Niagara Falls to Toronto from $30 | Tickets & Timetables Rome2Rio https://www.rome2rio.com › Niagara-Falls-ON-Canada" [ref=e650] [cursor=pointer]:
+                - /url: https://www.rome2rio.com/Bus/Niagara-Falls-ON-Canada/Toronto
+                - heading "Bus Niagara Falls to Toronto from $30 | Tickets & Timetables" [level=3] [ref=e651]
+                - generic [ref=e656]:
+                  - generic [ref=e658]: Rome2Rio
+                  - generic [ref=e660]: https://www.rome2rio.com › Niagara-Falls-ON-Canada
+              - button "About this result" [ref=e661] [cursor=pointer]:
+                - img [ref=e664]
+            - generic [ref=e668]:
+              - emphasis [ref=e669]: Bus tickets from Niagara Falls to Toronto start at $30
+              - text: ", and the quickest route takes just 1h 50m. Check timetables and book your tickets with Rome2Rio."
+            - generic [ref=e671]:
+              - text: "Missing: 13th ‎| Show results with:"
+              - link "13th" [ref=e672] [cursor=pointer]:
+                - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+%2213th%22+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ5t4CegQIWhAB
+          - generic [ref=e676]:
+            - generic [ref=e679]:
+              - link "Bus Niagara Falls to Toronto from $4 | Refundable Tickets Busbud https://www.busbud.com › ... › Niagara Falls › Toronto" [ref=e681] [cursor=pointer]:
+                - /url: https://www.busbud.com/en/bus-niagara-falls-toronto/r/dpxv0y-dpz88g
+                - heading "Bus Niagara Falls to Toronto from $4 | Refundable Tickets" [level=3] [ref=e682]
+                - generic [ref=e687]:
+                  - generic [ref=e689]: Busbud
+                  - generic [ref=e691]: https://www.busbud.com › ... › Niagara Falls › Toronto
+              - button "About this result" [ref=e692] [cursor=pointer]:
+                - img [ref=e695]
+            - generic [ref=e698]:
+              - generic [ref=e699]:
+                - text: The cheapest bus tickets from Niagara Falls to Toronto start from $5. The average price for this route is around $
+                - emphasis [ref=e700]: "18"
+                - text: . Busbud recommends that you book your ...
+              - link "Read more" [ref=e701] [cursor=pointer]:
+                - /url: https://www.busbud.com/en/bus-niagara-falls-toronto/r/dpxv0y-dpz88g#:~:text=The%20cheapest%20bus%20tickets%20from,get%20the%20lowest%20possible%20price.
+            - img "Rated 3.7 out of 5, (1,193) user reviews" [ref=e706]:
+              - text: "3.7"
+              - img [ref=e707]
+              - text: (1,193)
+            - generic [ref=e711]:
+              - text: "Missing: 13th ‎| Show results with:"
+              - link "13th" [ref=e712] [cursor=pointer]:
+                - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+bus+price+%2213th%22+May+2026&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ5t4CegQIYxAB
+          - generic [ref=e716]:
+            - generic [ref=e719]:
+              - link "Explore Niagara Falls with bus ticket from/to Toronto GetYourGuide https://www.getyourguide.com › ... › Brock University" [ref=e721] [cursor=pointer]:
+                - /url: https://www.getyourguide.com/toronto-l177/explore-niagara-falls-with-bus-ticket-fromto-toronto-t636883/
+                - heading "Explore Niagara Falls with bus ticket from/to Toronto" [level=3] [ref=e722]
+                - generic [ref=e727]:
+                  - generic [ref=e729]: GetYourGuide
+                  - generic [ref=e731]: https://www.getyourguide.com › ... › Brock University
+              - button "About this result" [ref=e732] [cursor=pointer]:
+                - img [ref=e735]
+            - generic [ref=e738]:
+              - generic [ref=e739]:
+                - text: Visit
+                - emphasis [ref=e740]: Niagara Falls
+                - text: from
+                - emphasis [ref=e741]: Toronto
+                - text: or back in less than 2 hours on modern
+                - emphasis [ref=e742]: buses
+                - text: · Benefit low-
+                - emphasis [ref=e743]: price
+                - text: city-to-city
+                - emphasis [ref=e744]: bus tickets
+                - text: with convenient amenities on board ...
+              - link "Read more" [ref=e745] [cursor=pointer]:
+                - /url: https://www.getyourguide.com/toronto-l177/explore-niagara-falls-with-bus-ticket-fromto-toronto-t636883/#:~:text=Visit%20Niagara%20Falls%20from%20Toronto,2%20hours%20on%20modern%20buses&text=Benefit%20low%2Dprice%20city%2Dto%2Dcity%20bus%20tickets,with%20convenient%20amenities%20on%20board
+            - link "Niagara Falls to Toronto bus price 13th May 2026 from www.getyourguide.com" [ref=e748] [cursor=pointer]:
+              - /url: https://www.getyourguide.com/toronto-l177/explore-niagara-falls-with-bus-ticket-fromto-toronto-t636883/
+              - img "Niagara Falls to Toronto bus price 13th May 2026 from www.getyourguide.com" [ref=e750]
+            - generic [ref=e752]:
+              - generic [ref=e753]: Starting from $4.02
+              - text: ·
+              - img "Rated 4.4 out of 5, (72) user reviews" [ref=e757]:
+                - text: "4.4"
+                - img [ref=e758]
+                - text: (72)
+        - generic [ref=e762]:
+          - generic [ref=e767]:
+            - heading "People also search for" [level=2] [ref=e769]
+            - generic [ref=e771]:
+              - generic [ref=e772]:
+                - link "Niagara Falls to Toronto train" [ref=e776] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+train&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhpEAE
+                  - generic [ref=e777]:
+                    - generic [ref=e782]: Niagara Falls to Toronto train
+                    - img [ref=e786]
+                - link "Niagara Falls to Toronto distance" [ref=e791] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+distance&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhuEAE
+                  - generic [ref=e792]:
+                    - generic [ref=e797]: Niagara Falls to Toronto distance
+                    - img [ref=e801]
+                - link "Best way to get from Niagara Falls to Toronto" [ref=e806] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Best+way+to+get+from+Niagara+Falls+to+Toronto&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhvEAE
+                  - generic [ref=e807]:
+                    - generic [ref=e812]: Best way to get from Niagara Falls to Toronto
+                    - img [ref=e816]
+                - link "Niagara Falls to Toronto drive" [ref=e821] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Toronto+drive&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhtEAE
+                  - generic [ref=e822]:
+                    - generic [ref=e827]: Niagara Falls to Toronto drive
+                    - img [ref=e831]
+              - generic [ref=e833]:
+                - link "Flixbus niagara falls to toronto route" [ref=e837] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Flixbus+niagara+falls+to+toronto+route&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhsEAE
+                  - generic [ref=e838]:
+                    - generic [ref=e843]: Flixbus niagara falls to toronto route
+                    - img [ref=e847]
+                - link "Niagara Falls to Vancouver" [ref=e852] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Vancouver&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhrEAE
+                  - generic [ref=e853]:
+                    - generic [ref=e858]: Niagara Falls to Vancouver
+                    - img [ref=e862]
+                - link "Niagara Falls to Montreal" [ref=e867] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Niagara+Falls+to+Montreal&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhoEAE
+                  - generic [ref=e868]:
+                    - generic [ref=e873]: Niagara Falls to Montreal
+                    - img [ref=e877]
+                - link "Buffalo to Toronto bus" [ref=e882] [cursor=pointer]:
+                  - /url: /search?sca_esv=279264206e6ccbef&q=Buffalo+to+Toronto+bus&sa=X&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ1QJ6BAhqEAE
+                  - generic [ref=e883]:
+                    - generic [ref=e888]: Buffalo to Toronto bus
+                    - img [ref=e892]
+          - navigation [ref=e894]:
+            - heading "Page navigation" [level=1] [ref=e895]
+            - text: "1"
+            - link "Page 2" [ref=e898] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=10&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAE
+              - text: "2"
+            - link "Page 3" [ref=e900] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=20&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAG
+              - text: "3"
+            - link "Page 4" [ref=e902] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=30&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAI
+              - text: "4"
+            - link "Page 5" [ref=e904] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=40&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAK
+              - text: "5"
+            - link "Page 6" [ref=e906] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=50&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAM
+              - text: "6"
+            - link "Page 7" [ref=e908] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=60&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAO
+              - text: "7"
+            - link "Page 8" [ref=e910] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=70&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAQ
+              - text: "8"
+            - link "Page 9" [ref=e912] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=80&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAS
+              - text: "9"
+            - link "Page 10" [ref=e914] [cursor=pointer]:
+              - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=90&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8tMDegQIZRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e916]:
+              - link "Next" [ref=e917] [cursor=pointer]:
+                - /url: /search?q=Niagara+Falls+to+Toronto+bus+price+13th+May+2026&sca_esv=279264206e6ccbef&ei=Gd35ac-IC7i74-EP0f_LgQ4&start=10&sa=N&sstk=Af77f_f-qEV4Klqpv-6k8wcG4JIj_Urs8n7J-p4TAq56YihAZfaMTg1-GY_xXUeEDfXY9Y_u0IfCTidZl3SQo2dfDN_sbzSLEor8kQ&ved=2ahUKEwiP-cXvjaKUAxW43TgGHdH_MuAQ8NMDegQIZRAW
+                - generic [ref=e919]: Next
+        - navigation
+    - contentinfo [ref=e920]:
+      - heading "Footer links" [level=1] [ref=e921]
+      - generic [ref=e925]:
+        - generic [ref=e927]:
+          - text: India
+          - generic [ref=e929]:
+            - button "New Delhi - From your IP address" [ref=e931] [cursor=pointer]:
+              - generic [ref=e932]: New Delhi
+              - generic [ref=e934]:
+                - text: "-"
+                - generic [ref=e935]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e937] [cursor=pointer]: Update location
+        - generic [ref=e940]:
+          - link "Help" [ref=e941] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e942] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e943] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e944] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
