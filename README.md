@@ -6,10 +6,10 @@ An agentic travel planning application powered by Claude. Type a travel request 
 
 ## Screenshots
 
-![Search UI](screenshots/front.png)
+![Search UI](Screenshots/front.png)
 *Landing page — enter your route, dates, travellers, and transport preference*
 
-![Results UI](screenshots/front1.png)
+![Results UI](Screenshots/front1.png)
 *Results view — 3-tier budget breakdown (Economy / Mid-Range / Comfort) with transport, accommodation, meals, and activities*
 
 ---
