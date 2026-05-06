@@ -1,0 +1,1077 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Vancouver hotels 13th to 15th May 2026 price per night Vancouver hotels 13th to 15th May 2026 price per night
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DVancouver%2Bhotels%2B13th%2Bto%2B15th%2BMay%2B2026%2Bprice%2Bper%2Bnight&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXIseM7x7bJnhAQDYylWmVepr5Ij1Dyy4jX6XkbFBlq8MLuF3BRcGuwXePuoBXyisX_Bw3NMfJEN-fNsFxICkirlTvvUtF3S6158ueewE7g0UYk3LPQ&aep=1&ntc=1&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ2J8OegQICxAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXIseM7x7bJnhAQDYylWmVepr5Ij1Dyy4jX6XkbFBlq8MLuF3BRcGuwXePuoBXyisX_Bw3NMfJEN-fNsFxICkirlTvvUtF3S6158ueewE7g0UYk3LPQ&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQtKgLegQIERAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Forums" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXIseM7x7bJnhAQDYylWmVepr5Ij1Dyy4jX6XkbFBlq8MLuF3BRcGuwXePuoBXyisX_Bw3NMfJEN-fNsFxICkirlTvvUtF3S6158ueewE7g0UYk3LPQ&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQs6gLegQIDhAB
+              - generic [ref=e95]: Forums
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXIseM7x7bJnhAQDYylWmVepr5Ij1Dyy4jX6XkbFBlq8MLuF3BRcGuwXePuoBXyisX_Bw3NMfJEN-fNsFxICkirlTvvUtF3S6158ueewE7g0UYk3LPQ&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ0pQJegQIDRAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Shopping" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXIseM7x7bJnhAQDYylWmVepr5Ij1Dyy4jX6XkbFBlq8MLuF3BRcGuwXePuoBXyisX_Bw3NMfJEN-fNsFxICkirlTvvUtF3S6158ueewE7g0UYk3LPQ&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ved=1t:220175&ictx=111
+              - generic [ref=e103]: Shopping
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5t0HEjXJoe8K2c1QpJsHzzW46I3IXNDQLKsJgKexHRXIseM7x7bJnhAQDYylWmVepr5Ij1Dyy4jX6XkbFBlq8MLuF3BRcGuwXePuoBXyisX_Bw3NMfJEN-fNsFxICkirlTvvUtF3S6158ueewE7g0UYk3LPQ&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQtKgLegQIEBAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e132]:
+      - generic [ref=e136]:
+        - generic [ref=e148]:
+          - heading "Thinking" [level=2] [ref=e152]:
+            - generic [ref=e153]: Thinking
+          - progressbar [ref=e154]
+        - generic [ref=e162]:
+          - generic [ref=e164]:
+            - heading "Hostels | Vancouver, BC" [level=2] [ref=e165]
+            - button "More info" [ref=e168] [cursor=pointer]:
+              - generic "More info" [ref=e169]:
+                - img [ref=e170]
+          - generic [ref=e172]:
+            - generic [ref=e175]:
+              - status
+              - button "Select check-in date. Current check-in date is Wed, May 13" [ref=e177] [cursor=pointer]:
+                - img [ref=e179]
+                - generic [ref=e181]: Wed, May 13
+              - button "Select check-out date. Current check-out date is Fri, May 15" [ref=e183] [cursor=pointer]:
+                - img [ref=e185]
+                - generic [ref=e187]: Fri, May 15
+            - button "Select number of guests. Current selection is 2 guests" [ref=e192] [cursor=pointer]:
+              - generic [ref=e194]:
+                - img [ref=e197]
+                - generic [ref=e199]: "2"
+                - img [ref=e202]
+            - generic [ref=e205]:
+              - list [ref=e208]:
+                - link "Top-rated" [ref=e209] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqCQoFOgNDQUQoCA&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:54362
+                  - listitem [ref=e210]:
+                    - generic [ref=e213]: Top-rated
+                - link "Budget options" [ref=e214] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqDgoFOgNDQUQiBRIDEJYB&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:54363
+                  - listitem [ref=e215]:
+                    - generic [ref=e218]: Budget options
+                - link "Luxury stays" [ref=e219] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqCwoJEgIEBToDQ0FE&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:54364
+                  - listitem [ref=e220]:
+                    - generic [ref=e223]: Luxury stays
+                - link "Free cancellation" [ref=e224] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqCQoHIAE6A0NBRA&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:104374
+                  - listitem [ref=e225]:
+                    - generic [ref=e228]: Free cancellation
+                - link "Deals" [ref=e229] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqCQoFOgNDQUQwAQ&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:64157
+                  - listitem [ref=e230]:
+                    - generic [ref=e233]: Deals
+                - link "For tonight" [ref=e234] [cursor=pointer]:
+                  - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGAYSBwjqDxAFGAcYATICCAEqBwoFOgNDQUQ&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:54365
+                  - listitem [ref=e235]:
+                    - generic [ref=e238]: For tonight
+              - button [ref=e239] [cursor=pointer]:
+                - img [ref=e242]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - generic "Hotel suggestions" [ref=e249]:
+                - generic [ref=e250]:
+                  - link "Samesun Vancouver $133 4.2 out of 5 stars from 2,040 reviews, 3-star hotel Great deal 46% less than usual Hip hostel with a bar & free breakfast" [ref=e253] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqBwoFOgNDQUQ&qs=CAEyFENnc0luOVNxcU1ybnhzN0JBUkFCOApCCRERRZfb8bxShkIJETPJAyzM6GlpQgkRbjMqvOL-7JNamgEIATKVAaoBkQEQASowIixob3RlbHMgMTN0aCB0byAxNXRoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbkbKrWhV3P-cl5EjppxoftNtH9l03GCjwbqQsMjoQAiI2dmFuY291dmVyIGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e254]:
+                      - generic [ref=e256]:
+                        - button "Previous" [ref=e257]:
+                          - img [ref=e260]
+                        - generic [ref=e262]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e263]:
+                                - img "Samesun Vancouver image 1 of 6" [ref=e266]
+                              - listitem [ref=e267]:
+                                - img [ref=e270]
+                              - listitem [ref=e271]:
+                                - img [ref=e274]
+                        - button "Next" [ref=e275]:
+                          - img [ref=e278]
+                      - generic [ref=e280]:
+                        - generic [ref=e281]:
+                          - generic [ref=e283]: Samesun Vancouver
+                          - generic [ref=e285]: $133
+                        - link "4.2 out of 5 stars from 2,040 reviews, 3-star hotel" [ref=e287]:
+                          - img "Rated 4.2 out of 5, 2K user reviews" [ref=e288]:
+                            - text: "4.2"
+                            - img [ref=e289]
+                            - text: (2K)
+                          - text: ·
+                          - generic [ref=e292]: 3-star hotel
+                        - generic [ref=e294]:
+                          - generic [ref=e296]:
+                            - generic [ref=e298]:
+                              - generic:
+                                - generic: Great deal
+                            - generic [ref=e299]: 46% less than usual
+                          - generic [ref=e302]: Hip hostel with a bar & free breakfast
+                  - link "Neocolonial Nouveau Kensington $146 4.5 out of 5 stars from 50 reviews, Great deal 36% less than usual Free parking · Free Wi-Fi" [ref=e306] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqBwoFOgNDQUQ&qs=CAEyFENnc0luTGZSN09xRXYtM2NBUkFCOApCCRERRZfb8bxShkIJETPJAyzM6GlpQgkRbjMqvOL-7JNamgEIATKVAaoBkQEQASowIixob3RlbHMgMTN0aCB0byAxNXRoIG1heSAyMDI2IHByaWNlIHBlciBuaWdodCgAMh8QASIbkbKrWhV3P-cl5EjppxoftNtH9l03GCjwbqQsMjoQAiI2dmFuY291dmVyIGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e307]:
+                      - generic [ref=e309]:
+                        - button "Previous" [ref=e310]:
+                          - img [ref=e313]
+                        - generic [ref=e315]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e316]:
+                                - img "Neocolonial Nouveau Kensington image 1 of 6" [ref=e319]
+                              - listitem [ref=e320]:
+                                - img [ref=e323]
+                              - listitem [ref=e324]:
+                                - img [ref=e327]
+                        - button "Next" [ref=e328]:
+                          - img [ref=e331]
+                      - generic [ref=e333]:
+                        - generic [ref=e334]:
+                          - generic [ref=e336]: Neocolonial Nouveau Kensington
+                          - generic [ref=e338]: $146
+                        - link "4.5 out of 5 stars from 50 reviews," [ref=e340]:
+                          - img "Rated 4.5 out of 5, 50 user reviews" [ref=e341]:
+                            - text: "4.5"
+                            - img [ref=e342]
+                            - text: (50)
+                        - generic [ref=e346]:
+                          - generic [ref=e348]:
+                            - generic [ref=e350]:
+                              - generic:
+                                - generic: Great deal
+                            - generic [ref=e351]: 36% less than usual
+                          - generic [ref=e354]:
+                            - generic [ref=e356]:
+                              - img [ref=e359]
+                              - generic [ref=e361]: Free parking
+                            - generic [ref=e362]: ·
+                            - generic [ref=e364]:
+                              - img [ref=e367]
+                              - generic [ref=e369]: Free Wi-Fi
+                  - link "HI Vancouver Downtown $135 4.0 out of 5 stars from 827 reviews, 2-star hotel Great price with free breakfast Basic hostel with free Wi-Fi & breakfast" [ref=e373] [cursor=pointer]:
+                    - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqBwoFOgNDQUQ&qs=CAEyE0Nnb0kzWV9mdV9McDlxeFlFQUU4CkIJERFFl9vxvFKGQgkRM8kDLMzoaWlCCRFuMyq84v7sk1qaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAG6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                    - generic [ref=e374]:
+                      - generic [ref=e376]:
+                        - button "Previous" [ref=e377]:
+                          - img [ref=e380]
+                        - generic [ref=e382]:
+                          - generic:
+                            - list:
+                              - listitem [ref=e383]:
+                                - img "HI Vancouver Downtown image 1 of 6" [ref=e386]
+                              - listitem [ref=e387]:
+                                - img [ref=e390]
+                              - listitem [ref=e391]:
+                                - img [ref=e394]
+                        - button "Next" [ref=e395]:
+                          - img [ref=e398]
+                      - generic [ref=e400]:
+                        - generic [ref=e401]:
+                          - generic [ref=e403]: HI Vancouver Downtown
+                          - generic [ref=e405]: $135
+                        - link "4.0 out of 5 stars from 827 reviews, 2-star hotel" [ref=e407]:
+                          - img "Rated 4.0 out of 5, 827 user reviews" [ref=e408]:
+                            - text: "4.0"
+                            - img [ref=e409]
+                            - text: (827)
+                          - text: ·
+                          - generic [ref=e412]: 2-star hotel
+                        - generic [ref=e414]:
+                          - generic [ref=e416]:
+                            - generic [ref=e418]:
+                              - generic:
+                                - generic: Great price
+                            - generic [ref=e419]: with free breakfast
+                          - generic [ref=e422]: Basic hostel with free Wi-Fi & breakfast
+              - link "See more" [ref=e424] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqBwoFOgNDQUQ&qs=CAE4BkIJERFFl9vxvFKGQgkRM8kDLMzoaWlCCRFuMyq84v7sk1qaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=aAE&ictx=111&ved=1t:195904
+                - separator [ref=e425]
+                - generic [ref=e426]:
+                  - generic [ref=e427]: See more
+                  - img [ref=e429]
+            - link "View larger map" [ref=e433] [cursor=pointer]:
+              - generic [ref=e434]:
+                - generic:
+                  - generic [ref=e436]:
+                    - img [ref=e438]
+                    - text: $248
+                  - img [ref=e441]
+                  - generic [ref=e446]:
+                    - img [ref=e448]
+                    - text: $282
+                  - img [ref=e451]
+                  - generic [ref=e456]:
+                    - img [ref=e458]
+                    - text: $369
+                  - img [ref=e461]
+                  - generic [ref=e468]:
+                    - img [ref=e470]
+                    - text: $169
+                  - img [ref=e473]
+                  - generic [ref=e478]:
+                    - img [ref=e480]
+                    - text: $225
+                  - img [ref=e483]
+                  - generic [ref=e487]:
+                    - img [ref=e489]
+                    - text: $135
+                  - img [ref=e492]
+                  - generic [ref=e496]:
+                    - img [ref=e498]
+                    - text: $146
+                  - img [ref=e501]
+                  - generic [ref=e505]:
+                    - img [ref=e507]
+                    - text: $133
+                  - img [ref=e510]
+              - link [ref=e514]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqBwoFOgNDQUQ&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=SAFoAQ&ictx=111&ved=1t:206005
+                - link [ref=e515]
+              - link "View larger map" [ref=e520]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764&hl=en-CA&gl=ca&ssta=1&q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&ts=CAESCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAFGA0SBwjqDxAFGA8YAjICCAEqBwoFOgNDQUQ&qs=CAE4BlqaAQgBMpUBqgGRARABKjAiLGhvdGVscyAxM3RoIHRvIDE1dGggbWF5IDIwMjYgcHJpY2UgcGVyIG5pZ2h0KAAyHxABIhuRsqtaFXc_5yXkSOmnGh-020f2XTcYKPBupCwyOhACIjZ2YW5jb3V2ZXIgaG90ZWxzIDEzdGggdG8gMTV0aCBtYXkgMjAyNiBwcmljZSBwZXIgbmlnaHQ&ap=SAFoAQ&ictx=111&ved=1t:159633
+                - img [ref=e522]
+                - generic: View larger map
+      - main [ref=e524]:
+        - generic [ref=e528]:
+          - region "Ads" [ref=e532]:
+            - generic [ref=e534]:
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Sponsored hotels
+                  - button "Why this ad?" [ref=e541] [cursor=pointer]:
+                    - img [ref=e543]
+                - generic [ref=e545]: Lowest prices for stays until Jul 6 · 2 guests
+              - generic [ref=e546]:
+                - list [ref=e548]:
+                  - listitem [ref=e549]:
+                    - link "Samesun Vancouver From $134 Booking.com Rated 4.2 out of 5, 2K user reviews" [ref=e551] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e554]:
+                        - generic [ref=e556]: Samesun Vancouver
+                        - generic [ref=e557]:
+                          - generic [ref=e558]:
+                            - generic [ref=e559]: From
+                            - generic [ref=e560]: $134
+                          - generic [ref=e561]: Booking.com
+                          - img "Rated 4.2 out of 5, 2K user reviews" [ref=e563]:
+                            - text: "4.2"
+                            - img [ref=e564]
+                            - text: (2K)
+                  - listitem [ref=e567]:
+                    - link "The Guesthouse Vancouver From $205 Expedia.ca Rated 4.2 out of 5, 38 user reviews" [ref=e569] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e572]:
+                        - generic [ref=e574]: The Guesthouse Vancouver
+                        - generic [ref=e575]:
+                          - generic [ref=e576]:
+                            - generic [ref=e577]: From
+                            - generic [ref=e578]: $205
+                          - generic [ref=e579]: Expedia.ca
+                          - img "Rated 4.2 out of 5, 38 user reviews" [ref=e581]:
+                            - text: "4.2"
+                            - img [ref=e582]
+                            - text: (38)
+                  - listitem [ref=e585]:
+                    - link "Best Western Plus Vancouver Airport Hotel From $292 Best Western Plus Vancouver Airport Hotel Rated 3.5 out of 5, 2.2K user reviews" [ref=e587] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e590]:
+                        - generic [ref=e592]: Best Western Plus Vancouver Airport Hotel
+                        - generic [ref=e593]:
+                          - generic [ref=e594]:
+                            - generic [ref=e595]: From
+                            - generic [ref=e596]: $292
+                          - generic [ref=e597]: Best Western Plus Vancouver Airport Hotel
+                          - img "Rated 3.5 out of 5, 2.2K user reviews" [ref=e599]:
+                            - text: "3.5"
+                            - img [ref=e600]
+                            - text: (2.2K)
+                  - listitem [ref=e603]:
+                    - link "Holiday Inn & Suites Vancouver Downtown by IHG From $518 Holiday Inn & Suites Vancouver Downtown by IHG Rated 4.0 out of 5, 2.2K user reviews" [ref=e605] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e608]:
+                        - generic [ref=e610]: Holiday Inn & Suites Vancouver Downtown by IHG
+                        - generic [ref=e611]:
+                          - generic [ref=e612]:
+                            - generic [ref=e613]: From
+                            - generic [ref=e614]: $518
+                          - generic [ref=e615]: Holiday Inn & Suites Vancouver Downtown by IHG
+                          - img "Rated 4.0 out of 5, 2.2K user reviews" [ref=e617]:
+                            - text: "4.0"
+                            - img [ref=e618]
+                            - text: (2.2K)
+                  - listitem [ref=e621]:
+                    - link "Best Western Plus Burnaby Hotel From $332 Best Western Plus Burnaby Hotel Rated 4.0 out of 5, 1.3K user reviews" [ref=e623] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e626]:
+                        - generic [ref=e628]: Best Western Plus Burnaby Hotel
+                        - generic [ref=e629]:
+                          - generic [ref=e630]:
+                            - generic [ref=e631]: From
+                            - generic [ref=e632]: $332
+                          - generic [ref=e633]: Best Western Plus Burnaby Hotel
+                          - img "Rated 4.0 out of 5, 1.3K user reviews" [ref=e635]:
+                            - text: "4.0"
+                            - img [ref=e636]
+                            - text: (1.3K)
+                  - listitem [ref=e639]:
+                    - link "Fairmont Vancouver Airport From $427 Fairmont Vancouver Airport Rated 4.6 out of 5, 4.4K user reviews" [ref=e641] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e644]:
+                        - generic [ref=e646]: Fairmont Vancouver Airport
+                        - generic [ref=e647]:
+                          - generic [ref=e648]:
+                            - generic [ref=e649]: From
+                            - generic [ref=e650]: $427
+                          - generic [ref=e651]: Fairmont Vancouver Airport
+                          - img "Rated 4.6 out of 5, 4.4K user reviews" [ref=e653]:
+                            - text: "4.6"
+                            - img [ref=e654]
+                            - text: (4.4K)
+                  - listitem [ref=e657]:
+                    - link "Hyatt Regency Vancouver From $656 Hyatt Regency Vancouver Rated 4.4 out of 5, 4.9K user reviews" [ref=e659] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e662]:
+                        - generic [ref=e664]: Hyatt Regency Vancouver
+                        - generic [ref=e665]:
+                          - generic [ref=e666]:
+                            - generic [ref=e667]: From
+                            - generic [ref=e668]: $656
+                          - generic [ref=e669]: Hyatt Regency Vancouver
+                          - img "Rated 4.4 out of 5, 4.9K user reviews" [ref=e671]:
+                            - text: "4.4"
+                            - img [ref=e672]
+                            - text: (4.9K)
+                  - listitem [ref=e675]:
+                    - link "Fairmont Hotel Vancouver From $683 Fairmont Hotel Vancouver Rated 4.5 out of 5, 7K user reviews" [ref=e677] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e680]:
+                        - generic [ref=e682]: Fairmont Hotel Vancouver
+                        - generic [ref=e683]:
+                          - generic [ref=e684]:
+                            - generic [ref=e685]: From
+                            - generic [ref=e686]: $683
+                          - generic [ref=e687]: Fairmont Hotel Vancouver
+                          - img "Rated 4.5 out of 5, 7K user reviews" [ref=e689]:
+                            - text: "4.5"
+                            - img [ref=e690]
+                            - text: (7K)
+                  - listitem [ref=e693]:
+                    - link "Fairmont Waterfront From $747 Fairmont Waterfront Rated 4.5 out of 5, 4.5K user reviews" [ref=e695] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e698]:
+                        - generic [ref=e700]: Fairmont Waterfront
+                        - generic [ref=e701]:
+                          - generic [ref=e702]:
+                            - generic [ref=e703]: From
+                            - generic [ref=e704]: $747
+                          - generic [ref=e705]: Fairmont Waterfront
+                          - img "Rated 4.5 out of 5, 4.5K user reviews" [ref=e707]:
+                            - text: "4.5"
+                            - img [ref=e708]
+                            - text: (4.5K)
+                  - listitem [ref=e711]:
+                    - link "Coast Metro Vancouver Hotel From $292 Coast Metro Vancouver Hotel Rated 4.5 out of 5, 195 user reviews" [ref=e713] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e716]:
+                        - generic [ref=e718]: Coast Metro Vancouver Hotel
+                        - generic [ref=e719]:
+                          - generic [ref=e720]:
+                            - generic [ref=e721]: From
+                            - generic [ref=e722]: $292
+                          - generic [ref=e723]: Coast Metro Vancouver Hotel
+                          - img "Rated 4.5 out of 5, 195 user reviews" [ref=e725]:
+                            - text: "4.5"
+                            - img [ref=e726]
+                            - text: (195)
+                  - listitem [ref=e729]:
+                    - link "Econo Lodge Inn & Suites From $224 Hotels.com Rated 3.6 out of 5, 894 user reviews" [ref=e731] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e734]:
+                        - generic [ref=e736]: Econo Lodge Inn & Suites
+                        - generic [ref=e737]:
+                          - generic [ref=e738]:
+                            - generic [ref=e739]: From
+                            - generic [ref=e740]: $224
+                          - generic [ref=e741]: Hotels.com
+                          - img "Rated 3.6 out of 5, 894 user reviews" [ref=e743]:
+                            - text: "3.6"
+                            - img [ref=e744]
+                            - text: (894)
+                  - listitem [ref=e747]:
+                    - link "Fairmont Pacific Rim From $619 Fairmont Pacific Rim Rated 4.6 out of 5, 5.5K user reviews" [ref=e749] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e752]:
+                        - generic [ref=e754]: Fairmont Pacific Rim
+                        - generic [ref=e755]:
+                          - generic [ref=e756]:
+                            - generic [ref=e757]: From
+                            - generic [ref=e758]: $619
+                          - generic [ref=e759]: Fairmont Pacific Rim
+                          - img "Rated 4.6 out of 5, 5.5K user reviews" [ref=e761]:
+                            - text: "4.6"
+                            - img [ref=e762]
+                            - text: (5.5K)
+                  - listitem [ref=e765]:
+                    - link "Grand Park Hotel Vancouver Airport, Ascend Hotel Collection From $280 Hotels.com Rated 3.7 out of 5, 1.4K user reviews" [ref=e767] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e770]:
+                        - generic [ref=e772]: Grand Park Hotel Vancouver Airport, Ascend Hotel Collection
+                        - generic [ref=e773]:
+                          - generic [ref=e774]:
+                            - generic [ref=e775]: From
+                            - generic [ref=e776]: $280
+                          - generic [ref=e777]: Hotels.com
+                          - img "Rated 3.7 out of 5, 1.4K user reviews" [ref=e779]:
+                            - text: "3.7"
+                            - img [ref=e780]
+                            - text: (1.4K)
+                  - listitem [ref=e783]:
+                    - link "Radisson Blu Vancouver Airport Hotel & Marina From $359 Hotels.com Rated 3.9 out of 5, 624 user reviews" [ref=e785] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e788]:
+                        - generic [ref=e790]: Radisson Blu Vancouver Airport Hotel & Marina
+                        - generic [ref=e791]:
+                          - generic [ref=e792]:
+                            - generic [ref=e793]: From
+                            - generic [ref=e794]: $359
+                          - generic [ref=e795]: Hotels.com
+                          - img "Rated 3.9 out of 5, 624 user reviews" [ref=e797]:
+                            - text: "3.9"
+                            - img [ref=e798]
+                            - text: (624)
+                  - listitem [ref=e801]:
+                    - link "Hampton Inn by Hilton Vancouver-Airport/Richmond From $444 Hampton Inn by Hilton Vancouver-Airport/Richmond Rated 3.8 out of 5, 1.1K user reviews" [ref=e803] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e806]:
+                        - generic [ref=e808]: Hampton Inn by Hilton Vancouver-Airport/Richmond
+                        - generic [ref=e809]:
+                          - generic [ref=e810]:
+                            - generic [ref=e811]: From
+                            - generic [ref=e812]: $444
+                          - generic [ref=e813]: Hampton Inn by Hilton Vancouver-Airport/Richmond
+                          - img "Rated 3.8 out of 5, 1.1K user reviews" [ref=e815]:
+                            - text: "3.8"
+                            - img [ref=e816]
+                            - text: (1.1K)
+                  - listitem [ref=e819]:
+                    - link "Executive Suites Hotel and Conference Centre Metro Vancouver From $333 Hotels.com Rated 3.7 out of 5, 1.5K user reviews" [ref=e821] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e824]:
+                        - generic [ref=e826]: Executive Suites Hotel and Conference Centre Metro Vancouver
+                        - generic [ref=e827]:
+                          - generic [ref=e828]:
+                            - generic [ref=e829]: From
+                            - generic [ref=e830]: $333
+                          - generic [ref=e831]: Hotels.com
+                          - img "Rated 3.7 out of 5, 1.5K user reviews" [ref=e833]:
+                            - text: "3.7"
+                            - img [ref=e834]
+                            - text: (1.5K)
+                  - listitem [ref=e837]:
+                    - link "SureStay by Best Western North Vancouver Capilano From $279 Hotels.com Rated 3.8 out of 5, 938 user reviews" [ref=e839] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e842]:
+                        - generic [ref=e844]: SureStay by Best Western North Vancouver Capilano
+                        - generic [ref=e845]:
+                          - generic [ref=e846]:
+                            - generic [ref=e847]: From
+                            - generic [ref=e848]: $279
+                          - generic [ref=e849]: Hotels.com
+                          - img "Rated 3.8 out of 5, 938 user reviews" [ref=e851]:
+                            - text: "3.8"
+                            - img [ref=e852]
+                            - text: (938)
+                  - listitem [ref=e855]:
+                    - link "Sandman Signature Vancouver Downtown Hotel From $471 Hotels.com Rated 4.2 out of 5, 6.3K user reviews" [ref=e857] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e860]:
+                        - generic [ref=e862]: Sandman Signature Vancouver Downtown Hotel
+                        - generic [ref=e863]:
+                          - generic [ref=e864]:
+                            - generic [ref=e865]: From
+                            - generic [ref=e866]: $471
+                          - generic [ref=e867]: Hotels.com
+                          - img "Rated 4.2 out of 5, 6.3K user reviews" [ref=e869]:
+                            - text: "4.2"
+                            - img [ref=e870]
+                            - text: (6.3K)
+                  - listitem [ref=e873]:
+                    - link "Quality Inn & Suites Downtown Vancouver From $427 Hotels.com Rated 4.4 out of 5, 1.4K user reviews" [ref=e875] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e878]:
+                        - generic [ref=e880]: Quality Inn & Suites Downtown Vancouver
+                        - generic [ref=e881]:
+                          - generic [ref=e882]:
+                            - generic [ref=e883]: From
+                            - generic [ref=e884]: $427
+                          - generic [ref=e885]: Hotels.com
+                          - img "Rated 4.4 out of 5, 1.4K user reviews" [ref=e887]:
+                            - text: "4.4"
+                            - img [ref=e888]
+                            - text: (1.4K)
+                  - listitem [ref=e891]:
+                    - link "Sheraton Vancouver Wall Centre From $571 Hotels.com Rated 4.4 out of 5, 6.3K user reviews" [ref=e893] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e896]:
+                        - generic [ref=e898]: Sheraton Vancouver Wall Centre
+                        - generic [ref=e899]:
+                          - generic [ref=e900]:
+                            - generic [ref=e901]: From
+                            - generic [ref=e902]: $571
+                          - generic [ref=e903]: Hotels.com
+                          - img "Rated 4.4 out of 5, 6.3K user reviews" [ref=e905]:
+                            - text: "4.4"
+                            - img [ref=e906]
+                            - text: (6.3K)
+                  - listitem [ref=e909]:
+                    - link "Hilton Vancouver Downtown From $747 Hilton Vancouver Downtown Rated 4.5 out of 5, 1.1K user reviews" [ref=e911] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e914]:
+                        - generic [ref=e916]: Hilton Vancouver Downtown
+                        - generic [ref=e917]:
+                          - generic [ref=e918]:
+                            - generic [ref=e919]: From
+                            - generic [ref=e920]: $747
+                          - generic [ref=e921]: Hilton Vancouver Downtown
+                          - img "Rated 4.5 out of 5, 1.1K user reviews" [ref=e923]:
+                            - text: "4.5"
+                            - img [ref=e924]
+                            - text: (1.1K)
+                  - listitem [ref=e927]:
+                    - link "Grand Park Hotel & Suites Downtown Vancouver, Ascend Hotel Collection From $352 Booking.com Rated 4.1 out of 5, 2.3K user reviews" [ref=e929] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e932]:
+                        - generic [ref=e934]: Grand Park Hotel & Suites Downtown Vancouver, Ascend Hotel Collection
+                        - generic [ref=e935]:
+                          - generic [ref=e936]:
+                            - generic [ref=e937]: From
+                            - generic [ref=e938]: $352
+                          - generic [ref=e939]: Booking.com
+                          - img "Rated 4.1 out of 5, 2.3K user reviews" [ref=e941]:
+                            - text: "4.1"
+                            - img [ref=e942]
+                            - text: (2.3K)
+                  - listitem [ref=e945]:
+                    - link "Versante Hotel From $292 Booking.com Rated 4.6 out of 5, 802 user reviews" [ref=e947] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e950]:
+                        - generic [ref=e952]: Versante Hotel
+                        - generic [ref=e953]:
+                          - generic [ref=e954]:
+                            - generic [ref=e955]: From
+                            - generic [ref=e956]: $292
+                          - generic [ref=e957]: Booking.com
+                          - img "Rated 4.6 out of 5, 802 user reviews" [ref=e959]:
+                            - text: "4.6"
+                            - img [ref=e960]
+                            - text: (802)
+                  - listitem [ref=e963]:
+                    - link "La Quinta Inn by Wyndham Vancouver Airport From $370 Hotels.com Rated 3.9 out of 5, 1.5K user reviews" [ref=e965] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e968]:
+                        - generic [ref=e970]: La Quinta Inn by Wyndham Vancouver Airport
+                        - generic [ref=e971]:
+                          - generic [ref=e972]:
+                            - generic [ref=e973]: From
+                            - generic [ref=e974]: $370
+                          - generic [ref=e975]: Hotels.com
+                          - img "Rated 3.9 out of 5, 1.5K user reviews" [ref=e977]:
+                            - text: "3.9"
+                            - img [ref=e978]
+                            - text: (1.5K)
+                  - listitem [ref=e981]:
+                    - link "Days Inn by Wyndham Vancouver Airport From $319 Booking.com Rated 3.4 out of 5, 1.4K user reviews" [ref=e983] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e986]:
+                        - generic [ref=e988]: Days Inn by Wyndham Vancouver Airport
+                        - generic [ref=e989]:
+                          - generic [ref=e990]:
+                            - generic [ref=e991]: From
+                            - generic [ref=e992]: $319
+                          - generic [ref=e993]: Booking.com
+                          - img "Rated 3.4 out of 5, 1.4K user reviews" [ref=e995]:
+                            - text: "3.4"
+                            - img [ref=e996]
+                            - text: (1.4K)
+                  - listitem [ref=e999]:
+                    - link "Hotel Opportune From $309 Booking.com Rated 4.2 out of 5, 2.8K user reviews" [ref=e1001] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1004]:
+                        - generic [ref=e1006]: Hotel Opportune
+                        - generic [ref=e1007]:
+                          - generic [ref=e1008]:
+                            - generic [ref=e1009]: From
+                            - generic [ref=e1010]: $309
+                          - generic [ref=e1011]: Booking.com
+                          - img "Rated 4.2 out of 5, 2.8K user reviews" [ref=e1013]:
+                            - text: "4.2"
+                            - img [ref=e1014]
+                            - text: (2.8K)
+                  - listitem [ref=e1017]:
+                    - link "Radisson Hotel Vancouver Airport From $399 Booking.com Rated 4.0 out of 5, 1.8K user reviews" [ref=e1019] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1022]:
+                        - generic [ref=e1024]: Radisson Hotel Vancouver Airport
+                        - generic [ref=e1025]:
+                          - generic [ref=e1026]:
+                            - generic [ref=e1027]: From
+                            - generic [ref=e1028]: $399
+                          - generic [ref=e1029]: Booking.com
+                          - img "Rated 4.0 out of 5, 1.8K user reviews" [ref=e1031]:
+                            - text: "4.0"
+                            - img [ref=e1032]
+                            - text: (1.8K)
+                  - listitem [ref=e1035]:
+                    - link "Days Inn by Wyndham Vancouver Downtown From $550 Booking.com Rated 3.2 out of 5, 1.1K user reviews" [ref=e1037] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1040]:
+                        - generic [ref=e1042]: Days Inn by Wyndham Vancouver Downtown
+                        - generic [ref=e1043]:
+                          - generic [ref=e1044]:
+                            - generic [ref=e1045]: From
+                            - generic [ref=e1046]: $550
+                          - generic [ref=e1047]: Booking.com
+                          - img "Rated 3.2 out of 5, 1.1K user reviews" [ref=e1049]:
+                            - text: "3.2"
+                            - img [ref=e1050]
+                            - text: (1.1K)
+                  - listitem [ref=e1053]:
+                    - link "Hotel Belmont Vancouver From $525 Expedia.ca Rated 4.1 out of 5, 1.6K user reviews" [ref=e1055] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1058]:
+                        - generic [ref=e1060]: Hotel Belmont Vancouver
+                        - generic [ref=e1061]:
+                          - generic [ref=e1062]:
+                            - generic [ref=e1063]: From
+                            - generic [ref=e1064]: $525
+                          - generic [ref=e1065]: Expedia.ca
+                          - img "Rated 4.1 out of 5, 1.6K user reviews" [ref=e1067]:
+                            - text: "4.1"
+                            - img [ref=e1068]
+                            - text: (1.6K)
+                  - listitem [ref=e1071]:
+                    - link "Vancouver Marriott Pinnacle Downtown Hotel From $579 Booking.com Rated 4.4 out of 5, 3K user reviews" [ref=e1073] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1076]:
+                        - generic [ref=e1078]: Vancouver Marriott Pinnacle Downtown Hotel
+                        - generic [ref=e1079]:
+                          - generic [ref=e1080]:
+                            - generic [ref=e1081]: From
+                            - generic [ref=e1082]: $579
+                          - generic [ref=e1083]: Booking.com
+                          - img "Rated 4.4 out of 5, 3K user reviews" [ref=e1085]:
+                            - text: "4.4"
+                            - img [ref=e1086]
+                            - text: (3K)
+                - button [ref=e1090] [cursor=pointer]:
+                  - img [ref=e1093]
+          - generic [ref=e1097]:
+            - heading "Web results" [level=2] [ref=e1098]
+            - generic [ref=e1099]:
+              - generic [ref=e1102]:
+                - link "Discover Top Hotels in Vancouver 2026 | Expedia.ca Expedia https://www.expedia.ca › ... › Canada › British Columbia" [ref=e1104] [cursor=pointer]:
+                  - /url: https://www.expedia.ca/Vancouver-Hotels.d178315.Travel-Guide-Hotels
+                  - heading "Discover Top Hotels in Vancouver 2026 | Expedia.ca" [level=3] [ref=e1105]
+                  - generic [ref=e1110]:
+                    - generic [ref=e1112]: Expedia
+                    - generic [ref=e1114]: https://www.expedia.ca › ... › Canada › British Columbia
+                - button "About this result" [ref=e1115] [cursor=pointer]:
+                  - img [ref=e1118]
+              - generic [ref=e1121]:
+                - generic [ref=e1122]:
+                  - text: The
+                  - emphasis [ref=e1123]: price
+                  - text: is CA $250
+                  - emphasis [ref=e1124]: per night
+                  - text: from
+                  - emphasis [ref=e1125]: May
+                  - text: 12 to
+                  - emphasis [ref=e1126]: May 13
+                  - text: . CA $250. CA $290 total.
+                  - emphasis [ref=e1127]: May
+                  - text: 12 -
+                  - emphasis [ref=e1128]: May 13
+                  - text: . includes taxes &
+                  - emphasis [ref=e1129]: fees
+                  - text: . North
+                  - emphasis [ref=e1130]: Vancouver Hotel
+                  - text: .
+                  - emphasis [ref=e1131]: Hotels
+                  - text: in
+                  - emphasis [ref=e1132]: Vancouver
+                  - text: ...
+                - link "Read more" [ref=e1133] [cursor=pointer]:
+                  - /url: https://www.expedia.ca/Vancouver-Hotels.d178315.Travel-Guide-Hotels#:~:text=CA%20%24250,in%20Vancouver%20with%20star%20rating
+              - link "Vancouver hotels 13th to 15th May 2026 price per night from www.expedia.ca" [ref=e1136] [cursor=pointer]:
+                - /url: https://www.expedia.ca/Vancouver-Hotels.d178315.Travel-Guide-Hotels
+                - img "Vancouver hotels 13th to 15th May 2026 price per night from www.expedia.ca" [ref=e1138]
+          - generic [ref=e1142]:
+            - generic [ref=e1145]:
+              - link "16 Best Hotels in Vancouver. Hotels from C$ 57/night Kayak https://www.ca.kayak.com › Vancouver-Hotels.6668.ho..." [ref=e1147] [cursor=pointer]:
+                - /url: https://www.ca.kayak.com/Vancouver-Hotels.6668.hotel.ksp
+                - heading "16 Best Hotels in Vancouver. Hotels from C$ 57/night" [level=3] [ref=e1148]
+                - generic [ref=e1153]:
+                  - generic [ref=e1155]: Kayak
+                  - generic [ref=e1157]: https://www.ca.kayak.com › Vancouver-Hotels.6668.ho...
+              - button "About this result" [ref=e1158] [cursor=pointer]:
+                - img [ref=e1161]
+            - generic [ref=e1165]:
+              - text: Looking for
+              - emphasis [ref=e1166]: Vancouver Hotel
+              - text: "? 2-star"
+              - emphasis [ref=e1167]: hotels
+              - text: from C$ 57, 3 stars from C$ 82 and 4 stars+ from C$ 205. Stay at Samesun
+              - emphasis [ref=e1168]: Vancouver
+              - text: from C$ 101/
+              - emphasis [ref=e1169]: night
+              - text: ", Ywca"
+              - emphasis [ref=e1170]: Hotel
+              - text: ...
+            - link "Vancouver hotels 13th to 15th May 2026 price per night from www.ca.kayak.com" [ref=e1173] [cursor=pointer]:
+              - /url: https://www.ca.kayak.com/Vancouver-Hotels.6668.hotel.ksp
+              - img "Vancouver hotels 13th to 15th May 2026 price per night from www.ca.kayak.com" [ref=e1175]
+            - generic [ref=e1177]:
+              - text: "Missing: 13th ‎| Show results with:"
+              - link "13th" [ref=e1178] [cursor=pointer]:
+                - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+hotels+%2213th%22+to+15th+May+2026+price+per+night&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ5t4CegQIRRAB
+          - generic [ref=e1182]:
+            - generic [ref=e1185]:
+              - link "10 Best Vancouver Hotels, Canada (From US$183) Booking.com https://www.booking.com › ... › British Columbia" [ref=e1187] [cursor=pointer]:
+                - /url: https://www.booking.com/city/ca/vancouver.html
+                - heading "10 Best Vancouver Hotels, Canada (From US$183)" [level=3] [ref=e1188]
+                - generic [ref=e1193]:
+                  - generic [ref=e1195]: Booking.com
+                  - generic [ref=e1197]: https://www.booking.com › ... › British Columbia
+              - button "About this result" [ref=e1198] [cursor=pointer]:
+                - img [ref=e1201]
+            - generic [ref=e1204]:
+              - generic [ref=e1205]:
+                - text: How much is a hotel in Vancouver for this weekend?
+                - emphasis [ref=e1206]: The average price per night for a 3-star hotel in Vancouver this weekend is $351
+                - text: or, for a 4-star hotel, $429 ...
+              - link "Read more" [ref=e1207] [cursor=pointer]:
+                - /url: https://www.booking.com/city/ca/vancouver.html#:~:text=Show%20on%20map
+          - generic [ref=e1211]:
+            - generic [ref=e1214]:
+              - link "THE 10 BEST Hotels in Vancouver 2026 (from C$109) Tripadvisor https://www.tripadvisor.ca › ... › Vancouver" [ref=e1216] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/Hotels-g154943-Vancouver_British_Columbia-Hotels.html
+                - heading "THE 10 BEST Hotels in Vancouver 2026 (from C$109)" [level=3] [ref=e1217]
+                - generic [ref=e1222]:
+                  - generic [ref=e1224]: Tripadvisor
+                  - generic [ref=e1226]: https://www.tripadvisor.ca › ... › Vancouver
+              - button "About this result" [ref=e1227] [cursor=pointer]:
+                - img [ref=e1230]
+            - generic [ref=e1234]:
+              - text: Book the Best
+              - emphasis [ref=e1235]: Vancouver Hotels on
+              - text: "Tripadvisor: Find 199739 traveller reviews, 74687 candid photos, and"
+              - emphasis [ref=e1236]: prices
+              - text: for
+              - emphasis [ref=e1237]: hotels
+              - text: in
+              - emphasis [ref=e1238]: Vancouver
+              - text: ", ..."
+          - generic [ref=e1242]:
+            - generic [ref=e1245]:
+              - link "Hotels in Vancouver (British Columbia, Canada) trivago https://www.trivago.ca › ... › Canada › British Columbia" [ref=e1247] [cursor=pointer]:
+                - /url: https://www.trivago.ca/en-CA/odr/hotels-vancouver-canada?search=200-34603
+                - heading "Hotels in Vancouver (British Columbia, Canada)" [level=3] [ref=e1248]
+                - generic [ref=e1253]:
+                  - generic [ref=e1255]: trivago
+                  - generic [ref=e1257]: https://www.trivago.ca › ... › Canada › British Columbia
+              - button "About this result" [ref=e1258] [cursor=pointer]:
+                - img [ref=e1261]
+            - generic [ref=e1264]:
+              - generic [ref=e1265]:
+                - emphasis [ref=e1266]: Price
+                - text: range.
+                - emphasis [ref=e1267]: Hotels
+                - text: in
+                - emphasis [ref=e1268]: Vancouver
+                - text: "-"
+                - emphasis [ref=e1269]: Price
+                - text: range from ‎$78 to ‎$389 (
+                - emphasis [ref=e1270]: price per night
+                - text: ). Frequently Asked Questions about
+                - emphasis [ref=e1271]: Vancouver
+                - text: . What are the best
+                - emphasis [ref=e1272]: hotels
+                - text: in ...
+              - link "Read more" [ref=e1273] [cursor=pointer]:
+                - /url: https://www.trivago.ca/en-CA/odr/hotels-vancouver-canada?search=200-34603#:~:text=Price%20range,the%20best%20hotels%20in%20Vancouver%3F
+          - generic [ref=e1278]:
+            - heading "People also ask" [level=2] [ref=e1280]
+            - generic [ref=e1281]:
+              - button "What's the average price of a hotel in Vancouver?" [ref=e1287] [cursor=pointer]:
+                - generic [ref=e1289]: What's the average price of a hotel in Vancouver?
+                - img [ref=e1292]
+              - button "What is the average price of a hotel room for one night?" [ref=e1301] [cursor=pointer]:
+                - generic [ref=e1303]: What is the average price of a hotel room for one night?
+                - img [ref=e1306]
+              - button "Where is the best hotel to stay in Vancouver?" [ref=e1315] [cursor=pointer]:
+                - generic [ref=e1317]: Where is the best hotel to stay in Vancouver?
+                - img [ref=e1320]
+              - button "When's the cheapest to book a hotel?" [ref=e1329] [cursor=pointer]:
+                - generic [ref=e1331]: When's the cheapest to book a hotel?
+                - img [ref=e1334]
+          - generic [ref=e1339]:
+            - heading "Web results" [level=2] [ref=e1340]
+            - generic [ref=e1341]:
+              - generic [ref=e1344]:
+                - link "Top 10 Cheap Hotels in Vancouver from CA $173 Hotels.com https://ca.hotels.com › ... › Vancouver Hotels" [ref=e1346] [cursor=pointer]:
+                  - /url: https://ca.hotels.com/de169712-qu0/cheap-vancouver-british-columbia-hotels-rooms/
+                  - heading "Top 10 Cheap Hotels in Vancouver from CA $173" [level=3] [ref=e1347]
+                  - generic [ref=e1352]:
+                    - generic [ref=e1354]: Hotels.com
+                    - generic [ref=e1356]: https://ca.hotels.com › ... › Vancouver Hotels
+                - button "About this result" [ref=e1357] [cursor=pointer]:
+                  - img [ref=e1360]
+              - generic [ref=e1364]:
+                - text: Cancel free on most hotels. Don't overpay for a hotel room -
+                - emphasis [ref=e1365]: compare 1515 cheap hotels in Vancouver
+                - text: using 86 real guest reviews.
+          - generic [ref=e1369]:
+            - generic [ref=e1372]:
+              - link "Check Last Minute Vancouver Hotel Deals Hotwire.com https://www.hotwire.com › Canada › British Columbia" [ref=e1374] [cursor=pointer]:
+                - /url: https://www.hotwire.com/Vancouver-Hotels.d178315.Travel-Guide-Hotels
+                - heading "Check Last Minute Vancouver Hotel Deals" [level=3] [ref=e1375]
+                - generic [ref=e1380]:
+                  - generic [ref=e1382]: Hotwire.com
+                  - generic [ref=e1384]: https://www.hotwire.com › Canada › British Columbia
+              - button "About this result" [ref=e1385] [cursor=pointer]:
+                - img [ref=e1388]
+            - generic [ref=e1392]:
+              - emphasis [ref=e1393]: Search all Vancouver, BC hotels on Hotwire
+              - text: . Free cancellation available for most hotels, including our daily Hot Rate deals!
+          - generic [ref=e1397]:
+            - generic [ref=e1400]:
+              - link "Vancouver Hotels from CA $146 - Cheap Hotel Deals Travelocity https://www.travelocity.ca › ... › British Columbia" [ref=e1402] [cursor=pointer]:
+                - /url: https://www.travelocity.ca/Vancouver-Hotels.d178315.Travel-Guide-Hotels
+                - heading "Vancouver Hotels from CA $146 - Cheap Hotel Deals" [level=3] [ref=e1403]
+                - generic [ref=e1408]:
+                  - generic [ref=e1410]: Travelocity
+                  - generic [ref=e1412]: https://www.travelocity.ca › ... › British Columbia
+              - button "About this result" [ref=e1413] [cursor=pointer]:
+                - img [ref=e1416]
+            - generic [ref=e1419]:
+              - generic [ref=e1420]:
+                - text: (3,647 reviews). The
+                - emphasis [ref=e1421]: price
+                - text: is CA $369
+                - emphasis [ref=e1422]: per night
+                - text: from
+                - emphasis [ref=e1423]: May
+                - text: 11 to
+                - emphasis [ref=e1424]: May
+                - text: 12. CA $369. CA $440 total.
+                - emphasis [ref=e1425]: May
+                - text: 11 -
+                - emphasis [ref=e1426]: May
+                - text: 12. includes taxes &
+                - emphasis [ref=e1427]: fees
+                - text: . Rosedale
+                - emphasis [ref=e1428]: "On"
+                - text: Robson Suite ...
+              - link "Read more" [ref=e1429] [cursor=pointer]:
+                - /url: https://www.travelocity.ca/Vancouver-Hotels.d178315.Travel-Guide-Hotels#:~:text=(3%2C647%20reviews),includes%20taxes%20%26%20fees
+          - generic [ref=e1433]:
+            - generic [ref=e1436]:
+              - link "Hotels in Vancouver from C$ 56 - Find Cheap ... - momondo momondo.ca https://www.momondo.ca › ... › Hotels in Canada" [ref=e1438] [cursor=pointer]:
+                - /url: https://www.momondo.ca/hotels/vancouver
+                - heading "Hotels in Vancouver from C$ 56 - Find Cheap ... - momondo" [level=3] [ref=e1439]
+                - generic [ref=e1444]:
+                  - generic [ref=e1446]: momondo.ca
+                  - generic [ref=e1448]: https://www.momondo.ca › ... › Hotels in Canada
+              - button "About this result" [ref=e1449] [cursor=pointer]:
+                - img [ref=e1452]
+            - generic [ref=e1455]:
+              - generic [ref=e1456]:
+                - text: The cheapest price for a room in Vancouver found in the last 7 days is
+                - emphasis [ref=e1457]: C$ 56/night
+                - text: . This rate is available with The Cambie Hostel Gastown, a 2-star hotel.
+              - link "Read more" [ref=e1458] [cursor=pointer]:
+                - /url: https://www.momondo.ca/hotels/vancouver#:~:text=The%20cheapest%20price%20for%20a,Hostel%20Gastown%2C%20a%202%2Dstar%20hotel.
+          - generic [ref=e1462]:
+            - generic [ref=e1465]:
+              - link "Top Hotels in Vancouver from C$199 | Skyscanner skyscanner.ca https://www.skyscanner.ca › ... › British Columbia" [ref=e1467] [cursor=pointer]:
+                - /url: https://www.skyscanner.ca/hotels/canada/vancouver-hotels/ci-27537411
+                - heading "Top Hotels in Vancouver from C$199 | Skyscanner" [level=3] [ref=e1468]
+                - generic [ref=e1473]:
+                  - generic [ref=e1475]: skyscanner.ca
+                  - generic [ref=e1477]: https://www.skyscanner.ca › ... › British Columbia
+              - button "About this result" [ref=e1478] [cursor=pointer]:
+                - img [ref=e1481]
+            - generic [ref=e1484]:
+              - generic [ref=e1485]:
+                - text: What is the average price per night in Vancouver in May? The average price of a hotel in May is
+                - emphasis [ref=e1486]: C$491 per night
+                - text: ", which is around 13% lower than the rest of the ..."
+              - link "Read more" [ref=e1487] [cursor=pointer]:
+                - /url: https://www.skyscanner.ca/hotels/canada/vancouver-hotels/ci-27537411#:~:text=What%20is%20the%20average%20price,night%20in%20Vancouver%20in%20May%3F
+            - generic [ref=e1489]: Starting from $199.00
+            - generic [ref=e1491]:
+              - text: "Missing: 15th ‎| Show results with:"
+              - link "15th" [ref=e1492] [cursor=pointer]:
+                - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+hotels+13th+to+%2215th%22+May+2026+price+per+night&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ5t4CegQIPRAB
+        - generic [ref=e1494]:
+          - generic [ref=e1499]:
+            - heading "People also search for" [level=2] [ref=e1501]
+            - generic [ref=e1503]:
+              - generic [ref=e1504]:
+                - link "Vancouver hotels 13th to 15th may 2026 price per night cheap" [ref=e1508] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+hotels+13th+to+15th+may+2026+price+per+night+cheap&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhSEAE
+                  - generic [ref=e1509]:
+                    - generic [ref=e1514]: Vancouver hotels 13th to 15th may 2026 price per night cheap
+                    - img [ref=e1518]
+                - link "Hotels in Vancouver Downtown" [ref=e1523] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Hotels+in+Vancouver+Downtown&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhYEAE
+                  - generic [ref=e1524]:
+                    - generic [ref=e1529]: Hotels in Vancouver Downtown
+                    - img [ref=e1533]
+                - link "Vancouver hotels near Queen Elizabeth Theatre" [ref=e1538] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+hotels+near+Queen+Elizabeth+Theatre&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhbEAE
+                  - generic [ref=e1539]:
+                    - generic [ref=e1544]: Vancouver hotels near Queen Elizabeth Theatre
+                    - img [ref=e1548]
+                - link "Hotel Vancouver prices" [ref=e1553] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Hotel+Vancouver+prices&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhaEAE
+                  - generic [ref=e1554]:
+                    - generic [ref=e1559]: Hotel Vancouver prices
+                    - img [ref=e1563]
+              - generic [ref=e1565]:
+                - link "Government rate hotels Vancouver" [ref=e1569] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Government+rate+hotels+Vancouver&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhTEAE
+                  - generic [ref=e1570]:
+                    - generic [ref=e1575]: Government rate hotels Vancouver
+                    - img [ref=e1579]
+                - link "Expedia Vancouver hotels" [ref=e1584] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Expedia+Vancouver+hotels&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhWEAE
+                  - generic [ref=e1585]:
+                    - generic [ref=e1590]: Expedia Vancouver hotels
+                    - img [ref=e1594]
+                - link "Hotel Vancouver phone number" [ref=e1599] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Hotel+Vancouver+phone+number&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhZEAE
+                  - generic [ref=e1600]:
+                    - generic [ref=e1605]: Hotel Vancouver phone number
+                    - img [ref=e1609]
+                - link "Hotels in Vancouver close to Rogers Arena" [ref=e1614] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Hotels+in+Vancouver+close+to+Rogers+Arena&sa=X&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ1QJ6BAhUEAE
+                  - generic [ref=e1615]:
+                    - generic [ref=e1620]: Hotels in Vancouver close to Rogers Arena
+                    - img [ref=e1624]
+          - navigation [ref=e1626]:
+            - heading "Page Navigation" [level=1] [ref=e1627]
+            - text: "1"
+            - link "Page 2" [ref=e1630] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=10&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAE
+              - text: "2"
+            - link "Page 3" [ref=e1632] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=20&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAG
+              - text: "3"
+            - link "Page 4" [ref=e1634] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=30&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAI
+              - text: "4"
+            - link "Page 5" [ref=e1636] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=40&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAK
+              - text: "5"
+            - link "Page 6" [ref=e1638] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=50&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAM
+              - text: "6"
+            - link "Page 7" [ref=e1640] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=60&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAO
+              - text: "7"
+            - link "Page 8" [ref=e1642] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=70&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAQ
+              - text: "8"
+            - link "Page 9" [ref=e1644] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=80&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAS
+              - text: "9"
+            - link "Page 10" [ref=e1646] [cursor=pointer]:
+              - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=90&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8tMDegQIQhAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1648]:
+              - link "Next" [ref=e1649] [cursor=pointer]:
+                - /url: /search?q=Vancouver+hotels+13th+to+15th+May+2026+price+per+night&sca_esv=97234541236c36f9&ei=c137ae-xF-_tmLQPubmGmAo&start=10&sa=N&sstk=Af77f_ePLf-Mo5kOKCWvsLPzQ8qS4NyDCIrsEQt1kYkB7_zIDlOEweaomlhMXatR5yv8b-6i1jQNGk_Pnnyc0NwApI03QyrNgzD8fA&ved=2ahUKEwivt8e1_KSUAxXvNoYAHbmcAaMQ8NMDegQIQhAW
+                - generic [ref=e1651]: Next
+        - navigation
+    - contentinfo [ref=e1652]:
+      - heading "Footer Links" [level=1] [ref=e1653]
+      - generic [ref=e1657]:
+        - generic [ref=e1659]:
+          - text: Canada
+          - generic [ref=e1661]:
+            - button "Mississauga, Ontario - Based on your past activity" [ref=e1663] [cursor=pointer]:
+              - generic [ref=e1664]: Mississauga, Ontario
+              - generic [ref=e1666]:
+                - text: "-"
+                - generic [ref=e1667]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e1669] [cursor=pointer]: Update location
+        - generic [ref=e1672]:
+          - link "Help" [ref=e1673] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e1674] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1675] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e1676] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

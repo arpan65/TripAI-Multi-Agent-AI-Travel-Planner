@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os
+import pathlib
 import time
 import uuid
 from contextlib import asynccontextmanager
@@ -12,7 +13,8 @@ logger = logging.getLogger(__name__)
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from app import db as _db
@@ -199,7 +201,12 @@ async def chat_stream(payload: ChatRequest) -> StreamingResponse:
         yield f"data: {json.dumps({'type': 'session', 'session_id': session_id})}\n\n"
         task = asyncio.create_task(agent_task())
         while True:
-            item = await queue.get()
+            try:
+                item = await asyncio.wait_for(queue.get(), timeout=25.0)
+            except asyncio.TimeoutError:
+                # SSE comment — ignored by clients, keeps CloudFront/proxies from timing out
+                yield ": keepalive\n\n"
+                continue
             if item is None:
                 break
             yield f"data: {json.dumps(item)}\n\n"
@@ -226,3 +233,17 @@ async def reset(payload: ResetRequest) -> dict[str, str]:
     return {"status": "cleared"}
 
 
+# ── Static frontend (built into image at /app/frontend_dist) ──────────────────
+_DIST = pathlib.Path(__file__).parent.parent / "frontend_dist"
+
+if _DIST.is_dir():
+    _assets = _DIST / "assets"
+    if _assets.is_dir():
+        app.mount("/assets", StaticFiles(directory=str(_assets)), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def spa_fallback(full_path: str):
+        candidate = _DIST / full_path
+        if candidate.is_file():
+            return FileResponse(str(candidate))
+        return FileResponse(str(_DIST / "index.html"))

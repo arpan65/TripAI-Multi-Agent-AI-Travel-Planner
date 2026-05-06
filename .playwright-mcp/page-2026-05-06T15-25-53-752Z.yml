@@ -1,0 +1,467 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Vancouver tourist attractions admission price 2026 Vancouver tourist attractions admission price 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DVancouver%2Btourist%2Battractions%2Badmission%2Bprice%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFSziI6okHHNdF0LElj8YHecES-R9iMKm7W2mU7CJreurKXG7hdSqFLCU8a666YWy4EP0AdfocKxFjn0napGD7evBUz8LTe9U_aMAllCdQwN0C7rKYKw&aep=1&ntc=1&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ2J8OegQIEBAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFSziI6okHHNdF0LElj8YHecES-R9iMKm7W2mU7CJreurKXG7hdSqFLCU8a666YWy4EP0AdfocKxFjn0napGD7evBUz8LTe9U_aMAllCdQwN0C7rKYKw&q=Vancouver+tourist+attractions+admission+price+2026&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQtKgLegQIFxAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Short videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFSziI6okHHNdF0LElj8YHecES-R9iMKm7W2mU7CJreurKXG7hdSqFLCU8a666YWy4EP0AdfocKxFjn0napGD7evBUz8LTe9U_aMAllCdQwN0C7rKYKw&q=Vancouver+tourist+attractions+admission+price+2026&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQs6gLegQIFRAB
+              - generic [ref=e95]: Short videos
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+tourist+attractions+admission+price+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFSziI6okHHNdF0LElj8YHecES-R9iMKm7W2mU7CJreurKXG7hdSqFLCU8a666YWy4EP0AdfocKxFjn0napGD7evBUz8LTe9U_aMAllCdQwN0C7rKYKw&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ0pQJegQIFhAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFSziI6okHHNdF0LElj8YHecES-R9iMKm7W2mU7CJreurKXG7hdSqFLCU8a666YWy4EP0AdfocKxFjn0napGD7evBUz8LTe9U_aMAllCdQwN0C7rKYKw&q=Vancouver+tourist+attractions+admission+price+2026&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQs6gLegQIFBAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFSziI6okHHNdF0LElj8YHecES-R9iMKm7W2mU7CJreurKXG7hdSqFLCU8a666YWy4EP0AdfocKxFjn0napGD7evBUz8LTe9U_aMAllCdQwN0C7rKYKw&q=Vancouver+tourist+attractions+admission+price+2026&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e137]:
+          - heading "Vancouver, BC" [level=2] [ref=e138]:
+            - img [ref=e141]:
+              - img [ref=e142]
+            - generic [ref=e145]: Vancouver, BC
+          - generic [ref=e147]:
+            - text: ∙
+            - button "Choose area" [ref=e148] [cursor=pointer]
+          - button "How location is used" [ref=e151] [cursor=pointer]:
+            - img [ref=e153]
+        - generic [ref=e169]:
+          - heading "Thinking" [level=2] [ref=e173]:
+            - generic [ref=e174]: Thinking
+          - progressbar [ref=e175]
+      - main [ref=e177]:
+        - generic [ref=e181]:
+          - generic [ref=e184]:
+            - heading "Web results" [level=2] [ref=e185]
+            - generic [ref=e186]:
+              - generic [ref=e189]:
+                - link "Free Attractions Tourism Challenge https://www.tourismchallenge.ca › free-attractions-2026" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.tourismchallenge.ca/free-attractions-2026
+                  - heading "Free Attractions" [level=3] [ref=e192]
+                  - generic [ref=e197]:
+                    - generic [ref=e199]: Tourism Challenge
+                    - generic [ref=e201]: https://www.tourismchallenge.ca › free-attractions-2026
+                - button "About this result" [ref=e202] [cursor=pointer]:
+                  - img [ref=e205]
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - text: Your Passport is valid for
+                  - emphasis [ref=e210]: FREE ADMISSION for TWO
+                  - text: · April 18 - May 31, 2026 · Vancouver Aquarium · Roedde House Museum · Vancouver Art Gallery · Chinatown ...
+                - link "Read more" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.tourismchallenge.ca/free-attractions-2026#:~:text=Your%20Passport%20is%20valid%20for,FREE%20ADMISSION%20for%20TWO&text=April%2018%20%2D%20May%2031%2C,2026&text=email%3A%20info%40tourismchallenge.ca&text=email%3A%20info%40tourismchallenge.ca&text=email%3A%20info%40tourismchallenge.ca&text=email%3A%20info%40tourismchallenge.ca
+              - link "Vancouver tourist attractions admission price 2026 from www.tourismchallenge.ca" [ref=e214] [cursor=pointer]:
+                - /url: https://www.tourismchallenge.ca/free-attractions-2026
+                - img "Vancouver tourist attractions admission price 2026 from www.tourismchallenge.ca" [ref=e216]
+          - generic [ref=e221]:
+            - heading "People also ask" [level=2] [ref=e223]
+            - generic [ref=e224]:
+              - button "What is the cheapest month to visit Vancouver?" [ref=e230] [cursor=pointer]:
+                - generic [ref=e232]: What is the cheapest month to visit Vancouver?
+                - img [ref=e235]
+              - button "Is entry to Stanley Park free?" [ref=e244] [cursor=pointer]:
+                - generic [ref=e246]: Is entry to Stanley Park free?
+                - img [ref=e249]
+              - button "What is the cheapest way to get around Vancouver?" [ref=e258] [cursor=pointer]:
+                - generic [ref=e260]: What is the cheapest way to get around Vancouver?
+                - img [ref=e263]
+              - button "Is Vancouver hop on hop off worth it?" [ref=e272] [cursor=pointer]:
+                - generic [ref=e274]: Is Vancouver hop on hop off worth it?
+                - img [ref=e277]
+          - generic [ref=e282]:
+            - heading "Web results" [level=2] [ref=e283]
+            - generic [ref=e284]:
+              - generic [ref=e287]:
+                - link "The best Vancouver Entry tickets 2026 - Free cancellation GetYourGuide https://www.getyourguide.com › vancouver-l189 › entr..." [ref=e289] [cursor=pointer]:
+                  - /url: https://www.getyourguide.com/vancouver-l189/entry-tickets-tc123/
+                  - heading "The best Vancouver Entry tickets 2026 - Free cancellation" [level=3] [ref=e290]
+                  - generic [ref=e295]:
+                    - generic [ref=e297]: GetYourGuide
+                    - generic [ref=e299]: https://www.getyourguide.com › vancouver-l189 › entr...
+                - button "About this result" [ref=e300] [cursor=pointer]:
+                  - img [ref=e303]
+              - generic [ref=e307]:
+                - emphasis [ref=e308]: Book the most popular Entry tickets in Vancouver
+                - text: . Best price and money back guarantee! Read the reviews of your fellow travelers.
+              - link "Vancouver tourist attractions admission price 2026 from www.getyourguide.com" [ref=e311] [cursor=pointer]:
+                - /url: https://www.getyourguide.com/vancouver-l189/entry-tickets-tc123/
+                - img "Vancouver tourist attractions admission price 2026 from www.getyourguide.com" [ref=e313]
+              - generic [ref=e315]:
+                - generic [ref=e316]: Starting from US$13.54
+                - text: ·
+                - img "Rated 4.6 out of 5, (9,278) user reviews" [ref=e320]:
+                  - text: "4.6"
+                  - img [ref=e321]
+                  - text: (9,278)
+          - generic [ref=e327]:
+            - generic [ref=e330]:
+              - link "THE 15 BEST Things to Do in Vancouver (2026) Tripadvisor https://www.tripadvisor.ca › ... › Vancouver" [ref=e332] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/Attractions-g154943-Activities-Vancouver_British_Columbia.html
+                - heading "THE 15 BEST Things to Do in Vancouver (2026)" [level=3] [ref=e333]
+                - generic [ref=e338]:
+                  - generic [ref=e340]: Tripadvisor
+                  - generic [ref=e342]: https://www.tripadvisor.ca › ... › Vancouver
+              - button "About this result" [ref=e343] [cursor=pointer]:
+                - img [ref=e346]
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - emphasis [ref=e351]: Vancouver Half-Day Whale Watching Adventure with Free Photos
+                - text: ". 4.9. (4,008) · C$258 ; Vancouver City Sightseeing Tour: Capilano Suspension Bridge & Vancouver ..."
+              - link "Read more" [ref=e352] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/Attractions-g154943-Activities-Vancouver_British_Columbia.html#:~:text=Vancouver%20Half%2DDay%20Whale%20Watching%20Adventure,(4%2C008)&text=C%24258&text=Vancouver%20City%20Sightseeing%20Tour%3A%20Capilano,Suspension%20Bridge%20%26%20Vancouver%20Lookout
+            - link "Vancouver tourist attractions admission price 2026 from www.tripadvisor.ca" [ref=e355] [cursor=pointer]:
+              - /url: https://www.tripadvisor.ca/Attractions-g154943-Activities-Vancouver_British_Columbia.html
+              - img "Vancouver tourist attractions admission price 2026 from www.tripadvisor.ca" [ref=e357]
+          - generic [ref=e361]:
+            - generic [ref=e364]:
+              - link "THE TOP 10 Vancouver Tickets & Passes (UPDATED 2026) Viator https://www.viator.com › ... › Vancouver Tours" [ref=e366] [cursor=pointer]:
+                - /url: https://www.viator.com/en-CA/Vancouver-tours/Sightseeing-Tickets-and-Passes/d616-g8
+                - heading "THE TOP 10 Vancouver Tickets & Passes (UPDATED 2026)" [level=3] [ref=e367]
+                - generic [ref=e372]:
+                  - generic [ref=e374]: Viator
+                  - generic [ref=e376]: https://www.viator.com › ... › Vancouver Tours
+              - button "About this result" [ref=e377] [cursor=pointer]:
+                - img [ref=e380]
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - emphasis [ref=e385]: Vancouver Lookout Admission Ticket. 30 to 45 minutes · $23
+                - text: ; Vancouver Science World Ticket. 2 to 3 hours · $38 ; Bloedel Conservatory Admission Ticket. 1 day · $10.
+              - link "Read more" [ref=e386] [cursor=pointer]:
+                - /url: https://www.viator.com/en-CA/Vancouver-tours/Sightseeing-Tickets-and-Passes/d616-g8#:~:text=1234&text=1234&text=1234&text=1234&text=1234&text=1234
+            - link "Vancouver tourist attractions admission price 2026 from www.viator.com" [ref=e389] [cursor=pointer]:
+              - /url: https://www.viator.com/en-CA/Vancouver-tours/Sightseeing-Tickets-and-Passes/d616-g8
+              - img "Vancouver tourist attractions admission price 2026 from www.viator.com" [ref=e391]
+          - generic [ref=e395]:
+            - generic [ref=e398]:
+              - link "Discount Pass for Tourists 2026 - Vancouver Planner Vancouver Planner https://vancouverplanner.com › vancouver-attraction-p..." [ref=e400] [cursor=pointer]:
+                - /url: https://vancouverplanner.com/vancouver-attraction-passport/
+                - heading "Discount Pass for Tourists 2026 - Vancouver Planner" [level=3] [ref=e401]
+                - generic [ref=e406]:
+                  - generic [ref=e408]: Vancouver Planner
+                  - generic [ref=e410]: https://vancouverplanner.com › vancouver-attraction-p...
+              - button "About this result" [ref=e411] [cursor=pointer]:
+                - img [ref=e414]
+            - generic [ref=e418]:
+              - text: Discover the Vancouver attractions passport that can help you skip hours of lines +
+              - emphasis [ref=e419]: save up to $15.00
+              - text: just for booking from online.
+            - link "Vancouver tourist attractions admission price 2026 from vancouverplanner.com" [ref=e422] [cursor=pointer]:
+              - /url: https://vancouverplanner.com/vancouver-attraction-passport/
+              - img "Vancouver tourist attractions admission price 2026 from vancouverplanner.com" [ref=e424]
+          - generic [ref=e428]:
+            - generic [ref=e431]:
+              - link "Events — Vancouver Attractions Vancouver Attractions https://tickets.vancouverattractions.com" [ref=e433] [cursor=pointer]:
+                - /url: https://tickets.vancouverattractions.com/
+                - heading "Events — Vancouver Attractions" [level=3] [ref=e434]
+                - generic [ref=e439]:
+                  - generic [ref=e441]: Vancouver Attractions
+                  - generic [ref=e443]: https://tickets.vancouverattractions.com
+              - button "About this result" [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - generic [ref=e450]:
+              - generic [ref=e451]:
+                - text: Explore at your own pace when you hop-on our Hop-On, Hop-Off
+                - emphasis [ref=e452]: Tour
+                - text: "! We've been introducing the world to"
+                - emphasis [ref=e453]: Vancouver
+                - text: for 40 years with the common purpose of ...
+              - link "Read more" [ref=e454] [cursor=pointer]:
+                - /url: https://tickets.vancouverattractions.com/#:~:text=Explore%20at%20your%20own%20pace,of%20Sharing%20Remarkable%20Experiences%20Together.
+            - generic [ref=e456]:
+              - text: "Missing: 2026 ‎| Show results with:"
+              - link "2026" [ref=e457] [cursor=pointer]:
+                - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+tourist+attractions+admission+price+%222026%22&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ5t4CegQIUBAB
+          - generic [ref=e461]:
+            - generic [ref=e464]:
+              - link "Vancouver Destination Experience Pass Destination Vancouver https://www.destinationvancouver.com › pass" [ref=e466] [cursor=pointer]:
+                - /url: https://www.destinationvancouver.com/pass
+                - heading "Vancouver Destination Experience Pass" [level=3] [ref=e467]
+                - generic [ref=e472]:
+                  - generic [ref=e474]: Destination Vancouver
+                  - generic [ref=e476]: https://www.destinationvancouver.com › pass
+              - button "About this result" [ref=e477] [cursor=pointer]:
+                - img [ref=e480]
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - emphasis [ref=e485]: Free Admission For Passholder + One Guest To Vancouver City Highlights Tour
+                - text: . Museum of Vancouver. View Website. Gain a deeper understanding of our city through ...
+              - link "Read more" [ref=e486] [cursor=pointer]:
+                - /url: https://www.destinationvancouver.com/pass#:~:text=Free%20Admission%20For%20Passholder%20%2B,at%20Museum%20of%20Vancouver%20(MOV).
+          - generic [ref=e490]:
+            - generic [ref=e493]:
+              - link "Downtown Vancouver Tickets [2026] Trip.com https://qa.trip.com › travel-guide › attraction › downto..." [ref=e495] [cursor=pointer]:
+                - /url: https://qa.trip.com/travel-guide/attraction/vancouver/downtown-vancouver-22951079?curr=QAR&locale=en-QA
+                - heading "Downtown Vancouver Tickets [2026]" [level=3] [ref=e496]
+                - generic [ref=e501]:
+                  - generic [ref=e503]: Trip.com
+                  - generic [ref=e505]: https://qa.trip.com › travel-guide › attraction › downto...
+              - button "About this result" [ref=e506] [cursor=pointer]:
+                - img [ref=e509]
+            - generic [ref=e513]:
+              - text: Book
+              - emphasis [ref=e514]: Downtown Vancouver tickets
+              - text: with limited-time offers, skip-the-line access, and instant confirmation. Get the best prices and enjoy a seamless booking ...
+            - img "Rated 4.6 out of 5, (54) user reviews" [ref=e519]:
+              - text: "4.6"
+              - img [ref=e520]
+              - text: (54)
+          - generic [ref=e526]:
+            - generic [ref=e529]:
+              - link "Vancouver Activities | Attractions & Sports Tickets | DVT Discover Vancouver Tours https://discovervancouvertours.com › vancouver-attract..." [ref=e531] [cursor=pointer]:
+                - /url: https://discovervancouvertours.com/vancouver-attractions/
+                - heading "Vancouver Activities | Attractions & Sports Tickets | DVT" [level=3] [ref=e532]
+                - generic [ref=e537]:
+                  - generic [ref=e539]: Discover Vancouver Tours
+                  - generic [ref=e541]: https://discovervancouvertours.com › vancouver-attract...
+              - button "About this result" [ref=e542] [cursor=pointer]:
+                - img [ref=e545]
+            - generic [ref=e548]:
+              - generic [ref=e549]:
+                - text: We offer a variety of attractions and activity tickets at discounted rates. You can book online or visit our storefront at
+                - emphasis [ref=e550]: 636 Hornby Street
+                - text: .
+              - link "Read more" [ref=e551] [cursor=pointer]:
+                - /url: https://discovervancouvertours.com/vancouver-attractions/#:~:text=We%20offer%20a%20variety%20of,storefront%20at%20636%20Hornby%20Street.
+            - link "Vancouver tourist attractions admission price 2026 from discovervancouvertours.com" [ref=e554] [cursor=pointer]:
+              - /url: https://discovervancouvertours.com/vancouver-attractions/
+              - img "Vancouver tourist attractions admission price 2026 from discovervancouvertours.com" [ref=e556]
+          - generic [ref=e561]:
+            - heading "Top sights in Vancouver" [level=2] [ref=e563]
+            - generic [ref=e564]:
+              - generic [ref=e568]:
+                - button "Vancouver Aquarium Rated 4.5 out of 5, 12K user reviews Closed Aquarium $41.95" [ref=e575] [cursor=pointer]:
+                  - generic [ref=e577]:
+                    - heading "Vancouver Aquarium" [level=3] [ref=e582]:
+                      - generic [ref=e583]: Vancouver Aquarium
+                    - generic [ref=e585]:
+                      - img "Rated 4.5 out of 5, 12K user reviews" [ref=e587]:
+                        - text: "4.5"
+                        - img [ref=e588]
+                        - text: (12K)
+                      - generic [ref=e591]:
+                        - generic [ref=e593]: Closed
+                        - generic [ref=e594]: ·
+                        - generic [ref=e595]: Aquarium
+                      - generic [ref=e596]: $41.95
+                - button "Science World Rated 4.5 out of 5, 16K user reviews Closed Science museum $37.50" [ref=e603] [cursor=pointer]:
+                  - generic [ref=e605]:
+                    - heading "Science World" [level=3] [ref=e610]:
+                      - generic [ref=e611]: Science World
+                    - generic [ref=e613]:
+                      - img "Rated 4.5 out of 5, 16K user reviews" [ref=e615]:
+                        - text: "4.5"
+                        - img [ref=e616]
+                        - text: (16K)
+                      - generic [ref=e619]:
+                        - generic [ref=e621]: Closed
+                        - generic [ref=e622]: ·
+                        - generic [ref=e623]: Science museum
+                      - generic [ref=e624]: $37.50
+                - button "VanDusen Botanical Garden Rated 4.7 out of 5, 13K user reviews Closed Botanical garden $15.60" [ref=e631] [cursor=pointer]:
+                  - generic [ref=e633]:
+                    - heading "VanDusen Botanical Garden" [level=3] [ref=e638]:
+                      - generic [ref=e639]: VanDusen Botanical Garden
+                    - generic [ref=e641]:
+                      - img "Rated 4.7 out of 5, 13K user reviews" [ref=e643]:
+                        - text: "4.7"
+                        - img [ref=e644]
+                        - text: (13K)
+                      - generic [ref=e647]:
+                        - generic [ref=e649]: Closed
+                        - generic [ref=e650]: ·
+                        - generic [ref=e651]: Botanical garden
+                      - generic [ref=e652]: $15.60
+                - button "Bloedel Conservatory Rated 4.6 out of 5, 8.5K user reviews Closed Botanical garden $7.00" [ref=e659] [cursor=pointer]:
+                  - generic [ref=e661]:
+                    - heading "Bloedel Conservatory" [level=3] [ref=e666]:
+                      - generic [ref=e667]: Bloedel Conservatory
+                    - generic [ref=e669]:
+                      - img "Rated 4.6 out of 5, 8.5K user reviews" [ref=e671]:
+                        - text: "4.6"
+                        - img [ref=e672]
+                        - text: (8.5K)
+                      - generic [ref=e675]:
+                        - generic [ref=e677]: Closed
+                        - generic [ref=e678]: ·
+                        - generic [ref=e679]: Botanical garden
+                      - generic [ref=e680]: $7.00
+              - button "More things to do" [ref=e681]:
+                - button "More things to do" [ref=e682] [cursor=pointer]:
+                  - separator [ref=e683]
+                  - generic [ref=e684]:
+                    - generic [ref=e685]: More things to do
+                    - img [ref=e687]
+          - generic [ref=e691]:
+            - heading "Web results" [level=2] [ref=e692]
+            - generic [ref=e693]:
+              - generic [ref=e696]:
+                - link "Privilege Pass - Free Attractions Tourism Challenge https://www.tourismchallenge.ca › free-admission-privile..." [ref=e698] [cursor=pointer]:
+                  - /url: https://www.tourismchallenge.ca/free-admission-privilege-pass
+                  - heading "Privilege Pass - Free Attractions" [level=3] [ref=e699]
+                  - generic [ref=e704]:
+                    - generic [ref=e706]: Tourism Challenge
+                    - generic [ref=e708]: https://www.tourismchallenge.ca › free-admission-privile...
+                - button "About this result" [ref=e709] [cursor=pointer]:
+                  - img [ref=e712]
+              - generic [ref=e715]:
+                - generic [ref=e716]:
+                  - text: Your Privilege Pass is valid for.
+                  - emphasis [ref=e717]: FREE ADMISSION for YOU AND ONE GUEST
+                  - text: . June 1, 2025 - March 31, 2026. Benefits are available based on Attraction guidelines ...
+                - link "Read more" [ref=e718] [cursor=pointer]:
+                  - /url: https://www.tourismchallenge.ca/free-admission-privilege-pass#:~:text=Your%20Privilege%20Pass%20is%20valid,%2D%20review%20listings%20before%20visiting.
+        - generic [ref=e720]:
+          - generic [ref=e725]:
+            - heading "People also search for" [level=2] [ref=e727]
+            - generic [ref=e729]:
+              - generic [ref=e730]:
+                - link "Vancouver Tourism Challenge 2026" [ref=e734] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+Tourism+Challenge+2026&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhdEAE
+                  - generic [ref=e735]:
+                    - generic [ref=e740]: Vancouver Tourism Challenge 2026
+                    - img [ref=e744]
+                - link "Vancouver Tourism Challenge 2026 schedule" [ref=e749] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+Tourism+Challenge+2026+schedule&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhjEAE
+                  - generic [ref=e750]:
+                    - generic [ref=e755]: Vancouver Tourism Challenge 2026 schedule
+                    - img [ref=e759]
+                - link "Vancouver City Pass Costco" [ref=e764] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+City+Pass+Costco&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhiEAE
+                  - generic [ref=e765]:
+                    - generic [ref=e770]: Vancouver City Pass Costco
+                    - img [ref=e774]
+                - link "Vancouver City Pass costco price" [ref=e779] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+City+Pass+costco+price&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhhEAE
+                  - generic [ref=e780]:
+                    - generic [ref=e785]: Vancouver City Pass costco price
+                    - img [ref=e789]
+              - generic [ref=e791]:
+                - link "Vancouver City passport" [ref=e795] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+City+passport&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhfEAE
+                  - generic [ref=e796]:
+                    - generic [ref=e801]: Vancouver City passport
+                    - img [ref=e805]
+                - link "Flyover Canada Tourism Challenge tickets" [ref=e810] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Flyover+Canada+Tourism+Challenge+tickets&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhgEAE
+                  - generic [ref=e811]:
+                    - generic [ref=e816]: Flyover Canada Tourism Challenge tickets
+                    - img [ref=e820]
+                - link "Vancouver Tourism Challenge Privilege Passes" [ref=e825] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Vancouver+Tourism+Challenge+Privilege+Passes&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAhcEAE
+                  - generic [ref=e826]:
+                    - generic [ref=e831]: Vancouver Tourism Challenge Privilege Passes
+                    - img [ref=e835]
+                - link "Tourism passport Challenge 2026" [ref=e840] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Tourism+passport+Challenge+2026&sa=X&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ1QJ6BAheEAE
+                  - generic [ref=e841]:
+                    - generic [ref=e846]: Tourism passport Challenge 2026
+                    - img [ref=e850]
+          - navigation [ref=e852]:
+            - heading "Page Navigation" [level=1] [ref=e853]
+            - text: "1"
+            - link "Page 2" [ref=e856] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=10&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8tMDegQIWhAE
+              - text: "2"
+            - link "Page 3" [ref=e858] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=20&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8tMDegQIWhAG
+              - text: "3"
+            - link "Page 4" [ref=e860] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=30&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8tMDegQIWhAI
+              - text: "4"
+            - link "Page 5" [ref=e862] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=40&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8tMDegQIWhAK
+              - text: "5"
+            - link "Page 6" [ref=e864] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=50&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8tMDegQIWhAM
+              - text: "6"
+            - link "Page 7" [ref=e866] [cursor=pointer]:
+              - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=60&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8tMDegQIWhAO
+              - text: "7"
+            - heading "Next" [level=2] [ref=e868]:
+              - link "Next" [ref=e869] [cursor=pointer]:
+                - /url: /search?q=Vancouver+tourist+attractions+admission+price+2026&sca_esv=97234541236c36f9&ei=gV37aYMogsOAArGysrkD&start=10&sa=N&sstk=Af77f_dl9j_EeZL8ZXMcicNMTJZxh_DgZh3a8A6QlfPnn248Nfjo5fphKpYSgz7OHSCOdXlh7LKrwAPbAZz7u1fDUG6rG6UpWZy8JA&ved=2ahUKEwjD7Ia8_KSUAxWCIUAKHTGZLDcQ8NMDegQIWhAQ
+                - generic [ref=e871]: Next
+        - navigation
+    - contentinfo [ref=e872]:
+      - heading "Footer Links" [level=1] [ref=e873]
+      - generic [ref=e877]:
+        - generic [ref=e879]:
+          - text: Canada
+          - generic [ref=e881]:
+            - button "L5A, Mississauga, ON - From your IP address" [ref=e883] [cursor=pointer]:
+              - generic [ref=e884]: L5A, Mississauga, ON
+              - generic [ref=e886]:
+                - text: "-"
+                - generic [ref=e887]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e889] [cursor=pointer]: Update location
+        - generic [ref=e892]:
+          - link "Help" [ref=e893] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e894] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e895] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e896] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

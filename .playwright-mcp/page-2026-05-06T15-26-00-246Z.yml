@@ -1,0 +1,398 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-CA
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: average restaurant meal cost Vancouver 2026 average restaurant meal cost Vancouver 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Daverage%2Brestaurant%2Bmeal%2Bcost%2BVancouver%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsWYSLCOdVIYxdHSt9VBLiVuJRwSt6vqxXAx4vBDbUCLUs3q2roCqD6SkuqlJvEAYh7Xk-XudGE_R9XKz9IkRpnu3Qrbt8qT_7wNH9zZd7_EiomWFf2ccBJYp41cDd0IqsaTDMfQ&aep=1&ntc=1&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ2J8OegQIERAD
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsWYSLCOdVIYxdHSt9VBLiVuJRwSt6vqxXAx4vBDbUCLUs3q2roCqD6SkuqlJvEAYh7Xk-XudGE_R9XKz9IkRpnu3Qrbt8qT_7wNH9zZd7_EiomWFf2ccBJYp41cDd0IqsaTDMfQ&q=average+restaurant+meal+cost+Vancouver+2026&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQs6gLegQIFhAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&q=average+restaurant+meal+cost+Vancouver+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsWYSLCOdVIYxdHSt9VBLiVuJRwSt6vqxXAx4vBDbUCLUs3q2roCqD6SkuqlJvEAYh7Xk-XudGE_R9XKz9IkRpnu3Qrbt8qT_7wNH9zZd7_EiomWFf2ccBJYp41cDd0IqsaTDMfQ&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ0pQJegQIFRAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Images" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsWYSLCOdVIYxdHSt9VBLiVuJRwSt6vqxXAx4vBDbUCLUs3q2roCqD6SkuqlJvEAYh7Xk-XudGE_R9XKz9IkRpnu3Qrbt8qT_7wNH9zZd7_EiomWFf2ccBJYp41cDd0IqsaTDMfQ&q=average+restaurant+meal+cost+Vancouver+2026&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQtKgLegQIFxAB
+              - generic [ref=e99]: Images
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsWYSLCOdVIYxdHSt9VBLiVuJRwSt6vqxXAx4vBDbUCLUs3q2roCqD6SkuqlJvEAYh7Xk-XudGE_R9XKz9IkRpnu3Qrbt8qT_7wNH9zZd7_EiomWFf2ccBJYp41cDd0IqsaTDMfQ&q=average+restaurant+meal+cost+Vancouver+2026&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQs6gLegQIExAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=97234541236c36f9&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsWYSLCOdVIYxdHSt9VBLiVuJRwSt6vqxXAx4vBDbUCLUs3q2roCqD6SkuqlJvEAYh7Xk-XudGE_R9XKz9IkRpnu3Qrbt8qT_7wNH9zZd7_EiomWFf2ccBJYp41cDd0IqsaTDMfQ&q=average+restaurant+meal+cost+Vancouver+2026&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e148]:
+        - heading "Thinking" [level=2] [ref=e152]:
+          - generic [ref=e153]: Thinking
+        - progressbar [ref=e154]
+      - main [ref=e156]:
+        - generic [ref=e160]:
+          - generic [ref=e163]:
+            - heading "Web results" [level=2] [ref=e164]
+            - generic [ref=e165]:
+              - generic [ref=e168]:
+                - 'link "Cost of food in Canada to go up in 2026: report CTV News https://www.ctvnews.ca › business › inflation › article" [ref=e170] [cursor=pointer]':
+                  - /url: https://www.ctvnews.ca/business/inflation/article/average-family-expected-to-spend-994-more-on-food-next-year-report/
+                  - 'heading "Cost of food in Canada to go up in 2026: report" [level=3] [ref=e171]'
+                  - generic [ref=e176]:
+                    - generic [ref=e178]: CTV News
+                    - generic [ref=e180]: https://www.ctvnews.ca › business › inflation › article
+                - button "About this result" [ref=e181] [cursor=pointer]:
+                  - img [ref=e184]
+              - generic [ref=e187]:
+                - generic [ref=e188]: Dec 4, 2025 —
+                - generic [ref=e189]:
+                  - text: The increase, making for an estimated total bill of $17,571.79, comes from a projected four to six per cent inflation
+                  - emphasis [ref=e190]: rate
+                  - text: for
+                  - emphasis [ref=e191]: food
+                  - text: next year, ...
+                - link "Read more" [ref=e192] [cursor=pointer]:
+                  - /url: https://www.ctvnews.ca/business/inflation/article/average-family-expected-to-spend-994-more-on-food-next-year-report/#:~:text=The%20increase%2C%20making%20for%20an,partnership%20with%20several%20other%20universities.
+          - generic [ref=e197]:
+            - heading "People also ask" [level=2] [ref=e199]
+            - generic [ref=e200]:
+              - button "What will the food prices be in 2026 in Canada?" [ref=e206] [cursor=pointer]:
+                - generic [ref=e208]: What will the food prices be in 2026 in Canada?
+                - img [ref=e211]
+              - button "How much is an average meal in Vancouver?" [ref=e220] [cursor=pointer]:
+                - generic [ref=e222]: How much is an average meal in Vancouver?
+                - img [ref=e225]
+              - button "Is $300 a month on food a lot?" [ref=e234] [cursor=pointer]:
+                - generic [ref=e236]: Is $300 a month on food a lot?
+                - img [ref=e239]
+              - button "How much is food going up in 2026?" [ref=e248] [cursor=pointer]:
+                - generic [ref=e250]: How much is food going up in 2026?
+                - img [ref=e253]
+          - generic [ref=e258]:
+            - heading "Web results" [level=2] [ref=e259]
+            - generic [ref=e260]:
+              - generic [ref=e263]:
+                - 'link "Food prices! : r/askvan Reddit · r/askvan 160+ comments · 7 months ago" [ref=e265] [cursor=pointer]':
+                  - /url: https://www.reddit.com/r/askvan/comments/1nf7c02/food_prices/
+                  - 'heading "Food prices! : r/askvan" [level=3] [ref=e266]'
+                  - generic [ref=e271]:
+                    - generic [ref=e273]: Reddit · r/askvan
+                    - generic [ref=e275]: 160+ comments · 7 months ago
+                - button "About this result" [ref=e276] [cursor=pointer]:
+                  - img [ref=e279]
+              - generic [ref=e282]: Hello all! I have been enjoying your wonderful city all week with my girlfriend. I must say that the city is beautiful and we found a lot to do and enjoyed ...
+              - generic [ref=e287]:
+                - link "168 answers" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/askvan/comments/1nf7c02/food_prices/ndu99td/
+                - generic [ref=e289]: ·
+                - generic [ref=e290]: "Top answer:"
+                - generic [ref=e291]: What city in the US are you from?
+          - generic [ref=e295]:
+            - generic [ref=e298]:
+              - link "Canada's Food Price Report 2026 - Agri‑Food Analytics Lab Dalhousie University https://www.dal.ca › Agri‑Food Analytics Lab › Research" [ref=e300] [cursor=pointer]:
+                - /url: https://www.dal.ca/sites/agri-food/research/canada-s-food-price-report-2026.html
+                - heading "Canada's Food Price Report 2026 - Agri‑Food Analytics Lab" [level=3] [ref=e301]
+                - generic [ref=e306]:
+                  - generic [ref=e308]: Dalhousie University
+                  - generic [ref=e310]: https://www.dal.ca › Agri‑Food Analytics Lab › Research
+              - button "About this result" [ref=e311] [cursor=pointer]:
+                - img [ref=e314]
+            - generic [ref=e317]:
+              - generic [ref=e318]: Dec 4, 2025 —
+              - generic [ref=e319]:
+                - text: The
+                - emphasis [ref=e320]: average
+                - text: family of four is expected to spend $17,571.79 on
+                - emphasis [ref=e321]: food
+                - text: in
+                - emphasis [ref=e322]: "2026"
+                - text: ", an increase of up to $994.63 from last year."
+                - emphasis [ref=e323]: Food prices
+                - text: are 27% ...
+              - link "Read more" [ref=e324] [cursor=pointer]:
+                - /url: https://www.dal.ca/sites/agri-food/research/canada-s-food-price-report-2026.html#:~:text=The%20average%20family%20of%20four,they%20were%20five%20years%20ago.
+            - generic [ref=e326]:
+              - text: "Missing: Vancouver ‎| Show results with:"
+              - link "Vancouver" [ref=e327] [cursor=pointer]:
+                - /url: /search?sca_esv=97234541236c36f9&q=average+restaurant+meal+cost+%22Vancouver%22+2026&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ5t4CegQIQRAB
+          - generic [ref=e331]:
+            - generic [ref=e334]:
+              - 'link "Food & Grocery Costs in Canada (2026): Monthly Grocery ... WordPress.com https://canadacostguide.wordpress.com › 2026/01/09" [ref=e336] [cursor=pointer]':
+                - /url: https://canadacostguide.wordpress.com/2026/01/09/food-grocery-costs-in-canada-2026-monthly-grocery-budget-for-newcomers/
+                - 'heading "Food & Grocery Costs in Canada (2026): Monthly Grocery ..." [level=3] [ref=e337]'
+                - generic [ref=e342]:
+                  - generic [ref=e344]: WordPress.com
+                  - generic [ref=e346]: https://canadacostguide.wordpress.com › 2026/01/09
+              - button "About this result" [ref=e347] [cursor=pointer]:
+                - img [ref=e350]
+            - generic [ref=e353]:
+              - generic [ref=e354]: Jan 9, 2026 —
+              - generic [ref=e355]:
+                - emphasis [ref=e356]: "Casual restaurant meal: CAD $18 – $25"
+                - text: "; Fast food combo: CAD $12 – $15. Cooking at home just four extra meals per week can save hundreds of ..."
+              - link "Read more" [ref=e357] [cursor=pointer]:
+                - /url: https://canadacostguide.wordpress.com/2026/01/09/food-grocery-costs-in-canada-2026-monthly-grocery-budget-for-newcomers/#:~:text=Casual%20restaurant%20meal%3A%20CAD%20%2418,hundreds%20of%20dollars%20per%20month.
+          - generic [ref=e361]:
+            - generic [ref=e364]:
+              - link "Food Price Data Hub Statistique Canada https://www.statcan.gc.ca › topics-start › food-price" [ref=e366] [cursor=pointer]:
+                - /url: https://www.statcan.gc.ca/en/topics-start/food-price
+                - heading "Food Price Data Hub" [level=3] [ref=e367]
+                - generic [ref=e369]:
+                  - img [ref=e373]
+                  - generic [ref=e375]:
+                    - generic [ref=e377]: Statistique Canada
+                    - generic [ref=e379]: https://www.statcan.gc.ca › topics-start › food-price
+              - button "About this result" [ref=e380] [cursor=pointer]:
+                - img [ref=e383]
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - text: The
+                - emphasis [ref=e388]: Average
+                - text: Retail
+                - emphasis [ref=e389]: Food Prices
+                - text: Data Visualization Tool allows users to explore
+                - emphasis [ref=e390]: average prices
+                - text: by building their own grocery basket. Find data on. Diet and ...
+              - link "Read more" [ref=e391] [cursor=pointer]:
+                - /url: https://www.statcan.gc.ca/en/topics-start/food-price#:~:text=The%20Average%20Retail%20Food%20Prices,Diet%20and%20nutrition
+          - generic [ref=e395]:
+            - generic [ref=e398]:
+              - link "How should I calculate my food budget in Canada ? Authentik Canada https://www.authentikcanada.com › faq › calculate-foo..." [ref=e400] [cursor=pointer]:
+                - /url: https://www.authentikcanada.com/en/faq/calculate-food-budget-canada
+                - heading "How should I calculate my food budget in Canada ?" [level=3] [ref=e401]
+                - generic [ref=e406]:
+                  - generic [ref=e408]: Authentik Canada
+                  - generic [ref=e410]: https://www.authentikcanada.com › faq › calculate-foo...
+              - button "About this result" [ref=e411] [cursor=pointer]:
+                - img [ref=e414]
+            - generic [ref=e417]:
+              - generic [ref=e418]:
+                - text: "Good to know: In Canada,"
+                - emphasis [ref=e419]: restaurant
+                - text: bills almost always include an expected tip of 15% to 20% for table service. Be sure to add this mentally when comparing ...
+              - link "Read more" [ref=e420] [cursor=pointer]:
+                - /url: https://www.authentikcanada.com/en/faq/calculate-food-budget-canada#:~:text=Good%20to%20know%3A%20In%20Canada%2C,when%20comparing%20with%20European%20prices.
+          - generic [ref=e424]:
+            - generic [ref=e427]:
+              - link "Average Grocery Cost in Canada (2026 Update) RemitBee https://www.remitbee.com › ... › Visiting Canada" [ref=e429] [cursor=pointer]:
+                - /url: https://www.remitbee.com/blog/immigration/visiting-canada/average-grocery-cost-canada
+                - heading "Average Grocery Cost in Canada (2026 Update)" [level=3] [ref=e430]
+                - generic [ref=e435]:
+                  - generic [ref=e437]: RemitBee
+                  - generic [ref=e439]: https://www.remitbee.com › ... › Visiting Canada
+              - button "About this result" [ref=e440] [cursor=pointer]:
+                - img [ref=e443]
+            - generic [ref=e446]:
+              - generic [ref=e447]: Feb 26, 2026 —
+              - generic [ref=e448]:
+                - text: The
+                - emphasis [ref=e449]: average
+                - text: Canadian now spends $310–$320 per person monthly on groceries in
+                - emphasis [ref=e450]: "2026"
+                - text: . That's up from $253 in 2019 and $293 in 2023, according to ...
+              - link "Read more" [ref=e451] [cursor=pointer]:
+                - /url: https://www.remitbee.com/blog/immigration/visiting-canada/average-grocery-cost-canada#:~:text=The%20average%20Canadian%20now%20spends,%24293%20in%202023%2C%20according%20to
+          - generic [ref=e455]:
+            - generic [ref=e458]:
+              - link "How much things cost in Canada | Travel Guide discover-the-world.com https://www.discover-the-world.com › ... › Canada" [ref=e460] [cursor=pointer]:
+                - /url: https://www.discover-the-world.com/destinations/canada-holidays/how-much-things-cost-in-canada/
+                - heading "How much things cost in Canada | Travel Guide" [level=3] [ref=e461]
+                - generic [ref=e466]:
+                  - generic [ref=e468]: discover-the-world.com
+                  - generic [ref=e470]: https://www.discover-the-world.com › ... › Canada
+              - button "About this result" [ref=e471] [cursor=pointer]:
+                - img [ref=e474]
+            - generic [ref=e477]:
+              - generic [ref=e478]:
+                - text: Main meal, inexpensive restaurant, 25,
+                - emphasis [ref=e479]: £13.48
+                - text: ; Three course meal for two at mid-range restaurant, 100, £53.91 ; Domestic beer (half litre), 8, £4.31 ; Petrol / ...
+              - link "Read more" [ref=e480] [cursor=pointer]:
+                - /url: https://www.discover-the-world.com/destinations/canada-holidays/how-much-things-cost-in-canada/#:~:text=Item&text=Item&text=Item&text=Item
+          - generic [ref=e484]:
+            - generic [ref=e487]:
+              - link "Average meal costs in Vancouver/Victoria/Richmond? Tripadvisor https://www.tripadvisor.ca › ... › British Columbia" [ref=e489] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/ShowTopic-g154943-i81-k9758882-Average_meal_costs_in_Vancouver_Victoria_Richmond-Vancouver_British_Columbia.html
+                - heading "Average meal costs in Vancouver/Victoria/Richmond?" [level=3] [ref=e490]
+                - generic [ref=e495]:
+                  - generic [ref=e497]: Tripadvisor
+                  - generic [ref=e499]: https://www.tripadvisor.ca › ... › British Columbia
+              - button "About this result" [ref=e500] [cursor=pointer]:
+                - img [ref=e503]
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - text: 9 years ago. Save. I'm visiting
+                - emphasis [ref=e508]: Vancouver
+                - text: next month and I'm trying to work out how much spending money I'll need for
+                - emphasis [ref=e509]: food
+                - text: and drink.
+              - link "Read more" [ref=e510] [cursor=pointer]:
+                - /url: https://www.tripadvisor.ca/ShowTopic-g154943-i81-k9758882-Average_meal_costs_in_Vancouver_Victoria_Richmond-Vancouver_British_Columbia.html#:~:text=9%20years%20ago,need%20for%20food%20and%20drink.
+          - generic [ref=e514]:
+            - generic [ref=e517]:
+              - link "Average family will spend nearly $1000 more on food in 2026 CityNews Toronto https://toronto.citynews.ca › 2025/12/04 › food-prices-..." [ref=e519] [cursor=pointer]:
+                - /url: https://toronto.citynews.ca/2025/12/04/food-prices-2026-report-canada/
+                - heading "Average family will spend nearly $1000 more on food in 2026" [level=3] [ref=e520]
+                - generic [ref=e525]:
+                  - generic [ref=e527]: CityNews Toronto
+                  - generic [ref=e529]: https://toronto.citynews.ca › 2025/12/04 › food-prices-...
+              - button "About this result" [ref=e530] [cursor=pointer]:
+                - img [ref=e533]
+            - generic [ref=e536]:
+              - generic [ref=e537]: Dec 4, 2025 —
+              - generic [ref=e538]:
+                - text: A family of four can expect to fork out $17,571.79 on
+                - emphasis [ref=e539]: food
+                - text: in
+                - emphasis [ref=e540]: "2026"
+                - text: ", the report states. Those"
+                - emphasis [ref=e541]: "2026"
+                - text: projections continue a trend of rising
+                - emphasis [ref=e542]: food
+                - text: ...
+              - link "Read more" [ref=e543] [cursor=pointer]:
+                - /url: https://toronto.citynews.ca/2025/12/04/food-prices-2026-report-canada/#:~:text=A%20family%20of%20four%20can,over%20the%20past%20five%20years.
+        - generic [ref=e545]:
+          - generic [ref=e550]:
+            - heading "People also search for" [level=2] [ref=e552]
+            - generic [ref=e554]:
+              - generic [ref=e555]:
+                - link "Average restaurant meal cost vancouver 2026 per person" [ref=e559] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Average+restaurant+meal+cost+vancouver+2026+per+person&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhQEAE
+                  - generic [ref=e560]:
+                    - generic [ref=e565]: Average restaurant meal cost vancouver 2026 per person
+                    - img [ref=e569]
+                - link "Average restaurant meal cost vancouver 2026 reddit" [ref=e574] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Average+restaurant+meal+cost+vancouver+2026+reddit&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhWEAE
+                  - generic [ref=e575]:
+                    - generic [ref=e580]: Average restaurant meal cost vancouver 2026 reddit
+                    - img [ref=e584]
+                - link "Average restaurant meal cost vancouver 2026 ontario" [ref=e589] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Average+restaurant+meal+cost+vancouver+2026+ontario&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhXEAE
+                  - generic [ref=e590]:
+                    - generic [ref=e595]: Average restaurant meal cost vancouver 2026 ontario
+                    - img [ref=e599]
+                - link "Average restaurant meal cost vancouver 2026 canada" [ref=e604] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Average+restaurant+meal+cost+vancouver+2026+canada&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhVEAE
+                  - generic [ref=e605]:
+                    - generic [ref=e610]: Average restaurant meal cost vancouver 2026 canada
+                    - img [ref=e614]
+              - generic [ref=e616]:
+                - link "Average restaurant meal cost vancouver 2026 2022" [ref=e620] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Average+restaurant+meal+cost+vancouver+2026+2022&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhUEAE
+                  - generic [ref=e621]:
+                    - generic [ref=e626]: Average restaurant meal cost vancouver 2026 2022
+                    - img [ref=e630]
+                - link "Canada's Food Price Report 2026" [ref=e635] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Canada%27s+Food+Price+Report+2026&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhREAE
+                  - generic [ref=e636]:
+                    - generic [ref=e641]: Canada's Food Price Report 2026
+                    - img [ref=e645]
+                - link "Food inflation Canada 2026" [ref=e650] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Food+inflation+Canada+2026&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhTEAE
+                  - generic [ref=e651]:
+                    - generic [ref=e656]: Food inflation Canada 2026
+                    - img [ref=e660]
+                - link "Food prices in Canada by province" [ref=e665] [cursor=pointer]:
+                  - /url: /search?sca_esv=97234541236c36f9&q=Food+prices+in+Canada+by+province&sa=X&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ1QJ6BAhSEAE
+                  - generic [ref=e666]:
+                    - generic [ref=e671]: Food prices in Canada by province
+                    - img [ref=e675]
+          - navigation [ref=e677]:
+            - heading "Page Navigation" [level=1] [ref=e678]
+            - text: "1"
+            - link "Page 2" [ref=e681] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=10&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8tMDegQIQhAE
+              - text: "2"
+            - link "Page 3" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=20&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8tMDegQIQhAG
+              - text: "3"
+            - link "Page 4" [ref=e685] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=30&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8tMDegQIQhAI
+              - text: "4"
+            - link "Page 5" [ref=e687] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=40&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8tMDegQIQhAK
+              - text: "5"
+            - link "Page 6" [ref=e689] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=50&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8tMDegQIQhAM
+              - text: "6"
+            - link "Page 7" [ref=e691] [cursor=pointer]:
+              - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=60&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8tMDegQIQhAO
+              - text: "7"
+            - heading "Next" [level=2] [ref=e693]:
+              - link "Next" [ref=e694] [cursor=pointer]:
+                - /url: /search?q=average+restaurant+meal+cost+Vancouver+2026&sca_esv=97234541236c36f9&ei=h137adXhC5KmruEP1byHoAg&start=10&sa=N&sstk=Af77f_e7vgJ1AVzBwLCtbwNaK-pcwn9bN8bqOcu8mk6ejJz7FdrMvCIZAzAtzu8sN7QpcnyWTQ8TleVUdA1QzZhxfGArSKrGB-TeTA&ved=2ahUKEwiVwYC__KSUAxUSkysGHVXeAYQQ8NMDegQIQhAQ
+                - generic [ref=e696]: Next
+        - navigation
+    - contentinfo [ref=e697]:
+      - heading "Footer Links" [level=1] [ref=e698]
+      - generic [ref=e702]:
+        - generic [ref=e704]:
+          - text: Canada
+          - generic [ref=e706]:
+            - button "L5A, Mississauga, ON - From your IP address" [ref=e708] [cursor=pointer]:
+              - generic [ref=e709]: L5A, Mississauga, ON
+              - generic [ref=e711]:
+                - text: "-"
+                - generic [ref=e712]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e714] [cursor=pointer]: Update location
+        - generic [ref=e717]:
+          - link "Help" [ref=e718] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-CA&fg=1
+          - link "Send feedback" [ref=e719] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e720] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-CA&fg=1
+          - link "Terms" [ref=e721] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-CA&fg=1

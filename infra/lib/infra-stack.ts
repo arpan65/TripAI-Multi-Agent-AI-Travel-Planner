@@ -3,7 +3,6 @@ import { Construct } from 'constructs';
 import * as ec2 from 'aws-cdk-lib/aws-ec2';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
-import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
 import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 
@@ -53,6 +52,7 @@ export class InfraStack extends cdk.Stack {
       assumedBy: new iam.ServicePrincipal('ec2.amazonaws.com'),
       managedPolicies: [
         iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonSSMManagedInstanceCore'),
+        iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonEC2ContainerRegistryReadOnly'),
       ],
     });
     [runsTable, agentCallsTable, toolCallsTable].forEach(t =>
@@ -73,42 +73,42 @@ export class InfraStack extends cdk.Stack {
     sg.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.tcp(8000), 'FastAPI');
 
     // ── EC2 t2.micro ─────────────────────────────────────────────────────────
+    const ecrImage = `809581003268.dkr.ecr.us-east-1.amazonaws.com/tripai:latest`;
+
     const userData = ec2.UserData.forLinux();
     userData.addCommands(
-      'dnf update -y --allowerasing',
-      'dnf install -y git curl unzip nodejs npm --allowerasing',
-      'dnf install -y alsa-lib atk at-spi2-atk at-spi2-core cairo cups-libs dbus-libs expat flac-libs gdk-pixbuf2 glib2 gtk3 libdrm libgbm libX11 libXcomposite libXdamage libXext libXfixes libXrandr libxkbcommon mesa-libGL nspr nss nss-util pango xdg-utils',
+      // Install Docker
+      'dnf install -y docker',
+      'systemctl enable --now docker',
 
-      'curl -LsSf https://astral.sh/uv/install.sh | sh',
-      'export PATH="/root/.local/bin:$PATH"',
+      // Allow ec2-user to use docker without sudo
+      'usermod -aG docker ec2-user',
 
-      'cd /home/ec2-user',
-      'git clone https://github.com/arpan65/Claude-Agentic-Workflow.git app',
-      'chown -R ec2-user:ec2-user app',
-      'cd app',
+      // Write a systemd unit that pulls from ECR and runs the container.
+      // The .env file must be placed at /home/ec2-user/app/.env before the
+      // service starts (done once manually via SSM after first deploy).
+      `cat > /etc/systemd/system/tripai.service << 'UNIT'
+[Unit]
+Description=TripAI backend (Docker)
+After=docker.service network-online.target
+Requires=docker.service
 
-      '/root/.local/bin/uv sync --frozen',
-      '/root/.local/bin/uv run playwright install chromium',
+[Service]
+Restart=always
+RestartSec=5
+ExecStartPre=/bin/bash -c 'aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 809581003268.dkr.ecr.us-east-1.amazonaws.com'
+ExecStartPre=-/usr/bin/docker stop tripai
+ExecStartPre=-/usr/bin/docker rm tripai
+ExecStart=/usr/bin/docker run --name tripai --env-file /home/ec2-user/app/.env -p 8000:8000 -v ms-playwright:/ms-playwright ${ecrImage}
+ExecStop=/usr/bin/docker stop tripai
 
-      'cat > /etc/systemd/system/tripai.service << EOF',
-      '[Unit]',
-      'Description=TripAI FastAPI backend',
-      'After=network.target',
-      '',
-      '[Service]',
-      'User=root',
-      'WorkingDirectory=/home/ec2-user/app',
-      'EnvironmentFile=/home/ec2-user/app/.env',
-      'Environment=PATH=/root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-      'ExecStart=/root/.local/bin/uv run uvicorn app.api:app --host 0.0.0.0 --port 8000 --log-level info',
-      'Restart=always',
-      'RestartSec=5',
-      '',
-      '[Install]',
-      'WantedBy=multi-user.target',
-      'EOF',
+[Install]
+WantedBy=multi-user.target
+UNIT`,
+
       'systemctl daemon-reload',
       'systemctl enable tripai',
+      // Service starts automatically once .env is in place and systemctl start tripai is run
     );
 
     const instance = new ec2.Instance(this, 'BackendInstance', {
@@ -122,50 +122,25 @@ export class InfraStack extends cdk.Stack {
       keyName: 'tripai-key',
     });
 
-    // ── S3 BUCKET (frontend static files) ────────────────────────────────────
-    const siteBucket = new s3.Bucket(this, 'FrontendBucket', {
-      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
-      removalPolicy: cdk.RemovalPolicy.DESTROY,
-      autoDeleteObjects: true,
-    });
-
     // ── CLOUDFRONT DISTRIBUTION ───────────────────────────────────────────────
-    const oac = new cloudfront.S3OriginAccessControl(this, 'OAC');
-
+    // Single origin: EC2:8000 serves both the FastAPI backend and the React SPA
+    // (static files baked into the Docker image). 180s read timeout keeps SSE
+    // connections alive through CloudFront during long Playwright pricing phases.
     const ec2Origin = new origins.HttpOrigin(instance.instancePublicDnsName, {
       httpPort: 8000,
       protocolPolicy: cloudfront.OriginProtocolPolicy.HTTP_ONLY,
+      readTimeout: cdk.Duration.seconds(60),
+      keepaliveTimeout: cdk.Duration.seconds(60),
     });
 
     const distribution = new cloudfront.Distribution(this, 'CDN', {
       defaultBehavior: {
-        origin: origins.S3BucketOrigin.withOriginAccessControl(siteBucket, {
-          originAccessControl: oac,
-        }),
+        origin: ec2Origin,
+        allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
+        cachePolicy: cloudfront.CachePolicy.CACHING_DISABLED,
+        originRequestPolicy: cloudfront.OriginRequestPolicy.ALL_VIEWER_EXCEPT_HOST_HEADER,
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
-        cachePolicy: cloudfront.CachePolicy.CACHING_OPTIMIZED,
       },
-      additionalBehaviors: {
-        '/api/*': {
-          origin: ec2Origin,
-          allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
-          cachePolicy: cloudfront.CachePolicy.CACHING_DISABLED,
-          originRequestPolicy: cloudfront.OriginRequestPolicy.ALL_VIEWER_EXCEPT_HOST_HEADER,
-          viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
-        },
-        '/health': {
-          origin: ec2Origin,
-          allowedMethods: cloudfront.AllowedMethods.ALLOW_ALL,
-          cachePolicy: cloudfront.CachePolicy.CACHING_DISABLED,
-          originRequestPolicy: cloudfront.OriginRequestPolicy.ALL_VIEWER_EXCEPT_HOST_HEADER,
-          viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
-        },
-      },
-      defaultRootObject: 'index.html',
-      errorResponses: [
-        { httpStatus: 403, responseHttpStatus: 200, responsePagePath: '/index.html' },
-        { httpStatus: 404, responseHttpStatus: 200, responsePagePath: '/index.html' },
-      ],
     });
 
     // ── OUTPUTS ───────────────────────────────────────────────────────────────
@@ -184,7 +159,6 @@ export class InfraStack extends cdk.Stack {
     new cdk.CfnOutput(this, 'RunsTableName', { value: runsTable.tableName });
     new cdk.CfnOutput(this, 'AgentCallsTableName', { value: agentCallsTable.tableName });
     new cdk.CfnOutput(this, 'ToolCallsTableName', { value: toolCallsTable.tableName });
-    new cdk.CfnOutput(this, 'FrontendBucketName', { value: siteBucket.bucketName });
     new cdk.CfnOutput(this, 'CloudFrontURL', {
       value: `https://${distribution.distributionDomainName}`,
       description: 'Frontend URL',
