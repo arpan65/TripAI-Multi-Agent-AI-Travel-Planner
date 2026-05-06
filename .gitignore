@@ -26,3 +26,7 @@ infra/cdk.out/
 
 # macOS
 .DS_Store
+
+# SSH / TLS keys
+*.pem
+*.key
