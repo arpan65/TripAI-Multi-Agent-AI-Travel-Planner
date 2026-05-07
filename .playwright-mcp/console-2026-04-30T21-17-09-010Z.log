@@ -1,5 +1,0 @@
-[     367ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
-[     386ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hostelworld.com/findabed.php/ChosenCity.Kolkata/ChosenCountry.India/DateFrom.22-May-2026/DateTo.05-Jun-2026/guests.1:0
-[     699ms] [LOG] On consent changed! @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     704ms] [LOG] After On consent changed! @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     707ms] [ERROR] ### Invalid URL translation from https://www.hostelworld.com: No match found for this url! > findabed.php/chosencity.kolkata/chosencountry.india/datefrom.22-may-2026/dateto.05-jun-2026/guests.1 @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68

@@ -1,5 +1,0 @@
-[     257ms] [LOG] Banner disabled @ https://cdn-cookieyes.com/client_data/dcd522ffd8380074d0540720a774ff7a/script.js:0
-[     462ms] Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support.
-    at <anonymous> (https://cdn-cookieyes.com/client_data/e87e526259058fa8af60f000689589c0/script.js:0:15373)
-    at <anonymous> (https://cdn-cookieyes.com/client_data/e87e526259058fa8af60f000689589c0/script.js:0:25737)
-    at <anonymous> (https://cdn-cookieyes.com/client_data/e87e526259058fa8af60f000689589c0/script.js:0:25740)

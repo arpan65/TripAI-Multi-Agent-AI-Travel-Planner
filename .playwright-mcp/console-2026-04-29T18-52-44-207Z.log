@@ -1,3 +1,0 @@
-[     292ms] [LOG] This platform is not one of the targeting ones, Smart banner will not be shown @ https://cdn.adjust.com/adjust-smart-banner-latest.min.js:0
-[   39035ms] [LOG] This platform is not one of the targeting ones, Smart banner will not be shown @ https://cdn.adjust.com/adjust-smart-banner-latest.min.js:0
-[   41916ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/cq/805/124/3/7.gif?puid=6f256aa5-1998-4b07-9655-fd7c976d6861&gdpr=0&gdpr_consent=&gdpr=0&gdpr_consent=:0

@@ -1,9 +1,0 @@
-[     683ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.booking.com/searchresults/en-gb.html?ss=Montreal&checkin=2026-05-07&checkout=2026-05-10&group_adults=2&no_rooms=1:0
-[    1136ms] Uncaught The pagetype parameter is required when you include the prodid parameter.
-    at UET.throwError (https://bat.bing.com/bat.js:0:26545)
-    at UET.validateDataObjectNew (https://bat.bing.com/bat.js:0:31984)
-    at UET.evt (https://bat.bing.com/bat.js:0:35529)
-    at UET._push (https://bat.bing.com/bat.js:0:16964)
-    at UET.checkuetHostdocumentload (https://bat.bing.com/bat.js:0:7903)
-    at UET.containerCheckLoad (https://bat.bing.com/bat.js:0:54650)
-    at UET.containerOnLoad (https://bat.bing.com/bat.js:0:54389)

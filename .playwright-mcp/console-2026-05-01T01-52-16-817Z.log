@@ -1,2 +1,0 @@
-[     122ms] [LOG] The next request for the Private Access Token challenge may return a 401 and show a warning in console. @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/p974g/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
-[     135ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/9f4b25525ca636d5/1777600335946/6e47580f1ea971de9aaadcdae04bff774b03663181a7abf9cf1be82fad0d9bb0/rU6BXv0fO2a2fRB:0

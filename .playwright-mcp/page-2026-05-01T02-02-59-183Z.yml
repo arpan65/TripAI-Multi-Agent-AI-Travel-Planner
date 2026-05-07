@@ -1,6 +1,0 @@
-- generic [active] [ref=e1]:
-  - link "Skip to content" [ref=e2] [cursor=pointer]:
-    - /url: "#site-content"
-    - text: Skip to content
-    - img [ref=e3]
-  - alert

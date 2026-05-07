@@ -1,7 +1,0 @@
-[     492ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hostelworld.com/findabed.php/ChosenCity.Montreal/ChosenCountry.Canada/DateFrom.15-May-2026/DateTo.18-May-2026/guests.2:0
-[     814ms] [ERROR] ### Invalid URL translation from https://www.hostelworld.com: No match found for this url! > findabed.php/chosencity.montreal/chosencountry.canada/datefrom.15-may-2026/dateto.18-may-2026/guests.2 @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     821ms] [ERROR] Hydration completed but contains mismatches. @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     852ms] [LOG] On consent changed! @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     857ms] [LOG] After On consent changed! @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     858ms] [LOG] On consent changed! @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68
-[     859ms] [LOG] After On consent changed! @ https://www.hostelworld.com/_nuxt/COWGlF35.js:68

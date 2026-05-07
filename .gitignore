@@ -24,6 +24,9 @@ frontend/dist/
 # CDK
 infra/cdk.out/
 
+# Playwright MCP runtime logs
+.playwright-mcp/
+
 # macOS
 .DS_Store
 
